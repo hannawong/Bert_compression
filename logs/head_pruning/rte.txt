@@ -1,0 +1,1170 @@
+03/09/2022 22:30:40 - INFO - __main__ -    global_step = 1560, average loss = 0.1339746375914472
+03/09/2022 22:30:40 - INFO - __main__ -   Saving model checkpoint to /content/drive/MyDrive/are-16-heads-really-better-than-1/models/RTE
+03/09/2022 22:30:44 - INFO - __main__ -   Evaluate the following checkpoints: ['/content/drive/MyDrive/are-16-heads-really-better-than-1/models/RTE']
+03/09/2022 22:30:45 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:45 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:45 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:45 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.93it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: <https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py>
+warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:36: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: <https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py>
+warnings.warn(DEPRECATION_WARNING, FutureWarning)
+测试：
+03/09/2022 22:30:47 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:47 - INFO - __main__ -     acc = 0.6606498194945848
+剪枝测试：
+1 : 1
+03/09/2022 22:30:47 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:47 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:47 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.34it/s]
+03/09/2022 22:30:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:48 - INFO - __main__ -     acc = 0.6570397111913358
+1 : 2
+03/09/2022 22:30:48 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:48 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:48 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:48 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.49it/s]
+03/09/2022 22:30:49 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:49 - INFO - __main__ -     acc = 0.6642599277978339
+1 : 3
+03/09/2022 22:30:49 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:49 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:49 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.52it/s]
+03/09/2022 22:30:50 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:50 - INFO - __main__ -     acc = 0.6642599277978339
+1 : 4
+03/09/2022 22:30:50 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:50 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:50 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.61it/s]
+03/09/2022 22:30:52 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:52 - INFO - __main__ -     acc = 0.6606498194945848
+1 : 5
+03/09/2022 22:30:52 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:52 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:52 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:52 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.58it/s]
+03/09/2022 22:30:53 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:53 - INFO - __main__ -     acc = 0.6642599277978339
+1 : 6
+03/09/2022 22:30:53 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:53 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:53 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.80it/s]
+03/09/2022 22:30:54 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:54 - INFO - __main__ -     acc = 0.6678700361010831
+1 : 7
+03/09/2022 22:30:54 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:54 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:54 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.89it/s]
+03/09/2022 22:30:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:55 - INFO - __main__ -     acc = 0.6642599277978339
+1 : 8
+03/09/2022 22:30:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:55 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:55 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.95it/s]
+03/09/2022 22:30:57 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:57 - INFO - __main__ -     acc = 0.6570397111913358
+1 : 9
+03/09/2022 22:30:57 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:57 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:57 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:57 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.06it/s]
+03/09/2022 22:30:58 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:58 - INFO - __main__ -     acc = 0.6534296028880866
+1 : 10
+03/09/2022 22:30:58 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:58 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:58 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:58 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.07it/s]
+03/09/2022 22:30:59 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:30:59 - INFO - __main__ -     acc = 0.6462093862815884
+1 : 11
+03/09/2022 22:30:59 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:30:59 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:30:59 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:30:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.12it/s]
+03/09/2022 22:31:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:00 - INFO - __main__ -     acc = 0.6498194945848376
+1 : 12
+/usr/local/lib/python3.7/dist-packages/torch/nn/init.py:388: UserWarning: Initializing zero-element tensors is a no-op
+warnings.warn("Initializing zero-element tensors is a no-op")
+03/09/2022 22:31:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:00 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.18it/s]
+03/09/2022 22:31:02 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:02 - INFO - __main__ -     acc = 0.631768953068592
+2 : 1
+03/09/2022 22:31:02 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:02 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.20it/s]
+03/09/2022 22:31:03 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:03 - INFO - __main__ -     acc = 0.6425992779783394
+2 : 2
+03/09/2022 22:31:03 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:03 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:03 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.32it/s]
+03/09/2022 22:31:04 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:04 - INFO - __main__ -     acc = 0.6462093862815884
+2 : 3
+03/09/2022 22:31:04 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:04 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:04 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.38it/s]
+03/09/2022 22:31:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:05 - INFO - __main__ -     acc = 0.6642599277978339
+2 : 4
+03/09/2022 22:31:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:05 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.44it/s]
+03/09/2022 22:31:07 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:07 - INFO - __main__ -     acc = 0.6570397111913358
+2 : 5
+03/09/2022 22:31:07 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:07 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:07 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:07 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.42it/s]
+03/09/2022 22:31:08 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:08 - INFO - __main__ -     acc = 0.6462093862815884
+2 : 6
+03/09/2022 22:31:08 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:08 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:08 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:08 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.62it/s]
+03/09/2022 22:31:09 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:09 - INFO - __main__ -     acc = 0.6750902527075813
+2 : 7
+03/09/2022 22:31:09 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:09 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:09 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:09 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.76it/s]
+03/09/2022 22:31:10 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:10 - INFO - __main__ -     acc = 0.6859205776173285
+2 : 8
+03/09/2022 22:31:10 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:10 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:10 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:10 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.81it/s]
+03/09/2022 22:31:11 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:11 - INFO - __main__ -     acc = 0.6642599277978339
+2 : 9
+03/09/2022 22:31:11 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:11 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:11 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:11 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.90it/s]
+03/09/2022 22:31:13 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:13 - INFO - __main__ -     acc = 0.6606498194945848
+2 : 10
+03/09/2022 22:31:13 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:13 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:13 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:13 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.87it/s]
+03/09/2022 22:31:14 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:14 - INFO - __main__ -     acc = 0.6750902527075813
+2 : 11
+03/09/2022 22:31:14 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:14 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:14 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:14 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.12it/s]
+03/09/2022 22:31:15 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:15 - INFO - __main__ -     acc = 0.6750902527075813
+2 : 12
+03/09/2022 22:31:15 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:15 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:15 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:15 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.18it/s]
+03/09/2022 22:31:16 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:16 - INFO - __main__ -     acc = 0.6678700361010831
+3 : 1
+03/09/2022 22:31:16 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:16 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:16 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:16 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.15it/s]
+03/09/2022 22:31:17 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:17 - INFO - __main__ -     acc = 0.6714801444043321
+3 : 2
+03/09/2022 22:31:17 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:17 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:17 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:17 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.33it/s]
+03/09/2022 22:31:19 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:19 - INFO - __main__ -     acc = 0.6570397111913358
+3 : 3
+03/09/2022 22:31:19 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:19 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:19 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:19 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.42it/s]
+03/09/2022 22:31:20 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:20 - INFO - __main__ -     acc = 0.6462093862815884
+3 : 4
+03/09/2022 22:31:20 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:20 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:20 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:20 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.47it/s]
+03/09/2022 22:31:21 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:21 - INFO - __main__ -     acc = 0.6137184115523465
+3 : 5
+03/09/2022 22:31:21 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:21 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:21 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:21 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.54it/s]
+03/09/2022 22:31:22 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:22 - INFO - __main__ -     acc = 0.628158844765343
+3 : 6
+03/09/2022 22:31:22 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:22 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:22 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:22 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.74it/s]
+03/09/2022 22:31:23 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:23 - INFO - __main__ -     acc = 0.631768953068592
+3 : 7
+03/09/2022 22:31:23 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:23 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:23 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:23 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.86it/s]
+03/09/2022 22:31:25 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:25 - INFO - __main__ -     acc = 0.628158844765343
+3 : 8
+03/09/2022 22:31:25 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:25 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:25 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:25 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.99it/s]
+03/09/2022 22:31:26 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:26 - INFO - __main__ -     acc = 0.6173285198555957
+3 : 9
+03/09/2022 22:31:26 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:26 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:26 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:26 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.07it/s]
+03/09/2022 22:31:27 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:27 - INFO - __main__ -     acc = 0.631768953068592
+3 : 10
+03/09/2022 22:31:27 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:27 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:27 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:27 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.07it/s]
+03/09/2022 22:31:28 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:28 - INFO - __main__ -     acc = 0.6209386281588448
+3 : 11
+03/09/2022 22:31:28 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:28 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:28 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:28 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.21it/s]
+03/09/2022 22:31:29 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:29 - INFO - __main__ -     acc = 0.6209386281588448
+3 : 12
+03/09/2022 22:31:29 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:29 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:29 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:29 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.39it/s]
+03/09/2022 22:31:30 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:30 - INFO - __main__ -     acc = 0.6245487364620939
+4 : 1
+03/09/2022 22:31:30 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:30 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:30 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:30 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.42it/s]
+03/09/2022 22:31:31 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:31 - INFO - __main__ -     acc = 0.628158844765343
+4 : 2
+03/09/2022 22:31:31 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:31 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:31 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:31 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.40it/s]
+03/09/2022 22:31:33 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:33 - INFO - __main__ -     acc = 0.6353790613718412
+4 : 3
+03/09/2022 22:31:33 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:33 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:33 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:33 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.49it/s]
+03/09/2022 22:31:34 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:34 - INFO - __main__ -     acc = 0.6389891696750902
+4 : 4
+03/09/2022 22:31:34 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:34 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:34 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:34 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.50it/s]
+03/09/2022 22:31:35 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:35 - INFO - __main__ -     acc = 0.6173285198555957
+4 : 5
+03/09/2022 22:31:35 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:35 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:35 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:35 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.27it/s]
+03/09/2022 22:31:36 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:36 - INFO - __main__ -     acc = 0.6209386281588448
+4 : 6
+03/09/2022 22:31:36 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:36 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:36 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:36 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.77it/s]
+03/09/2022 22:31:37 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:37 - INFO - __main__ -     acc = 0.628158844765343
+4 : 7
+03/09/2022 22:31:37 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:37 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:37 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:37 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.66it/s]
+03/09/2022 22:31:38 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:38 - INFO - __main__ -     acc = 0.6173285198555957
+4 : 8
+03/09/2022 22:31:38 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:38 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:38 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:38 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.95it/s]
+03/09/2022 22:31:39 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:39 - INFO - __main__ -     acc = 0.6101083032490975
+4 : 9
+03/09/2022 22:31:39 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:40 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:40 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:40 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.00it/s]
+03/09/2022 22:31:41 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:41 - INFO - __main__ -     acc = 0.6245487364620939
+4 : 10
+03/09/2022 22:31:41 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:41 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:41 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:41 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.13it/s]
+03/09/2022 22:31:42 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:42 - INFO - __main__ -     acc = 0.6353790613718412
+4 : 11
+03/09/2022 22:31:42 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:42 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:42 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:42 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.30it/s]
+03/09/2022 22:31:43 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:43 - INFO - __main__ -     acc = 0.6498194945848376
+4 : 12
+03/09/2022 22:31:43 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:43 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:43 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:43 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.47it/s]
+03/09/2022 22:31:44 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:44 - INFO - __main__ -     acc = 0.6425992779783394
+5 : 1
+03/09/2022 22:31:44 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:44 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:44 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:44 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.51it/s]
+03/09/2022 22:31:45 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:45 - INFO - __main__ -     acc = 0.6137184115523465
+5 : 2
+03/09/2022 22:31:45 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:45 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:45 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:45 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.62it/s]
+03/09/2022 22:31:46 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:46 - INFO - __main__ -     acc = 0.5992779783393501
+5 : 3
+03/09/2022 22:31:46 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:46 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:46 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:46 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.68it/s]
+03/09/2022 22:31:47 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:47 - INFO - __main__ -     acc = 0.6064981949458483
+5 : 4
+03/09/2022 22:31:47 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:47 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:47 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.68it/s]
+03/09/2022 22:31:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:48 - INFO - __main__ -     acc = 0.6028880866425993
+5 : 5
+03/09/2022 22:31:48 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:48 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:48 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:48 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.73it/s]
+03/09/2022 22:31:50 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:50 - INFO - __main__ -     acc = 0.5884476534296029
+5 : 6
+03/09/2022 22:31:50 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:50 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:50 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.10it/s]
+03/09/2022 22:31:51 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:51 - INFO - __main__ -     acc = 0.5884476534296029
+5 : 7
+03/09/2022 22:31:51 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:51 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:51 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:51 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.22it/s]
+03/09/2022 22:31:52 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:52 - INFO - __main__ -     acc = 0.592057761732852
+5 : 8
+03/09/2022 22:31:52 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:52 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:52 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:52 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.33it/s]
+03/09/2022 22:31:53 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:53 - INFO - __main__ -     acc = 0.5992779783393501
+5 : 9
+03/09/2022 22:31:53 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:53 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:53 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.40it/s]
+03/09/2022 22:31:54 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:54 - INFO - __main__ -     acc = 0.5992779783393501
+5 : 10
+03/09/2022 22:31:54 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:54 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:54 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.49it/s]
+03/09/2022 22:31:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:55 - INFO - __main__ -     acc = 0.5992779783393501
+5 : 11
+03/09/2022 22:31:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:55 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:55 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.55it/s]
+03/09/2022 22:31:56 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:56 - INFO - __main__ -     acc = 0.592057761732852
+5 : 12
+03/09/2022 22:31:56 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:56 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:56 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:56 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.76it/s]
+03/09/2022 22:31:57 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:57 - INFO - __main__ -     acc = 0.5451263537906137
+6 : 1
+03/09/2022 22:31:57 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:57 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:57 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:57 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.79it/s]
+03/09/2022 22:31:58 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:58 - INFO - __main__ -     acc = 0.5487364620938628
+6 : 2
+03/09/2022 22:31:58 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:58 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:58 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:58 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.80it/s]
+03/09/2022 22:31:59 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:31:59 - INFO - __main__ -     acc = 0.5487364620938628
+6 : 3
+03/09/2022 22:31:59 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:31:59 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:31:59 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:31:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.92it/s]
+03/09/2022 22:32:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:00 - INFO - __main__ -     acc = 0.5523465703971119
+6 : 4
+03/09/2022 22:32:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:00 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.14it/s]
+03/09/2022 22:32:01 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:01 - INFO - __main__ -     acc = 0.5595667870036101
+6 : 5
+03/09/2022 22:32:01 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:01 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:01 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:01 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.17it/s]
+03/09/2022 22:32:02 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:02 - INFO - __main__ -     acc = 0.555956678700361
+6 : 6
+03/09/2022 22:32:02 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:02 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.46it/s]
+03/09/2022 22:32:04 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:04 - INFO - __main__ -     acc = 0.5992779783393501
+6 : 7
+03/09/2022 22:32:04 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:04 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:04 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.57it/s]
+03/09/2022 22:32:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:05 - INFO - __main__ -     acc = 0.5956678700361011
+6 : 8
+03/09/2022 22:32:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:05 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.63it/s]
+03/09/2022 22:32:06 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:06 - INFO - __main__ -     acc = 0.5812274368231047
+6 : 9
+03/09/2022 22:32:06 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:06 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:06 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:06 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.84it/s]
+03/09/2022 22:32:07 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:07 - INFO - __main__ -     acc = 0.5776173285198556
+6 : 10
+03/09/2022 22:32:07 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:07 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:07 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:07 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.80it/s]
+03/09/2022 22:32:08 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:08 - INFO - __main__ -     acc = 0.5848375451263538
+6 : 11
+03/09/2022 22:32:08 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:08 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:08 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:08 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.01it/s]
+03/09/2022 22:32:09 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:09 - INFO - __main__ -     acc = 0.5848375451263538
+6 : 12
+03/09/2022 22:32:09 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:09 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:09 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:09 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.28it/s]
+03/09/2022 22:32:10 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:10 - INFO - __main__ -     acc = 0.5595667870036101
+7 : 1
+03/09/2022 22:32:10 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:10 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:10 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:10 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.24it/s]
+03/09/2022 22:32:11 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:11 - INFO - __main__ -     acc = 0.5631768953068592
+7 : 2
+03/09/2022 22:32:11 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:11 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:11 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:11 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.48it/s]
+03/09/2022 22:32:12 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:12 - INFO - __main__ -     acc = 0.5631768953068592
+7 : 3
+03/09/2022 22:32:12 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:12 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:12 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:12 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.50it/s]
+03/09/2022 22:32:13 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:13 - INFO - __main__ -     acc = 0.555956678700361
+7 : 4
+03/09/2022 22:32:13 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:13 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:13 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:13 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.61it/s]
+03/09/2022 22:32:14 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:14 - INFO - __main__ -     acc = 0.5631768953068592
+7 : 5
+03/09/2022 22:32:14 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:14 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:14 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:14 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.65it/s]
+03/09/2022 22:32:15 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:15 - INFO - __main__ -     acc = 0.5595667870036101
+7 : 6
+03/09/2022 22:32:15 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:15 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:15 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:15 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.34it/s]
+03/09/2022 22:32:16 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:16 - INFO - __main__ -     acc = 0.555956678700361
+7 : 7
+03/09/2022 22:32:16 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:16 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:16 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:16 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.43it/s]
+03/09/2022 22:32:17 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:17 - INFO - __main__ -     acc = 0.5595667870036101
+7 : 8
+03/09/2022 22:32:17 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:17 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:17 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:17 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.48it/s]
+03/09/2022 22:32:18 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:18 - INFO - __main__ -     acc = 0.5523465703971119
+7 : 9
+03/09/2022 22:32:18 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:18 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:18 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:18 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.93it/s]
+03/09/2022 22:32:19 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:19 - INFO - __main__ -     acc = 0.555956678700361
+7 : 10
+03/09/2022 22:32:19 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:19 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:19 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:19 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.91it/s]
+03/09/2022 22:32:20 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:20 - INFO - __main__ -     acc = 0.5487364620938628
+7 : 11
+03/09/2022 22:32:20 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:20 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:20 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:20 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.02it/s]
+03/09/2022 22:32:21 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:21 - INFO - __main__ -     acc = 0.5379061371841155
+7 : 12
+03/09/2022 22:32:21 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:21 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:21 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:21 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.93it/s]
+03/09/2022 22:32:22 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:22 - INFO - __main__ -     acc = 0.5487364620938628
+8 : 1
+03/09/2022 22:32:22 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:22 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:22 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:22 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.09it/s]
+03/09/2022 22:32:23 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:23 - INFO - __main__ -     acc = 0.5523465703971119
+8 : 2
+03/09/2022 22:32:23 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:23 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:23 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:23 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.68it/s]
+03/09/2022 22:32:24 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:24 - INFO - __main__ -     acc = 0.5487364620938628
+8 : 3
+03/09/2022 22:32:24 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:24 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:24 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:24 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.57it/s]
+03/09/2022 22:32:25 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:25 - INFO - __main__ -     acc = 0.5487364620938628
+8 : 4
+03/09/2022 22:32:25 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:25 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:25 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:25 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.96it/s]
+03/09/2022 22:32:26 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:26 - INFO - __main__ -     acc = 0.5487364620938628
+8 : 5
+03/09/2022 22:32:26 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:26 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:26 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:26 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.22it/s]
+03/09/2022 22:32:27 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:27 - INFO - __main__ -     acc = 0.555956678700361
+8 : 6
+03/09/2022 22:32:27 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:27 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:27 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:27 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.54it/s]
+03/09/2022 22:32:28 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:28 - INFO - __main__ -     acc = 0.5342960288808665
+8 : 7
+03/09/2022 22:32:28 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:28 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:28 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:28 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.66it/s]
+03/09/2022 22:32:29 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:29 - INFO - __main__ -     acc = 0.5415162454873647
+8 : 8
+03/09/2022 22:32:29 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:29 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:29 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:29 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.83it/s]
+03/09/2022 22:32:30 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:30 - INFO - __main__ -     acc = 0.5415162454873647
+8 : 9
+03/09/2022 22:32:30 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:30 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:30 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:30 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.78it/s]
+03/09/2022 22:32:31 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:31 - INFO - __main__ -     acc = 0.5379061371841155
+8 : 10
+03/09/2022 22:32:31 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:31 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:31 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:31 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.00it/s]
+03/09/2022 22:32:32 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:32 - INFO - __main__ -     acc = 0.5379061371841155
+8 : 11
+03/09/2022 22:32:32 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:32 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:32 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:32 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.13it/s]
+03/09/2022 22:32:33 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:33 - INFO - __main__ -     acc = 0.5487364620938628
+8 : 12
+03/09/2022 22:32:33 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:33 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:33 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:33 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.35it/s]
+03/09/2022 22:32:34 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:34 - INFO - __main__ -     acc = 0.5451263537906137
+9 : 1
+03/09/2022 22:32:34 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:34 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:34 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:34 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.46it/s]
+03/09/2022 22:32:35 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:35 - INFO - __main__ -     acc = 0.5451263537906137
+9 : 2
+03/09/2022 22:32:35 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:35 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:35 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:35 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.61it/s]
+03/09/2022 22:32:36 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:36 - INFO - __main__ -     acc = 0.5379061371841155
+9 : 3
+03/09/2022 22:32:36 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:36 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:36 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:36 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.67it/s]
+03/09/2022 22:32:37 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:37 - INFO - __main__ -     acc = 0.5379061371841155
+9 : 4
+03/09/2022 22:32:37 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:37 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:37 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:37 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.80it/s]
+03/09/2022 22:32:37 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:37 - INFO - __main__ -     acc = 0.5379061371841155
+9 : 5
+03/09/2022 22:32:38 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:38 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:38 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:38 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.94it/s]
+03/09/2022 22:32:38 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:38 - INFO - __main__ -     acc = 0.5342960288808665
+9 : 6
+03/09/2022 22:32:38 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:38 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:38 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:38 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.25it/s]
+03/09/2022 22:32:39 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:39 - INFO - __main__ -     acc = 0.5487364620938628
+9 : 7
+03/09/2022 22:32:39 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:39 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:39 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:39 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.45it/s]
+03/09/2022 22:32:40 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:40 - INFO - __main__ -     acc = 0.5451263537906137
+9 : 8
+03/09/2022 22:32:40 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:40 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:40 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:40 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.52it/s]
+03/09/2022 22:32:41 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:41 - INFO - __main__ -     acc = 0.5379061371841155
+9 : 9
+03/09/2022 22:32:41 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:41 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:41 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:41 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.59it/s]
+03/09/2022 22:32:42 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:42 - INFO - __main__ -     acc = 0.5487364620938628
+9 : 10
+03/09/2022 22:32:42 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:42 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:42 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:42 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.83it/s]
+03/09/2022 22:32:43 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:43 - INFO - __main__ -     acc = 0.5415162454873647
+9 : 11
+03/09/2022 22:32:43 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:43 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:43 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:43 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.97it/s]
+03/09/2022 22:32:44 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:44 - INFO - __main__ -     acc = 0.5379061371841155
+9 : 12
+03/09/2022 22:32:44 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:44 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:44 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:44 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.30it/s]
+03/09/2022 22:32:45 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:45 - INFO - __main__ -     acc = 0.5523465703971119
+10 : 1
+03/09/2022 22:32:45 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:45 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:45 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:45 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.30it/s]
+03/09/2022 22:32:46 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:46 - INFO - __main__ -     acc = 0.5487364620938628
+10 : 2
+03/09/2022 22:32:46 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:46 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:46 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:46 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.54it/s]
+03/09/2022 22:32:47 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:47 - INFO - __main__ -     acc = 0.5487364620938628
+10 : 3
+03/09/2022 22:32:47 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:47 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:47 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.61it/s]
+03/09/2022 22:32:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:48 - INFO - __main__ -     acc = 0.5451263537906137
+10 : 4
+03/09/2022 22:32:48 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:48 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:48 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:48 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.62it/s]
+03/09/2022 22:32:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:48 - INFO - __main__ -     acc = 0.5523465703971119
+10 : 5
+03/09/2022 22:32:48 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:49 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:49 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.89it/s]
+03/09/2022 22:32:49 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:49 - INFO - __main__ -     acc = 0.5451263537906137
+10 : 6
+03/09/2022 22:32:49 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:49 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:49 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.25it/s]
+03/09/2022 22:32:50 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:50 - INFO - __main__ -     acc = 0.555956678700361
+10 : 7
+03/09/2022 22:32:50 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:50 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:50 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.35it/s]
+03/09/2022 22:32:51 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:51 - INFO - __main__ -     acc = 0.5523465703971119
+10 : 8
+03/09/2022 22:32:51 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:51 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:51 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:51 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.50it/s]
+03/09/2022 22:32:52 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:52 - INFO - __main__ -     acc = 0.5487364620938628
+10 : 9
+03/09/2022 22:32:52 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:52 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:52 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:52 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.65it/s]
+03/09/2022 22:32:53 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:53 - INFO - __main__ -     acc = 0.5595667870036101
+10 : 10
+03/09/2022 22:32:53 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:53 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:53 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.81it/s]
+03/09/2022 22:32:54 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:54 - INFO - __main__ -     acc = 0.5306859205776173
+10 : 11
+03/09/2022 22:32:54 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:54 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:54 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.02it/s]
+03/09/2022 22:32:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:55 - INFO - __main__ -     acc = 0.5234657039711191
+10 : 12
+03/09/2022 22:32:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:55 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:55 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.29it/s]
+03/09/2022 22:32:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:55 - INFO - __main__ -     acc = 0.5234657039711191
+11 : 1
+03/09/2022 22:32:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:56 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:56 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:56 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.41it/s]
+03/09/2022 22:32:56 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:56 - INFO - __main__ -     acc = 0.5126353790613718
+11 : 2
+03/09/2022 22:32:56 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:56 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:56 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:56 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.59it/s]
+03/09/2022 22:32:57 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:57 - INFO - __main__ -     acc = 0.5234657039711191
+11 : 3
+03/09/2022 22:32:57 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:57 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:57 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:57 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.45it/s]
+03/09/2022 22:32:58 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:58 - INFO - __main__ -     acc = 0.5126353790613718
+11 : 4
+03/09/2022 22:32:58 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:58 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:58 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:58 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.82it/s]
+03/09/2022 22:32:59 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:32:59 - INFO - __main__ -     acc = 0.5126353790613718
+11 : 5
+03/09/2022 22:32:59 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:32:59 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:32:59 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:32:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.91it/s]
+03/09/2022 22:33:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:00 - INFO - __main__ -     acc = 0.5054151624548736
+11 : 6
+03/09/2022 22:33:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:00 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.25it/s]
+03/09/2022 22:33:01 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:01 - INFO - __main__ -     acc = 0.51985559566787
+11 : 7
+03/09/2022 22:33:01 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:01 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:01 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:01 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.61it/s]
+03/09/2022 22:33:01 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:01 - INFO - __main__ -     acc = 0.5234657039711191
+11 : 8
+03/09/2022 22:33:01 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:02 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.74it/s]
+03/09/2022 22:33:02 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:02 - INFO - __main__ -     acc = 0.49458483754512633
+11 : 9
+03/09/2022 22:33:02 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:02 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.74it/s]
+03/09/2022 22:33:03 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:03 - INFO - __main__ -     acc = 0.48375451263537905
+11 : 10
+03/09/2022 22:33:03 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:03 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:03 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.95it/s]
+03/09/2022 22:33:04 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:04 - INFO - __main__ -     acc = 0.48736462093862815
+11 : 11
+03/09/2022 22:33:04 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:04 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:04 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.13it/s]
+03/09/2022 22:33:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:05 - INFO - __main__ -     acc = 0.48014440433212996
+11 : 12
+03/09/2022 22:33:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:05 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.46it/s]
+03/09/2022 22:33:06 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:06 - INFO - __main__ -     acc = 0.5018050541516246
+12 : 1
+03/09/2022 22:33:06 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:06 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:06 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:06 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.68it/s]
+03/09/2022 22:33:06 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:06 - INFO - __main__ -     acc = 0.48736462093862815
+12 : 2
+03/09/2022 22:33:06 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:06 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:06 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:06 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.90it/s]
+03/09/2022 22:33:07 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:07 - INFO - __main__ -     acc = 0.49458483754512633
+12 : 3
+03/09/2022 22:33:07 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:07 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:07 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:07 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.87it/s]
+03/09/2022 22:33:08 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:08 - INFO - __main__ -     acc = 0.5018050541516246
+12 : 4
+03/09/2022 22:33:08 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:08 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:08 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:08 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 45.08it/s]
+03/09/2022 22:33:09 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:09 - INFO - __main__ -     acc = 0.4981949458483754
+12 : 5
+03/09/2022 22:33:09 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:09 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:09 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:09 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 45.16it/s]
+03/09/2022 22:33:10 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:10 - INFO - __main__ -     acc = 0.49458483754512633
+12 : 6
+03/09/2022 22:33:10 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:10 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:10 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:10 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 45.74it/s]
+03/09/2022 22:33:11 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:11 - INFO - __main__ -     acc = 0.47653429602888087
+12 : 7
+03/09/2022 22:33:11 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:11 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:11 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:11 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 45.90it/s]
+03/09/2022 22:33:11 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:11 - INFO - __main__ -     acc = 0.4729241877256318
+12 : 8
+03/09/2022 22:33:11 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:11 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:11 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:11 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 45.98it/s]
+03/09/2022 22:33:12 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:12 - INFO - __main__ -     acc = 0.4729241877256318
+12 : 9
+03/09/2022 22:33:12 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:12 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:12 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:12 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 46.30it/s]
+03/09/2022 22:33:13 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:13 - INFO - __main__ -     acc = 0.4729241877256318
+12 : 10
+03/09/2022 22:33:13 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:13 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:13 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:13 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 46.35it/s]
+03/09/2022 22:33:14 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:14 - INFO - __main__ -     acc = 0.4729241877256318
+12 : 11
+03/09/2022 22:33:14 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:14 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:14 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:14 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 46.71it/s]
+03/09/2022 22:33:14 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:14 - INFO - __main__ -     acc = 0.4729241877256318
+12 : 12
+03/09/2022 22:33:14 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/RTE/cached_dev_bert-base-cased_128_rte
+03/09/2022 22:33:15 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:33:15 - INFO - __main__ -     Num examples = 277
+03/09/2022 22:33:15 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 47.10it/s]
+03/09/2022 22:33:15 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:33:15 - INFO - __main__ -     acc = 0.4729241877256318

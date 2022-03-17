@@ -1,0 +1,1168 @@
+03/09/2022 22:40:20 - INFO - __main__ -    global_step = 20, average loss = 0.752898558974266
+03/09/2022 22:40:20 - INFO - __main__ -   Saving model checkpoint to /content/drive/MyDrive/are-16-heads-really-better-than-1/models/WNLI
+03/09/2022 22:40:24 - INFO - __main__ -   Evaluate the following checkpoints: ['/content/drive/MyDrive/are-16-heads-really-better-than-1/models/WNLI']
+03/09/2022 22:40:26 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:26 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:26 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:26 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.30it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: <https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py>
+warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:36: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: <https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py>
+warnings.warn(DEPRECATION_WARNING, FutureWarning)
+03/09/2022 22:40:26 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:26 - INFO - __main__ -     acc = 0.5352112676056338
+1 : 1
+03/09/2022 22:40:26 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:26 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:26 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:26 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.41it/s]
+03/09/2022 22:40:26 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:26 - INFO - __main__ -     acc = 0.5211267605633803
+1 : 2
+03/09/2022 22:40:26 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:26 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:26 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:26 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.48it/s]
+03/09/2022 22:40:27 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:27 - INFO - __main__ -     acc = 0.5352112676056338
+1 : 3
+03/09/2022 22:40:27 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:27 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:27 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:27 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.46it/s]
+03/09/2022 22:40:27 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:27 - INFO - __main__ -     acc = 0.5211267605633803
+1 : 4
+03/09/2022 22:40:27 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:27 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:27 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:27 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.61it/s]
+03/09/2022 22:40:27 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:27 - INFO - __main__ -     acc = 0.5211267605633803
+1 : 5
+03/09/2022 22:40:27 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:27 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:27 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:27 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.69it/s]
+03/09/2022 22:40:28 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:28 - INFO - __main__ -     acc = 0.5070422535211268
+1 : 6
+03/09/2022 22:40:28 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:28 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:28 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:28 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.84it/s]
+03/09/2022 22:40:28 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:28 - INFO - __main__ -     acc = 0.5070422535211268
+1 : 7
+03/09/2022 22:40:28 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:28 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:28 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:28 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.87it/s]
+03/09/2022 22:40:28 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:28 - INFO - __main__ -     acc = 0.4788732394366197
+1 : 8
+03/09/2022 22:40:28 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:28 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:28 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:28 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.85it/s]
+03/09/2022 22:40:29 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:29 - INFO - __main__ -     acc = 0.5070422535211268
+1 : 9
+03/09/2022 22:40:29 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:29 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:29 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:29 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.17it/s]
+03/09/2022 22:40:29 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:29 - INFO - __main__ -     acc = 0.5211267605633803
+1 : 10
+03/09/2022 22:40:29 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:29 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:29 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:29 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.10it/s]
+03/09/2022 22:40:29 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:29 - INFO - __main__ -     acc = 0.5774647887323944
+1 : 11
+03/09/2022 22:40:29 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:29 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:29 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:29 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.19it/s]
+03/09/2022 22:40:30 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:30 - INFO - __main__ -     acc = 0.5352112676056338
+1 : 12
+/usr/local/lib/python3.7/dist-packages/torch/nn/init.py:388: UserWarning: Initializing zero-element tensors is a no-op
+warnings.warn("Initializing zero-element tensors is a no-op")
+03/09/2022 22:40:30 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:30 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:30 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:30 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.25it/s]
+03/09/2022 22:40:30 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:30 - INFO - __main__ -     acc = 0.5492957746478874
+2 : 1
+03/09/2022 22:40:30 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:30 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:30 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:30 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.31it/s]
+03/09/2022 22:40:30 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:30 - INFO - __main__ -     acc = 0.5070422535211268
+2 : 2
+03/09/2022 22:40:30 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:30 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:30 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:30 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.40it/s]
+03/09/2022 22:40:31 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:31 - INFO - __main__ -     acc = 0.49295774647887325
+2 : 3
+03/09/2022 22:40:31 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:31 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:31 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:31 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.40it/s]
+03/09/2022 22:40:31 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:31 - INFO - __main__ -     acc = 0.5211267605633803
+2 : 4
+03/09/2022 22:40:31 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:31 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:31 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:31 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.50it/s]
+03/09/2022 22:40:31 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:31 - INFO - __main__ -     acc = 0.49295774647887325
+2 : 5
+03/09/2022 22:40:31 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:31 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:31 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:31 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.62it/s]
+03/09/2022 22:40:32 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:32 - INFO - __main__ -     acc = 0.4507042253521127
+2 : 6
+03/09/2022 22:40:32 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:32 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:32 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:32 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.70it/s]
+03/09/2022 22:40:32 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:32 - INFO - __main__ -     acc = 0.4788732394366197
+2 : 7
+03/09/2022 22:40:32 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:32 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:32 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:32 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.85it/s]
+03/09/2022 22:40:32 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:32 - INFO - __main__ -     acc = 0.5070422535211268
+2 : 8
+03/09/2022 22:40:32 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:32 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:32 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:32 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.92it/s]
+03/09/2022 22:40:33 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:33 - INFO - __main__ -     acc = 0.49295774647887325
+2 : 9
+03/09/2022 22:40:33 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:33 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:33 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:33 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.91it/s]
+03/09/2022 22:40:33 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:33 - INFO - __main__ -     acc = 0.5352112676056338
+2 : 10
+03/09/2022 22:40:33 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:33 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:33 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:33 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.05it/s]
+03/09/2022 22:40:33 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:33 - INFO - __main__ -     acc = 0.5492957746478874
+2 : 11
+03/09/2022 22:40:33 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:33 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:33 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:33 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.15it/s]
+03/09/2022 22:40:34 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:34 - INFO - __main__ -     acc = 0.5070422535211268
+2 : 12
+03/09/2022 22:40:34 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:34 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:34 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:34 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.11it/s]
+03/09/2022 22:40:34 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:34 - INFO - __main__ -     acc = 0.5070422535211268
+3 : 1
+03/09/2022 22:40:34 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:34 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:34 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:34 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.20it/s]
+03/09/2022 22:40:34 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:34 - INFO - __main__ -     acc = 0.5211267605633803
+3 : 2
+03/09/2022 22:40:34 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:34 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:34 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:34 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.35it/s]
+03/09/2022 22:40:35 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:35 - INFO - __main__ -     acc = 0.5352112676056338
+3 : 3
+03/09/2022 22:40:35 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:35 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:35 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:35 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.57it/s]
+03/09/2022 22:40:35 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:35 - INFO - __main__ -     acc = 0.5211267605633803
+3 : 4
+03/09/2022 22:40:35 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:35 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:35 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:35 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.51it/s]
+03/09/2022 22:40:35 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:35 - INFO - __main__ -     acc = 0.5352112676056338
+3 : 5
+03/09/2022 22:40:35 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:35 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:35 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:35 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.62it/s]
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:36 - INFO - __main__ -     acc = 0.5352112676056338
+3 : 6
+03/09/2022 22:40:36 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:36 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:36 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.92it/s]
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:36 - INFO - __main__ -     acc = 0.5492957746478874
+3 : 7
+03/09/2022 22:40:36 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:36 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:36 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.83it/s]
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:36 - INFO - __main__ -     acc = 0.5774647887323944
+3 : 8
+03/09/2022 22:40:36 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:36 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:36 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.05it/s]
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:36 - INFO - __main__ -     acc = 0.5774647887323944
+3 : 9
+03/09/2022 22:40:36 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:36 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:36 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:36 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.00it/s]
+03/09/2022 22:40:37 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:37 - INFO - __main__ -     acc = 0.5774647887323944
+3 : 10
+03/09/2022 22:40:37 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:37 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:37 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:37 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.17it/s]
+03/09/2022 22:40:37 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:37 - INFO - __main__ -     acc = 0.5633802816901409
+3 : 11
+03/09/2022 22:40:37 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:37 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:37 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:37 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.10it/s]
+03/09/2022 22:40:37 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:37 - INFO - __main__ -     acc = 0.5774647887323944
+3 : 12
+03/09/2022 22:40:37 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:37 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:37 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:37 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.42it/s]
+03/09/2022 22:40:38 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:38 - INFO - __main__ -     acc = 0.5774647887323944
+4 : 1
+03/09/2022 22:40:38 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:38 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:38 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:38 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.40it/s]
+03/09/2022 22:40:38 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:38 - INFO - __main__ -     acc = 0.5774647887323944
+4 : 2
+03/09/2022 22:40:38 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:38 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:38 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:38 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.52it/s]
+03/09/2022 22:40:38 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:38 - INFO - __main__ -     acc = 0.5633802816901409
+4 : 3
+03/09/2022 22:40:38 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:38 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:38 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:38 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.48it/s]
+03/09/2022 22:40:39 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:39 - INFO - __main__ -     acc = 0.5633802816901409
+4 : 4
+03/09/2022 22:40:39 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:39 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:39 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:39 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.67it/s]
+03/09/2022 22:40:39 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:39 - INFO - __main__ -     acc = 0.5633802816901409
+4 : 5
+03/09/2022 22:40:39 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:39 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:39 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:39 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.75it/s]
+03/09/2022 22:40:39 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:39 - INFO - __main__ -     acc = 0.5492957746478874
+4 : 6
+03/09/2022 22:40:39 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:39 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:39 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:39 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.87it/s]
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:40 - INFO - __main__ -     acc = 0.5492957746478874
+4 : 7
+03/09/2022 22:40:40 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:40 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:40 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.01it/s]
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:40 - INFO - __main__ -     acc = 0.5492957746478874
+4 : 8
+03/09/2022 22:40:40 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:40 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:40 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.03it/s]
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:40 - INFO - __main__ -     acc = 0.5492957746478874
+4 : 9
+03/09/2022 22:40:40 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:40 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:40 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.24it/s]
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:40 - INFO - __main__ -     acc = 0.5633802816901409
+4 : 10
+03/09/2022 22:40:40 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:40 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:40 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:40 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.37it/s]
+03/09/2022 22:40:41 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:41 - INFO - __main__ -     acc = 0.5492957746478874
+4 : 11
+03/09/2022 22:40:41 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:41 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:41 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:41 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.38it/s]
+03/09/2022 22:40:41 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:41 - INFO - __main__ -     acc = 0.5492957746478874
+4 : 12
+03/09/2022 22:40:41 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:41 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:41 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:41 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.54it/s]
+03/09/2022 22:40:41 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:41 - INFO - __main__ -     acc = 0.5633802816901409
+5 : 1
+03/09/2022 22:40:41 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:41 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:41 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:41 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.64it/s]
+03/09/2022 22:40:42 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:42 - INFO - __main__ -     acc = 0.5633802816901409
+5 : 2
+03/09/2022 22:40:42 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:42 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:42 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:42 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.75it/s]
+03/09/2022 22:40:42 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:42 - INFO - __main__ -     acc = 0.5633802816901409
+5 : 3
+03/09/2022 22:40:42 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:42 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:42 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:42 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.77it/s]
+03/09/2022 22:40:42 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:42 - INFO - __main__ -     acc = 0.5774647887323944
+5 : 4
+03/09/2022 22:40:42 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:42 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:42 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:42 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.91it/s]
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:43 - INFO - __main__ -     acc = 0.5633802816901409
+5 : 5
+03/09/2022 22:40:43 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:43 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:43 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.85it/s]
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:43 - INFO - __main__ -     acc = 0.5633802816901409
+5 : 6
+03/09/2022 22:40:43 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:43 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:43 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.24it/s]
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:43 - INFO - __main__ -     acc = 0.5774647887323944
+5 : 7
+03/09/2022 22:40:43 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:43 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:43 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.27it/s]
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:43 - INFO - __main__ -     acc = 0.5774647887323944
+5 : 8
+03/09/2022 22:40:43 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:43 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:43 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:43 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.39it/s]
+03/09/2022 22:40:44 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:44 - INFO - __main__ -     acc = 0.5774647887323944
+5 : 9
+03/09/2022 22:40:44 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:44 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:44 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:44 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.47it/s]
+03/09/2022 22:40:44 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:44 - INFO - __main__ -     acc = 0.5774647887323944
+5 : 10
+03/09/2022 22:40:44 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:44 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:44 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:44 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.59it/s]
+03/09/2022 22:40:44 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:44 - INFO - __main__ -     acc = 0.5774647887323944
+5 : 11
+03/09/2022 22:40:44 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:44 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:44 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:44 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.78it/s]
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:45 - INFO - __main__ -     acc = 0.5633802816901409
+5 : 12
+03/09/2022 22:40:45 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:45 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:45 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.90it/s]
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:45 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 1
+03/09/2022 22:40:45 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:45 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:45 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.11it/s]
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:45 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 2
+03/09/2022 22:40:45 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:45 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:45 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.13it/s]
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:45 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 3
+03/09/2022 22:40:45 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:45 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:45 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:45 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.18it/s]
+03/09/2022 22:40:46 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:46 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 4
+03/09/2022 22:40:46 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:46 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:46 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:46 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.28it/s]
+03/09/2022 22:40:46 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:46 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 5
+03/09/2022 22:40:46 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:46 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:46 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:46 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.20it/s]
+03/09/2022 22:40:46 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:46 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 6
+03/09/2022 22:40:46 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:46 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:46 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:46 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.38it/s]
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:47 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 7
+03/09/2022 22:40:47 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:47 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.55it/s]
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:47 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 8
+03/09/2022 22:40:47 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:47 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.64it/s]
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:47 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 9
+03/09/2022 22:40:47 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:47 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.43it/s]
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:47 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 10
+03/09/2022 22:40:47 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:47 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:47 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:47 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.78it/s]
+03/09/2022 22:40:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:48 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 11
+03/09/2022 22:40:48 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:48 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:48 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:48 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.16it/s]
+03/09/2022 22:40:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:48 - INFO - __main__ -     acc = 0.5633802816901409
+6 : 12
+03/09/2022 22:40:48 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:48 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:48 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:48 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.04it/s]
+03/09/2022 22:40:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:48 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 1
+03/09/2022 22:40:48 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:48 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:48 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:48 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.45it/s]
+03/09/2022 22:40:48 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:48 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 2
+03/09/2022 22:40:49 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:49 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:49 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.56it/s]
+03/09/2022 22:40:49 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:49 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 3
+03/09/2022 22:40:49 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:49 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:49 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.56it/s]
+03/09/2022 22:40:49 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:49 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 4
+03/09/2022 22:40:49 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:49 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:49 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.74it/s]
+03/09/2022 22:40:49 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:49 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 5
+03/09/2022 22:40:49 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:49 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:49 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:49 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.78it/s]
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:50 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 6
+03/09/2022 22:40:50 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:50 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.07it/s]
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:50 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 7
+03/09/2022 22:40:50 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:50 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.21it/s]
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:50 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 8
+03/09/2022 22:40:50 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:50 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.26it/s]
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:50 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 9
+03/09/2022 22:40:50 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:50 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:50 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:50 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.25it/s]
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:51 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 10
+03/09/2022 22:40:51 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:51 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:51 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.49it/s]
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:51 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 11
+03/09/2022 22:40:51 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:51 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:51 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.67it/s]
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:51 - INFO - __main__ -     acc = 0.5633802816901409
+7 : 12
+03/09/2022 22:40:51 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:51 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:51 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.83it/s]
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:51 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 1
+03/09/2022 22:40:51 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:51 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:51 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:51 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.96it/s]
+03/09/2022 22:40:52 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:52 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 2
+03/09/2022 22:40:52 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:52 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:52 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:52 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.17it/s]
+03/09/2022 22:40:52 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:52 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 3
+03/09/2022 22:40:52 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:52 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:52 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:52 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.95it/s]
+03/09/2022 22:40:52 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:52 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 4
+03/09/2022 22:40:52 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:52 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:52 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:52 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.34it/s]
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:53 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 5
+03/09/2022 22:40:53 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:53 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.11it/s]
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:53 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 6
+03/09/2022 22:40:53 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:53 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.69it/s]
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:53 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 7
+03/09/2022 22:40:53 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:53 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.82it/s]
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:53 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 8
+03/09/2022 22:40:53 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:53 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:53 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:53 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.69it/s]
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:54 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 9
+03/09/2022 22:40:54 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:54 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.96it/s]
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:54 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 10
+03/09/2022 22:40:54 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:54 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.02it/s]
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:54 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 11
+03/09/2022 22:40:54 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:54 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.14it/s]
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:54 - INFO - __main__ -     acc = 0.5633802816901409
+8 : 12
+03/09/2022 22:40:54 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:54 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:54 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:54 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.38it/s]
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:55 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 1
+03/09/2022 22:40:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:55 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.61it/s]
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:55 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 2
+03/09/2022 22:40:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:55 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.69it/s]
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:55 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 3
+03/09/2022 22:40:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:55 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.76it/s]
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:55 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 4
+03/09/2022 22:40:55 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:55 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:55 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:55 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.93it/s]
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:56 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 5
+03/09/2022 22:40:56 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:56 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:56 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.88it/s]
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:56 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 6
+03/09/2022 22:40:56 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:56 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:56 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.47it/s]
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:56 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 7
+03/09/2022 22:40:56 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:56 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:56 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.47it/s]
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:56 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 8
+03/09/2022 22:40:56 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:56 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:56 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:56 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.53it/s]
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:57 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 9
+03/09/2022 22:40:57 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:57 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:57 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.65it/s]
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:57 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 10
+03/09/2022 22:40:57 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:57 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:57 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.92it/s]
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:57 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 11
+03/09/2022 22:40:57 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:57 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:57 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.79it/s]
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:57 - INFO - __main__ -     acc = 0.5633802816901409
+9 : 12
+03/09/2022 22:40:57 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:57 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:57 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:57 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.37it/s]
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:58 - INFO - __main__ -     acc = 0.5633802816901409
+10 : 1
+03/09/2022 22:40:58 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:58 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:58 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.53it/s]
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:58 - INFO - __main__ -     acc = 0.5633802816901409
+10 : 2
+03/09/2022 22:40:58 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:58 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:58 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.38it/s]
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:58 - INFO - __main__ -     acc = 0.5492957746478874
+10 : 3
+03/09/2022 22:40:58 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:58 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:58 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.51it/s]
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:58 - INFO - __main__ -     acc = 0.5492957746478874
+10 : 4
+03/09/2022 22:40:58 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:58 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:58 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:58 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.86it/s]
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:59 - INFO - __main__ -     acc = 0.5492957746478874
+10 : 5
+03/09/2022 22:40:59 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:59 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.76it/s]
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:59 - INFO - __main__ -     acc = 0.5633802816901409
+10 : 6
+03/09/2022 22:40:59 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:59 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.11it/s]
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:59 - INFO - __main__ -     acc = 0.5633802816901409
+10 : 7
+03/09/2022 22:40:59 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:59 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.32it/s]
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:40:59 - INFO - __main__ -     acc = 0.5633802816901409
+10 : 8
+03/09/2022 22:40:59 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:40:59 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:40:59 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:40:59 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.56it/s]
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:00 - INFO - __main__ -     acc = 0.5774647887323944
+10 : 9
+03/09/2022 22:41:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:00 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.70it/s]
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:00 - INFO - __main__ -     acc = 0.5774647887323944
+10 : 10
+03/09/2022 22:41:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:00 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.99it/s]
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:00 - INFO - __main__ -     acc = 0.5633802816901409
+10 : 11
+03/09/2022 22:41:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:00 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.92it/s]
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:00 - INFO - __main__ -     acc = 0.5633802816901409
+10 : 12
+03/09/2022 22:41:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:00 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.58it/s]
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:00 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 1
+03/09/2022 22:41:00 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:00 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:00 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:00 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.54it/s]
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:01 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 2
+03/09/2022 22:41:01 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:01 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:01 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.66it/s]
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:01 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 3
+03/09/2022 22:41:01 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:01 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:01 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.61it/s]
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:01 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 4
+03/09/2022 22:41:01 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:01 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:01 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.83it/s]
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:01 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 5
+03/09/2022 22:41:01 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:01 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:01 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:01 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.78it/s]
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:02 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 6
+03/09/2022 22:41:02 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:02 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 43.36it/s]
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:02 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 7
+03/09/2022 22:41:02 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:02 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 43.40it/s]
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:02 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 8
+03/09/2022 22:41:02 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:02 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 43.65it/s]
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:02 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 9
+03/09/2022 22:41:02 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:02 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:02 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:02 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 43.81it/s]
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:03 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 10
+03/09/2022 22:41:03 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:03 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:03 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.11it/s]
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:03 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 11
+03/09/2022 22:41:03 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:03 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:03 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.09it/s]
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:03 - INFO - __main__ -     acc = 0.5633802816901409
+11 : 12
+03/09/2022 22:41:03 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:03 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:03 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.51it/s]
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:03 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 1
+03/09/2022 22:41:03 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:03 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:03 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.78it/s]
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:03 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 2
+03/09/2022 22:41:03 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:03 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:03 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:03 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.99it/s]
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:04 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 3
+03/09/2022 22:41:04 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:04 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 45.12it/s]
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:04 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 4
+03/09/2022 22:41:04 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:04 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 45.17it/s]
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:04 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 5
+03/09/2022 22:41:04 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:04 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 45.23it/s]
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:04 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 6
+03/09/2022 22:41:04 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:04 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:04 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:04 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 45.75it/s]
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:05 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 7
+03/09/2022 22:41:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:05 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 45.95it/s]
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:05 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 8
+03/09/2022 22:41:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:05 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 46.03it/s]
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:05 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 9
+03/09/2022 22:41:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:05 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 46.19it/s]
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:05 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 10
+03/09/2022 22:41:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:05 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 46.59it/s]
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:05 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 11
+03/09/2022 22:41:05 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:05 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:05 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:05 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 46.63it/s]
+03/09/2022 22:41:06 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:06 - INFO - __main__ -     acc = 0.5633802816901409
+12 : 12
+03/09/2022 22:41:06 - INFO - __main__ -   Loading features from cached file /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI/cached_dev_bert-base-cased_128_wnli
+03/09/2022 22:41:06 - INFO - __main__ -   ***** Running evaluation  *****
+03/09/2022 22:41:06 - INFO - __main__ -     Num examples = 71
+03/09/2022 22:41:06 - INFO - __main__ -     Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 47.06it/s]
+03/09/2022 22:41:06 - INFO - __main__ -   ***** Eval results  *****
+03/09/2022 22:41:06 - INFO - __main__ -     acc = 0.5633802816901409
