@@ -12,7 +12,7 @@ pip install transformers
 The torch version is 1.10.0+cu111
 
 #### 2. Download Processed GLUE Dataset 
-I already preprocessed the GLUE Dataset with task `CoLA, RTE, STS-B, MRPC, SST-2, WNLI`, please download the dataset from: https://drive.google.com/drive/folders/1-DRrA5MVKI-RZlEwrbIAeencVcf6hjjs?usp=sharing, and place the unziped file in path `/Bert_compression/GLUE_data`.
+I already preprocessed the GLUE Dataset with task `CoLA, RTE, STS-B, MRPC, SST-2, WNLI`, please download the dataset from: https://drive.google.com/drive/folders/1--7Tp6I7mWJsnONgc4Gv7ZYhRNy4fbse?usp=sharing, and place the unziped file in path `/Bert_compression/GLUE_data`.
 
 ## Experiment
 The code is heavily based on https://github.com/maknotavailable/pytorch-pretrained-BERT
