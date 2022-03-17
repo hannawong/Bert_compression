@@ -1,0 +1,14 @@
+python examples/run_regression.py \
+  --model_type bert \
+  --model_name_or_path bert-base-cased \
+  --task_name wnli \
+  --do_train \
+  --do_eval \
+  --do_lower_case \
+  --data_dir /content/drive/MyDrive/are-16-heads-really-better-than-1/GLUE_data/WNLI \
+  --max_seq_length 128 \
+  --per_gpu_train_batch_size 32 \
+  --learning_rate 2e-5 \
+  --num_train_epochs 1.0 \
+  --output_dir /content/drive/MyDrive/are-16-heads-really-better-than-1/models/WNLI \
+  --overwrite_output_dir \
