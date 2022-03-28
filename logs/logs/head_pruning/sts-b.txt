@@ -1,0 +1,1750 @@
+Epoch: 100% 3/3 [03:34<00:00, 71.34s/it]
+214.04991602897644 training time======
+00:50:12-INFO:  global_step = 540, average loss = 0.7658309854291103
+00:50:12-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+00:50:17-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+00:50:19-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:50:19-INFO: ***** Running evaluation  *****
+00:50:19-INFO:   Num examples = 1500
+00:50:19-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:07<00:00, 25.99it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+00:50:26-INFO: ***** Eval results  *****
+00:50:26-INFO:   corr = 0.8852458945118439
+00:50:26-INFO:   pearson = 0.8873533137973694
+00:50:26-INFO:   spearmanr = 0.8831384752263184
+evaluation time 7.414978265762329
+start pruning.....
+attention_head_mask ['1:1']
+['1', '1']
+00:50:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:50:26-INFO: ***** Running evaluation  *****
+00:50:26-INFO:   Num examples = 1500
+00:50:26-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.15it/s]
+00:50:33-INFO: ***** Eval results  *****
+00:50:33-INFO:   corr = 0.885089339950992
+00:50:33-INFO:   pearson = 0.8872307421735366
+00:50:33-INFO:   spearmanr = 0.8829479377284476
+evaluation time: 7.131689786911011
+attention_head_mask ['1:2']
+['1', '2']
+00:50:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:50:33-INFO: ***** Running evaluation  *****
+00:50:33-INFO:   Num examples = 1500
+00:50:33-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.53it/s]
+00:50:40-INFO: ***** Eval results  *****
+00:50:40-INFO:   corr = 0.884722530393111
+00:50:40-INFO:   pearson = 0.886738884790238
+00:50:40-INFO:   spearmanr = 0.8827061759959839
+evaluation time: 6.979378700256348
+attention_head_mask ['1:3']
+['1', '3']
+00:50:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:50:40-INFO: ***** Running evaluation  *****
+00:50:40-INFO:   Num examples = 1500
+00:50:40-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.53it/s]
+00:50:47-INFO: ***** Eval results  *****
+00:50:47-INFO:   corr = 0.8848760630379111
+00:50:47-INFO:   pearson = 0.8868035584537021
+00:50:47-INFO:   spearmanr = 0.8829485676221203
+evaluation time: 6.979275703430176
+attention_head_mask ['1:4']
+['1', '4']
+00:50:47-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:50:48-INFO: ***** Running evaluation  *****
+00:50:48-INFO:   Num examples = 1500
+00:50:48-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.66it/s]
+00:50:54-INFO: ***** Eval results  *****
+00:50:54-INFO:   corr = 0.8848954281552723
+00:50:54-INFO:   pearson = 0.8866796551243765
+00:50:54-INFO:   spearmanr = 0.883111201186168
+evaluation time: 7.199731826782227
+attention_head_mask ['1:5']
+['1', '5']
+00:50:54-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:50:55-INFO: ***** Running evaluation  *****
+00:50:55-INFO:   Num examples = 1500
+00:50:55-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.72it/s]
+00:51:01-INFO: ***** Eval results  *****
+00:51:01-INFO:   corr = 0.8814616584969253
+00:51:01-INFO:   pearson = 0.8834639190363287
+00:51:01-INFO:   spearmanr = 0.8794593979575219
+evaluation time: 6.989018440246582
+attention_head_mask ['1:6']
+['1', '6']
+00:51:01-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:02-INFO: ***** Running evaluation  *****
+00:51:02-INFO:   Num examples = 1500
+00:51:02-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.82it/s]
+00:51:08-INFO: ***** Eval results  *****
+00:51:08-INFO:   corr = 0.8819082528592201
+00:51:08-INFO:   pearson = 0.8840587481246773
+00:51:08-INFO:   spearmanr = 0.8797577575937628
+evaluation time: 6.928914546966553
+attention_head_mask ['1:7']
+['1', '7']
+00:51:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:09-INFO: ***** Running evaluation  *****
+00:51:09-INFO:   Num examples = 1500
+00:51:09-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.86it/s]
+00:51:15-INFO: ***** Eval results  *****
+00:51:15-INFO:   corr = 0.8827282274478485
+00:51:15-INFO:   pearson = 0.8847559777909815
+00:51:15-INFO:   spearmanr = 0.8807004771047157
+evaluation time: 6.8992204666137695
+attention_head_mask ['1:8']
+['1', '8']
+00:51:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:15-INFO: ***** Running evaluation  *****
+00:51:15-INFO:   Num examples = 1500
+00:51:15-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.84it/s]
+00:51:22-INFO: ***** Eval results  *****
+00:51:22-INFO:   corr = 0.8828917045365429
+00:51:22-INFO:   pearson = 0.8847871168178686
+00:51:22-INFO:   spearmanr = 0.8809962922552171
+evaluation time: 6.913538455963135
+attention_head_mask ['1:9']
+['1', '9']
+00:51:22-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:22-INFO: ***** Running evaluation  *****
+00:51:22-INFO:   Num examples = 1500
+00:51:22-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.83it/s]
+00:51:29-INFO: ***** Eval results  *****
+00:51:29-INFO:   corr = 0.8819970247868547
+00:51:29-INFO:   pearson = 0.884019921724058
+00:51:29-INFO:   spearmanr = 0.8799741278496516
+evaluation time: 6.910846471786499
+attention_head_mask ['1:10']
+['1', '10']
+00:51:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:29-INFO: ***** Running evaluation  *****
+00:51:29-INFO:   Num examples = 1500
+00:51:29-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.87it/s]
+00:51:36-INFO: ***** Eval results  *****
+00:51:36-INFO:   corr = 0.8812412967278549
+00:51:36-INFO:   pearson = 0.8829388555824078
+00:51:36-INFO:   spearmanr = 0.8795437378733021
+evaluation time: 6.921655178070068
+attention_head_mask ['1:11']
+['1', '11']
+00:51:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:36-INFO: ***** Running evaluation  *****
+00:51:36-INFO:   Num examples = 1500
+00:51:36-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.85it/s]
+00:51:43-INFO: ***** Eval results  *****
+00:51:43-INFO:   corr = 0.8808700586443712
+00:51:43-INFO:   pearson = 0.8824021393437312
+00:51:43-INFO:   spearmanr = 0.879337977945011
+evaluation time: 6.922810316085815
+attention_head_mask ['1:12']
+['1', '12']
+/usr/local/lib/python3.7/dist-packages/torch/nn/init.py:388: UserWarning: Initializing zero-element tensors is a no-op
+  warnings.warn("Initializing zero-element tensors is a no-op")
+00:51:43-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:43-INFO: ***** Running evaluation  *****
+00:51:43-INFO:   Num examples = 1500
+00:51:43-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.83it/s]
+00:51:50-INFO: ***** Eval results  *****
+00:51:50-INFO:   corr = 0.8800699786922073
+00:51:50-INFO:   pearson = 0.8816278269836846
+00:51:50-INFO:   spearmanr = 0.87851213040073
+evaluation time: 6.9076433181762695
+attention_head_mask ['2:1']
+['2', '1']
+00:51:50-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:50-INFO: ***** Running evaluation  *****
+00:51:50-INFO:   Num examples = 1500
+00:51:50-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 27.73it/s]
+00:51:57-INFO: ***** Eval results  *****
+00:51:57-INFO:   corr = 0.8802659667102872
+00:51:57-INFO:   pearson = 0.8821535024002493
+00:51:57-INFO:   spearmanr = 0.8783784310203252
+evaluation time: 6.938282489776611
+attention_head_mask ['2:2']
+['2', '2']
+00:51:57-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:51:57-INFO: ***** Running evaluation  *****
+00:51:57-INFO:   Num examples = 1500
+00:51:57-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.20it/s]
+00:52:04-INFO: ***** Eval results  *****
+00:52:04-INFO:   corr = 0.8799182198463369
+00:52:04-INFO:   pearson = 0.8814223040214058
+00:52:04-INFO:   spearmanr = 0.8784141356712681
+evaluation time: 6.821316242218018
+attention_head_mask ['2:3']
+['2', '3']
+00:52:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:04-INFO: ***** Running evaluation  *****
+00:52:04-INFO:   Num examples = 1500
+00:52:04-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.20it/s]
+00:52:11-INFO: ***** Eval results  *****
+00:52:11-INFO:   corr = 0.8799577535010428
+00:52:11-INFO:   pearson = 0.8813541968521574
+00:52:11-INFO:   spearmanr = 0.8785613101499282
+evaluation time: 6.81584906578064
+attention_head_mask ['2:4']
+['2', '4']
+00:52:11-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:11-INFO: ***** Running evaluation  *****
+00:52:11-INFO:   Num examples = 1500
+00:52:11-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.28it/s]
+00:52:17-INFO: ***** Eval results  *****
+00:52:17-INFO:   corr = 0.8791749695659704
+00:52:17-INFO:   pearson = 0.8803573108686225
+00:52:17-INFO:   spearmanr = 0.8779926282633184
+evaluation time: 6.809267044067383
+attention_head_mask ['2:5']
+['2', '5']
+00:52:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:18-INFO: ***** Running evaluation  *****
+00:52:18-INFO:   Num examples = 1500
+00:52:18-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.37it/s]
+00:52:24-INFO: ***** Eval results  *****
+00:52:24-INFO:   corr = 0.8792106951916531
+00:52:24-INFO:   pearson = 0.8800352885391888
+00:52:24-INFO:   spearmanr = 0.8783861018441174
+evaluation time: 6.780097723007202
+attention_head_mask ['2:6']
+['2', '6']
+00:52:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:24-INFO: ***** Running evaluation  *****
+00:52:24-INFO:   Num examples = 1500
+00:52:24-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.58it/s]
+00:52:31-INFO: ***** Eval results  *****
+00:52:31-INFO:   corr = 0.8789498435766651
+00:52:31-INFO:   pearson = 0.879691316748435
+00:52:31-INFO:   spearmanr = 0.8782083704048951
+evaluation time: 6.720909595489502
+attention_head_mask ['2:7']
+['2', '7']
+00:52:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:31-INFO: ***** Running evaluation  *****
+00:52:31-INFO:   Num examples = 1500
+00:52:31-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.61it/s]
+00:52:38-INFO: ***** Eval results  *****
+00:52:38-INFO:   corr = 0.8747268334426809
+00:52:38-INFO:   pearson = 0.8749204726133397
+00:52:38-INFO:   spearmanr = 0.874533194272022
+evaluation time: 6.719167232513428
+attention_head_mask ['2:8']
+['2', '8']
+00:52:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:38-INFO: ***** Running evaluation  *****
+00:52:38-INFO:   Num examples = 1500
+00:52:38-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.69it/s]
+00:52:44-INFO: ***** Eval results  *****
+00:52:44-INFO:   corr = 0.8731767880526737
+00:52:44-INFO:   pearson = 0.8742483273445791
+00:52:44-INFO:   spearmanr = 0.8721052487607683
+evaluation time: 6.712425470352173
+attention_head_mask ['2:9']
+['2', '9']
+00:52:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:45-INFO: ***** Running evaluation  *****
+00:52:45-INFO:   Num examples = 1500
+00:52:45-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.74it/s]
+00:52:51-INFO: ***** Eval results  *****
+00:52:51-INFO:   corr = 0.8729367056337252
+00:52:51-INFO:   pearson = 0.8741509705997033
+00:52:51-INFO:   spearmanr = 0.8717224406677471
+evaluation time: 6.701470136642456
+attention_head_mask ['2:10']
+['2', '10']
+00:52:51-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:51-INFO: ***** Running evaluation  *****
+00:52:51-INFO:   Num examples = 1500
+00:52:51-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.81it/s]
+00:52:58-INFO: ***** Eval results  *****
+00:52:58-INFO:   corr = 0.8686142432887076
+00:52:58-INFO:   pearson = 0.8692152673273543
+00:52:58-INFO:   spearmanr = 0.8680132192500609
+evaluation time: 6.7021684646606445
+attention_head_mask ['2:11']
+['2', '11']
+00:52:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:52:58-INFO: ***** Running evaluation  *****
+00:52:58-INFO:   Num examples = 1500
+00:52:58-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.87it/s]
+00:53:04-INFO: ***** Eval results  *****
+00:53:04-INFO:   corr = 0.8637681914455405
+00:53:04-INFO:   pearson = 0.8639835314838861
+00:53:04-INFO:   spearmanr = 0.863552851407195
+evaluation time: 6.661996603012085
+attention_head_mask ['2:12']
+['2', '12']
+00:53:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:05-INFO: ***** Running evaluation  *****
+00:53:05-INFO:   Num examples = 1500
+00:53:05-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.00it/s]
+00:53:11-INFO: ***** Eval results  *****
+00:53:11-INFO:   corr = 0.8658576378990386
+00:53:11-INFO:   pearson = 0.8670093915677173
+00:53:11-INFO:   spearmanr = 0.86470588423036
+evaluation time: 6.643460750579834
+attention_head_mask ['3:1']
+['3', '1']
+00:53:11-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:11-INFO: ***** Running evaluation  *****
+00:53:11-INFO:   Num examples = 1500
+00:53:11-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 28.65it/s]
+00:53:18-INFO: ***** Eval results  *****
+00:53:18-INFO:   corr = 0.867151246359158
+00:53:18-INFO:   pearson = 0.8682768211014613
+00:53:18-INFO:   spearmanr = 0.8660256716168546
+evaluation time: 6.714246511459351
+attention_head_mask ['3:2']
+['3', '2']
+00:53:18-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:18-INFO: ***** Running evaluation  *****
+00:53:18-INFO:   Num examples = 1500
+00:53:18-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.00it/s]
+00:53:25-INFO: ***** Eval results  *****
+00:53:25-INFO:   corr = 0.865798584881355
+00:53:25-INFO:   pearson = 0.8666630488410896
+00:53:25-INFO:   spearmanr = 0.8649341209216205
+evaluation time: 6.6480324268341064
+attention_head_mask ['3:3']
+['3', '3']
+00:53:25-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:25-INFO: ***** Running evaluation  *****
+00:53:25-INFO:   Num examples = 1500
+00:53:25-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.19it/s]
+00:53:31-INFO: ***** Eval results  *****
+00:53:31-INFO:   corr = 0.8533777104387185
+00:53:31-INFO:   pearson = 0.8535013612659026
+00:53:31-INFO:   spearmanr = 0.8532540596115343
+evaluation time: 6.587247610092163
+attention_head_mask ['3:4']
+['3', '4']
+00:53:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:31-INFO: ***** Running evaluation  *****
+00:53:31-INFO:   Num examples = 1500
+00:53:31-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.18it/s]
+00:53:38-INFO: ***** Eval results  *****
+00:53:38-INFO:   corr = 0.8399699307471535
+00:53:38-INFO:   pearson = 0.8391365115316884
+00:53:38-INFO:   spearmanr = 0.8408033499626185
+evaluation time: 6.603805065155029
+attention_head_mask ['3:5']
+['3', '5']
+00:53:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:38-INFO: ***** Running evaluation  *****
+00:53:38-INFO:   Num examples = 1500
+00:53:38-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.16it/s]
+00:53:44-INFO: ***** Eval results  *****
+00:53:44-INFO:   corr = 0.8346278887092573
+00:53:44-INFO:   pearson = 0.8326722577664304
+00:53:44-INFO:   spearmanr = 0.8365835196520842
+evaluation time: 6.617998123168945
+attention_head_mask ['3:6']
+['3', '6']
+00:53:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:45-INFO: ***** Running evaluation  *****
+00:53:45-INFO:   Num examples = 1500
+00:53:45-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.37it/s]
+00:53:51-INFO: ***** Eval results  *****
+00:53:51-INFO:   corr = 0.8248453416799408
+00:53:51-INFO:   pearson = 0.8208597188730914
+00:53:51-INFO:   spearmanr = 0.8288309644867904
+evaluation time: 6.557647228240967
+attention_head_mask ['3:7']
+['3', '7']
+00:53:51-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:51-INFO: ***** Running evaluation  *****
+00:53:51-INFO:   Num examples = 1500
+00:53:51-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.73it/s]
+00:53:57-INFO: ***** Eval results  *****
+00:53:57-INFO:   corr = 0.6565225751478713
+00:53:57-INFO:   pearson = 0.6460452807393446
+00:53:57-INFO:   spearmanr = 0.6669998695563979
+evaluation time: 6.476399183273315
+attention_head_mask ['3:8']
+['3', '8']
+00:53:57-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:53:58-INFO: ***** Running evaluation  *****
+00:53:58-INFO:   Num examples = 1500
+00:53:58-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.69it/s]
+00:54:04-INFO: ***** Eval results  *****
+00:54:04-INFO:   corr = 0.6731349478864546
+00:54:04-INFO:   pearson = 0.6648000150569936
+00:54:04-INFO:   spearmanr = 0.6814698807159156
+evaluation time: 6.484412431716919
+attention_head_mask ['3:9']
+['3', '9']
+00:54:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:04-INFO: ***** Running evaluation  *****
+00:54:04-INFO:   Num examples = 1500
+00:54:04-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.78it/s]
+00:54:10-INFO: ***** Eval results  *****
+00:54:10-INFO:   corr = 0.6677976649898922
+00:54:10-INFO:   pearson = 0.6593294937758766
+00:54:10-INFO:   spearmanr = 0.6762658362039078
+evaluation time: 6.492764949798584
+attention_head_mask ['3:10']
+['3', '10']
+00:54:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:11-INFO: ***** Running evaluation  *****
+00:54:11-INFO:   Num examples = 1500
+00:54:11-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.84it/s]
+00:54:17-INFO: ***** Eval results  *****
+00:54:17-INFO:   corr = 0.682460058381123
+00:54:17-INFO:   pearson = 0.6742453079939085
+00:54:17-INFO:   spearmanr = 0.6906748087683375
+evaluation time: 6.443826198577881
+attention_head_mask ['3:11']
+['3', '11']
+00:54:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:17-INFO: ***** Running evaluation  *****
+00:54:17-INFO:   Num examples = 1500
+00:54:17-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.97it/s]
+00:54:23-INFO: ***** Eval results  *****
+00:54:23-INFO:   corr = 0.5570494053050135
+00:54:23-INFO:   pearson = 0.5391544410362343
+00:54:23-INFO:   spearmanr = 0.5749443695737927
+evaluation time: 6.432337284088135
+attention_head_mask ['3:12']
+['3', '12']
+00:54:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:23-INFO: ***** Running evaluation  *****
+00:54:23-INFO:   Num examples = 1500
+00:54:23-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.16it/s]
+00:54:30-INFO: ***** Eval results  *****
+00:54:30-INFO:   corr = 0.5796880643139439
+00:54:30-INFO:   pearson = 0.5645341860926448
+00:54:30-INFO:   spearmanr = 0.594841942535243
+evaluation time: 6.389817953109741
+attention_head_mask ['4:1']
+['4', '1']
+00:54:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:30-INFO: ***** Running evaluation  *****
+00:54:30-INFO:   Num examples = 1500
+00:54:30-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.15it/s]
+00:54:36-INFO: ***** Eval results  *****
+00:54:36-INFO:   corr = 0.466855627967691
+00:54:36-INFO:   pearson = 0.4551698335875187
+00:54:36-INFO:   spearmanr = 0.47854142234786323
+evaluation time: 6.381934881210327
+attention_head_mask ['4:2']
+['4', '2']
+00:54:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:36-INFO: ***** Running evaluation  *****
+00:54:36-INFO:   Num examples = 1500
+00:54:36-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.31it/s]
+00:54:43-INFO: ***** Eval results  *****
+00:54:43-INFO:   corr = 0.44961155035125067
+00:54:43-INFO:   pearson = 0.43409746162244045
+00:54:43-INFO:   spearmanr = 0.4651256390800609
+evaluation time: 6.363831281661987
+attention_head_mask ['4:3']
+['4', '3']
+00:54:43-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:43-INFO: ***** Running evaluation  *****
+00:54:43-INFO:   Num examples = 1500
+00:54:43-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.34it/s]
+00:54:49-INFO: ***** Eval results  *****
+00:54:49-INFO:   corr = 0.45619764626179704
+00:54:49-INFO:   pearson = 0.44086775181491455
+00:54:49-INFO:   spearmanr = 0.4715275407086796
+evaluation time: 6.346740245819092
+attention_head_mask ['4:4']
+['4', '4']
+00:54:49-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:49-INFO: ***** Running evaluation  *****
+00:54:49-INFO:   Num examples = 1500
+00:54:49-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.17it/s]
+00:54:55-INFO: ***** Eval results  *****
+00:54:55-INFO:   corr = 0.44038117574748786
+00:54:55-INFO:   pearson = 0.4242505649210704
+00:54:55-INFO:   spearmanr = 0.45651178657390534
+evaluation time: 6.565990447998047
+attention_head_mask ['4:5']
+['4', '5']
+00:54:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:54:56-INFO: ***** Running evaluation  *****
+00:54:56-INFO:   Num examples = 1500
+00:54:56-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 29.93it/s]
+00:55:02-INFO: ***** Eval results  *****
+00:55:02-INFO:   corr = 0.4352335812126219
+00:55:02-INFO:   pearson = 0.4209948152725627
+00:55:02-INFO:   spearmanr = 0.4494723471526811
+evaluation time: 6.4618613719940186
+attention_head_mask ['4:6']
+['4', '6']
+00:55:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:02-INFO: ***** Running evaluation  *****
+00:55:02-INFO:   Num examples = 1500
+00:55:02-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.45it/s]
+00:55:08-INFO: ***** Eval results  *****
+00:55:08-INFO:   corr = 0.42692886888670445
+00:55:08-INFO:   pearson = 0.41294553491867947
+00:55:08-INFO:   spearmanr = 0.44091220285472943
+evaluation time: 6.339420318603516
+attention_head_mask ['4:7']
+['4', '7']
+00:55:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:08-INFO: ***** Running evaluation  *****
+00:55:08-INFO:   Num examples = 1500
+00:55:08-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.72it/s]
+00:55:15-INFO: ***** Eval results  *****
+00:55:15-INFO:   corr = 0.43675499319574607
+00:55:15-INFO:   pearson = 0.42220377142682675
+00:55:15-INFO:   spearmanr = 0.4513062149646654
+evaluation time: 6.271893739700317
+attention_head_mask ['4:8']
+['4', '8']
+00:55:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:15-INFO: ***** Running evaluation  *****
+00:55:15-INFO:   Num examples = 1500
+00:55:15-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.79it/s]
+00:55:21-INFO: ***** Eval results  *****
+00:55:21-INFO:   corr = 0.43465497802596925
+00:55:21-INFO:   pearson = 0.41362448766394255
+00:55:21-INFO:   spearmanr = 0.45568546838799595
+evaluation time: 6.279759407043457
+attention_head_mask ['4:9']
+['4', '9']
+00:55:21-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:21-INFO: ***** Running evaluation  *****
+00:55:21-INFO:   Num examples = 1500
+00:55:21-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.87it/s]
+00:55:27-INFO: ***** Eval results  *****
+00:55:27-INFO:   corr = 0.4603275210408114
+00:55:27-INFO:   pearson = 0.4405773215218844
+00:55:27-INFO:   spearmanr = 0.4800777205597384
+evaluation time: 6.255068063735962
+attention_head_mask ['4:10']
+['4', '10']
+00:55:27-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:27-INFO: ***** Running evaluation  *****
+00:55:27-INFO:   Num examples = 1500
+00:55:27-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 30.97it/s]
+00:55:33-INFO: ***** Eval results  *****
+00:55:33-INFO:   corr = 0.4871496603279138
+00:55:33-INFO:   pearson = 0.4724902150115836
+00:55:33-INFO:   spearmanr = 0.501809105644244
+evaluation time: 6.21902322769165
+attention_head_mask ['4:11']
+['4', '11']
+00:55:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:34-INFO: ***** Running evaluation  *****
+00:55:34-INFO:   Num examples = 1500
+00:55:34-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:06<00:00, 31.01it/s]
+00:55:40-INFO: ***** Eval results  *****
+00:55:40-INFO:   corr = 0.4788322435576293
+00:55:40-INFO:   pearson = 0.46976405831696416
+00:55:40-INFO:   spearmanr = 0.4879004287982944
+evaluation time: 6.218701124191284
+attention_head_mask ['4:12']
+['4', '12']
+00:55:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:40-INFO: ***** Running evaluation  *****
+00:55:40-INFO:   Num examples = 1500
+00:55:40-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.33it/s]
+00:55:46-INFO: ***** Eval results  *****
+00:55:46-INFO:   corr = 0.4582610015677919
+00:55:46-INFO:   pearson = 0.4514645318385875
+00:55:46-INFO:   spearmanr = 0.4650574712969963
+evaluation time: 6.153674364089966
+attention_head_mask ['5:1']
+['5', '1']
+00:55:46-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:46-INFO: ***** Running evaluation  *****
+00:55:46-INFO:   Num examples = 1500
+00:55:46-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.34it/s]
+00:55:52-INFO: ***** Eval results  *****
+00:55:52-INFO:   corr = 0.46762468405934576
+00:55:52-INFO:   pearson = 0.46199983553911034
+00:55:52-INFO:   spearmanr = 0.47324953257958113
+evaluation time: 6.144989967346191
+attention_head_mask ['5:2']
+['5', '2']
+00:55:52-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:52-INFO: ***** Running evaluation  *****
+00:55:52-INFO:   Num examples = 1500
+00:55:52-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.52it/s]
+00:55:58-INFO: ***** Eval results  *****
+00:55:58-INFO:   corr = 0.478084840604163
+00:55:58-INFO:   pearson = 0.4728944335337503
+00:55:58-INFO:   spearmanr = 0.48327524767457575
+evaluation time: 6.128313064575195
+attention_head_mask ['5:3']
+['5', '3']
+00:55:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:55:58-INFO: ***** Running evaluation  *****
+00:55:58-INFO:   Num examples = 1500
+00:55:58-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.48it/s]
+00:56:04-INFO: ***** Eval results  *****
+00:56:04-INFO:   corr = 0.4643138310650081
+00:56:04-INFO:   pearson = 0.46299775757784944
+00:56:04-INFO:   spearmanr = 0.46562990455216685
+evaluation time: 6.144225597381592
+attention_head_mask ['5:4']
+['5', '4']
+00:56:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:04-INFO: ***** Running evaluation  *****
+00:56:04-INFO:   Num examples = 1500
+00:56:04-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.54it/s]
+00:56:10-INFO: ***** Eval results  *****
+00:56:10-INFO:   corr = 0.17732416107633237
+00:56:10-INFO:   pearson = 0.17830908139873672
+00:56:10-INFO:   spearmanr = 0.176339240753928
+evaluation time: 6.114735126495361
+attention_head_mask ['5:5']
+['5', '5']
+00:56:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:11-INFO: ***** Running evaluation  *****
+00:56:11-INFO:   Num examples = 1500
+00:56:11-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.60it/s]
+00:56:16-INFO: ***** Eval results  *****
+00:56:16-INFO:   corr = 0.18431053749436732
+00:56:16-INFO:   pearson = 0.1833047088304944
+00:56:16-INFO:   spearmanr = 0.1853163661582402
+evaluation time: 6.115878343582153
+attention_head_mask ['5:6']
+['5', '6']
+00:56:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:17-INFO: ***** Running evaluation  *****
+00:56:17-INFO:   Num examples = 1500
+00:56:17-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.43it/s]
+00:56:23-INFO: ***** Eval results  *****
+00:56:23-INFO:   corr = 0.18311843210981438
+00:56:23-INFO:   pearson = 0.18088784840793887
+00:56:23-INFO:   spearmanr = 0.18534901581168992
+evaluation time: 6.153728723526001
+attention_head_mask ['5:7']
+['5', '7']
+00:56:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:23-INFO: ***** Running evaluation  *****
+00:56:23-INFO:   Num examples = 1500
+00:56:23-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.60it/s]
+00:56:29-INFO: ***** Eval results  *****
+00:56:29-INFO:   corr = 0.1746962307556042
+00:56:29-INFO:   pearson = 0.17276153906158515
+00:56:29-INFO:   spearmanr = 0.17663092244962328
+evaluation time: 6.105002403259277
+attention_head_mask ['5:8']
+['5', '8']
+00:56:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:29-INFO: ***** Running evaluation  *****
+00:56:29-INFO:   Num examples = 1500
+00:56:29-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 31.99it/s]
+00:56:35-INFO: ***** Eval results  *****
+00:56:35-INFO:   corr = 0.1732998368055248
+00:56:35-INFO:   pearson = 0.1707372114991566
+00:56:35-INFO:   spearmanr = 0.175862462111893
+evaluation time: 6.211145877838135
+attention_head_mask ['5:9']
+['5', '9']
+00:56:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:35-INFO: ***** Running evaluation  *****
+00:56:35-INFO:   Num examples = 1500
+00:56:35-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.02it/s]
+00:56:41-INFO: ***** Eval results  *****
+00:56:41-INFO:   corr = 0.17707014446727287
+00:56:41-INFO:   pearson = 0.17535049311085896
+00:56:41-INFO:   spearmanr = 0.17878979582368681
+evaluation time: 6.027101755142212
+attention_head_mask ['5:10']
+['5', '10']
+00:56:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:41-INFO: ***** Running evaluation  *****
+00:56:41-INFO:   Num examples = 1500
+00:56:41-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.15it/s]
+00:56:47-INFO: ***** Eval results  *****
+00:56:47-INFO:   corr = 0.15298588104451066
+00:56:47-INFO:   pearson = 0.15193663457234272
+00:56:47-INFO:   spearmanr = 0.15403512751667858
+evaluation time: 6.012883186340332
+attention_head_mask ['5:11']
+['5', '11']
+00:56:47-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:47-INFO: ***** Running evaluation  *****
+00:56:47-INFO:   Num examples = 1500
+00:56:47-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.26it/s]
+00:56:53-INFO: ***** Eval results  *****
+00:56:53-INFO:   corr = 0.15185825414633508
+00:56:53-INFO:   pearson = 0.15188200123986104
+00:56:53-INFO:   spearmanr = 0.15183450705280913
+evaluation time: 5.973775386810303
+attention_head_mask ['5:12']
+['5', '12']
+00:56:53-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:53-INFO: ***** Running evaluation  *****
+00:56:53-INFO:   Num examples = 1500
+00:56:53-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.49it/s]
+00:56:59-INFO: ***** Eval results  *****
+00:56:59-INFO:   corr = 0.16409378719603612
+00:56:59-INFO:   pearson = 0.1647856788537768
+00:56:59-INFO:   spearmanr = 0.16340189553829546
+evaluation time: 5.954435348510742
+attention_head_mask ['6:1']
+['6', '1']
+00:56:59-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:56:59-INFO: ***** Running evaluation  *****
+00:56:59-INFO:   Num examples = 1500
+00:56:59-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.48it/s]
+00:57:05-INFO: ***** Eval results  *****
+00:57:05-INFO:   corr = 0.1570719553577523
+00:57:05-INFO:   pearson = 0.15703690741614196
+00:57:05-INFO:   spearmanr = 0.1571070032993627
+evaluation time: 5.954780578613281
+attention_head_mask ['6:2']
+['6', '2']
+00:57:05-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:05-INFO: ***** Running evaluation  *****
+00:57:05-INFO:   Num examples = 1500
+00:57:05-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.67it/s]
+00:57:11-INFO: ***** Eval results  *****
+00:57:11-INFO:   corr = 0.15278615281013339
+00:57:11-INFO:   pearson = 0.1517263302324353
+00:57:11-INFO:   spearmanr = 0.15384597538783146
+evaluation time: 5.908651828765869
+attention_head_mask ['6:3']
+['6', '3']
+00:57:11-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:11-INFO: ***** Running evaluation  *****
+00:57:11-INFO:   Num examples = 1500
+00:57:11-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.71it/s]
+00:57:17-INFO: ***** Eval results  *****
+00:57:17-INFO:   corr = 0.12613730164270226
+00:57:17-INFO:   pearson = 0.1274647183313286
+00:57:17-INFO:   spearmanr = 0.12480988495407594
+evaluation time: 5.90421724319458
+attention_head_mask ['6:4']
+['6', '4']
+00:57:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:17-INFO: ***** Running evaluation  *****
+00:57:17-INFO:   Num examples = 1500
+00:57:17-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.81it/s]
+00:57:23-INFO: ***** Eval results  *****
+00:57:23-INFO:   corr = 0.11785515475594771
+00:57:23-INFO:   pearson = 0.11677755138426403
+00:57:23-INFO:   spearmanr = 0.11893275812763139
+evaluation time: 5.876175880432129
+attention_head_mask ['6:5']
+['6', '5']
+00:57:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:23-INFO: ***** Running evaluation  *****
+00:57:23-INFO:   Num examples = 1500
+00:57:23-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.83it/s]
+00:57:29-INFO: ***** Eval results  *****
+00:57:29-INFO:   corr = 0.10907092960423184
+00:57:29-INFO:   pearson = 0.10629860319861621
+00:57:29-INFO:   spearmanr = 0.11184325600984746
+evaluation time: 5.88971734046936
+attention_head_mask ['6:6']
+['6', '6']
+00:57:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:29-INFO: ***** Running evaluation  *****
+00:57:29-INFO:   Num examples = 1500
+00:57:29-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 33.08it/s]
+00:57:34-INFO: ***** Eval results  *****
+00:57:34-INFO:   corr = 0.10376102140886036
+00:57:34-INFO:   pearson = 0.10156368509140347
+00:57:34-INFO:   spearmanr = 0.10595835772631725
+evaluation time: 5.837747812271118
+attention_head_mask ['6:7']
+['6', '7']
+00:57:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:35-INFO: ***** Running evaluation  *****
+00:57:35-INFO:   Num examples = 1500
+00:57:35-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 33.22it/s]
+00:57:40-INFO: ***** Eval results  *****
+00:57:40-INFO:   corr = 0.1006095686148033
+00:57:40-INFO:   pearson = 0.09905819395144859
+00:57:40-INFO:   spearmanr = 0.10216094327815803
+evaluation time: 5.814564943313599
+attention_head_mask ['6:8']
+['6', '8']
+00:57:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:40-INFO: ***** Running evaluation  *****
+00:57:40-INFO:   Num examples = 1500
+00:57:40-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.78it/s]
+00:57:46-INFO: ***** Eval results  *****
+00:57:46-INFO:   corr = 0.08401511431882028
+00:57:46-INFO:   pearson = 0.07938106077713707
+00:57:46-INFO:   spearmanr = 0.08864916786050349
+evaluation time: 5.898407459259033
+attention_head_mask ['6:9']
+['6', '9']
+00:57:46-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:46-INFO: ***** Running evaluation  *****
+00:57:46-INFO:   Num examples = 1500
+00:57:46-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.88it/s]
+00:57:52-INFO: ***** Eval results  *****
+00:57:52-INFO:   corr = 0.07998815261695649
+00:57:52-INFO:   pearson = 0.07643421280885483
+00:57:52-INFO:   spearmanr = 0.08354209242505814
+evaluation time: 5.884760618209839
+attention_head_mask ['6:10']
+['6', '10']
+00:57:52-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:52-INFO: ***** Running evaluation  *****
+00:57:52-INFO:   Num examples = 1500
+00:57:52-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 33.35it/s]
+00:57:58-INFO: ***** Eval results  *****
+00:57:58-INFO:   corr = 0.09137385402708731
+00:57:58-INFO:   pearson = 0.08688091066396349
+00:57:58-INFO:   spearmanr = 0.09586679739021113
+evaluation time: 5.787782192230225
+attention_head_mask ['6:11']
+['6', '11']
+00:57:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:57:58-INFO: ***** Running evaluation  *****
+00:57:58-INFO:   Num examples = 1500
+00:57:58-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 33.51it/s]
+00:58:04-INFO: ***** Eval results  *****
+00:58:04-INFO:   corr = 0.11226150075737593
+00:58:04-INFO:   pearson = 0.10591664930603673
+00:58:04-INFO:   spearmanr = 0.11860635220871513
+evaluation time: 5.777519464492798
+attention_head_mask ['6:12']
+['6', '12']
+00:58:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:04-INFO: ***** Running evaluation  *****
+00:58:04-INFO:   Num examples = 1500
+00:58:04-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 33.63it/s]
+00:58:09-INFO: ***** Eval results  *****
+00:58:09-INFO:   corr = 0.12448462546743044
+00:58:09-INFO:   pearson = 0.1190433695721665
+00:58:09-INFO:   spearmanr = 0.12992588136269437
+evaluation time: 5.739996671676636
+attention_head_mask ['7:1']
+['7', '1']
+00:58:09-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:10-INFO: ***** Running evaluation  *****
+00:58:10-INFO:   Num examples = 1500
+00:58:10-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 33.87it/s]
+00:58:15-INFO: ***** Eval results  *****
+00:58:15-INFO:   corr = 0.1320804154808241
+00:58:15-INFO:   pearson = 0.12790712216282626
+00:58:15-INFO:   spearmanr = 0.13625370879882195
+evaluation time: 5.728585243225098
+attention_head_mask ['7:2']
+['7', '2']
+00:58:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:15-INFO: ***** Running evaluation  *****
+00:58:15-INFO:   Num examples = 1500
+00:58:15-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.05it/s]
+00:58:21-INFO: ***** Eval results  *****
+00:58:21-INFO:   corr = 0.12621433814162597
+00:58:21-INFO:   pearson = 0.12235110976263207
+00:58:21-INFO:   spearmanr = 0.13007756652061989
+evaluation time: 5.700700283050537
+attention_head_mask ['7:3']
+['7', '3']
+00:58:21-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:21-INFO: ***** Running evaluation  *****
+00:58:21-INFO:   Num examples = 1500
+00:58:21-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.04it/s]
+00:58:27-INFO: ***** Eval results  *****
+00:58:27-INFO:   corr = 0.1206088408043749
+00:58:27-INFO:   pearson = 0.11541659668326101
+00:58:27-INFO:   spearmanr = 0.12580108492548878
+evaluation time: 5.692434310913086
+attention_head_mask ['7:4']
+['7', '4']
+00:58:27-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:27-INFO: ***** Running evaluation  *****
+00:58:27-INFO:   Num examples = 1500
+00:58:27-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.15it/s]
+00:58:32-INFO: ***** Eval results  *****
+00:58:32-INFO:   corr = 0.11997739068840033
+00:58:32-INFO:   pearson = 0.11342908563160961
+00:58:32-INFO:   spearmanr = 0.12652569574519104
+evaluation time: 5.654751539230347
+attention_head_mask ['7:5']
+['7', '5']
+00:58:32-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:32-INFO: ***** Running evaluation  *****
+00:58:32-INFO:   Num examples = 1500
+00:58:32-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.16it/s]
+00:58:38-INFO: ***** Eval results  *****
+00:58:38-INFO:   corr = 0.12269029089517758
+00:58:38-INFO:   pearson = 0.11849141248504165
+00:58:38-INFO:   spearmanr = 0.1268891693053135
+evaluation time: 5.660262584686279
+attention_head_mask ['7:6']
+['7', '6']
+00:58:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:38-INFO: ***** Running evaluation  *****
+00:58:38-INFO:   Num examples = 1500
+00:58:38-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.52it/s]
+00:58:44-INFO: ***** Eval results  *****
+00:58:44-INFO:   corr = 0.12835047540054145
+00:58:44-INFO:   pearson = 0.1256052252157363
+00:58:44-INFO:   spearmanr = 0.1310957255853466
+evaluation time: 5.607578754425049
+attention_head_mask ['7:7']
+['7', '7']
+00:58:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:44-INFO: ***** Running evaluation  *****
+00:58:44-INFO:   Num examples = 1500
+00:58:44-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.61it/s]
+00:58:49-INFO: ***** Eval results  *****
+00:58:49-INFO:   corr = 0.12868747621236137
+00:58:49-INFO:   pearson = 0.1273083271927826
+00:58:49-INFO:   spearmanr = 0.13006662523194013
+evaluation time: 5.604795455932617
+attention_head_mask ['7:8']
+['7', '8']
+00:58:49-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:49-INFO: ***** Running evaluation  *****
+00:58:49-INFO:   Num examples = 1500
+00:58:49-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.74it/s]
+00:58:55-INFO: ***** Eval results  *****
+00:58:55-INFO:   corr = 0.1438550987614414
+00:58:55-INFO:   pearson = 0.14019916943624341
+00:58:55-INFO:   spearmanr = 0.14751102808663938
+evaluation time: 5.578053951263428
+attention_head_mask ['7:9']
+['7', '9']
+00:58:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:58:55-INFO: ***** Running evaluation  *****
+00:58:55-INFO:   Num examples = 1500
+00:58:55-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.85it/s]
+00:59:00-INFO: ***** Eval results  *****
+00:59:00-INFO:   corr = 0.18379835549034468
+00:59:00-INFO:   pearson = 0.1805733780109935
+00:59:00-INFO:   spearmanr = 0.1870233329696959
+evaluation time: 5.549210786819458
+attention_head_mask ['7:10']
+['7', '10']
+00:59:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:01-INFO: ***** Running evaluation  *****
+00:59:01-INFO:   Num examples = 1500
+00:59:01-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.82it/s]
+00:59:06-INFO: ***** Eval results  *****
+00:59:06-INFO:   corr = 0.1841999986309611
+00:59:06-INFO:   pearson = 0.18019353480571484
+00:59:06-INFO:   spearmanr = 0.18820646245620737
+evaluation time: 5.568685293197632
+attention_head_mask ['7:11']
+['7', '11']
+00:59:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:06-INFO: ***** Running evaluation  *****
+00:59:06-INFO:   Num examples = 1500
+00:59:06-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.39it/s]
+00:59:12-INFO: ***** Eval results  *****
+00:59:12-INFO:   corr = 0.18648183311612332
+00:59:12-INFO:   pearson = 0.18128713270867347
+00:59:12-INFO:   spearmanr = 0.19167653352357314
+evaluation time: 5.628086090087891
+attention_head_mask ['7:12']
+['7', '12']
+00:59:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:12-INFO: ***** Running evaluation  *****
+00:59:12-INFO:   Num examples = 1500
+00:59:12-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 34.48it/s]
+00:59:17-INFO: ***** Eval results  *****
+00:59:17-INFO:   corr = 0.1970377739264585
+00:59:17-INFO:   pearson = 0.19172355073626693
+00:59:17-INFO:   spearmanr = 0.20235199711665006
+evaluation time: 5.617927312850952
+attention_head_mask ['8:1']
+['8', '1']
+00:59:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:17-INFO: ***** Running evaluation  *****
+00:59:17-INFO:   Num examples = 1500
+00:59:17-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 35.09it/s]
+00:59:23-INFO: ***** Eval results  *****
+00:59:23-INFO:   corr = 0.2065527605001548
+00:59:23-INFO:   pearson = 0.20150892142666896
+00:59:23-INFO:   spearmanr = 0.21159659957364066
+evaluation time: 5.531188249588013
+attention_head_mask ['8:2']
+['8', '2']
+00:59:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:23-INFO: ***** Running evaluation  *****
+00:59:23-INFO:   Num examples = 1500
+00:59:23-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 35.36it/s]
+00:59:28-INFO: ***** Eval results  *****
+00:59:28-INFO:   corr = 0.2074139116054754
+00:59:28-INFO:   pearson = 0.20365416165122813
+00:59:28-INFO:   spearmanr = 0.21117366155972267
+evaluation time: 5.486194133758545
+attention_head_mask ['8:3']
+['8', '3']
+00:59:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:28-INFO: ***** Running evaluation  *****
+00:59:28-INFO:   Num examples = 1500
+00:59:28-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 35.43it/s]
+00:59:34-INFO: ***** Eval results  *****
+00:59:34-INFO:   corr = 0.19117081917279086
+00:59:34-INFO:   pearson = 0.1873331854361698
+00:59:34-INFO:   spearmanr = 0.1950084529094119
+evaluation time: 5.462425947189331
+attention_head_mask ['8:4']
+['8', '4']
+00:59:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:34-INFO: ***** Running evaluation  *****
+00:59:34-INFO:   Num examples = 1500
+00:59:34-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 35.60it/s]
+00:59:39-INFO: ***** Eval results  *****
+00:59:39-INFO:   corr = 0.1790402546063652
+00:59:39-INFO:   pearson = 0.17557894570625723
+00:59:39-INFO:   spearmanr = 0.18250156350647317
+evaluation time: 5.4307310581207275
+attention_head_mask ['8:5']
+['8', '5']
+00:59:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:39-INFO: ***** Running evaluation  *****
+00:59:39-INFO:   Num examples = 1500
+00:59:39-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 35.59it/s]
+00:59:45-INFO: ***** Eval results  *****
+00:59:45-INFO:   corr = 0.18317164028423294
+00:59:45-INFO:   pearson = 0.18068904762931784
+00:59:45-INFO:   spearmanr = 0.18565423293914807
+evaluation time: 5.460701942443848
+attention_head_mask ['8:6']
+['8', '6']
+00:59:45-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:45-INFO: ***** Running evaluation  *****
+00:59:45-INFO:   Num examples = 1500
+00:59:45-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 35.92it/s]
+00:59:50-INFO: ***** Eval results  *****
+00:59:50-INFO:   corr = 0.20781164270396596
+00:59:50-INFO:   pearson = 0.20717968693244537
+00:59:50-INFO:   spearmanr = 0.20844359847548655
+evaluation time: 5.392590761184692
+attention_head_mask ['8:7']
+['8', '7']
+00:59:50-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:50-INFO: ***** Running evaluation  *****
+00:59:50-INFO:   Num examples = 1500
+00:59:50-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.12it/s]
+00:59:55-INFO: ***** Eval results  *****
+00:59:55-INFO:   corr = 0.2168950649233067
+00:59:55-INFO:   pearson = 0.2160335046750357
+00:59:55-INFO:   spearmanr = 0.2177566251715777
+evaluation time: 5.3514299392700195
+attention_head_mask ['8:8']
+['8', '8']
+00:59:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+00:59:56-INFO: ***** Running evaluation  *****
+00:59:56-INFO:   Num examples = 1500
+00:59:56-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.18it/s]
+01:00:01-INFO: ***** Eval results  *****
+01:00:01-INFO:   corr = 0.21128060266998688
+01:00:01-INFO:   pearson = 0.21107946527610177
+01:00:01-INFO:   spearmanr = 0.21148174006387202
+evaluation time: 5.524373769760132
+attention_head_mask ['8:9']
+['8', '9']
+01:00:01-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:01-INFO: ***** Running evaluation  *****
+01:00:01-INFO:   Num examples = 1500
+01:00:01-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.16it/s]
+01:00:06-INFO: ***** Eval results  *****
+01:00:06-INFO:   corr = 0.2362260643303109
+01:00:06-INFO:   pearson = 0.23657404772917448
+01:00:06-INFO:   spearmanr = 0.23587808093144733
+evaluation time: 5.375571250915527
+attention_head_mask ['8:10']
+['8', '10']
+01:00:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:06-INFO: ***** Running evaluation  *****
+01:00:06-INFO:   Num examples = 1500
+01:00:06-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.43it/s]
+01:00:12-INFO: ***** Eval results  *****
+01:00:12-INFO:   corr = 0.24731808129297891
+01:00:12-INFO:   pearson = 0.24878034701076218
+01:00:12-INFO:   spearmanr = 0.24585581557519565
+evaluation time: 5.321208238601685
+attention_head_mask ['8:11']
+['8', '11']
+01:00:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:12-INFO: ***** Running evaluation  *****
+01:00:12-INFO:   Num examples = 1500
+01:00:12-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.51it/s]
+01:00:17-INFO: ***** Eval results  *****
+01:00:17-INFO:   corr = 0.2637790276043406
+01:00:17-INFO:   pearson = 0.2646651409210724
+01:00:17-INFO:   spearmanr = 0.2628929142876088
+evaluation time: 5.320946931838989
+attention_head_mask ['8:12']
+['8', '12']
+01:00:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:17-INFO: ***** Running evaluation  *****
+01:00:17-INFO:   Num examples = 1500
+01:00:17-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.80it/s]
+01:00:22-INFO: ***** Eval results  *****
+01:00:22-INFO:   corr = 0.2821987779487925
+01:00:22-INFO:   pearson = 0.28221338810050084
+01:00:22-INFO:   spearmanr = 0.28218416779708416
+evaluation time: 5.262132883071899
+attention_head_mask ['9:1']
+['9', '1']
+01:00:22-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:22-INFO: ***** Running evaluation  *****
+01:00:22-INFO:   Num examples = 1500
+01:00:22-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.83it/s]
+01:00:28-INFO: ***** Eval results  *****
+01:00:28-INFO:   corr = 0.285859697068306
+01:00:28-INFO:   pearson = 0.28808089081759514
+01:00:28-INFO:   spearmanr = 0.28363850331901685
+evaluation time: 5.252777814865112
+attention_head_mask ['9:2']
+['9', '2']
+01:00:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:28-INFO: ***** Running evaluation  *****
+01:00:28-INFO:   Num examples = 1500
+01:00:28-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.78it/s]
+01:00:33-INFO: ***** Eval results  *****
+01:00:33-INFO:   corr = 0.2715709692196552
+01:00:33-INFO:   pearson = 0.2726558107332401
+01:00:33-INFO:   spearmanr = 0.27048612770607033
+evaluation time: 5.286259889602661
+attention_head_mask ['9:3']
+['9', '3']
+01:00:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:33-INFO: ***** Running evaluation  *****
+01:00:33-INFO:   Num examples = 1500
+01:00:33-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.29it/s]
+01:00:38-INFO: ***** Eval results  *****
+01:00:38-INFO:   corr = 0.2426743718353322
+01:00:38-INFO:   pearson = 0.24494266317311505
+01:00:38-INFO:   spearmanr = 0.24040608049754933
+evaluation time: 5.338489294052124
+attention_head_mask ['9:4']
+['9', '4']
+01:00:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:38-INFO: ***** Running evaluation  *****
+01:00:38-INFO:   Num examples = 1500
+01:00:38-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 36.82it/s]
+01:00:43-INFO: ***** Eval results  *****
+01:00:43-INFO:   corr = 0.25372549112298914
+01:00:43-INFO:   pearson = 0.25549861108601873
+01:00:43-INFO:   spearmanr = 0.2519523711599596
+evaluation time: 5.278881788253784
+attention_head_mask ['9:5']
+['9', '5']
+01:00:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:44-INFO: ***** Running evaluation  *****
+01:00:44-INFO:   Num examples = 1500
+01:00:44-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 37.22it/s]
+01:00:49-INFO: ***** Eval results  *****
+01:00:49-INFO:   corr = 0.23626730258284717
+01:00:49-INFO:   pearson = 0.23872880879032946
+01:00:49-INFO:   spearmanr = 0.2338057963753649
+evaluation time: 5.200287103652954
+attention_head_mask ['9:6']
+['9', '6']
+01:00:49-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:49-INFO: ***** Running evaluation  *****
+01:00:49-INFO:   Num examples = 1500
+01:00:49-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 37.46it/s]
+01:00:54-INFO: ***** Eval results  *****
+01:00:54-INFO:   corr = 0.2254545285595131
+01:00:54-INFO:   pearson = 0.22806877541877063
+01:00:54-INFO:   spearmanr = 0.22284028170025552
+evaluation time: 5.180516004562378
+attention_head_mask ['9:7']
+['9', '7']
+01:00:54-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:54-INFO: ***** Running evaluation  *****
+01:00:54-INFO:   Num examples = 1500
+01:00:54-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 37.63it/s]
+01:00:59-INFO: ***** Eval results  *****
+01:00:59-INFO:   corr = 0.21339694071371007
+01:00:59-INFO:   pearson = 0.21688917785108267
+01:00:59-INFO:   spearmanr = 0.20990470357633745
+evaluation time: 5.164729833602905
+attention_head_mask ['9:8']
+['9', '8']
+01:00:59-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:00:59-INFO: ***** Running evaluation  *****
+01:00:59-INFO:   Num examples = 1500
+01:00:59-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 37.79it/s]
+01:01:04-INFO: ***** Eval results  *****
+01:01:04-INFO:   corr = 0.25219827266264777
+01:01:04-INFO:   pearson = 0.2565245453050187
+01:01:04-INFO:   spearmanr = 0.2478720000202768
+evaluation time: 5.135101079940796
+attention_head_mask ['9:9']
+['9', '9']
+01:01:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:04-INFO: ***** Running evaluation  *****
+01:01:04-INFO:   Num examples = 1500
+01:01:04-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 37.92it/s]
+01:01:09-INFO: ***** Eval results  *****
+01:01:09-INFO:   corr = 0.4436727182045014
+01:01:09-INFO:   pearson = 0.43367975678143256
+01:01:09-INFO:   spearmanr = 0.4536656796275702
+evaluation time: 5.124957084655762
+attention_head_mask ['9:10']
+['9', '10']
+01:01:09-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:10-INFO: ***** Running evaluation  *****
+01:01:10-INFO:   Num examples = 1500
+01:01:10-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.02it/s]
+01:01:14-INFO: ***** Eval results  *****
+01:01:14-INFO:   corr = 0.4577839098740403
+01:01:14-INFO:   pearson = 0.44623697670208584
+01:01:14-INFO:   spearmanr = 0.4693308430459947
+evaluation time: 5.106987953186035
+attention_head_mask ['9:11']
+['9', '11']
+01:01:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:15-INFO: ***** Running evaluation  *****
+01:01:15-INFO:   Num examples = 1500
+01:01:15-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.16it/s]
+01:01:20-INFO: ***** Eval results  *****
+01:01:20-INFO:   corr = 0.44721652749795443
+01:01:20-INFO:   pearson = 0.43633542431842337
+01:01:20-INFO:   spearmanr = 0.4580976306774855
+evaluation time: 5.094794988632202
+attention_head_mask ['9:12']
+['9', '12']
+01:01:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:20-INFO: ***** Running evaluation  *****
+01:01:20-INFO:   Num examples = 1500
+01:01:20-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.44it/s]
+01:01:25-INFO: ***** Eval results  *****
+01:01:25-INFO:   corr = 0.4571632762104912
+01:01:25-INFO:   pearson = 0.44461815217526524
+01:01:25-INFO:   spearmanr = 0.46970840024571714
+evaluation time: 5.207415342330933
+attention_head_mask ['10:1']
+['10', '1']
+01:01:25-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:25-INFO: ***** Running evaluation  *****
+01:01:25-INFO:   Num examples = 1500
+01:01:25-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.59it/s]
+01:01:30-INFO: ***** Eval results  *****
+01:01:30-INFO:   corr = 0.4578689124976518
+01:01:30-INFO:   pearson = 0.44491505921285823
+01:01:30-INFO:   spearmanr = 0.4708227657824454
+evaluation time: 5.038514852523804
+attention_head_mask ['10:2']
+['10', '2']
+01:01:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:30-INFO: ***** Running evaluation  *****
+01:01:30-INFO:   Num examples = 1500
+01:01:30-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.72it/s]
+01:01:35-INFO: ***** Eval results  *****
+01:01:35-INFO:   corr = 0.4487244250490188
+01:01:35-INFO:   pearson = 0.43627708562919426
+01:01:35-INFO:   spearmanr = 0.4611717644688434
+evaluation time: 5.004258632659912
+attention_head_mask ['10:3']
+['10', '3']
+01:01:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:35-INFO: ***** Running evaluation  *****
+01:01:35-INFO:   Num examples = 1500
+01:01:35-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.84it/s]
+01:01:40-INFO: ***** Eval results  *****
+01:01:40-INFO:   corr = 0.4772368581371029
+01:01:40-INFO:   pearson = 0.46539072260392256
+01:01:40-INFO:   spearmanr = 0.48908299367028335
+evaluation time: 5.021242380142212
+attention_head_mask ['10:4']
+['10', '4']
+01:01:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:40-INFO: ***** Running evaluation  *****
+01:01:40-INFO:   Num examples = 1500
+01:01:40-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.96it/s]
+01:01:45-INFO: ***** Eval results  *****
+01:01:45-INFO:   corr = 0.4664028182183316
+01:01:45-INFO:   pearson = 0.4552260296983234
+01:01:45-INFO:   spearmanr = 0.4775796067383399
+evaluation time: 4.981405258178711
+attention_head_mask ['10:5']
+['10', '5']
+01:01:45-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:45-INFO: ***** Running evaluation  *****
+01:01:45-INFO:   Num examples = 1500
+01:01:45-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 39.04it/s]
+01:01:50-INFO: ***** Eval results  *****
+01:01:50-INFO:   corr = 0.47116729047565487
+01:01:50-INFO:   pearson = 0.4594547486004634
+01:01:50-INFO:   spearmanr = 0.48287983235084636
+evaluation time: 4.993895053863525
+attention_head_mask ['10:6']
+['10', '6']
+01:01:50-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:50-INFO: ***** Running evaluation  *****
+01:01:50-INFO:   Num examples = 1500
+01:01:50-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 39.30it/s]
+01:01:55-INFO: ***** Eval results  *****
+01:01:55-INFO:   corr = 0.5079356019130429
+01:01:55-INFO:   pearson = 0.4906792439875775
+01:01:55-INFO:   spearmanr = 0.5251919598385083
+evaluation time: 4.952400207519531
+attention_head_mask ['10:7']
+['10', '7']
+01:01:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:01:55-INFO: ***** Running evaluation  *****
+01:01:55-INFO:   Num examples = 1500
+01:01:55-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.83it/s]
+01:02:00-INFO: ***** Eval results  *****
+01:02:00-INFO:   corr = 0.5053455888680478
+01:02:00-INFO:   pearson = 0.4903205343878034
+01:02:00-INFO:   spearmanr = 0.5203706433482922
+evaluation time: 4.993822813034058
+attention_head_mask ['10:8']
+['10', '8']
+01:02:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:00-INFO: ***** Running evaluation  *****
+01:02:00-INFO:   Num examples = 1500
+01:02:00-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 38.97it/s]
+01:02:05-INFO: ***** Eval results  *****
+01:02:05-INFO:   corr = 0.4981233617872781
+01:02:05-INFO:   pearson = 0.4824703107497991
+01:02:05-INFO:   spearmanr = 0.5137764128247572
+evaluation time: 5.001974821090698
+attention_head_mask ['10:9']
+['10', '9']
+01:02:05-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:05-INFO: ***** Running evaluation  *****
+01:02:05-INFO:   Num examples = 1500
+01:02:05-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 39.72it/s]
+01:02:10-INFO: ***** Eval results  *****
+01:02:10-INFO:   corr = 0.3800548464695058
+01:02:10-INFO:   pearson = 0.36926099651131244
+01:02:10-INFO:   spearmanr = 0.3908486964276992
+evaluation time: 4.8981239795684814
+attention_head_mask ['10:10']
+['10', '10']
+01:02:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:10-INFO: ***** Running evaluation  *****
+01:02:10-INFO:   Num examples = 1500
+01:02:10-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 39.93it/s]
+01:02:15-INFO: ***** Eval results  *****
+01:02:15-INFO:   corr = 0.3806793271846379
+01:02:15-INFO:   pearson = 0.370474167881322
+01:02:15-INFO:   spearmanr = 0.39088448648795376
+evaluation time: 4.856353044509888
+attention_head_mask ['10:11']
+['10', '11']
+01:02:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:15-INFO: ***** Running evaluation  *****
+01:02:15-INFO:   Num examples = 1500
+01:02:15-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 40.02it/s]
+01:02:20-INFO: ***** Eval results  *****
+01:02:20-INFO:   corr = 0.4071715981711171
+01:02:20-INFO:   pearson = 0.39586811788450676
+01:02:20-INFO:   spearmanr = 0.4184750784577274
+evaluation time: 4.864999294281006
+attention_head_mask ['10:12']
+['10', '12']
+01:02:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:20-INFO: ***** Running evaluation  *****
+01:02:20-INFO:   Num examples = 1500
+01:02:20-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 40.36it/s]
+01:02:24-INFO: ***** Eval results  *****
+01:02:24-INFO:   corr = 0.3866707161360199
+01:02:24-INFO:   pearson = 0.37062399278869934
+01:02:24-INFO:   spearmanr = 0.4027174394833404
+evaluation time: 4.833674669265747
+attention_head_mask ['11:1']
+['11', '1']
+01:02:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:25-INFO: ***** Running evaluation  *****
+01:02:25-INFO:   Num examples = 1500
+01:02:25-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 40.40it/s]
+01:02:29-INFO: ***** Eval results  *****
+01:02:29-INFO:   corr = 0.3681273600394307
+01:02:29-INFO:   pearson = 0.349644727640185
+01:02:29-INFO:   spearmanr = 0.38660999243867644
+evaluation time: 4.797935962677002
+attention_head_mask ['11:2']
+['11', '2']
+01:02:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:29-INFO: ***** Running evaluation  *****
+01:02:29-INFO:   Num examples = 1500
+01:02:29-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 40.65it/s]
+01:02:34-INFO: ***** Eval results  *****
+01:02:34-INFO:   corr = 0.37091903628640005
+01:02:34-INFO:   pearson = 0.3524258856858276
+01:02:34-INFO:   spearmanr = 0.3894121868869725
+evaluation time: 4.793533563613892
+attention_head_mask ['11:3']
+['11', '3']
+01:02:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:34-INFO: ***** Running evaluation  *****
+01:02:34-INFO:   Num examples = 1500
+01:02:34-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 40.52it/s]
+01:02:39-INFO: ***** Eval results  *****
+01:02:39-INFO:   corr = 0.3611227999014802
+01:02:39-INFO:   pearson = 0.3446046028697545
+01:02:39-INFO:   spearmanr = 0.37764099693320596
+evaluation time: 4.7891387939453125
+attention_head_mask ['11:4']
+['11', '4']
+01:02:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:39-INFO: ***** Running evaluation  *****
+01:02:39-INFO:   Num examples = 1500
+01:02:39-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 40.81it/s]
+01:02:44-INFO: ***** Eval results  *****
+01:02:44-INFO:   corr = 0.34775815209371336
+01:02:44-INFO:   pearson = 0.33096857606486374
+01:02:44-INFO:   spearmanr = 0.364547728122563
+evaluation time: 4.770078182220459
+attention_head_mask ['11:5']
+['11', '5']
+01:02:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:44-INFO: ***** Running evaluation  *****
+01:02:44-INFO:   Num examples = 1500
+01:02:44-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 40.90it/s]
+01:02:48-INFO: ***** Eval results  *****
+01:02:48-INFO:   corr = 0.3589517557654254
+01:02:48-INFO:   pearson = 0.3403364324624416
+01:02:48-INFO:   spearmanr = 0.37756707906840914
+evaluation time: 4.745331287384033
+attention_head_mask ['11:6']
+['11', '6']
+01:02:48-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:49-INFO: ***** Running evaluation  *****
+01:02:49-INFO:   Num examples = 1500
+01:02:49-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 41.24it/s]
+01:02:53-INFO: ***** Eval results  *****
+01:02:53-INFO:   corr = 0.3641019744716285
+01:02:53-INFO:   pearson = 0.34548025989484926
+01:02:53-INFO:   spearmanr = 0.38272368904840776
+evaluation time: 4.707147121429443
+attention_head_mask ['11:7']
+['11', '7']
+01:02:53-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:53-INFO: ***** Running evaluation  *****
+01:02:53-INFO:   Num examples = 1500
+01:02:53-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 41.49it/s]
+01:02:58-INFO: ***** Eval results  *****
+01:02:58-INFO:   corr = 0.37308951166416016
+01:02:58-INFO:   pearson = 0.35405840787452053
+01:02:58-INFO:   spearmanr = 0.3921206154537997
+evaluation time: 4.680315971374512
+attention_head_mask ['11:8']
+['11', '8']
+01:02:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:02:58-INFO: ***** Running evaluation  *****
+01:02:58-INFO:   Num examples = 1500
+01:02:58-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 41.59it/s]
+01:03:02-INFO: ***** Eval results  *****
+01:03:02-INFO:   corr = 0.3775223544689121
+01:03:02-INFO:   pearson = 0.3574343726185387
+01:03:02-INFO:   spearmanr = 0.39761033631928544
+evaluation time: 4.687441110610962
+attention_head_mask ['11:9']
+['11', '9']
+01:03:03-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:03-INFO: ***** Running evaluation  *****
+01:03:03-INFO:   Num examples = 1500
+01:03:03-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 41.65it/s]
+01:03:07-INFO: ***** Eval results  *****
+01:03:07-INFO:   corr = 0.35309117668376494
+01:03:07-INFO:   pearson = 0.33333262841984695
+01:03:07-INFO:   spearmanr = 0.3728497249476829
+evaluation time: 4.66510009765625
+attention_head_mask ['11:10']
+['11', '10']
+01:03:07-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:07-INFO: ***** Running evaluation  *****
+01:03:07-INFO:   Num examples = 1500
+01:03:07-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 41.90it/s]
+01:03:12-INFO: ***** Eval results  *****
+01:03:12-INFO:   corr = 0.3550713597956352
+01:03:12-INFO:   pearson = 0.33446394820976133
+01:03:12-INFO:   spearmanr = 0.37567877138150907
+evaluation time: 4.647489547729492
+attention_head_mask ['11:11']
+['11', '11']
+01:03:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:12-INFO: ***** Running evaluation  *****
+01:03:12-INFO:   Num examples = 1500
+01:03:12-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 42.08it/s]
+01:03:16-INFO: ***** Eval results  *****
+01:03:16-INFO:   corr = 0.08671022742534604
+01:03:16-INFO:   pearson = 0.0756169390438019
+01:03:16-INFO:   spearmanr = 0.09780351580689017
+evaluation time: 4.626565456390381
+attention_head_mask ['11:12']
+['11', '12']
+01:03:16-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:17-INFO: ***** Running evaluation  *****
+01:03:17-INFO:   Num examples = 1500
+01:03:17-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 42.26it/s]
+01:03:21-INFO: ***** Eval results  *****
+01:03:21-INFO:   corr = 0.08767686375872497
+01:03:21-INFO:   pearson = 0.07898341554533014
+01:03:21-INFO:   spearmanr = 0.09637031197211979
+evaluation time: 4.595427513122559
+attention_head_mask ['12:1']
+['12', '1']
+01:03:21-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:21-INFO: ***** Running evaluation  *****
+01:03:21-INFO:   Num examples = 1500
+01:03:21-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 41.66it/s]
+01:03:26-INFO: ***** Eval results  *****
+01:03:26-INFO:   corr = 0.08425373946564382
+01:03:26-INFO:   pearson = 0.07644171263058083
+01:03:26-INFO:   spearmanr = 0.0920657663007068
+evaluation time: 4.682652711868286
+attention_head_mask ['12:2']
+['12', '2']
+01:03:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:26-INFO: ***** Running evaluation  *****
+01:03:26-INFO:   Num examples = 1500
+01:03:26-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 41.81it/s]
+01:03:30-INFO: ***** Eval results  *****
+01:03:30-INFO:   corr = 0.08152206265165493
+01:03:30-INFO:   pearson = 0.07279391185534513
+01:03:30-INFO:   spearmanr = 0.09025021344796474
+evaluation time: 4.655045986175537
+attention_head_mask ['12:3']
+['12', '3']
+01:03:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:31-INFO: ***** Running evaluation  *****
+01:03:31-INFO:   Num examples = 1500
+01:03:31-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 42.63it/s]
+01:03:35-INFO: ***** Eval results  *****
+01:03:35-INFO:   corr = 0.08369138285686951
+01:03:35-INFO:   pearson = 0.07501323407911538
+01:03:35-INFO:   spearmanr = 0.09236953163462365
+evaluation time: 4.571112155914307
+attention_head_mask ['12:4']
+['12', '4']
+01:03:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:35-INFO: ***** Running evaluation  *****
+01:03:35-INFO:   Num examples = 1500
+01:03:35-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 42.84it/s]
+01:03:40-INFO: ***** Eval results  *****
+01:03:40-INFO:   corr = 0.09162965765868139
+01:03:40-INFO:   pearson = 0.08295782981728723
+01:03:40-INFO:   spearmanr = 0.10030148550007555
+evaluation time: 4.557871103286743
+attention_head_mask ['12:5']
+['12', '5']
+01:03:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:40-INFO: ***** Running evaluation  *****
+01:03:40-INFO:   Num examples = 1500
+01:03:40-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 42.90it/s]
+01:03:44-INFO: ***** Eval results  *****
+01:03:44-INFO:   corr = 0.08326160549021389
+01:03:44-INFO:   pearson = 0.07488115849488543
+01:03:44-INFO:   spearmanr = 0.09164205248554233
+evaluation time: 4.547144889831543
+attention_head_mask ['12:6']
+['12', '6']
+01:03:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:44-INFO: ***** Running evaluation  *****
+01:03:44-INFO:   Num examples = 1500
+01:03:44-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 43.42it/s]
+01:03:49-INFO: ***** Eval results  *****
+01:03:49-INFO:   corr = 0.08157639640712472
+01:03:49-INFO:   pearson = 0.07264320196331688
+01:03:49-INFO:   spearmanr = 0.09050959085093256
+evaluation time: 4.484347343444824
+attention_head_mask ['12:7']
+['12', '7']
+01:03:49-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:49-INFO: ***** Running evaluation  *****
+01:03:49-INFO:   Num examples = 1500
+01:03:49-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 43.70it/s]
+01:03:53-INFO: ***** Eval results  *****
+01:03:53-INFO:   corr = 0.07517030502583201
+01:03:53-INFO:   pearson = 0.07030921681399256
+01:03:53-INFO:   spearmanr = 0.08003139323767146
+evaluation time: 4.453812599182129
+attention_head_mask ['12:8']
+['12', '8']
+01:03:53-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:53-INFO: ***** Running evaluation  *****
+01:03:53-INFO:   Num examples = 1500
+01:03:53-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 43.82it/s]
+01:03:58-INFO: ***** Eval results  *****
+01:03:58-INFO:   corr = 0.07080968255936537
+01:03:58-INFO:   pearson = 0.06663982049198444
+01:03:58-INFO:   spearmanr = 0.07497954462674629
+evaluation time: 4.454914808273315
+attention_head_mask ['12:9']
+['12', '9']
+01:03:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:03:58-INFO: ***** Running evaluation  *****
+01:03:58-INFO:   Num examples = 1500
+01:03:58-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 44.00it/s]
+01:04:02-INFO: ***** Eval results  *****
+01:04:02-INFO:   corr = 0.1098728950053613
+01:04:02-INFO:   pearson = 0.10830027369826566
+01:04:02-INFO:   spearmanr = 0.11144551631245696
+evaluation time: 4.443072319030762
+attention_head_mask ['12:10']
+['12', '10']
+01:04:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:04:02-INFO: ***** Running evaluation  *****
+01:04:02-INFO:   Num examples = 1500
+01:04:02-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 44.05it/s]
+01:04:06-INFO: ***** Eval results  *****
+01:04:06-INFO:   corr = 0.07682370691209339
+01:04:06-INFO:   pearson = 0.07919145147548709
+01:04:06-INFO:   spearmanr = 0.07445596234869968
+evaluation time: 4.411098480224609
+attention_head_mask ['12:11']
+['12', '11']
+01:04:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:04:07-INFO: ***** Running evaluation  *****
+01:04:07-INFO:   Num examples = 1500
+01:04:07-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 44.35it/s]
+01:04:11-INFO: ***** Eval results  *****
+01:04:11-INFO:   corr = 0.061277759444985445
+01:04:11-INFO:   pearson = 0.06240847031787704
+01:04:11-INFO:   spearmanr = 0.06014704857209385
+evaluation time: 4.4093358516693115
+attention_head_mask ['12:12']
+['12', '12']
+01:04:11-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+01:04:11-INFO: ***** Running evaluation  *****
+01:04:11-INFO:   Num examples = 1500
+01:04:11-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:04<00:00, 44.11it/s]
+01:04:15-INFO: ***** Eval results  *****
+01:04:15-INFO:   corr = 0.06453266184952408
+01:04:15-INFO:   pearson = 0.0642542021683163
+01:04:15-INFO:   spearmanr = 0.06481112153073185
+evaluation time: 4.591372013092041

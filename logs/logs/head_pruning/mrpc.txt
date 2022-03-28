@@ -1,0 +1,2288 @@
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+19:25:22-INFO: device: cuda n_gpu: 1, distributed training: False, 16-bits training: False
+{'cola': <class 'classifier_data.ColaProcessor'>, 'mnli': <class 'classifier_data.MnliProcessor'>, 'mnli-mis': <class 'classifier_data.MnliMismatchedProcessor'>, 'mrpc': <class 'classifier_data.MrpcProcessor'>, 'sst-2': <class 'classifier_data.Sst2Processor'>}
+19:25:22-INFO: loading vocabulary file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt from cache at /root/.pytorch_pretrained_bert/26bc1ad6c0ac742e9b52263248f6d0f00068293b33709fae12320c0e35ccfbbb.542ce4285a40d23a559526243235df47c5f75c197f04f37d1a0c124c32c9a084
+19:25:22-INFO: LOOKING AT /content/drive/MyDrive/Bert_compression/GLUE_data/MRPC/train.tsv
+19:25:25-INFO: loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /root/.pytorch_pretrained_bert/distributed_-1/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+19:25:25-INFO: extracting archive file /root/.pytorch_pretrained_bert/distributed_-1/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmpin2wfypa
+19:25:29-INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+19:25:31-INFO: Weights of BertForSequenceClassification not initialized from pretrained model: ['classifier.weight', 'classifier.bias']
+19:25:31-INFO: Weights from pretrained model not used in BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+12 layer_list
+19:25:35-INFO: ***** Running training *****
+19:25:35-INFO:   Num examples = 3668
+19:25:35-INFO:   Batch size = 32
+19:25:35-INFO:   Num steps = 342.0
+Epoch:   0% 0/3 [00:00<?, ?it/s]
+Iteration:   0% 0/115 [00:00<?, ?it/s]/content/drive/MyDrive/Bert_compression/pytorch-pretrained-BERT/pytorch_pretrained_bert/optimization.py:144: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at  ../torch/csrc/utils/python_arg_parser.cpp:1050.)
+  next_m.mul_(beta1).add_(1 - beta1, grad)
+
+Iteration:   1% 1/115 [00:00<00:58,  1.95it/s]
+Iteration:   2% 2/115 [00:00<00:56,  2.01it/s]
+Iteration:   3% 3/115 [00:01<00:55,  2.03it/s]
+Iteration:   3% 4/115 [00:01<00:54,  2.05it/s]
+Iteration:   4% 5/115 [00:02<00:53,  2.05it/s]
+Iteration:   5% 6/115 [00:02<00:52,  2.06it/s]
+Iteration:   6% 7/115 [00:03<00:52,  2.06it/s]
+Iteration:   7% 8/115 [00:03<00:51,  2.07it/s]
+Iteration:   8% 9/115 [00:04<00:51,  2.07it/s]
+Iteration:   9% 10/115 [00:04<00:50,  2.07it/s]
+Iteration:  10% 11/115 [00:05<00:50,  2.07it/s]
+Iteration:  10% 12/115 [00:05<00:49,  2.07it/s]
+Iteration:  11% 13/115 [00:06<00:49,  2.06it/s]
+Iteration:  12% 14/115 [00:06<00:49,  2.06it/s]
+Iteration:  13% 15/115 [00:07<00:48,  2.06it/s]
+Iteration:  14% 16/115 [00:07<00:47,  2.06it/s]
+Iteration:  15% 17/115 [00:08<00:47,  2.06it/s]
+Iteration:  16% 18/115 [00:08<00:46,  2.06it/s]
+Iteration:  17% 19/115 [00:09<00:46,  2.07it/s]
+Iteration:  17% 20/115 [00:09<00:45,  2.07it/s]
+Iteration:  18% 21/115 [00:10<00:45,  2.06it/s]
+Iteration:  19% 22/115 [00:10<00:45,  2.06it/s]
+Iteration:  20% 23/115 [00:11<00:44,  2.06it/s]
+Iteration:  21% 24/115 [00:11<00:44,  2.07it/s]
+Iteration:  22% 25/115 [00:12<00:43,  2.05it/s]
+Iteration:  23% 26/115 [00:12<00:43,  2.06it/s]
+Iteration:  23% 27/115 [00:13<00:42,  2.06it/s]
+Iteration:  24% 28/115 [00:13<00:42,  2.07it/s]
+Iteration:  25% 29/115 [00:14<00:41,  2.07it/s]
+Iteration:  26% 30/115 [00:14<00:41,  2.07it/s]
+Iteration:  27% 31/115 [00:15<00:40,  2.07it/s]
+Iteration:  28% 32/115 [00:15<00:40,  2.06it/s]
+Iteration:  29% 33/115 [00:16<00:39,  2.06it/s]
+Iteration:  30% 34/115 [00:16<00:39,  2.05it/s]
+Iteration:  30% 35/115 [00:16<00:38,  2.05it/s]
+Iteration:  31% 36/115 [00:17<00:38,  2.06it/s]
+Iteration:  32% 37/115 [00:17<00:37,  2.06it/s]
+Iteration:  33% 38/115 [00:18<00:37,  2.07it/s]
+Iteration:  34% 39/115 [00:18<00:36,  2.07it/s]
+Iteration:  35% 40/115 [00:19<00:36,  2.07it/s]
+Iteration:  36% 41/115 [00:19<00:35,  2.06it/s]
+Iteration:  37% 42/115 [00:20<00:35,  2.06it/s]
+Iteration:  37% 43/115 [00:20<00:34,  2.06it/s]
+Iteration:  38% 44/115 [00:21<00:34,  2.06it/s]
+Iteration:  39% 45/115 [00:21<00:33,  2.06it/s]
+Iteration:  40% 46/115 [00:22<00:33,  2.06it/s]
+Iteration:  41% 47/115 [00:22<00:32,  2.06it/s]
+Iteration:  42% 48/115 [00:23<00:32,  2.07it/s]
+Iteration:  43% 49/115 [00:23<00:31,  2.06it/s]
+Iteration:  43% 50/115 [00:24<00:31,  2.07it/s]
+Iteration:  44% 51/115 [00:24<00:30,  2.07it/s]
+Iteration:  45% 52/115 [00:25<00:30,  2.07it/s]
+Iteration:  46% 53/115 [00:25<00:30,  2.05it/s]
+Iteration:  47% 54/115 [00:26<00:29,  2.06it/s]
+Iteration:  48% 55/115 [00:26<00:29,  2.06it/s]
+Iteration:  49% 56/115 [00:27<00:28,  2.06it/s]
+Iteration:  50% 57/115 [00:27<00:28,  2.06it/s]
+Iteration:  50% 58/115 [00:28<00:27,  2.05it/s]
+Iteration:  51% 59/115 [00:28<00:27,  2.05it/s]
+Iteration:  52% 60/115 [00:29<00:26,  2.06it/s]
+Iteration:  53% 61/115 [00:29<00:26,  2.06it/s]
+Iteration:  54% 62/115 [00:30<00:25,  2.06it/s]
+Iteration:  55% 63/115 [00:30<00:25,  2.06it/s]
+Iteration:  56% 64/115 [00:31<00:24,  2.06it/s]
+Iteration:  57% 65/115 [00:31<00:24,  2.07it/s]
+Iteration:  57% 66/115 [00:32<00:23,  2.07it/s]
+Iteration:  58% 67/115 [00:32<00:23,  2.06it/s]
+Iteration:  59% 68/115 [00:32<00:22,  2.06it/s]
+Iteration:  60% 69/115 [00:33<00:22,  2.06it/s]
+Iteration:  61% 70/115 [00:33<00:21,  2.06it/s]
+Iteration:  62% 71/115 [00:34<00:21,  2.06it/s]
+Iteration:  63% 72/115 [00:34<00:20,  2.06it/s]
+Iteration:  63% 73/115 [00:35<00:20,  2.06it/s]
+Iteration:  64% 74/115 [00:35<00:19,  2.05it/s]
+Iteration:  65% 75/115 [00:36<00:19,  2.06it/s]
+Iteration:  66% 76/115 [00:36<00:19,  2.05it/s]
+Iteration:  67% 77/115 [00:37<00:18,  2.05it/s]
+Iteration:  68% 78/115 [00:37<00:17,  2.06it/s]
+Iteration:  69% 79/115 [00:38<00:17,  2.06it/s]
+Iteration:  70% 80/115 [00:38<00:16,  2.06it/s]
+Iteration:  70% 81/115 [00:39<00:16,  2.06it/s]
+Iteration:  71% 82/115 [00:39<00:16,  2.06it/s]
+Iteration:  72% 83/115 [00:40<00:15,  2.06it/s]
+Iteration:  73% 84/115 [00:40<00:15,  2.06it/s]
+Iteration:  74% 85/115 [00:41<00:14,  2.07it/s]
+Iteration:  75% 86/115 [00:41<00:14,  2.07it/s]
+Iteration:  76% 87/115 [00:42<00:13,  2.07it/s]
+Iteration:  77% 88/115 [00:42<00:13,  2.07it/s]
+Iteration:  77% 89/115 [00:43<00:12,  2.07it/s]
+Iteration:  78% 90/115 [00:43<00:12,  2.06it/s]
+Iteration:  79% 91/115 [00:44<00:11,  2.06it/s]
+Iteration:  80% 92/115 [00:44<00:11,  2.06it/s]
+Iteration:  81% 93/115 [00:45<00:10,  2.07it/s]
+Iteration:  82% 94/115 [00:45<00:10,  2.07it/s]
+Iteration:  83% 95/115 [00:46<00:09,  2.06it/s]
+Iteration:  83% 96/115 [00:46<00:09,  2.06it/s]
+Iteration:  84% 97/115 [00:47<00:08,  2.06it/s]
+Iteration:  85% 98/115 [00:47<00:08,  2.06it/s]
+Iteration:  86% 99/115 [00:48<00:07,  2.05it/s]
+Iteration:  87% 100/115 [00:48<00:07,  2.06it/s]
+Iteration:  88% 101/115 [00:48<00:06,  2.06it/s]
+Iteration:  89% 102/115 [00:49<00:06,  2.06it/s]
+Iteration:  90% 103/115 [00:49<00:05,  2.06it/s]
+Iteration:  90% 104/115 [00:50<00:05,  2.06it/s]
+Iteration:  91% 105/115 [00:50<00:04,  2.07it/s]
+Iteration:  92% 106/115 [00:51<00:04,  2.06it/s]
+Iteration:  93% 107/115 [00:51<00:03,  2.07it/s]
+Iteration:  94% 108/115 [00:52<00:03,  2.07it/s]
+Iteration:  95% 109/115 [00:52<00:02,  2.06it/s]
+Iteration:  96% 110/115 [00:53<00:02,  2.06it/s]
+Iteration:  97% 111/115 [00:53<00:01,  2.07it/s]
+Iteration:  97% 112/115 [00:54<00:01,  2.06it/s]
+Iteration:  98% 113/115 [00:54<00:00,  2.06it/s]
+Iteration:  99% 114/115 [00:55<00:00,  2.06it/s]
+Iteration: 100% 115/115 [00:55<00:00,  2.07it/s]
+Epoch:  33% 1/3 [00:55<01:51, 55.65s/it]
+Iteration:   0% 0/115 [00:00<?, ?it/s]
+Iteration:   1% 1/115 [00:00<00:55,  2.06it/s]
+Iteration:   2% 2/115 [00:00<00:54,  2.07it/s]
+Iteration:   3% 3/115 [00:01<00:54,  2.07it/s]
+Iteration:   3% 4/115 [00:01<00:53,  2.07it/s]
+Iteration:   4% 5/115 [00:02<00:53,  2.07it/s]
+Iteration:   5% 6/115 [00:02<00:52,  2.07it/s]
+Iteration:   6% 7/115 [00:03<00:52,  2.07it/s]
+Iteration:   7% 8/115 [00:03<00:51,  2.06it/s]
+Iteration:   8% 9/115 [00:04<00:51,  2.06it/s]
+Iteration:   9% 10/115 [00:04<00:50,  2.07it/s]
+Iteration:  10% 11/115 [00:05<00:50,  2.07it/s]
+Iteration:  10% 12/115 [00:05<00:49,  2.07it/s]
+Iteration:  11% 13/115 [00:06<00:49,  2.07it/s]
+Iteration:  12% 14/115 [00:06<00:48,  2.07it/s]
+Iteration:  13% 15/115 [00:07<00:48,  2.07it/s]
+Iteration:  14% 16/115 [00:07<00:48,  2.05it/s]
+Iteration:  15% 17/115 [00:08<00:47,  2.06it/s]
+Iteration:  16% 18/115 [00:08<00:47,  2.05it/s]
+Iteration:  17% 19/115 [00:09<00:46,  2.05it/s]
+Iteration:  17% 20/115 [00:09<00:46,  2.06it/s]
+Iteration:  18% 21/115 [00:10<00:45,  2.06it/s]
+Iteration:  19% 22/115 [00:10<00:45,  2.06it/s]
+Iteration:  20% 23/115 [00:11<00:44,  2.06it/s]
+Iteration:  21% 24/115 [00:11<00:44,  2.06it/s]
+Iteration:  22% 25/115 [00:12<00:43,  2.06it/s]
+Iteration:  23% 26/115 [00:12<00:43,  2.06it/s]
+Iteration:  23% 27/115 [00:13<00:42,  2.07it/s]
+Iteration:  24% 28/115 [00:13<00:42,  2.07it/s]
+Iteration:  25% 29/115 [00:14<00:41,  2.07it/s]
+Iteration:  26% 30/115 [00:14<00:41,  2.07it/s]
+Iteration:  27% 31/115 [00:15<00:40,  2.07it/s]
+Iteration:  28% 32/115 [00:15<00:40,  2.07it/s]
+Iteration:  29% 33/115 [00:15<00:39,  2.07it/s]
+Iteration:  30% 34/115 [00:16<00:39,  2.07it/s]
+Iteration:  30% 35/115 [00:16<00:38,  2.05it/s]
+Iteration:  31% 36/115 [00:17<00:38,  2.06it/s]
+Iteration:  32% 37/115 [00:17<00:37,  2.06it/s]
+Iteration:  33% 38/115 [00:18<00:37,  2.06it/s]
+Iteration:  34% 39/115 [00:18<00:36,  2.06it/s]
+Iteration:  35% 40/115 [00:19<00:36,  2.06it/s]
+Iteration:  36% 41/115 [00:19<00:35,  2.06it/s]
+Iteration:  37% 42/115 [00:20<00:35,  2.06it/s]
+Iteration:  37% 43/115 [00:20<00:34,  2.07it/s]
+Iteration:  38% 44/115 [00:21<00:34,  2.07it/s]
+Iteration:  39% 45/115 [00:21<00:33,  2.07it/s]
+Iteration:  40% 46/115 [00:22<00:33,  2.07it/s]
+Iteration:  41% 47/115 [00:22<00:32,  2.07it/s]
+Iteration:  42% 48/115 [00:23<00:32,  2.07it/s]
+Iteration:  43% 49/115 [00:23<00:32,  2.05it/s]
+Iteration:  43% 50/115 [00:24<00:31,  2.05it/s]
+Iteration:  44% 51/115 [00:24<00:31,  2.06it/s]
+Iteration:  45% 52/115 [00:25<00:30,  2.05it/s]
+Iteration:  46% 53/115 [00:25<00:30,  2.06it/s]
+Iteration:  47% 54/115 [00:26<00:29,  2.06it/s]
+Iteration:  48% 55/115 [00:26<00:29,  2.06it/s]
+Iteration:  49% 56/115 [00:27<00:28,  2.05it/s]
+Iteration:  50% 57/115 [00:27<00:28,  2.06it/s]
+Iteration:  50% 58/115 [00:28<00:27,  2.06it/s]
+Iteration:  51% 59/115 [00:28<00:27,  2.06it/s]
+Iteration:  52% 60/115 [00:29<00:26,  2.06it/s]
+Iteration:  53% 61/115 [00:29<00:26,  2.07it/s]
+Iteration:  54% 62/115 [00:30<00:25,  2.07it/s]
+Iteration:  55% 63/115 [00:30<00:25,  2.07it/s]
+Iteration:  56% 64/115 [00:31<00:24,  2.07it/s]
+Iteration:  57% 65/115 [00:31<00:24,  2.07it/s]
+Iteration:  57% 66/115 [00:31<00:23,  2.07it/s]
+Iteration:  58% 67/115 [00:32<00:23,  2.07it/s]
+Iteration:  59% 68/115 [00:32<00:22,  2.07it/s]
+Iteration:  60% 69/115 [00:33<00:22,  2.07it/s]
+Iteration:  61% 70/115 [00:33<00:21,  2.07it/s]
+Iteration:  62% 71/115 [00:34<00:21,  2.07it/s]
+Iteration:  63% 72/115 [00:34<00:20,  2.07it/s]
+Iteration:  63% 73/115 [00:35<00:20,  2.07it/s]
+Iteration:  64% 74/115 [00:35<00:19,  2.06it/s]
+Iteration:  65% 75/115 [00:36<00:19,  2.06it/s]
+Iteration:  66% 76/115 [00:36<00:18,  2.07it/s]
+Iteration:  67% 77/115 [00:37<00:18,  2.06it/s]
+Iteration:  68% 78/115 [00:37<00:17,  2.06it/s]
+Iteration:  69% 79/115 [00:38<00:17,  2.06it/s]
+Iteration:  70% 80/115 [00:38<00:16,  2.06it/s]
+Iteration:  70% 81/115 [00:39<00:16,  2.06it/s]
+Iteration:  71% 82/115 [00:39<00:15,  2.07it/s]
+Iteration:  72% 83/115 [00:40<00:15,  2.06it/s]
+Iteration:  73% 84/115 [00:40<00:15,  2.06it/s]
+Iteration:  74% 85/115 [00:41<00:14,  2.06it/s]
+Iteration:  75% 86/115 [00:41<00:14,  2.06it/s]
+Iteration:  76% 87/115 [00:42<00:13,  2.07it/s]
+Iteration:  77% 88/115 [00:42<00:13,  2.07it/s]
+Iteration:  77% 89/115 [00:43<00:12,  2.07it/s]
+Iteration:  78% 90/115 [00:43<00:12,  2.06it/s]
+Iteration:  79% 91/115 [00:44<00:11,  2.06it/s]
+Iteration:  80% 92/115 [00:44<00:11,  2.07it/s]
+Iteration:  81% 93/115 [00:45<00:10,  2.07it/s]
+Iteration:  82% 94/115 [00:45<00:10,  2.07it/s]
+Iteration:  83% 95/115 [00:46<00:09,  2.07it/s]
+Iteration:  83% 96/115 [00:46<00:09,  2.06it/s]
+Iteration:  84% 97/115 [00:47<00:08,  2.06it/s]
+Iteration:  85% 98/115 [00:47<00:08,  2.06it/s]
+Iteration:  86% 99/115 [00:47<00:07,  2.06it/s]
+Iteration:  87% 100/115 [00:48<00:07,  2.06it/s]
+Iteration:  88% 101/115 [00:48<00:06,  2.07it/s]
+Iteration:  89% 102/115 [00:49<00:06,  2.07it/s]
+Iteration:  90% 103/115 [00:49<00:05,  2.07it/s]
+Iteration:  90% 104/115 [00:50<00:05,  2.06it/s]
+Iteration:  91% 105/115 [00:50<00:04,  2.07it/s]
+Iteration:  92% 106/115 [00:51<00:04,  2.07it/s]
+Iteration:  93% 107/115 [00:51<00:03,  2.07it/s]
+Iteration:  94% 108/115 [00:52<00:03,  2.07it/s]
+Iteration:  95% 109/115 [00:52<00:02,  2.07it/s]
+Iteration:  96% 110/115 [00:53<00:02,  2.07it/s]
+Iteration:  97% 111/115 [00:53<00:01,  2.07it/s]
+Iteration:  97% 112/115 [00:54<00:01,  2.07it/s]
+Iteration:  98% 113/115 [00:54<00:00,  2.07it/s]
+Iteration:  99% 114/115 [00:55<00:00,  2.06it/s]
+Iteration: 100% 115/115 [00:55<00:00,  2.07it/s]
+Epoch:  67% 2/3 [01:51<00:55, 55.61s/it]
+Iteration:   0% 0/115 [00:00<?, ?it/s]
+Iteration:   1% 1/115 [00:00<00:55,  2.06it/s]
+Iteration:   2% 2/115 [00:00<00:54,  2.06it/s]
+Iteration:   3% 3/115 [00:01<00:54,  2.07it/s]
+Iteration:   3% 4/115 [00:01<00:53,  2.07it/s]
+Iteration:   4% 5/115 [00:02<00:53,  2.07it/s]
+Iteration:   5% 6/115 [00:02<00:52,  2.07it/s]
+Iteration:   6% 7/115 [00:03<00:52,  2.07it/s]
+Iteration:   7% 8/115 [00:03<00:51,  2.07it/s]
+Iteration:   8% 9/115 [00:04<00:51,  2.07it/s]
+Iteration:   9% 10/115 [00:04<00:50,  2.07it/s]
+Iteration:  10% 11/115 [00:05<00:50,  2.07it/s]
+Iteration:  10% 12/115 [00:05<00:49,  2.07it/s]
+Iteration:  11% 13/115 [00:06<00:49,  2.07it/s]
+Iteration:  12% 14/115 [00:06<00:48,  2.07it/s]
+Iteration:  13% 15/115 [00:07<00:48,  2.06it/s]
+Iteration:  14% 16/115 [00:07<00:47,  2.07it/s]
+Iteration:  15% 17/115 [00:08<00:47,  2.06it/s]
+Iteration:  16% 18/115 [00:08<00:47,  2.06it/s]
+Iteration:  17% 19/115 [00:09<00:46,  2.06it/s]
+Iteration:  17% 20/115 [00:09<00:46,  2.06it/s]
+Iteration:  18% 21/115 [00:10<00:45,  2.07it/s]
+Iteration:  19% 22/115 [00:10<00:45,  2.07it/s]
+Iteration:  20% 23/115 [00:11<00:44,  2.07it/s]
+Iteration:  21% 24/115 [00:11<00:44,  2.06it/s]
+Iteration:  22% 25/115 [00:12<00:43,  2.06it/s]
+Iteration:  23% 26/115 [00:12<00:43,  2.06it/s]
+Iteration:  23% 27/115 [00:13<00:42,  2.07it/s]
+Iteration:  24% 28/115 [00:13<00:42,  2.07it/s]
+Iteration:  25% 29/115 [00:14<00:41,  2.06it/s]
+Iteration:  26% 30/115 [00:14<00:41,  2.07it/s]
+Iteration:  27% 31/115 [00:14<00:40,  2.07it/s]
+Iteration:  28% 32/115 [00:15<00:40,  2.07it/s]
+Iteration:  29% 33/115 [00:15<00:39,  2.07it/s]
+Iteration:  30% 34/115 [00:16<00:39,  2.07it/s]
+Iteration:  30% 35/115 [00:16<00:38,  2.07it/s]
+Iteration:  31% 36/115 [00:17<00:38,  2.06it/s]
+Iteration:  32% 37/115 [00:17<00:37,  2.06it/s]
+Iteration:  33% 38/115 [00:18<00:37,  2.04it/s]
+Iteration:  34% 39/115 [00:18<00:37,  2.05it/s]
+Iteration:  35% 40/115 [00:19<00:36,  2.05it/s]
+Iteration:  36% 41/115 [00:19<00:35,  2.06it/s]
+Iteration:  37% 42/115 [00:20<00:35,  2.06it/s]
+Iteration:  37% 43/115 [00:20<00:34,  2.06it/s]
+Iteration:  38% 44/115 [00:21<00:34,  2.07it/s]
+Iteration:  39% 45/115 [00:21<00:33,  2.07it/s]
+Iteration:  40% 46/115 [00:22<00:33,  2.07it/s]
+Iteration:  41% 47/115 [00:22<00:32,  2.06it/s]
+Iteration:  42% 48/115 [00:23<00:32,  2.06it/s]
+Iteration:  43% 49/115 [00:23<00:31,  2.06it/s]
+Iteration:  43% 50/115 [00:24<00:31,  2.07it/s]
+Iteration:  44% 51/115 [00:24<00:31,  2.06it/s]
+Iteration:  45% 52/115 [00:25<00:30,  2.06it/s]
+Iteration:  46% 53/115 [00:25<00:30,  2.07it/s]
+Iteration:  47% 54/115 [00:26<00:29,  2.06it/s]
+Iteration:  48% 55/115 [00:26<00:29,  2.06it/s]
+Iteration:  49% 56/115 [00:27<00:28,  2.06it/s]
+Iteration:  50% 57/115 [00:27<00:28,  2.05it/s]
+Iteration:  50% 58/115 [00:28<00:27,  2.06it/s]
+Iteration:  51% 59/115 [00:28<00:27,  2.05it/s]
+Iteration:  52% 60/115 [00:29<00:26,  2.05it/s]
+Iteration:  53% 61/115 [00:29<00:26,  2.06it/s]
+Iteration:  54% 62/115 [00:30<00:25,  2.06it/s]
+Iteration:  55% 63/115 [00:30<00:25,  2.06it/s]
+Iteration:  56% 64/115 [00:31<00:24,  2.06it/s]
+Iteration:  57% 65/115 [00:31<00:24,  2.06it/s]
+Iteration:  57% 66/115 [00:31<00:23,  2.07it/s]
+Iteration:  58% 67/115 [00:32<00:23,  2.07it/s]
+Iteration:  59% 68/115 [00:32<00:22,  2.07it/s]
+Iteration:  60% 69/115 [00:33<00:22,  2.07it/s]
+Iteration:  61% 70/115 [00:33<00:21,  2.07it/s]
+Iteration:  62% 71/115 [00:34<00:21,  2.07it/s]
+Iteration:  63% 72/115 [00:34<00:20,  2.07it/s]
+Iteration:  63% 73/115 [00:35<00:20,  2.07it/s]
+Iteration:  64% 74/115 [00:35<00:19,  2.07it/s]
+Iteration:  65% 75/115 [00:36<00:19,  2.07it/s]
+Iteration:  66% 76/115 [00:36<00:18,  2.07it/s]
+Iteration:  67% 77/115 [00:37<00:18,  2.07it/s]
+Iteration:  68% 78/115 [00:37<00:17,  2.06it/s]
+Iteration:  69% 79/115 [00:38<00:17,  2.06it/s]
+Iteration:  70% 80/115 [00:38<00:16,  2.06it/s]
+Iteration:  70% 81/115 [00:39<00:16,  2.07it/s]
+Iteration:  71% 82/115 [00:39<00:15,  2.06it/s]
+Iteration:  72% 83/115 [00:40<00:15,  2.06it/s]
+Iteration:  73% 84/115 [00:40<00:15,  2.06it/s]
+Iteration:  74% 85/115 [00:41<00:14,  2.06it/s]
+Iteration:  75% 86/115 [00:41<00:14,  2.07it/s]
+Iteration:  76% 87/115 [00:42<00:13,  2.06it/s]
+Iteration:  77% 88/115 [00:42<00:13,  2.06it/s]
+Iteration:  77% 89/115 [00:43<00:12,  2.07it/s]
+Iteration:  78% 90/115 [00:43<00:12,  2.07it/s]
+Iteration:  79% 91/115 [00:44<00:11,  2.06it/s]
+Iteration:  80% 92/115 [00:44<00:11,  2.06it/s]
+Iteration:  81% 93/115 [00:45<00:10,  2.06it/s]
+Iteration:  82% 94/115 [00:45<00:10,  2.07it/s]
+Iteration:  83% 95/115 [00:46<00:09,  2.07it/s]
+Iteration:  83% 96/115 [00:46<00:09,  2.07it/s]
+Iteration:  84% 97/115 [00:46<00:08,  2.07it/s]
+Iteration:  85% 98/115 [00:47<00:08,  2.07it/s]
+Iteration:  86% 99/115 [00:47<00:07,  2.06it/s]
+Iteration:  87% 100/115 [00:48<00:07,  2.06it/s]
+Iteration:  88% 101/115 [00:48<00:06,  2.06it/s]
+Iteration:  89% 102/115 [00:49<00:06,  2.06it/s]
+Iteration:  90% 103/115 [00:49<00:05,  2.06it/s]
+Iteration:  90% 104/115 [00:50<00:05,  2.06it/s]
+Iteration:  91% 105/115 [00:50<00:04,  2.07it/s]
+Iteration:  92% 106/115 [00:51<00:04,  2.07it/s]
+Iteration:  93% 107/115 [00:51<00:03,  2.07it/s]
+Iteration:  94% 108/115 [00:52<00:03,  2.07it/s]
+Iteration:  95% 109/115 [00:52<00:02,  2.07it/s]
+Iteration:  96% 110/115 [00:53<00:02,  2.06it/s]
+Iteration:  97% 111/115 [00:53<00:01,  2.06it/s]
+Iteration:  97% 112/115 [00:54<00:01,  2.07it/s]
+Iteration:  98% 113/115 [00:54<00:00,  2.07it/s]
+Iteration:  99% 114/115 [00:55<00:00,  2.07it/s]
+Iteration: 100% 115/115 [00:55<00:00,  2.07it/s]
+Epoch: 100% 3/3 [02:46<00:00, 55.61s/it]
+19:28:21-INFO: ***** Finished training *****
+19:28:21-INFO:   Global step = 3668
+19:28:21-INFO:   Training loss = 0.418
+tot 166.82080960273743 =========
+19:28:24-INFO: loading archive file https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz from cache at /root/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba
+19:28:24-INFO: extracting archive file /root/.pytorch_pretrained_bert/9c41111e2de84547a463fd39217199738d1e3deb72d4fec4399e6e241983c6f0.ae3cef932725ca7a30cdcb93fc6e09150a55e2a130ec7af63975a16c153ae2ba to temp dir /tmp/tmprrrjq171
+19:28:28-INFO: Model config {
+  "attention_probs_dropout_prob": 0.1,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "max_position_embeddings": 512,
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+19:28:30-INFO: ***** Running evaluation *****
+19:28:30-INFO:   Num examples = 408
+19:28:30-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:28:34-INFO: ***** Eval results *****
+19:28:34-INFO:   F-1 score = 0.8991150442477877
+19:28:34-INFO:   eval_accuracy = 0.8602941176470589
+19:28:34-INFO:   eval_loss = 0.31815536549458134
+19:28:34-INFO:   global_step = 345
+19:28:34-INFO:   inference_time = 3.6291615962982178
+19:28:34-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:1']
+['1', '1']
+19:28:34-INFO: ***** Running evaluation *****
+19:28:34-INFO:   Num examples = 408
+19:28:34-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:28:37-INFO: ***** Eval results *****
+19:28:37-INFO:   F-1 score = 0.8955752212389381
+19:28:37-INFO:   eval_accuracy = 0.8553921568627451
+19:28:37-INFO:   eval_loss = 0.32633714148631465
+19:28:37-INFO:   global_step = 345
+19:28:37-INFO:   inference_time = 3.6247198581695557
+19:28:37-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:2']
+['1', '2']
+19:28:37-INFO: ***** Running evaluation *****
+19:28:37-INFO:   Num examples = 408
+19:28:37-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:28:41-INFO: ***** Eval results *****
+19:28:41-INFO:   F-1 score = 0.8971631205673759
+19:28:41-INFO:   eval_accuracy = 0.8578431372549019
+19:28:41-INFO:   eval_loss = 0.31777393359404343
+19:28:41-INFO:   global_step = 345
+19:28:41-INFO:   inference_time = 3.6226141452789307
+19:28:41-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:3']
+['1', '3']
+19:28:41-INFO: ***** Running evaluation *****
+19:28:41-INFO:   Num examples = 408
+19:28:41-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:28:45-INFO: ***** Eval results *****
+19:28:45-INFO:   F-1 score = 0.8975265017667844
+19:28:45-INFO:   eval_accuracy = 0.8578431372549019
+19:28:45-INFO:   eval_loss = 0.3145442478931867
+19:28:45-INFO:   global_step = 345
+19:28:45-INFO:   inference_time = 3.622124433517456
+19:28:45-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:4']
+['1', '4']
+19:28:45-INFO: ***** Running evaluation *****
+19:28:45-INFO:   Num examples = 408
+19:28:45-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:28:48-INFO: ***** Eval results *****
+19:28:48-INFO:   F-1 score = 0.900709219858156
+19:28:48-INFO:   eval_accuracy = 0.8627450980392157
+19:28:48-INFO:   eval_loss = 0.316833407833026
+19:28:48-INFO:   global_step = 345
+19:28:48-INFO:   inference_time = 3.6228387355804443
+19:28:48-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:5']
+['1', '5']
+19:28:48-INFO: ***** Running evaluation *****
+19:28:48-INFO:   Num examples = 408
+19:28:48-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:28:52-INFO: ***** Eval results *****
+19:28:52-INFO:   F-1 score = 0.9039145907473309
+19:28:52-INFO:   eval_accuracy = 0.8676470588235294
+19:28:52-INFO:   eval_loss = 0.3141823193201652
+19:28:52-INFO:   global_step = 345
+19:28:52-INFO:   inference_time = 3.621828317642212
+19:28:52-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:6']
+['1', '6']
+19:28:52-INFO: ***** Running evaluation *****
+19:28:52-INFO:   Num examples = 408
+19:28:52-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:28:56-INFO: ***** Eval results *****
+19:28:56-INFO:   F-1 score = 0.8948306595365418
+19:28:56-INFO:   eval_accuracy = 0.8553921568627451
+19:28:56-INFO:   eval_loss = 0.3098578235277763
+19:28:56-INFO:   global_step = 345
+19:28:56-INFO:   inference_time = 3.6222472190856934
+19:28:56-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:7']
+['1', '7']
+19:28:56-INFO: ***** Running evaluation *****
+19:28:56-INFO:   Num examples = 408
+19:28:56-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:28:59-INFO: ***** Eval results *****
+19:28:59-INFO:   F-1 score = 0.8998242530755711
+19:28:59-INFO:   eval_accuracy = 0.8602941176470589
+19:28:59-INFO:   eval_loss = 0.32010487295114076
+19:28:59-INFO:   global_step = 345
+19:28:59-INFO:   inference_time = 3.6225104331970215
+19:28:59-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:8']
+['1', '8']
+19:28:59-INFO: ***** Running evaluation *****
+19:28:59-INFO:   Num examples = 408
+19:28:59-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:03-INFO: ***** Eval results *****
+19:29:03-INFO:   F-1 score = 0.901060070671378
+19:29:03-INFO:   eval_accuracy = 0.8627450980392157
+19:29:03-INFO:   eval_loss = 0.31702094123913693
+19:29:03-INFO:   global_step = 345
+19:29:03-INFO:   inference_time = 3.6223976612091064
+19:29:03-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:9']
+['1', '9']
+19:29:03-INFO: ***** Running evaluation *****
+19:29:03-INFO:   Num examples = 408
+19:29:03-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:07-INFO: ***** Eval results *****
+19:29:07-INFO:   F-1 score = 0.9034608378870674
+19:29:07-INFO:   eval_accuracy = 0.8700980392156863
+19:29:07-INFO:   eval_loss = 0.3068969903083948
+19:29:07-INFO:   global_step = 345
+19:29:07-INFO:   inference_time = 3.622982978820801
+19:29:07-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:10']
+['1', '10']
+19:29:07-INFO: ***** Running evaluation *****
+19:29:07-INFO:   Num examples = 408
+19:29:07-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:10-INFO: ***** Eval results *****
+19:29:10-INFO:   F-1 score = 0.8994708994708994
+19:29:10-INFO:   eval_accuracy = 0.8602941176470589
+19:29:10-INFO:   eval_loss = 0.3151495158672333
+19:29:10-INFO:   global_step = 345
+19:29:10-INFO:   inference_time = 3.6223175525665283
+19:29:10-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:11']
+['1', '11']
+19:29:10-INFO: ***** Running evaluation *****
+19:29:10-INFO:   Num examples = 408
+19:29:10-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.58it/s]
+19:29:14-INFO: ***** Eval results *****
+19:29:14-INFO:   F-1 score = 0.8939929328621908
+19:29:14-INFO:   eval_accuracy = 0.8529411764705882
+19:29:14-INFO:   eval_loss = 0.3229100681268252
+19:29:14-INFO:   global_step = 345
+19:29:14-INFO:   inference_time = 3.6212761402130127
+19:29:14-INFO:   loss = 0.41844929527977237
+attention_head_mask ['1:12']
+['1', '12']
+19:29:14-INFO: ***** Running evaluation *****
+19:29:14-INFO:   Num examples = 408
+19:29:14-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.58it/s]
+19:29:18-INFO: ***** Eval results *****
+19:29:18-INFO:   F-1 score = 0.8963093145869947
+19:29:18-INFO:   eval_accuracy = 0.8553921568627451
+19:29:18-INFO:   eval_loss = 0.31894166423724246
+19:29:18-INFO:   global_step = 345
+19:29:18-INFO:   inference_time = 3.620535135269165
+19:29:18-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:1']
+['2', '1']
+19:29:18-INFO: ***** Running evaluation *****
+19:29:18-INFO:   Num examples = 408
+19:29:18-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:21-INFO: ***** Eval results *****
+19:29:21-INFO:   F-1 score = 0.9003558718861211
+19:29:21-INFO:   eval_accuracy = 0.8627450980392157
+19:29:21-INFO:   eval_loss = 0.31686423604304975
+19:29:21-INFO:   global_step = 345
+19:29:21-INFO:   inference_time = 3.628286123275757
+19:29:21-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:2']
+['2', '2']
+19:29:21-INFO: ***** Running evaluation *****
+19:29:21-INFO:   Num examples = 408
+19:29:21-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:25-INFO: ***** Eval results *****
+19:29:25-INFO:   F-1 score = 0.8998242530755711
+19:29:25-INFO:   eval_accuracy = 0.8602941176470589
+19:29:25-INFO:   eval_loss = 0.3258077891973349
+19:29:25-INFO:   global_step = 345
+19:29:25-INFO:   inference_time = 3.62977933883667
+19:29:25-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:3']
+['2', '3']
+19:29:25-INFO: ***** Running evaluation *****
+19:29:25-INFO:   Num examples = 408
+19:29:25-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:28-INFO: ***** Eval results *****
+19:29:28-INFO:   F-1 score = 0.9014084507042254
+19:29:28-INFO:   eval_accuracy = 0.8627450980392157
+19:29:28-INFO:   eval_loss = 0.3165394113614009
+19:29:28-INFO:   global_step = 345
+19:29:28-INFO:   inference_time = 3.6281261444091797
+19:29:28-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:4']
+['2', '4']
+19:29:29-INFO: ***** Running evaluation *****
+19:29:29-INFO:   Num examples = 408
+19:29:29-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:32-INFO: ***** Eval results *****
+19:29:32-INFO:   F-1 score = 0.8994708994708994
+19:29:32-INFO:   eval_accuracy = 0.8602941176470589
+19:29:32-INFO:   eval_loss = 0.316489122234858
+19:29:32-INFO:   global_step = 345
+19:29:32-INFO:   inference_time = 3.6275558471679688
+19:29:32-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:5']
+['2', '5']
+19:29:32-INFO: ***** Running evaluation *****
+19:29:32-INFO:   Num examples = 408
+19:29:32-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:36-INFO: ***** Eval results *****
+19:29:36-INFO:   F-1 score = 0.9014084507042254
+19:29:36-INFO:   eval_accuracy = 0.8627450980392157
+19:29:36-INFO:   eval_loss = 0.3200390464984454
+19:29:36-INFO:   global_step = 345
+19:29:36-INFO:   inference_time = 3.628561019897461
+19:29:36-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:6']
+['2', '6']
+19:29:36-INFO: ***** Running evaluation *****
+19:29:36-INFO:   Num examples = 408
+19:29:36-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:39-INFO: ***** Eval results *****
+19:29:39-INFO:   F-1 score = 0.8991150442477877
+19:29:39-INFO:   eval_accuracy = 0.8602941176470589
+19:29:39-INFO:   eval_loss = 0.3201274241392429
+19:29:39-INFO:   global_step = 345
+19:29:39-INFO:   inference_time = 3.6285617351531982
+19:29:39-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:7']
+['2', '7']
+19:29:39-INFO: ***** Running evaluation *****
+19:29:39-INFO:   Num examples = 408
+19:29:39-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:43-INFO: ***** Eval results *****
+19:29:43-INFO:   F-1 score = 0.9049295774647886
+19:29:43-INFO:   eval_accuracy = 0.8676470588235294
+19:29:43-INFO:   eval_loss = 0.33122002619963425
+19:29:43-INFO:   global_step = 345
+19:29:43-INFO:   inference_time = 3.627034902572632
+19:29:43-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:8']
+['2', '8']
+19:29:43-INFO: ***** Running evaluation *****
+19:29:43-INFO:   Num examples = 408
+19:29:43-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:47-INFO: ***** Eval results *****
+19:29:47-INFO:   F-1 score = 0.8972972972972973
+19:29:47-INFO:   eval_accuracy = 0.8602941176470589
+19:29:47-INFO:   eval_loss = 0.30863344783966357
+19:29:47-INFO:   global_step = 345
+19:29:47-INFO:   inference_time = 3.6278810501098633
+19:29:47-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:9']
+['2', '9']
+19:29:47-INFO: ***** Running evaluation *****
+19:29:47-INFO:   Num examples = 408
+19:29:47-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:50-INFO: ***** Eval results *****
+19:29:50-INFO:   F-1 score = 0.9012567324955117
+19:29:50-INFO:   eval_accuracy = 0.8651960784313726
+19:29:50-INFO:   eval_loss = 0.31020947717703307
+19:29:50-INFO:   global_step = 345
+19:29:50-INFO:   inference_time = 3.628645420074463
+19:29:50-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:10']
+['2', '10']
+19:29:50-INFO: ***** Running evaluation *****
+19:29:50-INFO:   Num examples = 408
+19:29:50-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:54-INFO: ***** Eval results *****
+19:29:54-INFO:   F-1 score = 0.901060070671378
+19:29:54-INFO:   eval_accuracy = 0.8627450980392157
+19:29:54-INFO:   eval_loss = 0.3148752622879468
+19:29:54-INFO:   global_step = 345
+19:29:54-INFO:   inference_time = 3.629002094268799
+19:29:54-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:11']
+['2', '11']
+19:29:54-INFO: ***** Running evaluation *****
+19:29:54-INFO:   Num examples = 408
+19:29:54-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:29:58-INFO: ***** Eval results *****
+19:29:58-INFO:   F-1 score = 0.9036777583187391
+19:29:58-INFO:   eval_accuracy = 0.8651960784313726
+19:29:58-INFO:   eval_loss = 0.3228051650982637
+19:29:58-INFO:   global_step = 345
+19:29:58-INFO:   inference_time = 3.628781318664551
+19:29:58-INFO:   loss = 0.41844929527977237
+attention_head_mask ['2:12']
+['2', '12']
+19:29:58-INFO: ***** Running evaluation *****
+19:29:58-INFO:   Num examples = 408
+19:29:58-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:01-INFO: ***** Eval results *****
+19:30:01-INFO:   F-1 score = 0.9015025041736227
+19:30:01-INFO:   eval_accuracy = 0.8553921568627451
+19:30:01-INFO:   eval_loss = 0.38220970447246844
+19:30:01-INFO:   global_step = 345
+19:30:01-INFO:   inference_time = 3.6292312145233154
+19:30:01-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:1']
+['3', '1']
+19:30:01-INFO: ***** Running evaluation *****
+19:30:01-INFO:   Num examples = 408
+19:30:01-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:05-INFO: ***** Eval results *****
+19:30:05-INFO:   F-1 score = 0.9011725293132328
+19:30:05-INFO:   eval_accuracy = 0.8553921568627451
+19:30:05-INFO:   eval_loss = 0.36179089546203613
+19:30:05-INFO:   global_step = 345
+19:30:05-INFO:   inference_time = 3.636124849319458
+19:30:05-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:2']
+['3', '2']
+19:30:05-INFO: ***** Running evaluation *****
+19:30:05-INFO:   Num examples = 408
+19:30:05-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:09-INFO: ***** Eval results *****
+19:30:09-INFO:   F-1 score = 0.9018302828618967
+19:30:09-INFO:   eval_accuracy = 0.8553921568627451
+19:30:09-INFO:   eval_loss = 0.3930127586309726
+19:30:09-INFO:   global_step = 345
+19:30:09-INFO:   inference_time = 3.6349265575408936
+19:30:09-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:3']
+['3', '3']
+19:30:09-INFO: ***** Running evaluation *****
+19:30:09-INFO:   Num examples = 408
+19:30:09-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:12-INFO: ***** Eval results *****
+19:30:12-INFO:   F-1 score = 0.903010033444816
+19:30:12-INFO:   eval_accuracy = 0.8578431372549019
+19:30:12-INFO:   eval_loss = 0.38467562657136184
+19:30:12-INFO:   global_step = 345
+19:30:12-INFO:   inference_time = 3.6330840587615967
+19:30:12-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:4']
+['3', '4']
+19:30:12-INFO: ***** Running evaluation *****
+19:30:12-INFO:   Num examples = 408
+19:30:12-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:16-INFO: ***** Eval results *****
+19:30:16-INFO:   F-1 score = 0.9015025041736227
+19:30:16-INFO:   eval_accuracy = 0.8553921568627451
+19:30:16-INFO:   eval_loss = 0.37967352912976193
+19:30:16-INFO:   global_step = 345
+19:30:16-INFO:   inference_time = 3.6322004795074463
+19:30:16-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:5']
+['3', '5']
+19:30:16-INFO: ***** Running evaluation *****
+19:30:16-INFO:   Num examples = 408
+19:30:16-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:20-INFO: ***** Eval results *****
+19:30:20-INFO:   F-1 score = 0.9015025041736227
+19:30:20-INFO:   eval_accuracy = 0.8553921568627451
+19:30:20-INFO:   eval_loss = 0.3751346996197334
+19:30:20-INFO:   global_step = 345
+19:30:20-INFO:   inference_time = 3.632014036178589
+19:30:20-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:6']
+['3', '6']
+19:30:20-INFO: ***** Running evaluation *****
+19:30:20-INFO:   Num examples = 408
+19:30:20-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:23-INFO: ***** Eval results *****
+19:30:23-INFO:   F-1 score = 0.9003322259136212
+19:30:23-INFO:   eval_accuracy = 0.8529411764705882
+19:30:23-INFO:   eval_loss = 0.38701719504136306
+19:30:23-INFO:   global_step = 345
+19:30:23-INFO:   inference_time = 3.6319491863250732
+19:30:23-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:7']
+['3', '7']
+19:30:23-INFO: ***** Running evaluation *****
+19:30:23-INFO:   Num examples = 408
+19:30:23-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:27-INFO: ***** Eval results *****
+19:30:27-INFO:   F-1 score = 0.8675078864353312
+19:30:27-INFO:   eval_accuracy = 0.7941176470588235
+19:30:27-INFO:   eval_loss = 0.6292937432344143
+19:30:27-INFO:   global_step = 345
+19:30:27-INFO:   inference_time = 3.63204288482666
+19:30:27-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:8']
+['3', '8']
+19:30:27-INFO: ***** Running evaluation *****
+19:30:27-INFO:   Num examples = 408
+19:30:27-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:31-INFO: ***** Eval results *****
+19:30:31-INFO:   F-1 score = 0.9023569023569024
+19:30:31-INFO:   eval_accuracy = 0.8578431372549019
+19:30:31-INFO:   eval_loss = 0.364110699066749
+19:30:31-INFO:   global_step = 345
+19:30:31-INFO:   inference_time = 3.6322555541992188
+19:30:31-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:9']
+['3', '9']
+19:30:31-INFO: ***** Running evaluation *****
+19:30:31-INFO:   Num examples = 408
+19:30:31-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:34-INFO: ***** Eval results *****
+19:30:34-INFO:   F-1 score = 0.9015025041736227
+19:30:34-INFO:   eval_accuracy = 0.8553921568627451
+19:30:34-INFO:   eval_loss = 0.3811053392978815
+19:30:34-INFO:   global_step = 345
+19:30:34-INFO:   inference_time = 3.632854461669922
+19:30:34-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:10']
+['3', '10']
+19:30:34-INFO: ***** Running evaluation *****
+19:30:34-INFO:   Num examples = 408
+19:30:34-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:38-INFO: ***** Eval results *****
+19:30:38-INFO:   F-1 score = 0.9042016806722689
+19:30:38-INFO:   eval_accuracy = 0.8602941176470589
+19:30:38-INFO:   eval_loss = 0.35961898129719955
+19:30:38-INFO:   global_step = 345
+19:30:38-INFO:   inference_time = 3.633016347885132
+19:30:38-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:11']
+['3', '11']
+19:30:38-INFO: ***** Running evaluation *****
+19:30:38-INFO:   Num examples = 408
+19:30:38-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:42-INFO: ***** Eval results *****
+19:30:42-INFO:   F-1 score = 0.9015025041736227
+19:30:42-INFO:   eval_accuracy = 0.8553921568627451
+19:30:42-INFO:   eval_loss = 0.38508062064647675
+19:30:42-INFO:   global_step = 345
+19:30:42-INFO:   inference_time = 3.632128953933716
+19:30:42-INFO:   loss = 0.41844929527977237
+attention_head_mask ['3:12']
+['3', '12']
+19:30:42-INFO: ***** Running evaluation *****
+19:30:42-INFO:   Num examples = 408
+19:30:42-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.57it/s]
+19:30:45-INFO: ***** Eval results *****
+19:30:45-INFO:   F-1 score = 0.90625
+19:30:45-INFO:   eval_accuracy = 0.8676470588235294
+19:30:45-INFO:   eval_loss = 0.32373099143688494
+19:30:45-INFO:   global_step = 345
+19:30:45-INFO:   inference_time = 3.63219952583313
+19:30:45-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:1']
+['4', '1']
+19:30:45-INFO: ***** Running evaluation *****
+19:30:45-INFO:   Num examples = 408
+19:30:45-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:49-INFO: ***** Eval results *****
+19:30:49-INFO:   F-1 score = 0.883720930232558
+19:30:49-INFO:   eval_accuracy = 0.8284313725490197
+19:30:49-INFO:   eval_loss = 0.4441966093503512
+19:30:49-INFO:   global_step = 345
+19:30:49-INFO:   inference_time = 3.63883900642395
+19:30:49-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:2']
+['4', '2']
+19:30:49-INFO: ***** Running evaluation *****
+19:30:49-INFO:   Num examples = 408
+19:30:49-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:53-INFO: ***** Eval results *****
+19:30:53-INFO:   F-1 score = 0.9014084507042254
+19:30:53-INFO:   eval_accuracy = 0.8627450980392157
+19:30:53-INFO:   eval_loss = 0.3172181649849965
+19:30:53-INFO:   global_step = 345
+19:30:53-INFO:   inference_time = 3.639103651046753
+19:30:53-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:3']
+['4', '3']
+19:30:53-INFO: ***** Running evaluation *****
+19:30:53-INFO:   Num examples = 408
+19:30:53-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:30:56-INFO: ***** Eval results *****
+19:30:56-INFO:   F-1 score = 0.903114186851211
+19:30:56-INFO:   eval_accuracy = 0.8627450980392157
+19:30:56-INFO:   eval_loss = 0.327055600973276
+19:30:56-INFO:   global_step = 345
+19:30:56-INFO:   inference_time = 3.639195680618286
+19:30:56-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:4']
+['4', '4']
+19:30:56-INFO: ***** Running evaluation *****
+19:30:56-INFO:   Num examples = 408
+19:30:56-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:00-INFO: ***** Eval results *****
+19:31:00-INFO:   F-1 score = 0.8986013986013986
+19:31:00-INFO:   eval_accuracy = 0.8578431372549019
+19:31:00-INFO:   eval_loss = 0.32336517022206235
+19:31:00-INFO:   global_step = 345
+19:31:00-INFO:   inference_time = 3.638664960861206
+19:31:00-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:5']
+['4', '5']
+19:31:00-INFO: ***** Running evaluation *****
+19:31:00-INFO:   Num examples = 408
+19:31:00-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:04-INFO: ***** Eval results *****
+19:31:04-INFO:   F-1 score = 0.8989547038327526
+19:31:04-INFO:   eval_accuracy = 0.8578431372549019
+19:31:04-INFO:   eval_loss = 0.32373004807875705
+19:31:04-INFO:   global_step = 345
+19:31:04-INFO:   inference_time = 3.6379783153533936
+19:31:04-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:6']
+['4', '6']
+19:31:04-INFO: ***** Running evaluation *****
+19:31:04-INFO:   Num examples = 408
+19:31:04-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:07-INFO: ***** Eval results *****
+19:31:07-INFO:   F-1 score = 0.9008695652173914
+19:31:07-INFO:   eval_accuracy = 0.8602941176470589
+19:31:07-INFO:   eval_loss = 0.3173231929540634
+19:31:07-INFO:   global_step = 345
+19:31:07-INFO:   inference_time = 3.6396484375
+19:31:07-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:7']
+['4', '7']
+19:31:07-INFO: ***** Running evaluation *****
+19:31:07-INFO:   Num examples = 408
+19:31:07-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:11-INFO: ***** Eval results *****
+19:31:11-INFO:   F-1 score = 0.9046793760831888
+19:31:11-INFO:   eval_accuracy = 0.8651960784313726
+19:31:11-INFO:   eval_loss = 0.32951767169512236
+19:31:11-INFO:   global_step = 345
+19:31:11-INFO:   inference_time = 3.6417229175567627
+19:31:11-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:8']
+['4', '8']
+19:31:11-INFO: ***** Running evaluation *****
+19:31:11-INFO:   Num examples = 408
+19:31:11-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:15-INFO: ***** Eval results *****
+19:31:15-INFO:   F-1 score = 0.9063032367972743
+19:31:15-INFO:   eval_accuracy = 0.8651960784313726
+19:31:15-INFO:   eval_loss = 0.34226123186258167
+19:31:15-INFO:   global_step = 345
+19:31:15-INFO:   inference_time = 3.6395208835601807
+19:31:15-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:9']
+['4', '9']
+19:31:15-INFO: ***** Running evaluation *****
+19:31:15-INFO:   Num examples = 408
+19:31:15-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:18-INFO: ***** Eval results *****
+19:31:18-INFO:   F-1 score = 0.905982905982906
+19:31:18-INFO:   eval_accuracy = 0.8651960784313726
+19:31:18-INFO:   eval_loss = 0.3287055263152489
+19:31:18-INFO:   global_step = 345
+19:31:18-INFO:   inference_time = 3.639622449874878
+19:31:18-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:10']
+['4', '10']
+19:31:18-INFO: ***** Running evaluation *****
+19:31:18-INFO:   Num examples = 408
+19:31:18-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:22-INFO: ***** Eval results *****
+19:31:22-INFO:   F-1 score = 0.9065743944636677
+19:31:22-INFO:   eval_accuracy = 0.8676470588235294
+19:31:22-INFO:   eval_loss = 0.3296485978823442
+19:31:22-INFO:   global_step = 345
+19:31:22-INFO:   inference_time = 3.6398372650146484
+19:31:22-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:11']
+['4', '11']
+19:31:22-INFO: ***** Running evaluation *****
+19:31:22-INFO:   Num examples = 408
+19:31:22-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:26-INFO: ***** Eval results *****
+19:31:26-INFO:   F-1 score = 0.8900900900900901
+19:31:26-INFO:   eval_accuracy = 0.8504901960784313
+19:31:26-INFO:   eval_loss = 0.31284589492357695
+19:31:26-INFO:   global_step = 345
+19:31:26-INFO:   inference_time = 3.639819383621216
+19:31:26-INFO:   loss = 0.41844929527977237
+attention_head_mask ['4:12']
+['4', '12']
+19:31:26-INFO: ***** Running evaluation *****
+19:31:26-INFO:   Num examples = 408
+19:31:26-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.56it/s]
+19:31:29-INFO: ***** Eval results *****
+19:31:29-INFO:   F-1 score = 0.9012131715771231
+19:31:29-INFO:   eval_accuracy = 0.8602941176470589
+19:31:29-INFO:   eval_loss = 0.3287793615689644
+19:31:29-INFO:   global_step = 345
+19:31:29-INFO:   inference_time = 3.6387226581573486
+19:31:29-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:1']
+['5', '1']
+19:31:29-INFO: ***** Running evaluation *****
+19:31:29-INFO:   Num examples = 408
+19:31:29-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:33-INFO: ***** Eval results *****
+19:31:33-INFO:   F-1 score = 0.9015544041450777
+19:31:33-INFO:   eval_accuracy = 0.8602941176470589
+19:31:33-INFO:   eval_loss = 0.3308155330327841
+19:31:33-INFO:   global_step = 345
+19:31:33-INFO:   inference_time = 3.644901990890503
+19:31:33-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:2']
+['5', '2']
+19:31:33-INFO: ***** Running evaluation *****
+19:31:33-INFO:   Num examples = 408
+19:31:33-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:36-INFO: ***** Eval results *****
+19:31:36-INFO:   F-1 score = 0.897391304347826
+19:31:36-INFO:   eval_accuracy = 0.8553921568627451
+19:31:36-INFO:   eval_loss = 0.33146762733276075
+19:31:36-INFO:   global_step = 345
+19:31:36-INFO:   inference_time = 3.6439671516418457
+19:31:36-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:3']
+['5', '3']
+19:31:36-INFO: ***** Running evaluation *****
+19:31:36-INFO:   Num examples = 408
+19:31:36-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:40-INFO: ***** Eval results *****
+19:31:40-INFO:   F-1 score = 0.8976109215017065
+19:31:40-INFO:   eval_accuracy = 0.8529411764705882
+19:31:40-INFO:   eval_loss = 0.3395177045693764
+19:31:40-INFO:   global_step = 345
+19:31:40-INFO:   inference_time = 3.644174814224243
+19:31:40-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:4']
+['5', '4']
+19:31:40-INFO: ***** Running evaluation *****
+19:31:40-INFO:   Num examples = 408
+19:31:40-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:44-INFO: ***** Eval results *****
+19:31:44-INFO:   F-1 score = 0.8849557522123894
+19:31:44-INFO:   eval_accuracy = 0.8406862745098039
+19:31:44-INFO:   eval_loss = 0.35261283127161175
+19:31:44-INFO:   global_step = 345
+19:31:44-INFO:   inference_time = 3.644317626953125
+19:31:44-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:5']
+['5', '5']
+19:31:44-INFO: ***** Running evaluation *****
+19:31:44-INFO:   Num examples = 408
+19:31:44-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:47-INFO: ***** Eval results *****
+19:31:47-INFO:   F-1 score = 0.902229845626072
+19:31:47-INFO:   eval_accuracy = 0.8602941176470589
+19:31:47-INFO:   eval_loss = 0.3308506424610431
+19:31:47-INFO:   global_step = 345
+19:31:47-INFO:   inference_time = 3.644242286682129
+19:31:47-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:6']
+['5', '6']
+19:31:47-INFO: ***** Running evaluation *****
+19:31:47-INFO:   Num examples = 408
+19:31:47-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:51-INFO: ***** Eval results *****
+19:31:51-INFO:   F-1 score = 0.9008695652173914
+19:31:51-INFO:   eval_accuracy = 0.8602941176470589
+19:31:51-INFO:   eval_loss = 0.3271477623627736
+19:31:51-INFO:   global_step = 345
+19:31:51-INFO:   inference_time = 3.643960952758789
+19:31:51-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:7']
+['5', '7']
+19:31:51-INFO: ***** Running evaluation *****
+19:31:51-INFO:   Num examples = 408
+19:31:51-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:55-INFO: ***** Eval results *****
+19:31:55-INFO:   F-1 score = 0.9012131715771231
+19:31:55-INFO:   eval_accuracy = 0.8602941176470589
+19:31:55-INFO:   eval_loss = 0.32779497595933765
+19:31:55-INFO:   global_step = 345
+19:31:55-INFO:   inference_time = 3.6472744941711426
+19:31:55-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:8']
+['5', '8']
+19:31:55-INFO: ***** Running evaluation *****
+19:31:55-INFO:   Num examples = 408
+19:31:55-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:31:58-INFO: ***** Eval results *****
+19:31:58-INFO:   F-1 score = 0.904109589041096
+19:31:58-INFO:   eval_accuracy = 0.8627450980392157
+19:31:58-INFO:   eval_loss = 0.3317648000442065
+19:31:58-INFO:   global_step = 345
+19:31:58-INFO:   inference_time = 3.6441893577575684
+19:31:58-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:9']
+['5', '9']
+19:31:58-INFO: ***** Running evaluation *****
+19:31:58-INFO:   Num examples = 408
+19:31:58-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:02-INFO: ***** Eval results *****
+19:32:02-INFO:   F-1 score = 0.8989547038327526
+19:32:02-INFO:   eval_accuracy = 0.8578431372549019
+19:32:02-INFO:   eval_loss = 0.329042918407
+19:32:02-INFO:   global_step = 345
+19:32:02-INFO:   inference_time = 3.644425392150879
+19:32:02-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:10']
+['5', '10']
+19:32:02-INFO: ***** Running evaluation *****
+19:32:02-INFO:   Num examples = 408
+19:32:02-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:06-INFO: ***** Eval results *****
+19:32:06-INFO:   F-1 score = 0.8969072164948454
+19:32:06-INFO:   eval_accuracy = 0.8529411764705882
+19:32:06-INFO:   eval_loss = 0.32978409414107984
+19:32:06-INFO:   global_step = 345
+19:32:06-INFO:   inference_time = 3.646578073501587
+19:32:06-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:11']
+['5', '11']
+19:32:06-INFO: ***** Running evaluation *****
+19:32:06-INFO:   Num examples = 408
+19:32:06-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:09-INFO: ***** Eval results *****
+19:32:09-INFO:   F-1 score = 0.8970331588132635
+19:32:09-INFO:   eval_accuracy = 0.8553921568627451
+19:32:09-INFO:   eval_loss = 0.33053162693977356
+19:32:09-INFO:   global_step = 345
+19:32:09-INFO:   inference_time = 3.6443684101104736
+19:32:09-INFO:   loss = 0.41844929527977237
+attention_head_mask ['5:12']
+['5', '12']
+19:32:09-INFO: ***** Running evaluation *****
+19:32:09-INFO:   Num examples = 408
+19:32:09-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:32:13-INFO: ***** Eval results *****
+19:32:13-INFO:   F-1 score = 0.8984509466437176
+19:32:13-INFO:   eval_accuracy = 0.8553921568627451
+19:32:13-INFO:   eval_loss = 0.33104355518634504
+19:32:13-INFO:   global_step = 345
+19:32:13-INFO:   inference_time = 3.6772677898406982
+19:32:13-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:1']
+['6', '1']
+19:32:13-INFO: ***** Running evaluation *****
+19:32:13-INFO:   Num examples = 408
+19:32:13-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:17-INFO: ***** Eval results *****
+19:32:17-INFO:   F-1 score = 0.8942807625649914
+19:32:17-INFO:   eval_accuracy = 0.8504901960784313
+19:32:17-INFO:   eval_loss = 0.3311772392346309
+19:32:17-INFO:   global_step = 345
+19:32:17-INFO:   inference_time = 3.6495983600616455
+19:32:17-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:2']
+['6', '2']
+19:32:17-INFO: ***** Running evaluation *****
+19:32:17-INFO:   Num examples = 408
+19:32:17-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.42it/s]
+19:32:21-INFO: ***** Eval results *****
+19:32:21-INFO:   F-1 score = 0.8946459412780656
+19:32:21-INFO:   eval_accuracy = 0.8504901960784313
+19:32:21-INFO:   eval_loss = 0.3311336292670323
+19:32:21-INFO:   global_step = 345
+19:32:21-INFO:   inference_time = 3.777710437774658
+19:32:21-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:3']
+['6', '3']
+19:32:21-INFO: ***** Running evaluation *****
+19:32:21-INFO:   Num examples = 408
+19:32:21-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:24-INFO: ***** Eval results *****
+19:32:24-INFO:   F-1 score = 0.901023890784983
+19:32:24-INFO:   eval_accuracy = 0.8578431372549019
+19:32:24-INFO:   eval_loss = 0.3351332659904773
+19:32:24-INFO:   global_step = 345
+19:32:24-INFO:   inference_time = 3.6495587825775146
+19:32:24-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:4']
+['6', '4']
+19:32:24-INFO: ***** Running evaluation *****
+19:32:24-INFO:   Num examples = 408
+19:32:24-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:28-INFO: ***** Eval results *****
+19:32:28-INFO:   F-1 score = 0.8885017421602788
+19:32:28-INFO:   eval_accuracy = 0.8431372549019608
+19:32:28-INFO:   eval_loss = 0.33077107943021333
+19:32:28-INFO:   global_step = 345
+19:32:28-INFO:   inference_time = 3.6496431827545166
+19:32:28-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:5']
+['6', '5']
+19:32:28-INFO: ***** Running evaluation *****
+19:32:28-INFO:   Num examples = 408
+19:32:28-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:32-INFO: ***** Eval results *****
+19:32:32-INFO:   F-1 score = 0.8987993138936535
+19:32:32-INFO:   eval_accuracy = 0.8553921568627451
+19:32:32-INFO:   eval_loss = 0.3372601442612134
+19:32:32-INFO:   global_step = 345
+19:32:32-INFO:   inference_time = 3.6504037380218506
+19:32:32-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:6']
+['6', '6']
+19:32:32-INFO: ***** Running evaluation *****
+19:32:32-INFO:   Num examples = 408
+19:32:32-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:35-INFO: ***** Eval results *****
+19:32:35-INFO:   F-1 score = 0.9003436426116839
+19:32:35-INFO:   eval_accuracy = 0.8578431372549019
+19:32:35-INFO:   eval_loss = 0.33286456075998455
+19:32:35-INFO:   global_step = 345
+19:32:35-INFO:   inference_time = 3.6492254734039307
+19:32:35-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:7']
+['6', '7']
+19:32:35-INFO: ***** Running evaluation *****
+19:32:35-INFO:   Num examples = 408
+19:32:35-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:39-INFO: ***** Eval results *****
+19:32:39-INFO:   F-1 score = 0.8996539792387542
+19:32:39-INFO:   eval_accuracy = 0.8578431372549019
+19:32:39-INFO:   eval_loss = 0.32989662197919994
+19:32:39-INFO:   global_step = 345
+19:32:39-INFO:   inference_time = 3.6507925987243652
+19:32:39-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:8']
+['6', '8']
+19:32:39-INFO: ***** Running evaluation *****
+19:32:39-INFO:   Num examples = 408
+19:32:39-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:43-INFO: ***** Eval results *****
+19:32:43-INFO:   F-1 score = 0.8961937716262977
+19:32:43-INFO:   eval_accuracy = 0.8529411764705882
+19:32:43-INFO:   eval_loss = 0.331873466189091
+19:32:43-INFO:   global_step = 345
+19:32:43-INFO:   inference_time = 3.649507999420166
+19:32:43-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:9']
+['6', '9']
+19:32:43-INFO: ***** Running evaluation *****
+19:32:43-INFO:   Num examples = 408
+19:32:43-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:46-INFO: ***** Eval results *****
+19:32:46-INFO:   F-1 score = 0.8814814814814815
+19:32:46-INFO:   eval_accuracy = 0.8431372549019608
+19:32:46-INFO:   eval_loss = 0.3417428204646477
+19:32:46-INFO:   global_step = 345
+19:32:46-INFO:   inference_time = 3.6491808891296387
+19:32:46-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:10']
+['6', '10']
+19:32:46-INFO: ***** Running evaluation *****
+19:32:46-INFO:   Num examples = 408
+19:32:46-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:32:50-INFO: ***** Eval results *****
+19:32:50-INFO:   F-1 score = 0.8953687821612349
+19:32:50-INFO:   eval_accuracy = 0.8504901960784313
+19:32:50-INFO:   eval_loss = 0.33470406096715194
+19:32:50-INFO:   global_step = 345
+19:32:50-INFO:   inference_time = 3.650963068008423
+19:32:50-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:11']
+['6', '11']
+19:32:50-INFO: ***** Running evaluation *****
+19:32:50-INFO:   Num examples = 408
+19:32:50-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:54-INFO: ***** Eval results *****
+19:32:54-INFO:   F-1 score = 0.8927335640138409
+19:32:54-INFO:   eval_accuracy = 0.8480392156862745
+19:32:54-INFO:   eval_loss = 0.3306938478579888
+19:32:54-INFO:   global_step = 345
+19:32:54-INFO:   inference_time = 3.649224042892456
+19:32:54-INFO:   loss = 0.41844929527977237
+attention_head_mask ['6:12']
+['6', '12']
+19:32:54-INFO: ***** Running evaluation *****
+19:32:54-INFO:   Num examples = 408
+19:32:54-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.55it/s]
+19:32:57-INFO: ***** Eval results *****
+19:32:57-INFO:   F-1 score = 0.896551724137931
+19:32:57-INFO:   eval_accuracy = 0.8529411764705882
+19:32:57-INFO:   eval_loss = 0.3330064152295773
+19:32:57-INFO:   global_step = 345
+19:32:57-INFO:   inference_time = 3.6513803005218506
+19:32:57-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:1']
+['7', '1']
+19:32:57-INFO: ***** Running evaluation *****
+19:32:57-INFO:   Num examples = 408
+19:32:57-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:01-INFO: ***** Eval results *****
+19:33:01-INFO:   F-1 score = 0.896551724137931
+19:33:01-INFO:   eval_accuracy = 0.8529411764705882
+19:33:01-INFO:   eval_loss = 0.33139276046019334
+19:33:01-INFO:   global_step = 345
+19:33:01-INFO:   inference_time = 3.656863212585449
+19:33:01-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:2']
+['7', '2']
+19:33:01-INFO: ***** Running evaluation *****
+19:33:01-INFO:   Num examples = 408
+19:33:01-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:05-INFO: ***** Eval results *****
+19:33:05-INFO:   F-1 score = 0.8958333333333334
+19:33:05-INFO:   eval_accuracy = 0.8529411764705882
+19:33:05-INFO:   eval_loss = 0.32636506167741924
+19:33:05-INFO:   global_step = 345
+19:33:05-INFO:   inference_time = 3.6569571495056152
+19:33:05-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:3']
+['7', '3']
+19:33:05-INFO: ***** Running evaluation *****
+19:33:05-INFO:   Num examples = 408
+19:33:05-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:08-INFO: ***** Eval results *****
+19:33:08-INFO:   F-1 score = 0.8931034482758621
+19:33:08-INFO:   eval_accuracy = 0.8480392156862745
+19:33:08-INFO:   eval_loss = 0.3351303774576921
+19:33:08-INFO:   global_step = 345
+19:33:08-INFO:   inference_time = 3.656334400177002
+19:33:08-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:4']
+['7', '4']
+19:33:08-INFO: ***** Running evaluation *****
+19:33:08-INFO:   Num examples = 408
+19:33:08-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:12-INFO: ***** Eval results *****
+19:33:12-INFO:   F-1 score = 0.8981001727115717
+19:33:12-INFO:   eval_accuracy = 0.8553921568627451
+19:33:12-INFO:   eval_loss = 0.33302678855565876
+19:33:12-INFO:   global_step = 345
+19:33:12-INFO:   inference_time = 3.6554698944091797
+19:33:12-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:5']
+['7', '5']
+19:33:12-INFO: ***** Running evaluation *****
+19:33:12-INFO:   Num examples = 408
+19:33:12-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:16-INFO: ***** Eval results *****
+19:33:16-INFO:   F-1 score = 0.891566265060241
+19:33:16-INFO:   eval_accuracy = 0.8455882352941176
+19:33:16-INFO:   eval_loss = 0.3309696591817416
+19:33:16-INFO:   global_step = 345
+19:33:16-INFO:   inference_time = 3.6559741497039795
+19:33:16-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:6']
+['7', '6']
+19:33:16-INFO: ***** Running evaluation *****
+19:33:16-INFO:   Num examples = 408
+19:33:16-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:19-INFO: ***** Eval results *****
+19:33:19-INFO:   F-1 score = 0.8950086058519794
+19:33:19-INFO:   eval_accuracy = 0.8504901960784313
+19:33:19-INFO:   eval_loss = 0.33335290734584516
+19:33:19-INFO:   global_step = 345
+19:33:19-INFO:   inference_time = 3.6555097103118896
+19:33:19-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:7']
+['7', '7']
+19:33:19-INFO: ***** Running evaluation *****
+19:33:19-INFO:   Num examples = 408
+19:33:19-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:23-INFO: ***** Eval results *****
+19:33:23-INFO:   F-1 score = 0.8977469670710572
+19:33:23-INFO:   eval_accuracy = 0.8553921568627451
+19:33:23-INFO:   eval_loss = 0.33338140753599316
+19:33:23-INFO:   global_step = 345
+19:33:23-INFO:   inference_time = 3.6599018573760986
+19:33:23-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:8']
+['7', '8']
+19:33:23-INFO: ***** Running evaluation *****
+19:33:23-INFO:   Num examples = 408
+19:33:23-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:27-INFO: ***** Eval results *****
+19:33:27-INFO:   F-1 score = 0.8972602739726027
+19:33:27-INFO:   eval_accuracy = 0.8529411764705882
+19:33:27-INFO:   eval_loss = 0.3362995856083356
+19:33:27-INFO:   global_step = 345
+19:33:27-INFO:   inference_time = 3.6595969200134277
+19:33:27-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:9']
+['7', '9']
+19:33:27-INFO: ***** Running evaluation *****
+19:33:27-INFO:   Num examples = 408
+19:33:27-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:31-INFO: ***** Eval results *****
+19:33:31-INFO:   F-1 score = 0.8942807625649914
+19:33:31-INFO:   eval_accuracy = 0.8504901960784313
+19:33:31-INFO:   eval_loss = 0.32418157160282135
+19:33:31-INFO:   global_step = 345
+19:33:31-INFO:   inference_time = 3.6575076580047607
+19:33:31-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:10']
+['7', '10']
+19:33:31-INFO: ***** Running evaluation *****
+19:33:31-INFO:   Num examples = 408
+19:33:31-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:34-INFO: ***** Eval results *****
+19:33:34-INFO:   F-1 score = 0.8923611111111109
+19:33:34-INFO:   eval_accuracy = 0.8480392156862745
+19:33:34-INFO:   eval_loss = 0.3348494997391334
+19:33:34-INFO:   global_step = 345
+19:33:34-INFO:   inference_time = 3.6575965881347656
+19:33:34-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:11']
+['7', '11']
+19:33:34-INFO: ***** Running evaluation *****
+19:33:34-INFO:   Num examples = 408
+19:33:34-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:38-INFO: ***** Eval results *****
+19:33:38-INFO:   F-1 score = 0.8981001727115717
+19:33:38-INFO:   eval_accuracy = 0.8553921568627451
+19:33:38-INFO:   eval_loss = 0.3345292199116487
+19:33:38-INFO:   global_step = 345
+19:33:38-INFO:   inference_time = 3.6579575538635254
+19:33:38-INFO:   loss = 0.41844929527977237
+attention_head_mask ['7:12']
+['7', '12']
+19:33:38-INFO: ***** Running evaluation *****
+19:33:38-INFO:   Num examples = 408
+19:33:38-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:42-INFO: ***** Eval results *****
+19:33:42-INFO:   F-1 score = 0.8931034482758621
+19:33:42-INFO:   eval_accuracy = 0.8480392156862745
+19:33:42-INFO:   eval_loss = 0.33432599214407116
+19:33:42-INFO:   global_step = 345
+19:33:42-INFO:   inference_time = 3.6562740802764893
+19:33:42-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:1']
+['8', '1']
+19:33:42-INFO: ***** Running evaluation *****
+19:33:42-INFO:   Num examples = 408
+19:33:42-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:33:45-INFO: ***** Eval results *****
+19:33:45-INFO:   F-1 score = 0.8869565217391304
+19:33:45-INFO:   eval_accuracy = 0.8406862745098039
+19:33:45-INFO:   eval_loss = 0.3395696889895659
+19:33:45-INFO:   global_step = 345
+19:33:45-INFO:   inference_time = 3.663429021835327
+19:33:45-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:2']
+['8', '2']
+19:33:45-INFO: ***** Running evaluation *****
+19:33:45-INFO:   Num examples = 408
+19:33:45-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:49-INFO: ***** Eval results *****
+19:33:49-INFO:   F-1 score = 0.8942807625649914
+19:33:49-INFO:   eval_accuracy = 0.8504901960784313
+19:33:49-INFO:   eval_loss = 0.33378251584676594
+19:33:49-INFO:   global_step = 345
+19:33:49-INFO:   inference_time = 3.662531614303589
+19:33:49-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:3']
+['8', '3']
+19:33:49-INFO: ***** Running evaluation *****
+19:33:49-INFO:   Num examples = 408
+19:33:49-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:33:53-INFO: ***** Eval results *****
+19:33:53-INFO:   F-1 score = 0.8961937716262977
+19:33:53-INFO:   eval_accuracy = 0.8529411764705882
+19:33:53-INFO:   eval_loss = 0.33395229967740864
+19:33:53-INFO:   global_step = 345
+19:33:53-INFO:   inference_time = 3.6630423069000244
+19:33:53-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:4']
+['8', '4']
+19:33:53-INFO: ***** Running evaluation *****
+19:33:53-INFO:   Num examples = 408
+19:33:53-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:33:56-INFO: ***** Eval results *****
+19:33:56-INFO:   F-1 score = 0.8950086058519794
+19:33:56-INFO:   eval_accuracy = 0.8504901960784313
+19:33:56-INFO:   eval_loss = 0.3351466472332294
+19:33:56-INFO:   global_step = 345
+19:33:56-INFO:   inference_time = 3.6636877059936523
+19:33:56-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:5']
+['8', '5']
+19:33:56-INFO: ***** Running evaluation *****
+19:33:56-INFO:   Num examples = 408
+19:33:56-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:00-INFO: ***** Eval results *****
+19:34:00-INFO:   F-1 score = 0.891566265060241
+19:34:00-INFO:   eval_accuracy = 0.8455882352941176
+19:34:00-INFO:   eval_loss = 0.3349304520166837
+19:34:00-INFO:   global_step = 345
+19:34:00-INFO:   inference_time = 3.663978338241577
+19:34:00-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:6']
+['8', '6']
+19:34:00-INFO: ***** Running evaluation *****
+19:34:00-INFO:   Num examples = 408
+19:34:00-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:34:04-INFO: ***** Eval results *****
+19:34:04-INFO:   F-1 score = 0.8989547038327526
+19:34:04-INFO:   eval_accuracy = 0.8578431372549019
+19:34:04-INFO:   eval_loss = 0.32616550761919755
+19:34:04-INFO:   global_step = 345
+19:34:04-INFO:   inference_time = 3.6627161502838135
+19:34:04-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:7']
+['8', '7']
+19:34:04-INFO: ***** Running evaluation *****
+19:34:04-INFO:   Num examples = 408
+19:34:04-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.54it/s]
+19:34:07-INFO: ***** Eval results *****
+19:34:07-INFO:   F-1 score = 0.8911917098445595
+19:34:07-INFO:   eval_accuracy = 0.8455882352941176
+19:34:07-INFO:   eval_loss = 0.33366887271404266
+19:34:07-INFO:   global_step = 345
+19:34:07-INFO:   inference_time = 3.6628735065460205
+19:34:07-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:8']
+['8', '8']
+19:34:07-INFO: ***** Running evaluation *****
+19:34:07-INFO:   Num examples = 408
+19:34:07-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:11-INFO: ***** Eval results *****
+19:34:11-INFO:   F-1 score = 0.8950086058519794
+19:34:11-INFO:   eval_accuracy = 0.8504901960784313
+19:34:11-INFO:   eval_loss = 0.3342082122197518
+19:34:11-INFO:   global_step = 345
+19:34:11-INFO:   inference_time = 3.663956642150879
+19:34:11-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:9']
+['8', '9']
+19:34:11-INFO: ***** Running evaluation *****
+19:34:11-INFO:   Num examples = 408
+19:34:11-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:15-INFO: ***** Eval results *****
+19:34:15-INFO:   F-1 score = 0.896551724137931
+19:34:15-INFO:   eval_accuracy = 0.8529411764705882
+19:34:15-INFO:   eval_loss = 0.33705290349630207
+19:34:15-INFO:   global_step = 345
+19:34:15-INFO:   inference_time = 3.6649985313415527
+19:34:15-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:10']
+['8', '10']
+19:34:15-INFO: ***** Running evaluation *****
+19:34:15-INFO:   Num examples = 408
+19:34:15-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:18-INFO: ***** Eval results *****
+19:34:18-INFO:   F-1 score = 0.8911917098445595
+19:34:18-INFO:   eval_accuracy = 0.8455882352941176
+19:34:18-INFO:   eval_loss = 0.3375229766735664
+19:34:18-INFO:   global_step = 345
+19:34:18-INFO:   inference_time = 3.6652398109436035
+19:34:18-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:11']
+['8', '11']
+19:34:18-INFO: ***** Running evaluation *****
+19:34:18-INFO:   Num examples = 408
+19:34:18-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:22-INFO: ***** Eval results *****
+19:34:22-INFO:   F-1 score = 0.8950086058519794
+19:34:22-INFO:   eval_accuracy = 0.8504901960784313
+19:34:22-INFO:   eval_loss = 0.3343384712934494
+19:34:22-INFO:   global_step = 345
+19:34:22-INFO:   inference_time = 3.6651570796966553
+19:34:22-INFO:   loss = 0.41844929527977237
+attention_head_mask ['8:12']
+['8', '12']
+19:34:22-INFO: ***** Running evaluation *****
+19:34:22-INFO:   Num examples = 408
+19:34:22-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:26-INFO: ***** Eval results *****
+19:34:26-INFO:   F-1 score = 0.8961937716262977
+19:34:26-INFO:   eval_accuracy = 0.8529411764705882
+19:34:26-INFO:   eval_loss = 0.3331691508109753
+19:34:26-INFO:   global_step = 345
+19:34:26-INFO:   inference_time = 3.6648600101470947
+19:34:26-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:1']
+['9', '1']
+19:34:26-INFO: ***** Running evaluation *****
+19:34:26-INFO:   Num examples = 408
+19:34:26-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:29-INFO: ***** Eval results *****
+19:34:29-INFO:   F-1 score = 0.8961937716262977
+19:34:29-INFO:   eval_accuracy = 0.8529411764705882
+19:34:29-INFO:   eval_loss = 0.3342579992917868
+19:34:29-INFO:   global_step = 345
+19:34:29-INFO:   inference_time = 3.6696290969848633
+19:34:29-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:2']
+['9', '2']
+19:34:29-INFO: ***** Running evaluation *****
+19:34:29-INFO:   Num examples = 408
+19:34:29-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:33-INFO: ***** Eval results *****
+19:34:33-INFO:   F-1 score = 0.8911917098445595
+19:34:33-INFO:   eval_accuracy = 0.8455882352941176
+19:34:33-INFO:   eval_loss = 0.3322890756221918
+19:34:33-INFO:   global_step = 345
+19:34:33-INFO:   inference_time = 3.670443534851074
+19:34:33-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:3']
+['9', '3']
+19:34:33-INFO: ***** Running evaluation *****
+19:34:33-INFO:   Num examples = 408
+19:34:33-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:37-INFO: ***** Eval results *****
+19:34:37-INFO:   F-1 score = 0.8961937716262977
+19:34:37-INFO:   eval_accuracy = 0.8529411764705882
+19:34:37-INFO:   eval_loss = 0.33292479010728687
+19:34:37-INFO:   global_step = 345
+19:34:37-INFO:   inference_time = 3.6698453426361084
+19:34:37-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:4']
+['9', '4']
+19:34:37-INFO: ***** Running evaluation *****
+19:34:37-INFO:   Num examples = 408
+19:34:37-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:41-INFO: ***** Eval results *****
+19:34:41-INFO:   F-1 score = 0.8946459412780656
+19:34:41-INFO:   eval_accuracy = 0.8504901960784313
+19:34:41-INFO:   eval_loss = 0.33170437812805176
+19:34:41-INFO:   global_step = 345
+19:34:41-INFO:   inference_time = 3.671783685684204
+19:34:41-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:5']
+['9', '5']
+19:34:41-INFO: ***** Running evaluation *****
+19:34:41-INFO:   Num examples = 408
+19:34:41-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:44-INFO: ***** Eval results *****
+19:34:44-INFO:   F-1 score = 0.8946459412780656
+19:34:44-INFO:   eval_accuracy = 0.8504901960784313
+19:34:44-INFO:   eval_loss = 0.33367357689600724
+19:34:44-INFO:   global_step = 345
+19:34:44-INFO:   inference_time = 3.669102430343628
+19:34:44-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:6']
+['9', '6']
+19:34:44-INFO: ***** Running evaluation *****
+19:34:44-INFO:   Num examples = 408
+19:34:44-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:48-INFO: ***** Eval results *****
+19:34:48-INFO:   F-1 score = 0.8942807625649914
+19:34:48-INFO:   eval_accuracy = 0.8504901960784313
+19:34:48-INFO:   eval_loss = 0.3339398331367053
+19:34:48-INFO:   global_step = 345
+19:34:48-INFO:   inference_time = 3.670046806335449
+19:34:48-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:7']
+['9', '7']
+19:34:48-INFO: ***** Running evaluation *****
+19:34:48-INFO:   Num examples = 408
+19:34:48-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:52-INFO: ***** Eval results *****
+19:34:52-INFO:   F-1 score = 0.8927335640138409
+19:34:52-INFO:   eval_accuracy = 0.8480392156862745
+19:34:52-INFO:   eval_loss = 0.3343428740134606
+19:34:52-INFO:   global_step = 345
+19:34:52-INFO:   inference_time = 3.669341564178467
+19:34:52-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:8']
+['9', '8']
+19:34:52-INFO: ***** Running evaluation *****
+19:34:52-INFO:   Num examples = 408
+19:34:52-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:55-INFO: ***** Eval results *****
+19:34:55-INFO:   F-1 score = 0.8829787234042553
+19:34:55-INFO:   eval_accuracy = 0.8382352941176471
+19:34:55-INFO:   eval_loss = 0.32716796031365025
+19:34:55-INFO:   global_step = 345
+19:34:55-INFO:   inference_time = 3.6701881885528564
+19:34:55-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:9']
+['9', '9']
+19:34:55-INFO: ***** Running evaluation *****
+19:34:55-INFO:   Num examples = 408
+19:34:55-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:34:59-INFO: ***** Eval results *****
+19:34:59-INFO:   F-1 score = 0.8953687821612349
+19:34:59-INFO:   eval_accuracy = 0.8504901960784313
+19:34:59-INFO:   eval_loss = 0.3289487465069844
+19:34:59-INFO:   global_step = 345
+19:34:59-INFO:   inference_time = 3.669409990310669
+19:34:59-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:10']
+['9', '10']
+19:34:59-INFO: ***** Running evaluation *****
+19:34:59-INFO:   Num examples = 408
+19:34:59-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:03-INFO: ***** Eval results *****
+19:35:03-INFO:   F-1 score = 0.8950086058519794
+19:35:03-INFO:   eval_accuracy = 0.8504901960784313
+19:35:03-INFO:   eval_loss = 0.3383245513989375
+19:35:03-INFO:   global_step = 345
+19:35:03-INFO:   inference_time = 3.668797254562378
+19:35:03-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:11']
+['9', '11']
+19:35:03-INFO: ***** Running evaluation *****
+19:35:03-INFO:   Num examples = 408
+19:35:03-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:06-INFO: ***** Eval results *****
+19:35:06-INFO:   F-1 score = 0.9006849315068494
+19:35:06-INFO:   eval_accuracy = 0.8578431372549019
+19:35:06-INFO:   eval_loss = 0.3360918049628918
+19:35:06-INFO:   global_step = 345
+19:35:06-INFO:   inference_time = 3.6700327396392822
+19:35:06-INFO:   loss = 0.41844929527977237
+attention_head_mask ['9:12']
+['9', '12']
+19:35:06-INFO: ***** Running evaluation *****
+19:35:06-INFO:   Num examples = 408
+19:35:06-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:10-INFO: ***** Eval results *****
+19:35:10-INFO:   F-1 score = 0.8942807625649914
+19:35:10-INFO:   eval_accuracy = 0.8504901960784313
+19:35:10-INFO:   eval_loss = 0.3354461926680345
+19:35:10-INFO:   global_step = 345
+19:35:10-INFO:   inference_time = 3.67033052444458
+19:35:10-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:1']
+['10', '1']
+19:35:10-INFO: ***** Running evaluation *****
+19:35:10-INFO:   Num examples = 408
+19:35:10-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:35:14-INFO: ***** Eval results *****
+19:35:14-INFO:   F-1 score = 0.8942807625649914
+19:35:14-INFO:   eval_accuracy = 0.8504901960784313
+19:35:14-INFO:   eval_loss = 0.3356007303182895
+19:35:14-INFO:   global_step = 345
+19:35:14-INFO:   inference_time = 3.6758294105529785
+19:35:14-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:2']
+['10', '2']
+19:35:14-INFO: ***** Running evaluation *****
+19:35:14-INFO:   Num examples = 408
+19:35:14-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:35:18-INFO: ***** Eval results *****
+19:35:18-INFO:   F-1 score = 0.8927335640138409
+19:35:18-INFO:   eval_accuracy = 0.8480392156862745
+19:35:18-INFO:   eval_loss = 0.33565197999660784
+19:35:18-INFO:   global_step = 345
+19:35:18-INFO:   inference_time = 3.6748359203338623
+19:35:18-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:3']
+['10', '3']
+19:35:18-INFO: ***** Running evaluation *****
+19:35:18-INFO:   Num examples = 408
+19:35:18-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:21-INFO: ***** Eval results *****
+19:35:21-INFO:   F-1 score = 0.8939130434782607
+19:35:21-INFO:   eval_accuracy = 0.8504901960784313
+19:35:21-INFO:   eval_loss = 0.33381938017331636
+19:35:21-INFO:   global_step = 345
+19:35:21-INFO:   inference_time = 3.6736862659454346
+19:35:21-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:4']
+['10', '4']
+19:35:21-INFO: ***** Running evaluation *****
+19:35:21-INFO:   Num examples = 408
+19:35:21-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:25-INFO: ***** Eval results *****
+19:35:25-INFO:   F-1 score = 0.8942807625649914
+19:35:25-INFO:   eval_accuracy = 0.8504901960784313
+19:35:25-INFO:   eval_loss = 0.3361901319943942
+19:35:25-INFO:   global_step = 345
+19:35:25-INFO:   inference_time = 3.6738901138305664
+19:35:25-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:5']
+['10', '5']
+19:35:25-INFO: ***** Running evaluation *****
+19:35:25-INFO:   Num examples = 408
+19:35:25-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:29-INFO: ***** Eval results *****
+19:35:29-INFO:   F-1 score = 0.8927335640138409
+19:35:29-INFO:   eval_accuracy = 0.8480392156862745
+19:35:29-INFO:   eval_loss = 0.33567839975540453
+19:35:29-INFO:   global_step = 345
+19:35:29-INFO:   inference_time = 3.6734204292297363
+19:35:29-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:6']
+['10', '6']
+19:35:29-INFO: ***** Running evaluation *****
+19:35:29-INFO:   Num examples = 408
+19:35:29-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:32-INFO: ***** Eval results *****
+19:35:32-INFO:   F-1 score = 0.8950086058519794
+19:35:32-INFO:   eval_accuracy = 0.8504901960784313
+19:35:32-INFO:   eval_loss = 0.3395178180474501
+19:35:32-INFO:   global_step = 345
+19:35:32-INFO:   inference_time = 3.673711061477661
+19:35:32-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:7']
+['10', '7']
+19:35:32-INFO: ***** Running evaluation *****
+19:35:32-INFO:   Num examples = 408
+19:35:32-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:35:36-INFO: ***** Eval results *****
+19:35:36-INFO:   F-1 score = 0.8942807625649914
+19:35:36-INFO:   eval_accuracy = 0.8504901960784313
+19:35:36-INFO:   eval_loss = 0.3361680736908546
+19:35:36-INFO:   global_step = 345
+19:35:36-INFO:   inference_time = 3.6746416091918945
+19:35:36-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:8']
+['10', '8']
+19:35:36-INFO: ***** Running evaluation *****
+19:35:36-INFO:   Num examples = 408
+19:35:36-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:35:40-INFO: ***** Eval results *****
+19:35:40-INFO:   F-1 score = 0.8927335640138409
+19:35:40-INFO:   eval_accuracy = 0.8480392156862745
+19:35:40-INFO:   eval_loss = 0.3358538414423282
+19:35:40-INFO:   global_step = 345
+19:35:40-INFO:   inference_time = 3.6747963428497314
+19:35:40-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:9']
+['10', '9']
+19:35:40-INFO: ***** Running evaluation *****
+19:35:40-INFO:   Num examples = 408
+19:35:40-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:43-INFO: ***** Eval results *****
+19:35:43-INFO:   F-1 score = 0.8958333333333334
+19:35:43-INFO:   eval_accuracy = 0.8529411764705882
+19:35:43-INFO:   eval_loss = 0.3357111868950037
+19:35:43-INFO:   global_step = 345
+19:35:43-INFO:   inference_time = 3.6738009452819824
+19:35:43-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:10']
+['10', '10']
+19:35:43-INFO: ***** Running evaluation *****
+19:35:43-INFO:   Num examples = 408
+19:35:43-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:35:47-INFO: ***** Eval results *****
+19:35:47-INFO:   F-1 score = 0.8942807625649914
+19:35:47-INFO:   eval_accuracy = 0.8504901960784313
+19:35:47-INFO:   eval_loss = 0.3358290676887219
+19:35:47-INFO:   global_step = 345
+19:35:47-INFO:   inference_time = 3.6750357151031494
+19:35:47-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:11']
+['10', '11']
+19:35:47-INFO: ***** Running evaluation *****
+19:35:47-INFO:   Num examples = 408
+19:35:47-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.53it/s]
+19:35:51-INFO: ***** Eval results *****
+19:35:51-INFO:   F-1 score = 0.8977469670710572
+19:35:51-INFO:   eval_accuracy = 0.8553921568627451
+19:35:51-INFO:   eval_loss = 0.3339183743183429
+19:35:51-INFO:   global_step = 345
+19:35:51-INFO:   inference_time = 3.6739280223846436
+19:35:51-INFO:   loss = 0.41844929527977237
+attention_head_mask ['10:12']
+['10', '12']
+19:35:51-INFO: ***** Running evaluation *****
+19:35:51-INFO:   Num examples = 408
+19:35:51-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:35:54-INFO: ***** Eval results *****
+19:35:54-INFO:   F-1 score = 0.8969072164948454
+19:35:54-INFO:   eval_accuracy = 0.8529411764705882
+19:35:54-INFO:   eval_loss = 0.33709973899217754
+19:35:54-INFO:   global_step = 345
+19:35:54-INFO:   inference_time = 3.6741907596588135
+19:35:54-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:1']
+['11', '1']
+19:35:54-INFO: ***** Running evaluation *****
+19:35:54-INFO:   Num examples = 408
+19:35:54-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:35:58-INFO: ***** Eval results *****
+19:35:58-INFO:   F-1 score = 0.8969072164948454
+19:35:58-INFO:   eval_accuracy = 0.8529411764705882
+19:35:58-INFO:   eval_loss = 0.3366828549366731
+19:35:58-INFO:   global_step = 345
+19:35:58-INFO:   inference_time = 3.679351806640625
+19:35:58-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:2']
+['11', '2']
+19:35:58-INFO: ***** Running evaluation *****
+19:35:58-INFO:   Num examples = 408
+19:35:58-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:02-INFO: ***** Eval results *****
+19:36:02-INFO:   F-1 score = 0.8987993138936535
+19:36:02-INFO:   eval_accuracy = 0.8553921568627451
+19:36:02-INFO:   eval_loss = 0.33721656180345094
+19:36:02-INFO:   global_step = 345
+19:36:02-INFO:   inference_time = 3.6792194843292236
+19:36:02-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:3']
+['11', '3']
+19:36:02-INFO: ***** Running evaluation *****
+19:36:02-INFO:   Num examples = 408
+19:36:02-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:06-INFO: ***** Eval results *****
+19:36:06-INFO:   F-1 score = 0.8987993138936535
+19:36:06-INFO:   eval_accuracy = 0.8553921568627451
+19:36:06-INFO:   eval_loss = 0.33711571189073414
+19:36:06-INFO:   global_step = 345
+19:36:06-INFO:   inference_time = 3.679792881011963
+19:36:06-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:4']
+['11', '4']
+19:36:06-INFO: ***** Running evaluation *****
+19:36:06-INFO:   Num examples = 408
+19:36:06-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:09-INFO: ***** Eval results *****
+19:36:09-INFO:   F-1 score = 0.8969072164948454
+19:36:09-INFO:   eval_accuracy = 0.8529411764705882
+19:36:09-INFO:   eval_loss = 0.3366115895601419
+19:36:09-INFO:   global_step = 345
+19:36:09-INFO:   inference_time = 3.6795809268951416
+19:36:09-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:5']
+['11', '5']
+19:36:09-INFO: ***** Running evaluation *****
+19:36:09-INFO:   Num examples = 408
+19:36:09-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:13-INFO: ***** Eval results *****
+19:36:13-INFO:   F-1 score = 0.9025641025641027
+19:36:13-INFO:   eval_accuracy = 0.8602941176470589
+19:36:13-INFO:   eval_loss = 0.3376392802366844
+19:36:13-INFO:   global_step = 345
+19:36:13-INFO:   inference_time = 3.679962396621704
+19:36:13-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:6']
+['11', '6']
+19:36:13-INFO: ***** Running evaluation *****
+19:36:13-INFO:   Num examples = 408
+19:36:13-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:17-INFO: ***** Eval results *****
+19:36:17-INFO:   F-1 score = 0.8969072164948454
+19:36:17-INFO:   eval_accuracy = 0.8529411764705882
+19:36:17-INFO:   eval_loss = 0.3367954481106538
+19:36:17-INFO:   global_step = 345
+19:36:17-INFO:   inference_time = 3.679914712905884
+19:36:17-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:7']
+['11', '7']
+19:36:17-INFO: ***** Running evaluation *****
+19:36:17-INFO:   Num examples = 408
+19:36:17-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:20-INFO: ***** Eval results *****
+19:36:20-INFO:   F-1 score = 0.8969072164948454
+19:36:20-INFO:   eval_accuracy = 0.8529411764705882
+19:36:20-INFO:   eval_loss = 0.33706671114151293
+19:36:20-INFO:   global_step = 345
+19:36:20-INFO:   inference_time = 3.679333448410034
+19:36:20-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:8']
+['11', '8']
+19:36:20-INFO: ***** Running evaluation *****
+19:36:20-INFO:   Num examples = 408
+19:36:20-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:24-INFO: ***** Eval results *****
+19:36:24-INFO:   F-1 score = 0.8987993138936535
+19:36:24-INFO:   eval_accuracy = 0.8553921568627451
+19:36:24-INFO:   eval_loss = 0.33736640214920044
+19:36:24-INFO:   global_step = 345
+19:36:24-INFO:   inference_time = 3.680130958557129
+19:36:24-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:9']
+['11', '9']
+19:36:24-INFO: ***** Running evaluation *****
+19:36:24-INFO:   Num examples = 408
+19:36:24-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:28-INFO: ***** Eval results *****
+19:36:28-INFO:   F-1 score = 0.8950086058519794
+19:36:28-INFO:   eval_accuracy = 0.8504901960784313
+19:36:28-INFO:   eval_loss = 0.33698949447044957
+19:36:28-INFO:   global_step = 345
+19:36:28-INFO:   inference_time = 3.6799776554107666
+19:36:28-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:10']
+['11', '10']
+19:36:28-INFO: ***** Running evaluation *****
+19:36:28-INFO:   Num examples = 408
+19:36:28-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:32-INFO: ***** Eval results *****
+19:36:32-INFO:   F-1 score = 0.8987993138936535
+19:36:32-INFO:   eval_accuracy = 0.8553921568627451
+19:36:32-INFO:   eval_loss = 0.33752863796857685
+19:36:32-INFO:   global_step = 345
+19:36:32-INFO:   inference_time = 3.6796679496765137
+19:36:32-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:11']
+['11', '11']
+19:36:32-INFO: ***** Running evaluation *****
+19:36:32-INFO:   Num examples = 408
+19:36:32-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:35-INFO: ***** Eval results *****
+19:36:35-INFO:   F-1 score = 0.8987993138936535
+19:36:35-INFO:   eval_accuracy = 0.8553921568627451
+19:36:35-INFO:   eval_loss = 0.33649692512475526
+19:36:35-INFO:   global_step = 345
+19:36:35-INFO:   inference_time = 3.679610252380371
+19:36:35-INFO:   loss = 0.41844929527977237
+attention_head_mask ['11:12']
+['11', '12']
+19:36:35-INFO: ***** Running evaluation *****
+19:36:35-INFO:   Num examples = 408
+19:36:35-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.52it/s]
+19:36:39-INFO: ***** Eval results *****
+19:36:39-INFO:   F-1 score = 0.8969072164948454
+19:36:39-INFO:   eval_accuracy = 0.8529411764705882
+19:36:39-INFO:   eval_loss = 0.3378882213280751
+19:36:39-INFO:   global_step = 345
+19:36:39-INFO:   inference_time = 3.6815268993377686
+19:36:39-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:1']
+['12', '1']
+19:36:39-INFO: ***** Running evaluation *****
+19:36:39-INFO:   Num examples = 408
+19:36:39-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:36:43-INFO: ***** Eval results *****
+19:36:43-INFO:   F-1 score = 0.8950086058519794
+19:36:43-INFO:   eval_accuracy = 0.8504901960784313
+19:36:43-INFO:   eval_loss = 0.33781892175857836
+19:36:43-INFO:   global_step = 345
+19:36:43-INFO:   inference_time = 3.687523365020752
+19:36:43-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:2']
+['12', '2']
+19:36:43-INFO: ***** Running evaluation *****
+19:36:43-INFO:   Num examples = 408
+19:36:43-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:36:46-INFO: ***** Eval results *****
+19:36:46-INFO:   F-1 score = 0.8969072164948454
+19:36:46-INFO:   eval_accuracy = 0.8529411764705882
+19:36:46-INFO:   eval_loss = 0.33790427217116725
+19:36:46-INFO:   global_step = 345
+19:36:46-INFO:   inference_time = 3.688847064971924
+19:36:46-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:3']
+['12', '3']
+19:36:46-INFO: ***** Running evaluation *****
+19:36:46-INFO:   Num examples = 408
+19:36:46-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:36:50-INFO: ***** Eval results *****
+19:36:50-INFO:   F-1 score = 0.8969072164948454
+19:36:50-INFO:   eval_accuracy = 0.8529411764705882
+19:36:50-INFO:   eval_loss = 0.3378033053416472
+19:36:50-INFO:   global_step = 345
+19:36:50-INFO:   inference_time = 3.68766713142395
+19:36:50-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:4']
+['12', '4']
+19:36:50-INFO: ***** Running evaluation *****
+19:36:50-INFO:   Num examples = 408
+19:36:50-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:36:54-INFO: ***** Eval results *****
+19:36:54-INFO:   F-1 score = 0.8969072164948454
+19:36:54-INFO:   eval_accuracy = 0.8529411764705882
+19:36:54-INFO:   eval_loss = 0.33798258579694307
+19:36:54-INFO:   global_step = 345
+19:36:54-INFO:   inference_time = 3.6876003742218018
+19:36:54-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:5']
+['12', '5']
+19:36:54-INFO: ***** Running evaluation *****
+19:36:54-INFO:   Num examples = 408
+19:36:54-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:36:57-INFO: ***** Eval results *****
+19:36:57-INFO:   F-1 score = 0.8969072164948454
+19:36:57-INFO:   eval_accuracy = 0.8529411764705882
+19:36:57-INFO:   eval_loss = 0.3378725109192041
+19:36:57-INFO:   global_step = 345
+19:36:57-INFO:   inference_time = 3.687737464904785
+19:36:57-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:6']
+['12', '6']
+19:36:57-INFO: ***** Running evaluation *****
+19:36:57-INFO:   Num examples = 408
+19:36:57-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:37:01-INFO: ***** Eval results *****
+19:37:01-INFO:   F-1 score = 0.8969072164948454
+19:37:01-INFO:   eval_accuracy = 0.8529411764705882
+19:37:01-INFO:   eval_loss = 0.33799440471025616
+19:37:01-INFO:   global_step = 345
+19:37:01-INFO:   inference_time = 3.6873652935028076
+19:37:01-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:7']
+['12', '7']
+19:37:01-INFO: ***** Running evaluation *****
+19:37:01-INFO:   Num examples = 408
+19:37:01-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:37:05-INFO: ***** Eval results *****
+19:37:05-INFO:   F-1 score = 0.8969072164948454
+19:37:05-INFO:   eval_accuracy = 0.8529411764705882
+19:37:05-INFO:   eval_loss = 0.33779846361050236
+19:37:05-INFO:   global_step = 345
+19:37:05-INFO:   inference_time = 3.6873202323913574
+19:37:05-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:8']
+['12', '8']
+19:37:05-INFO: ***** Running evaluation *****
+19:37:05-INFO:   Num examples = 408
+19:37:05-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:37:09-INFO: ***** Eval results *****
+19:37:09-INFO:   F-1 score = 0.8969072164948454
+19:37:09-INFO:   eval_accuracy = 0.8529411764705882
+19:37:09-INFO:   eval_loss = 0.337923710162823
+19:37:09-INFO:   global_step = 345
+19:37:09-INFO:   inference_time = 3.6884140968322754
+19:37:09-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:9']
+['12', '9']
+19:37:09-INFO: ***** Running evaluation *****
+19:37:09-INFO:   Num examples = 408
+19:37:09-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:37:12-INFO: ***** Eval results *****
+19:37:12-INFO:   F-1 score = 0.8969072164948454
+19:37:12-INFO:   eval_accuracy = 0.8529411764705882
+19:37:12-INFO:   eval_loss = 0.337223449578652
+19:37:12-INFO:   global_step = 345
+19:37:12-INFO:   inference_time = 3.688716411590576
+19:37:12-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:10']
+['12', '10']
+19:37:12-INFO: ***** Running evaluation *****
+19:37:12-INFO:   Num examples = 408
+19:37:12-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:37:16-INFO: ***** Eval results *****
+19:37:16-INFO:   F-1 score = 0.8987993138936535
+19:37:16-INFO:   eval_accuracy = 0.8553921568627451
+19:37:16-INFO:   eval_loss = 0.3381195343457736
+19:37:16-INFO:   global_step = 345
+19:37:16-INFO:   inference_time = 3.6887927055358887
+19:37:16-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:11']
+['12', '11']
+19:37:16-INFO: ***** Running evaluation *****
+19:37:16-INFO:   Num examples = 408
+19:37:16-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:37:20-INFO: ***** Eval results *****
+19:37:20-INFO:   F-1 score = 0.8969072164948454
+19:37:20-INFO:   eval_accuracy = 0.8529411764705882
+19:37:20-INFO:   eval_loss = 0.3378963183898192
+19:37:20-INFO:   global_step = 345
+19:37:20-INFO:   inference_time = 3.687528610229492
+19:37:20-INFO:   loss = 0.41844929527977237
+attention_head_mask ['12:12']
+['12', '12']
+19:37:20-INFO: ***** Running evaluation *****
+19:37:20-INFO:   Num examples = 408
+19:37:20-INFO:   Batch size = 32
+Evaluating: 100% 13/13 [00:03<00:00,  3.51it/s]
+19:37:23-INFO: ***** Eval results *****
+19:37:23-INFO:   F-1 score = 0.8969072164948454
+19:37:23-INFO:   eval_accuracy = 0.8529411764705882
+19:37:23-INFO:   eval_loss = 0.337969299692374
+19:37:23-INFO:   global_step = 345
+19:37:23-INFO:   inference_time = 3.6864917278289795
+19:37:23-INFO:   loss = 0.41844929527977237

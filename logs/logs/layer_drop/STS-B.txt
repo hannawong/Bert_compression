@@ -1,0 +1,27 @@
+=====================================================
+EXPERIMENT1: remove layers 10,11 (top drop 2)
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+
+=====================================================
+EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)

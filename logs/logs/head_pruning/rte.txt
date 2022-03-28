@@ -1,0 +1,1460 @@
+Epoch: 100% 10/10 [05:07<00:00, 30.70s/it]
+307.0594882965088 training time======
+23:13:22-INFO:  global_step = 780, average loss = 0.2391982279640312
+23:13:22-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/RTE
+23:13:26-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/RTE']
+23:13:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:28-INFO: ***** Running evaluation  *****
+23:13:28-INFO:   Num examples = 277
+23:13:28-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.15it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:36: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+23:13:30-INFO: ***** Eval results  *****
+23:13:30-INFO:   acc = 0.703971119133574
+evaluation time 1.3278765678405762
+start pruning.....
+attention_head_mask ['1:1']
+['1', '1']
+23:13:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:30-INFO: ***** Running evaluation  *****
+23:13:30-INFO:   Num examples = 277
+23:13:30-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 26.71it/s]
+23:13:31-INFO: ***** Eval results  *****
+23:13:31-INFO:   acc = 0.6895306859205776
+evaluation time: 1.3516104221343994
+attention_head_mask ['1:2']
+['1', '2']
+23:13:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:31-INFO: ***** Running evaluation  *****
+23:13:31-INFO:   Num examples = 277
+23:13:31-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 25.04it/s]
+23:13:33-INFO: ***** Eval results  *****
+23:13:33-INFO:   acc = 0.6750902527075813
+evaluation time: 1.4647386074066162
+attention_head_mask ['1:3']
+['1', '3']
+23:13:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:33-INFO: ***** Running evaluation  *****
+23:13:33-INFO:   Num examples = 277
+23:13:33-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 26.66it/s]
+23:13:34-INFO: ***** Eval results  *****
+23:13:34-INFO:   acc = 0.6859205776173285
+evaluation time: 1.3687050342559814
+attention_head_mask ['1:4']
+['1', '4']
+23:13:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:34-INFO: ***** Running evaluation  *****
+23:13:34-INFO:   Num examples = 277
+23:13:34-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 26.58it/s]
+23:13:35-INFO: ***** Eval results  *****
+23:13:35-INFO:   acc = 0.6714801444043321
+evaluation time: 1.3745183944702148
+attention_head_mask ['1:5']
+['1', '5']
+23:13:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:36-INFO: ***** Running evaluation  *****
+23:13:36-INFO:   Num examples = 277
+23:13:36-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.51it/s]
+23:13:37-INFO: ***** Eval results  *****
+23:13:37-INFO:   acc = 0.6642599277978339
+evaluation time: 1.4170985221862793
+attention_head_mask ['1:6']
+['1', '6']
+23:13:37-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:37-INFO: ***** Running evaluation  *****
+23:13:37-INFO:   Num examples = 277
+23:13:37-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.43it/s]
+23:13:38-INFO: ***** Eval results  *****
+23:13:38-INFO:   acc = 0.6642599277978339
+evaluation time: 1.327312707901001
+attention_head_mask ['1:7']
+['1', '7']
+23:13:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:38-INFO: ***** Running evaluation  *****
+23:13:38-INFO:   Num examples = 277
+23:13:38-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.42it/s]
+23:13:40-INFO: ***** Eval results  *****
+23:13:40-INFO:   acc = 0.6606498194945848
+evaluation time: 1.3202934265136719
+attention_head_mask ['1:8']
+['1', '8']
+23:13:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:40-INFO: ***** Running evaluation  *****
+23:13:40-INFO:   Num examples = 277
+23:13:40-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.47it/s]
+23:13:41-INFO: ***** Eval results  *****
+23:13:41-INFO:   acc = 0.6750902527075813
+evaluation time: 1.3193516731262207
+attention_head_mask ['1:9']
+['1', '9']
+23:13:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:41-INFO: ***** Running evaluation  *****
+23:13:41-INFO:   Num examples = 277
+23:13:41-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.97it/s]
+23:13:42-INFO: ***** Eval results  *****
+23:13:42-INFO:   acc = 0.6606498194945848
+evaluation time: 1.2938644886016846
+attention_head_mask ['1:10']
+['1', '10']
+23:13:42-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:42-INFO: ***** Running evaluation  *****
+23:13:42-INFO:   Num examples = 277
+23:13:42-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.84it/s]
+23:13:44-INFO: ***** Eval results  *****
+23:13:44-INFO:   acc = 0.6750902527075813
+evaluation time: 1.3000574111938477
+attention_head_mask ['1:11']
+['1', '11']
+23:13:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:44-INFO: ***** Running evaluation  *****
+23:13:44-INFO:   Num examples = 277
+23:13:44-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.71it/s]
+23:13:45-INFO: ***** Eval results  *****
+23:13:45-INFO:   acc = 0.6895306859205776
+evaluation time: 1.305528163909912
+attention_head_mask ['1:12']
+['1', '12']
+/usr/local/lib/python3.7/dist-packages/torch/nn/init.py:388: UserWarning: Initializing zero-element tensors is a no-op
+  warnings.warn("Initializing zero-element tensors is a no-op")
+23:13:45-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:45-INFO: ***** Running evaluation  *****
+23:13:45-INFO:   Num examples = 277
+23:13:45-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.82it/s]
+23:13:46-INFO: ***** Eval results  *****
+23:13:46-INFO:   acc = 0.7003610108303249
+evaluation time: 1.3004708290100098
+attention_head_mask ['2:1']
+['2', '1']
+23:13:46-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:46-INFO: ***** Running evaluation  *****
+23:13:46-INFO:   Num examples = 277
+23:13:46-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 27.92it/s]
+23:13:47-INFO: ***** Eval results  *****
+23:13:47-INFO:   acc = 0.6931407942238267
+evaluation time: 1.2967631816864014
+attention_head_mask ['2:2']
+['2', '2']
+23:13:48-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:48-INFO: ***** Running evaluation  *****
+23:13:48-INFO:   Num examples = 277
+23:13:48-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.20it/s]
+23:13:49-INFO: ***** Eval results  *****
+23:13:49-INFO:   acc = 0.6967509025270758
+evaluation time: 1.3105542659759521
+attention_head_mask ['2:3']
+['2', '3']
+23:13:49-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:49-INFO: ***** Running evaluation  *****
+23:13:49-INFO:   Num examples = 277
+23:13:49-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.69it/s]
+23:13:50-INFO: ***** Eval results  *****
+23:13:50-INFO:   acc = 0.6931407942238267
+evaluation time: 1.2624988555908203
+attention_head_mask ['2:4']
+['2', '4']
+23:13:50-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:50-INFO: ***** Running evaluation  *****
+23:13:50-INFO:   Num examples = 277
+23:13:50-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.75it/s]
+23:13:51-INFO: ***** Eval results  *****
+23:13:51-INFO:   acc = 0.6895306859205776
+evaluation time: 1.2596158981323242
+attention_head_mask ['2:5']
+['2', '5']
+23:13:51-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:51-INFO: ***** Running evaluation  *****
+23:13:51-INFO:   Num examples = 277
+23:13:51-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.71it/s]
+23:13:53-INFO: ***** Eval results  *****
+23:13:53-INFO:   acc = 0.703971119133574
+evaluation time: 1.264491081237793
+attention_head_mask ['2:6']
+['2', '6']
+23:13:53-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:53-INFO: ***** Running evaluation  *****
+23:13:53-INFO:   Num examples = 277
+23:13:53-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.88it/s]
+23:13:54-INFO: ***** Eval results  *****
+23:13:54-INFO:   acc = 0.6967509025270758
+evaluation time: 1.2631011009216309
+attention_head_mask ['2:7']
+['2', '7']
+23:13:54-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:54-INFO: ***** Running evaluation  *****
+23:13:54-INFO:   Num examples = 277
+23:13:54-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.74it/s]
+23:13:55-INFO: ***** Eval results  *****
+23:13:55-INFO:   acc = 0.6750902527075813
+evaluation time: 1.2621028423309326
+attention_head_mask ['2:8']
+['2', '8']
+23:13:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:55-INFO: ***** Running evaluation  *****
+23:13:55-INFO:   Num examples = 277
+23:13:55-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.79it/s]
+23:13:57-INFO: ***** Eval results  *****
+23:13:57-INFO:   acc = 0.6570397111913358
+evaluation time: 1.2626142501831055
+attention_head_mask ['2:9']
+['2', '9']
+23:13:57-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:57-INFO: ***** Running evaluation  *****
+23:13:57-INFO:   Num examples = 277
+23:13:57-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.78it/s]
+23:13:58-INFO: ***** Eval results  *****
+23:13:58-INFO:   acc = 0.6534296028880866
+evaluation time: 1.2612404823303223
+attention_head_mask ['2:10']
+['2', '10']
+23:13:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:58-INFO: ***** Running evaluation  *****
+23:13:58-INFO:   Num examples = 277
+23:13:58-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.96it/s]
+23:13:59-INFO: ***** Eval results  *****
+23:13:59-INFO:   acc = 0.6570397111913358
+evaluation time: 1.2518084049224854
+attention_head_mask ['2:11']
+['2', '11']
+23:13:59-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:13:59-INFO: ***** Running evaluation  *****
+23:13:59-INFO:   Num examples = 277
+23:13:59-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 28.94it/s]
+23:14:00-INFO: ***** Eval results  *****
+23:14:00-INFO:   acc = 0.6823104693140795
+evaluation time: 1.2509632110595703
+attention_head_mask ['2:12']
+['2', '12']
+23:14:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:00-INFO: ***** Running evaluation  *****
+23:14:00-INFO:   Num examples = 277
+23:14:00-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.12it/s]
+23:14:02-INFO: ***** Eval results  *****
+23:14:02-INFO:   acc = 0.6462093862815884
+evaluation time: 1.2440862655639648
+attention_head_mask ['3:1']
+['3', '1']
+23:14:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:02-INFO: ***** Running evaluation  *****
+23:14:02-INFO:   Num examples = 277
+23:14:02-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.15it/s]
+23:14:03-INFO: ***** Eval results  *****
+23:14:03-INFO:   acc = 0.6353790613718412
+evaluation time: 1.245448112487793
+attention_head_mask ['3:2']
+['3', '2']
+23:14:03-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:03-INFO: ***** Running evaluation  *****
+23:14:03-INFO:   Num examples = 277
+23:14:03-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.38it/s]
+23:14:04-INFO: ***** Eval results  *****
+23:14:04-INFO:   acc = 0.6353790613718412
+evaluation time: 1.2340517044067383
+attention_head_mask ['3:3']
+['3', '3']
+23:14:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:04-INFO: ***** Running evaluation  *****
+23:14:04-INFO:   Num examples = 277
+23:14:04-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.31it/s]
+23:14:05-INFO: ***** Eval results  *****
+23:14:05-INFO:   acc = 0.6462093862815884
+evaluation time: 1.2410809993743896
+attention_head_mask ['3:4']
+['3', '4']
+23:14:05-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:05-INFO: ***** Running evaluation  *****
+23:14:05-INFO:   Num examples = 277
+23:14:05-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.11it/s]
+23:14:07-INFO: ***** Eval results  *****
+23:14:07-INFO:   acc = 0.6389891696750902
+evaluation time: 1.2451879978179932
+attention_head_mask ['3:5']
+['3', '5']
+23:14:07-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:07-INFO: ***** Running evaluation  *****
+23:14:07-INFO:   Num examples = 277
+23:14:07-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.47it/s]
+23:14:08-INFO: ***** Eval results  *****
+23:14:08-INFO:   acc = 0.6425992779783394
+evaluation time: 1.2305314540863037
+attention_head_mask ['3:6']
+['3', '6']
+23:14:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:08-INFO: ***** Running evaluation  *****
+23:14:08-INFO:   Num examples = 277
+23:14:08-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.54it/s]
+23:14:09-INFO: ***** Eval results  *****
+23:14:09-INFO:   acc = 0.6353790613718412
+evaluation time: 1.2455201148986816
+attention_head_mask ['3:7']
+['3', '7']
+23:14:09-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:09-INFO: ***** Running evaluation  *****
+23:14:09-INFO:   Num examples = 277
+23:14:09-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.34it/s]
+23:14:10-INFO: ***** Eval results  *****
+23:14:10-INFO:   acc = 0.6389891696750902
+evaluation time: 1.2357683181762695
+attention_head_mask ['3:8']
+['3', '8']
+23:14:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:10-INFO: ***** Running evaluation  *****
+23:14:10-INFO:   Num examples = 277
+23:14:10-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.18it/s]
+23:14:12-INFO: ***** Eval results  *****
+23:14:12-INFO:   acc = 0.6173285198555957
+evaluation time: 1.2513179779052734
+attention_head_mask ['3:9']
+['3', '9']
+23:14:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:12-INFO: ***** Running evaluation  *****
+23:14:12-INFO:   Num examples = 277
+23:14:12-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.53it/s]
+23:14:13-INFO: ***** Eval results  *****
+23:14:13-INFO:   acc = 0.6389891696750902
+evaluation time: 1.248988151550293
+attention_head_mask ['3:10']
+['3', '10']
+23:14:13-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:13-INFO: ***** Running evaluation  *****
+23:14:13-INFO:   Num examples = 277
+23:14:13-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.38it/s]
+23:14:14-INFO: ***** Eval results  *****
+23:14:14-INFO:   acc = 0.6425992779783394
+evaluation time: 1.2363595962524414
+attention_head_mask ['3:11']
+['3', '11']
+23:14:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:14-INFO: ***** Running evaluation  *****
+23:14:14-INFO:   Num examples = 277
+23:14:14-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.61it/s]
+23:14:15-INFO: ***** Eval results  *****
+23:14:15-INFO:   acc = 0.628158844765343
+evaluation time: 1.2255218029022217
+attention_head_mask ['3:12']
+['3', '12']
+23:14:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:15-INFO: ***** Running evaluation  *****
+23:14:15-INFO:   Num examples = 277
+23:14:15-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.76it/s]
+23:14:17-INFO: ***** Eval results  *****
+23:14:17-INFO:   acc = 0.6389891696750902
+evaluation time: 1.2218456268310547
+attention_head_mask ['4:1']
+['4', '1']
+23:14:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:17-INFO: ***** Running evaluation  *****
+23:14:17-INFO:   Num examples = 277
+23:14:17-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.01it/s]
+23:14:18-INFO: ***** Eval results  *****
+23:14:18-INFO:   acc = 0.6389891696750902
+evaluation time: 1.21036958694458
+attention_head_mask ['4:2']
+['4', '2']
+23:14:18-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:18-INFO: ***** Running evaluation  *****
+23:14:18-INFO:   Num examples = 277
+23:14:18-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.32it/s]
+23:14:19-INFO: ***** Eval results  *****
+23:14:19-INFO:   acc = 0.6389891696750902
+evaluation time: 1.198559284210205
+attention_head_mask ['4:3']
+['4', '3']
+23:14:19-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:19-INFO: ***** Running evaluation  *****
+23:14:19-INFO:   Num examples = 277
+23:14:19-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.56it/s]
+23:14:20-INFO: ***** Eval results  *****
+23:14:20-INFO:   acc = 0.631768953068592
+evaluation time: 1.1892426013946533
+attention_head_mask ['4:4']
+['4', '4']
+23:14:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:20-INFO: ***** Running evaluation  *****
+23:14:20-INFO:   Num examples = 277
+23:14:20-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.56it/s]
+23:14:22-INFO: ***** Eval results  *****
+23:14:22-INFO:   acc = 0.6389891696750902
+evaluation time: 1.1904284954071045
+attention_head_mask ['4:5']
+['4', '5']
+23:14:22-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:22-INFO: ***** Running evaluation  *****
+23:14:22-INFO:   Num examples = 277
+23:14:22-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.30it/s]
+23:14:23-INFO: ***** Eval results  *****
+23:14:23-INFO:   acc = 0.631768953068592
+evaluation time: 1.1974308490753174
+attention_head_mask ['4:6']
+['4', '6']
+23:14:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:23-INFO: ***** Running evaluation  *****
+23:14:23-INFO:   Num examples = 277
+23:14:23-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 29.92it/s]
+23:14:24-INFO: ***** Eval results  *****
+23:14:24-INFO:   acc = 0.6353790613718412
+evaluation time: 1.2428843975067139
+attention_head_mask ['4:7']
+['4', '7']
+23:14:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:24-INFO: ***** Running evaluation  *****
+23:14:24-INFO:   Num examples = 277
+23:14:24-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.93it/s]
+23:14:25-INFO: ***** Eval results  *****
+23:14:25-INFO:   acc = 0.6389891696750902
+evaluation time: 1.1748380661010742
+attention_head_mask ['4:8']
+['4', '8']
+23:14:25-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:25-INFO: ***** Running evaluation  *****
+23:14:25-INFO:   Num examples = 277
+23:14:25-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.87it/s]
+23:14:26-INFO: ***** Eval results  *****
+23:14:26-INFO:   acc = 0.6389891696750902
+evaluation time: 1.1805827617645264
+attention_head_mask ['4:9']
+['4', '9']
+23:14:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:26-INFO: ***** Running evaluation  *****
+23:14:26-INFO:   Num examples = 277
+23:14:26-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.00it/s]
+23:14:28-INFO: ***** Eval results  *****
+23:14:28-INFO:   acc = 0.6425992779783394
+evaluation time: 1.176880121231079
+attention_head_mask ['4:10']
+['4', '10']
+23:14:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:28-INFO: ***** Running evaluation  *****
+23:14:28-INFO:   Num examples = 277
+23:14:28-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 30.91it/s]
+23:14:29-INFO: ***** Eval results  *****
+23:14:29-INFO:   acc = 0.6787003610108303
+evaluation time: 1.1851005554199219
+attention_head_mask ['4:11']
+['4', '11']
+23:14:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:29-INFO: ***** Running evaluation  *****
+23:14:29-INFO:   Num examples = 277
+23:14:29-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.27it/s]
+23:14:30-INFO: ***** Eval results  *****
+23:14:30-INFO:   acc = 0.6462093862815884
+evaluation time: 1.1633765697479248
+attention_head_mask ['4:12']
+['4', '12']
+23:14:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:30-INFO: ***** Running evaluation  *****
+23:14:30-INFO:   Num examples = 277
+23:14:30-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.33it/s]
+23:14:31-INFO: ***** Eval results  *****
+23:14:31-INFO:   acc = 0.6606498194945848
+evaluation time: 1.1628007888793945
+attention_head_mask ['5:1']
+['5', '1']
+23:14:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:31-INFO: ***** Running evaluation  *****
+23:14:31-INFO:   Num examples = 277
+23:14:31-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.40it/s]
+23:14:32-INFO: ***** Eval results  *****
+23:14:32-INFO:   acc = 0.6570397111913358
+evaluation time: 1.1608295440673828
+attention_head_mask ['5:2']
+['5', '2']
+23:14:32-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:32-INFO: ***** Running evaluation  *****
+23:14:32-INFO:   Num examples = 277
+23:14:32-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.71it/s]
+23:14:34-INFO: ***** Eval results  *****
+23:14:34-INFO:   acc = 0.6462093862815884
+evaluation time: 1.1617803573608398
+attention_head_mask ['5:3']
+['5', '3']
+23:14:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:34-INFO: ***** Running evaluation  *****
+23:14:34-INFO:   Num examples = 277
+23:14:34-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.71it/s]
+23:14:35-INFO: ***** Eval results  *****
+23:14:35-INFO:   acc = 0.6425992779783394
+evaluation time: 1.1556544303894043
+attention_head_mask ['5:4']
+['5', '4']
+23:14:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:35-INFO: ***** Running evaluation  *****
+23:14:35-INFO:   Num examples = 277
+23:14:35-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.58it/s]
+23:14:36-INFO: ***** Eval results  *****
+23:14:36-INFO:   acc = 0.6389891696750902
+evaluation time: 1.166393518447876
+attention_head_mask ['5:5']
+['5', '5']
+23:14:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:36-INFO: ***** Running evaluation  *****
+23:14:36-INFO:   Num examples = 277
+23:14:36-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.61it/s]
+23:14:37-INFO: ***** Eval results  *****
+23:14:37-INFO:   acc = 0.6425992779783394
+evaluation time: 1.153398036956787
+attention_head_mask ['5:6']
+['5', '6']
+23:14:37-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:37-INFO: ***** Running evaluation  *****
+23:14:37-INFO:   Num examples = 277
+23:14:37-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.05it/s]
+23:14:38-INFO: ***** Eval results  *****
+23:14:38-INFO:   acc = 0.6353790613718412
+evaluation time: 1.1354775428771973
+attention_head_mask ['5:7']
+['5', '7']
+23:14:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:38-INFO: ***** Running evaluation  *****
+23:14:38-INFO:   Num examples = 277
+23:14:38-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.00it/s]
+23:14:39-INFO: ***** Eval results  *****
+23:14:39-INFO:   acc = 0.6245487364620939
+evaluation time: 1.1386737823486328
+attention_head_mask ['5:8']
+['5', '8']
+23:14:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:40-INFO: ***** Running evaluation  *****
+23:14:40-INFO:   Num examples = 277
+23:14:40-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 31.99it/s]
+23:14:41-INFO: ***** Eval results  *****
+23:14:41-INFO:   acc = 0.6173285198555957
+evaluation time: 1.1396949291229248
+attention_head_mask ['5:9']
+['5', '9']
+23:14:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:41-INFO: ***** Running evaluation  *****
+23:14:41-INFO:   Num examples = 277
+23:14:41-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.22it/s]
+23:14:42-INFO: ***** Eval results  *****
+23:14:42-INFO:   acc = 0.6209386281588448
+evaluation time: 1.1299846172332764
+attention_head_mask ['5:10']
+['5', '10']
+23:14:42-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:42-INFO: ***** Running evaluation  *****
+23:14:42-INFO:   Num examples = 277
+23:14:42-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.51it/s]
+23:14:43-INFO: ***** Eval results  *****
+23:14:43-INFO:   acc = 0.5776173285198556
+evaluation time: 1.1209611892700195
+attention_head_mask ['5:11']
+['5', '11']
+23:14:43-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:43-INFO: ***** Running evaluation  *****
+23:14:43-INFO:   Num examples = 277
+23:14:43-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.48it/s]
+23:14:44-INFO: ***** Eval results  *****
+23:14:44-INFO:   acc = 0.5812274368231047
+evaluation time: 1.138801097869873
+attention_head_mask ['5:12']
+['5', '12']
+23:14:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:44-INFO: ***** Running evaluation  *****
+23:14:44-INFO:   Num examples = 277
+23:14:44-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.67it/s]
+23:14:45-INFO: ***** Eval results  *****
+23:14:45-INFO:   acc = 0.5703971119133574
+evaluation time: 1.1148145198822021
+attention_head_mask ['6:1']
+['6', '1']
+23:14:45-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:45-INFO: ***** Running evaluation  *****
+23:14:45-INFO:   Num examples = 277
+23:14:45-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.49it/s]
+23:14:46-INFO: ***** Eval results  *****
+23:14:46-INFO:   acc = 0.5415162454873647
+evaluation time: 1.1261162757873535
+attention_head_mask ['6:2']
+['6', '2']
+23:14:46-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:46-INFO: ***** Running evaluation  *****
+23:14:46-INFO:   Num examples = 277
+23:14:46-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.60it/s]
+23:14:47-INFO: ***** Eval results  *****
+23:14:47-INFO:   acc = 0.5487364620938628
+evaluation time: 1.1161201000213623
+attention_head_mask ['6:3']
+['6', '3']
+23:14:47-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:47-INFO: ***** Running evaluation  *****
+23:14:47-INFO:   Num examples = 277
+23:14:47-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.86it/s]
+23:14:49-INFO: ***** Eval results  *****
+23:14:49-INFO:   acc = 0.5523465703971119
+evaluation time: 1.1073088645935059
+attention_head_mask ['6:4']
+['6', '4']
+23:14:49-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:49-INFO: ***** Running evaluation  *****
+23:14:49-INFO:   Num examples = 277
+23:14:49-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 32.70it/s]
+23:14:50-INFO: ***** Eval results  *****
+23:14:50-INFO:   acc = 0.5631768953068592
+evaluation time: 1.118466854095459
+attention_head_mask ['6:5']
+['6', '5']
+23:14:50-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:50-INFO: ***** Running evaluation  *****
+23:14:50-INFO:   Num examples = 277
+23:14:50-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.13it/s]
+23:14:51-INFO: ***** Eval results  *****
+23:14:51-INFO:   acc = 0.5487364620938628
+evaluation time: 1.1039156913757324
+attention_head_mask ['6:6']
+['6', '6']
+23:14:51-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:51-INFO: ***** Running evaluation  *****
+23:14:51-INFO:   Num examples = 277
+23:14:51-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.32it/s]
+23:14:52-INFO: ***** Eval results  *****
+23:14:52-INFO:   acc = 0.5740072202166066
+evaluation time: 1.095332384109497
+attention_head_mask ['6:7']
+['6', '7']
+23:14:52-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:52-INFO: ***** Running evaluation  *****
+23:14:52-INFO:   Num examples = 277
+23:14:52-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.18it/s]
+23:14:53-INFO: ***** Eval results  *****
+23:14:53-INFO:   acc = 0.5667870036101083
+evaluation time: 1.1008093357086182
+attention_head_mask ['6:8']
+['6', '8']
+23:14:53-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:53-INFO: ***** Running evaluation  *****
+23:14:53-INFO:   Num examples = 277
+23:14:53-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.62it/s]
+23:14:54-INFO: ***** Eval results  *****
+23:14:54-INFO:   acc = 0.5848375451263538
+evaluation time: 1.085714340209961
+attention_head_mask ['6:9']
+['6', '9']
+23:14:54-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:54-INFO: ***** Running evaluation  *****
+23:14:54-INFO:   Num examples = 277
+23:14:54-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.52it/s]
+23:14:55-INFO: ***** Eval results  *****
+23:14:55-INFO:   acc = 0.5740072202166066
+evaluation time: 1.087350845336914
+attention_head_mask ['6:10']
+['6', '10']
+23:14:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:55-INFO: ***** Running evaluation  *****
+23:14:55-INFO:   Num examples = 277
+23:14:55-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.59it/s]
+23:14:56-INFO: ***** Eval results  *****
+23:14:56-INFO:   acc = 0.5740072202166066
+evaluation time: 1.0898334980010986
+attention_head_mask ['6:11']
+['6', '11']
+23:14:56-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:56-INFO: ***** Running evaluation  *****
+23:14:56-INFO:   Num examples = 277
+23:14:56-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.82it/s]
+23:14:57-INFO: ***** Eval results  *****
+23:14:57-INFO:   acc = 0.5740072202166066
+evaluation time: 1.1199519634246826
+attention_head_mask ['6:12']
+['6', '12']
+23:14:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:58-INFO: ***** Running evaluation  *****
+23:14:58-INFO:   Num examples = 277
+23:14:58-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 33.86it/s]
+23:14:59-INFO: ***** Eval results  *****
+23:14:59-INFO:   acc = 0.5740072202166066
+evaluation time: 1.076528787612915
+attention_head_mask ['7:1']
+['7', '1']
+23:14:59-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:14:59-INFO: ***** Running evaluation  *****
+23:14:59-INFO:   Num examples = 277
+23:14:59-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.17it/s]
+23:15:00-INFO: ***** Eval results  *****
+23:15:00-INFO:   acc = 0.5884476534296029
+evaluation time: 1.0686571598052979
+attention_head_mask ['7:2']
+['7', '2']
+23:15:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:00-INFO: ***** Running evaluation  *****
+23:15:00-INFO:   Num examples = 277
+23:15:00-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.24it/s]
+23:15:01-INFO: ***** Eval results  *****
+23:15:01-INFO:   acc = 0.592057761732852
+evaluation time: 1.066399097442627
+attention_head_mask ['7:3']
+['7', '3']
+23:15:01-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:01-INFO: ***** Running evaluation  *****
+23:15:01-INFO:   Num examples = 277
+23:15:01-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.17it/s]
+23:15:02-INFO: ***** Eval results  *****
+23:15:02-INFO:   acc = 0.5884476534296029
+evaluation time: 1.0678322315216064
+attention_head_mask ['7:4']
+['7', '4']
+23:15:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:02-INFO: ***** Running evaluation  *****
+23:15:02-INFO:   Num examples = 277
+23:15:02-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.39it/s]
+23:15:03-INFO: ***** Eval results  *****
+23:15:03-INFO:   acc = 0.5884476534296029
+evaluation time: 1.062608242034912
+attention_head_mask ['7:5']
+['7', '5']
+23:15:03-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:03-INFO: ***** Running evaluation  *****
+23:15:03-INFO:   Num examples = 277
+23:15:03-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.23it/s]
+23:15:04-INFO: ***** Eval results  *****
+23:15:04-INFO:   acc = 0.5956678700361011
+evaluation time: 1.0709846019744873
+attention_head_mask ['7:6']
+['7', '6']
+23:15:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:04-INFO: ***** Running evaluation  *****
+23:15:04-INFO:   Num examples = 277
+23:15:04-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.49it/s]
+23:15:05-INFO: ***** Eval results  *****
+23:15:05-INFO:   acc = 0.5812274368231047
+evaluation time: 1.0603938102722168
+attention_head_mask ['7:7']
+['7', '7']
+23:15:05-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:05-INFO: ***** Running evaluation  *****
+23:15:05-INFO:   Num examples = 277
+23:15:05-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.63it/s]
+23:15:06-INFO: ***** Eval results  *****
+23:15:06-INFO:   acc = 0.5812274368231047
+evaluation time: 1.0561563968658447
+attention_head_mask ['7:8']
+['7', '8']
+23:15:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:06-INFO: ***** Running evaluation  *****
+23:15:06-INFO:   Num examples = 277
+23:15:06-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.85it/s]
+23:15:07-INFO: ***** Eval results  *****
+23:15:07-INFO:   acc = 0.5631768953068592
+evaluation time: 1.0452842712402344
+attention_head_mask ['7:9']
+['7', '9']
+23:15:07-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:07-INFO: ***** Running evaluation  *****
+23:15:07-INFO:   Num examples = 277
+23:15:07-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.93it/s]
+23:15:08-INFO: ***** Eval results  *****
+23:15:08-INFO:   acc = 0.5776173285198556
+evaluation time: 1.0490424633026123
+attention_head_mask ['7:10']
+['7', '10']
+23:15:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:08-INFO: ***** Running evaluation  *****
+23:15:08-INFO:   Num examples = 277
+23:15:08-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.21it/s]
+23:15:09-INFO: ***** Eval results  *****
+23:15:09-INFO:   acc = 0.5703971119133574
+evaluation time: 1.0365424156188965
+attention_head_mask ['7:11']
+['7', '11']
+23:15:09-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:09-INFO: ***** Running evaluation  *****
+23:15:09-INFO:   Num examples = 277
+23:15:09-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.29it/s]
+23:15:10-INFO: ***** Eval results  *****
+23:15:10-INFO:   acc = 0.555956678700361
+evaluation time: 1.0341486930847168
+attention_head_mask ['7:12']
+['7', '12']
+23:15:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:11-INFO: ***** Running evaluation  *****
+23:15:11-INFO:   Num examples = 277
+23:15:11-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.52it/s]
+23:15:11-INFO: ***** Eval results  *****
+23:15:11-INFO:   acc = 0.5523465703971119
+evaluation time: 1.0436172485351562
+attention_head_mask ['8:1']
+['8', '1']
+23:15:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:12-INFO: ***** Running evaluation  *****
+23:15:12-INFO:   Num examples = 277
+23:15:12-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.41it/s]
+23:15:13-INFO: ***** Eval results  *****
+23:15:13-INFO:   acc = 0.51985559566787
+evaluation time: 1.0306105613708496
+attention_head_mask ['8:2']
+['8', '2']
+23:15:13-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:13-INFO: ***** Running evaluation  *****
+23:15:13-INFO:   Num examples = 277
+23:15:13-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.57it/s]
+23:15:14-INFO: ***** Eval results  *****
+23:15:14-INFO:   acc = 0.5306859205776173
+evaluation time: 1.0326423645019531
+attention_head_mask ['8:3']
+['8', '3']
+23:15:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:14-INFO: ***** Running evaluation  *****
+23:15:14-INFO:   Num examples = 277
+23:15:14-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.69it/s]
+23:15:15-INFO: ***** Eval results  *****
+23:15:15-INFO:   acc = 0.5270758122743683
+evaluation time: 1.0245320796966553
+attention_head_mask ['8:4']
+['8', '4']
+23:15:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:15-INFO: ***** Running evaluation  *****
+23:15:15-INFO:   Num examples = 277
+23:15:15-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.71it/s]
+23:15:16-INFO: ***** Eval results  *****
+23:15:16-INFO:   acc = 0.5270758122743683
+evaluation time: 1.0225579738616943
+attention_head_mask ['8:5']
+['8', '5']
+23:15:16-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:16-INFO: ***** Running evaluation  *****
+23:15:16-INFO:   Num examples = 277
+23:15:16-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 35.71it/s]
+23:15:17-INFO: ***** Eval results  *****
+23:15:17-INFO:   acc = 0.5234657039711191
+evaluation time: 1.023937702178955
+attention_head_mask ['8:6']
+['8', '6']
+23:15:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:17-INFO: ***** Running evaluation  *****
+23:15:17-INFO:   Num examples = 277
+23:15:17-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.09it/s]
+23:15:18-INFO: ***** Eval results  *****
+23:15:18-INFO:   acc = 0.516245487364621
+evaluation time: 1.0190818309783936
+attention_head_mask ['8:7']
+['8', '7']
+23:15:18-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:18-INFO: ***** Running evaluation  *****
+23:15:18-INFO:   Num examples = 277
+23:15:18-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.27it/s]
+23:15:19-INFO: ***** Eval results  *****
+23:15:19-INFO:   acc = 0.51985559566787
+evaluation time: 1.0103886127471924
+attention_head_mask ['8:8']
+['8', '8']
+23:15:19-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:19-INFO: ***** Running evaluation  *****
+23:15:19-INFO:   Num examples = 277
+23:15:19-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.31it/s]
+23:15:20-INFO: ***** Eval results  *****
+23:15:20-INFO:   acc = 0.516245487364621
+evaluation time: 1.006840467453003
+attention_head_mask ['8:9']
+['8', '9']
+23:15:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:20-INFO: ***** Running evaluation  *****
+23:15:20-INFO:   Num examples = 277
+23:15:20-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.41it/s]
+23:15:21-INFO: ***** Eval results  *****
+23:15:21-INFO:   acc = 0.5379061371841155
+evaluation time: 1.005704402923584
+attention_head_mask ['8:10']
+['8', '10']
+23:15:21-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:21-INFO: ***** Running evaluation  *****
+23:15:21-INFO:   Num examples = 277
+23:15:21-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.45it/s]
+23:15:22-INFO: ***** Eval results  *****
+23:15:22-INFO:   acc = 0.51985559566787
+evaluation time: 1.0037009716033936
+attention_head_mask ['8:11']
+['8', '11']
+23:15:22-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:22-INFO: ***** Running evaluation  *****
+23:15:22-INFO:   Num examples = 277
+23:15:22-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.45it/s]
+23:15:23-INFO: ***** Eval results  *****
+23:15:23-INFO:   acc = 0.5126353790613718
+evaluation time: 1.005406379699707
+attention_head_mask ['8:12']
+['8', '12']
+23:15:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:23-INFO: ***** Running evaluation  *****
+23:15:23-INFO:   Num examples = 277
+23:15:23-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:01<00:00, 34.81it/s]
+23:15:24-INFO: ***** Eval results  *****
+23:15:24-INFO:   acc = 0.5090252707581228
+evaluation time: 1.0728609561920166
+attention_head_mask ['9:1']
+['9', '1']
+23:15:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:24-INFO: ***** Running evaluation  *****
+23:15:24-INFO:   Num examples = 277
+23:15:24-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.91it/s]
+23:15:25-INFO: ***** Eval results  *****
+23:15:25-INFO:   acc = 0.5090252707581228
+evaluation time: 0.9984109401702881
+attention_head_mask ['9:2']
+['9', '2']
+23:15:25-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:25-INFO: ***** Running evaluation  *****
+23:15:25-INFO:   Num examples = 277
+23:15:25-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 36.91it/s]
+23:15:26-INFO: ***** Eval results  *****
+23:15:26-INFO:   acc = 0.5379061371841155
+evaluation time: 0.9932680130004883
+attention_head_mask ['9:3']
+['9', '3']
+23:15:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:26-INFO: ***** Running evaluation  *****
+23:15:26-INFO:   Num examples = 277
+23:15:26-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.24it/s]
+23:15:27-INFO: ***** Eval results  *****
+23:15:27-INFO:   acc = 0.5270758122743683
+evaluation time: 0.9964504241943359
+attention_head_mask ['9:4']
+['9', '4']
+23:15:27-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:27-INFO: ***** Running evaluation  *****
+23:15:27-INFO:   Num examples = 277
+23:15:27-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.05it/s]
+23:15:28-INFO: ***** Eval results  *****
+23:15:28-INFO:   acc = 0.5234657039711191
+evaluation time: 0.9975113868713379
+attention_head_mask ['9:5']
+['9', '5']
+23:15:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:28-INFO: ***** Running evaluation  *****
+23:15:28-INFO:   Num examples = 277
+23:15:28-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.44it/s]
+23:15:29-INFO: ***** Eval results  *****
+23:15:29-INFO:   acc = 0.5234657039711191
+evaluation time: 0.9854741096496582
+attention_head_mask ['9:6']
+['9', '6']
+23:15:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:29-INFO: ***** Running evaluation  *****
+23:15:29-INFO:   Num examples = 277
+23:15:29-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.68it/s]
+23:15:30-INFO: ***** Eval results  *****
+23:15:30-INFO:   acc = 0.51985559566787
+evaluation time: 0.9729013442993164
+attention_head_mask ['9:7']
+['9', '7']
+23:15:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:30-INFO: ***** Running evaluation  *****
+23:15:30-INFO:   Num examples = 277
+23:15:30-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.89it/s]
+23:15:31-INFO: ***** Eval results  *****
+23:15:31-INFO:   acc = 0.5451263537906137
+evaluation time: 0.966909646987915
+attention_head_mask ['9:8']
+['9', '8']
+23:15:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:31-INFO: ***** Running evaluation  *****
+23:15:31-INFO:   Num examples = 277
+23:15:31-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.05it/s]
+23:15:32-INFO: ***** Eval results  *****
+23:15:32-INFO:   acc = 0.5595667870036101
+evaluation time: 0.9718368053436279
+attention_head_mask ['9:9']
+['9', '9']
+23:15:32-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:32-INFO: ***** Running evaluation  *****
+23:15:32-INFO:   Num examples = 277
+23:15:32-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.09it/s]
+23:15:33-INFO: ***** Eval results  *****
+23:15:33-INFO:   acc = 0.5090252707581228
+evaluation time: 0.9641973972320557
+attention_head_mask ['9:10']
+['9', '10']
+23:15:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:33-INFO: ***** Running evaluation  *****
+23:15:33-INFO:   Num examples = 277
+23:15:33-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.51it/s]
+23:15:34-INFO: ***** Eval results  *****
+23:15:34-INFO:   acc = 0.4981949458483754
+evaluation time: 0.9787428379058838
+attention_head_mask ['9:11']
+['9', '11']
+23:15:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:34-INFO: ***** Running evaluation  *****
+23:15:34-INFO:   Num examples = 277
+23:15:34-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.32it/s]
+23:15:35-INFO: ***** Eval results  *****
+23:15:35-INFO:   acc = 0.48736462093862815
+evaluation time: 0.9813652038574219
+attention_head_mask ['9:12']
+['9', '12']
+23:15:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:35-INFO: ***** Running evaluation  *****
+23:15:35-INFO:   Num examples = 277
+23:15:35-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.34it/s]
+23:15:36-INFO: ***** Eval results  *****
+23:15:36-INFO:   acc = 0.49097472924187724
+evaluation time: 0.9664404392242432
+attention_head_mask ['10:1']
+['10', '1']
+23:15:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:36-INFO: ***** Running evaluation  *****
+23:15:36-INFO:   Num examples = 277
+23:15:36-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.50it/s]
+23:15:37-INFO: ***** Eval results  *****
+23:15:37-INFO:   acc = 0.4981949458483754
+evaluation time: 0.9910249710083008
+attention_head_mask ['10:2']
+['10', '2']
+23:15:37-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:37-INFO: ***** Running evaluation  *****
+23:15:37-INFO:   Num examples = 277
+23:15:37-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.11it/s]
+23:15:38-INFO: ***** Eval results  *****
+23:15:38-INFO:   acc = 0.48375451263537905
+evaluation time: 0.9633345603942871
+attention_head_mask ['10:3']
+['10', '3']
+23:15:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:38-INFO: ***** Running evaluation  *****
+23:15:38-INFO:   Num examples = 277
+23:15:38-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 38.90it/s]
+23:15:39-INFO: ***** Eval results  *****
+23:15:39-INFO:   acc = 0.49097472924187724
+evaluation time: 0.9429168701171875
+attention_head_mask ['10:4']
+['10', '4']
+23:15:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:39-INFO: ***** Running evaluation  *****
+23:15:39-INFO:   Num examples = 277
+23:15:39-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.87it/s]
+23:15:40-INFO: ***** Eval results  *****
+23:15:40-INFO:   acc = 0.5126353790613718
+evaluation time: 0.9770567417144775
+attention_head_mask ['10:5']
+['10', '5']
+23:15:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:40-INFO: ***** Running evaluation  *****
+23:15:40-INFO:   Num examples = 277
+23:15:40-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 37.79it/s]
+23:15:41-INFO: ***** Eval results  *****
+23:15:41-INFO:   acc = 0.516245487364621
+evaluation time: 0.9692633152008057
+attention_head_mask ['10:6']
+['10', '6']
+23:15:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:41-INFO: ***** Running evaluation  *****
+23:15:41-INFO:   Num examples = 277
+23:15:41-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.21it/s]
+23:15:42-INFO: ***** Eval results  *****
+23:15:42-INFO:   acc = 0.516245487364621
+evaluation time: 0.9364926815032959
+attention_head_mask ['10:7']
+['10', '7']
+23:15:42-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:42-INFO: ***** Running evaluation  *****
+23:15:42-INFO:   Num examples = 277
+23:15:42-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.02it/s]
+23:15:43-INFO: ***** Eval results  *****
+23:15:43-INFO:   acc = 0.49097472924187724
+evaluation time: 0.9403021335601807
+attention_head_mask ['10:8']
+['10', '8']
+23:15:43-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:43-INFO: ***** Running evaluation  *****
+23:15:43-INFO:   Num examples = 277
+23:15:43-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.40it/s]
+23:15:44-INFO: ***** Eval results  *****
+23:15:44-INFO:   acc = 0.49458483754512633
+evaluation time: 0.9341192245483398
+attention_head_mask ['10:9']
+['10', '9']
+23:15:44-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:44-INFO: ***** Running evaluation  *****
+23:15:44-INFO:   Num examples = 277
+23:15:44-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 39.95it/s]
+23:15:45-INFO: ***** Eval results  *****
+23:15:45-INFO:   acc = 0.4548736462093863
+evaluation time: 0.9190695285797119
+attention_head_mask ['10:10']
+['10', '10']
+23:15:45-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:45-INFO: ***** Running evaluation  *****
+23:15:45-INFO:   Num examples = 277
+23:15:45-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.02it/s]
+23:15:46-INFO: ***** Eval results  *****
+23:15:46-INFO:   acc = 0.4657039711191336
+evaluation time: 0.918867826461792
+attention_head_mask ['10:11']
+['10', '11']
+23:15:46-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:46-INFO: ***** Running evaluation  *****
+23:15:46-INFO:   Num examples = 277
+23:15:46-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.15it/s]
+23:15:47-INFO: ***** Eval results  *****
+23:15:47-INFO:   acc = 0.48736462093862815
+evaluation time: 0.9138312339782715
+attention_head_mask ['10:12']
+['10', '12']
+23:15:47-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:47-INFO: ***** Running evaluation  *****
+23:15:47-INFO:   Num examples = 277
+23:15:47-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.34it/s]
+23:15:48-INFO: ***** Eval results  *****
+23:15:48-INFO:   acc = 0.47653429602888087
+evaluation time: 0.9102118015289307
+attention_head_mask ['11:1']
+['11', '1']
+23:15:48-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:48-INFO: ***** Running evaluation  *****
+23:15:48-INFO:   Num examples = 277
+23:15:48-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.28it/s]
+23:15:49-INFO: ***** Eval results  *****
+23:15:49-INFO:   acc = 0.49097472924187724
+evaluation time: 0.9144930839538574
+attention_head_mask ['11:2']
+['11', '2']
+23:15:49-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:49-INFO: ***** Running evaluation  *****
+23:15:49-INFO:   Num examples = 277
+23:15:49-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.58it/s]
+23:15:49-INFO: ***** Eval results  *****
+23:15:49-INFO:   acc = 0.48375451263537905
+evaluation time: 0.9047074317932129
+attention_head_mask ['11:3']
+['11', '3']
+23:15:50-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:50-INFO: ***** Running evaluation  *****
+23:15:50-INFO:   Num examples = 277
+23:15:50-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.86it/s]
+23:15:50-INFO: ***** Eval results  *****
+23:15:50-INFO:   acc = 0.48375451263537905
+evaluation time: 0.8983421325683594
+attention_head_mask ['11:4']
+['11', '4']
+23:15:50-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:50-INFO: ***** Running evaluation  *****
+23:15:50-INFO:   Num examples = 277
+23:15:50-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 40.81it/s]
+23:15:51-INFO: ***** Eval results  *****
+23:15:51-INFO:   acc = 0.5379061371841155
+evaluation time: 0.915841817855835
+attention_head_mask ['11:5']
+['11', '5']
+23:15:51-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:51-INFO: ***** Running evaluation  *****
+23:15:51-INFO:   Num examples = 277
+23:15:51-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.07it/s]
+23:15:52-INFO: ***** Eval results  *****
+23:15:52-INFO:   acc = 0.5415162454873647
+evaluation time: 0.9000041484832764
+attention_head_mask ['11:6']
+['11', '6']
+23:15:52-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:52-INFO: ***** Running evaluation  *****
+23:15:52-INFO:   Num examples = 277
+23:15:52-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.40it/s]
+23:15:53-INFO: ***** Eval results  *****
+23:15:53-INFO:   acc = 0.5487364620938628
+evaluation time: 0.8875298500061035
+attention_head_mask ['11:7']
+['11', '7']
+23:15:53-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:53-INFO: ***** Running evaluation  *****
+23:15:53-INFO:   Num examples = 277
+23:15:53-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.51it/s]
+23:15:54-INFO: ***** Eval results  *****
+23:15:54-INFO:   acc = 0.555956678700361
+evaluation time: 0.9052667617797852
+attention_head_mask ['11:8']
+['11', '8']
+23:15:54-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:54-INFO: ***** Running evaluation  *****
+23:15:54-INFO:   Num examples = 277
+23:15:54-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.87it/s]
+23:15:55-INFO: ***** Eval results  *****
+23:15:55-INFO:   acc = 0.5306859205776173
+evaluation time: 0.8811345100402832
+attention_head_mask ['11:9']
+['11', '9']
+23:15:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:55-INFO: ***** Running evaluation  *****
+23:15:55-INFO:   Num examples = 277
+23:15:55-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.10it/s]
+23:15:56-INFO: ***** Eval results  *****
+23:15:56-INFO:   acc = 0.5379061371841155
+evaluation time: 0.8801536560058594
+attention_head_mask ['11:10']
+['11', '10']
+23:15:56-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:56-INFO: ***** Running evaluation  *****
+23:15:56-INFO:   Num examples = 277
+23:15:56-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.84it/s]
+23:15:57-INFO: ***** Eval results  *****
+23:15:57-INFO:   acc = 0.5342960288808665
+evaluation time: 0.8800156116485596
+attention_head_mask ['11:11']
+['11', '11']
+23:15:57-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:57-INFO: ***** Running evaluation  *****
+23:15:57-INFO:   Num examples = 277
+23:15:57-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 41.96it/s]
+23:15:58-INFO: ***** Eval results  *****
+23:15:58-INFO:   acc = 0.5487364620938628
+evaluation time: 0.8773934841156006
+attention_head_mask ['11:12']
+['11', '12']
+23:15:58-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:58-INFO: ***** Running evaluation  *****
+23:15:58-INFO:   Num examples = 277
+23:15:58-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.51it/s]
+23:15:59-INFO: ***** Eval results  *****
+23:15:59-INFO:   acc = 0.48736462093862815
+evaluation time: 0.8647711277008057
+attention_head_mask ['12:1']
+['12', '1']
+23:15:59-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:15:59-INFO: ***** Running evaluation  *****
+23:15:59-INFO:   Num examples = 277
+23:15:59-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 42.75it/s]
+23:15:59-INFO: ***** Eval results  *****
+23:15:59-INFO:   acc = 0.5234657039711191
+evaluation time: 0.8613195419311523
+attention_head_mask ['12:2']
+['12', '2']
+23:15:59-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:00-INFO: ***** Running evaluation  *****
+23:16:00-INFO:   Num examples = 277
+23:16:00-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.02it/s]
+23:16:00-INFO: ***** Eval results  *****
+23:16:00-INFO:   acc = 0.5306859205776173
+evaluation time: 0.8558034896850586
+attention_head_mask ['12:3']
+['12', '3']
+23:16:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:00-INFO: ***** Running evaluation  *****
+23:16:00-INFO:   Num examples = 277
+23:16:00-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.09it/s]
+23:16:01-INFO: ***** Eval results  *****
+23:16:01-INFO:   acc = 0.5595667870036101
+evaluation time: 0.8563399314880371
+attention_head_mask ['12:4']
+['12', '4']
+23:16:01-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:01-INFO: ***** Running evaluation  *****
+23:16:01-INFO:   Num examples = 277
+23:16:01-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.36it/s]
+23:16:02-INFO: ***** Eval results  *****
+23:16:02-INFO:   acc = 0.51985559566787
+evaluation time: 0.8507857322692871
+attention_head_mask ['12:5']
+['12', '5']
+23:16:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:02-INFO: ***** Running evaluation  *****
+23:16:02-INFO:   Num examples = 277
+23:16:02-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.56it/s]
+23:16:03-INFO: ***** Eval results  *****
+23:16:03-INFO:   acc = 0.51985559566787
+evaluation time: 0.8620631694793701
+attention_head_mask ['12:6']
+['12', '6']
+23:16:03-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:03-INFO: ***** Running evaluation  *****
+23:16:03-INFO:   Num examples = 277
+23:16:03-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.51it/s]
+23:16:04-INFO: ***** Eval results  *****
+23:16:04-INFO:   acc = 0.5090252707581228
+evaluation time: 0.8466403484344482
+attention_head_mask ['12:7']
+['12', '7']
+23:16:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:04-INFO: ***** Running evaluation  *****
+23:16:04-INFO:   Num examples = 277
+23:16:04-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.97it/s]
+23:16:05-INFO: ***** Eval results  *****
+23:16:05-INFO:   acc = 0.5270758122743683
+evaluation time: 0.8418214321136475
+attention_head_mask ['12:8']
+['12', '8']
+23:16:05-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:05-INFO: ***** Running evaluation  *****
+23:16:05-INFO:   Num examples = 277
+23:16:05-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.00it/s]
+23:16:06-INFO: ***** Eval results  *****
+23:16:06-INFO:   acc = 0.5270758122743683
+evaluation time: 0.8557054996490479
+attention_head_mask ['12:9']
+['12', '9']
+23:16:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:06-INFO: ***** Running evaluation  *****
+23:16:06-INFO:   Num examples = 277
+23:16:06-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 43.77it/s]
+23:16:06-INFO: ***** Eval results  *****
+23:16:06-INFO:   acc = 0.5270758122743683
+evaluation time: 0.8440959453582764
+attention_head_mask ['12:10']
+['12', '10']
+23:16:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:07-INFO: ***** Running evaluation  *****
+23:16:07-INFO:   Num examples = 277
+23:16:07-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.17it/s]
+23:16:07-INFO: ***** Eval results  *****
+23:16:07-INFO:   acc = 0.5270758122743683
+evaluation time: 0.8537778854370117
+attention_head_mask ['12:11']
+['12', '11']
+23:16:07-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:07-INFO: ***** Running evaluation  *****
+23:16:07-INFO:   Num examples = 277
+23:16:07-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.47it/s]
+23:16:08-INFO: ***** Eval results  *****
+23:16:08-INFO:   acc = 0.5270758122743683
+evaluation time: 0.8304183483123779
+attention_head_mask ['12:12']
+['12', '12']
+23:16:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/RTE/cached_dev_bert-base-uncased_128_rte
+23:16:08-INFO: ***** Running evaluation  *****
+23:16:08-INFO:   Num examples = 277
+23:16:08-INFO:   Batch size = 8
+Evaluating: 100% 35/35 [00:00<00:00, 44.70it/s]
+23:16:09-INFO: ***** Eval results  *****
+23:16:09-INFO:   acc = 0.5270758122743683
+evaluation time: 0.8259797096252441

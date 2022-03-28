@@ -1,0 +1,1460 @@
+Epoch: 100% 2/2 [00:15<00:00,  7.95s/it]
+15.955478429794312 training time======
+00:30:53-INFO:  global_step = 40, average loss = 0.7026259884238243
+00:30:53-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/WNLI
+00:30:58-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/WNLI']
+00:31:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:00-INFO: ***** Running evaluation  *****
+00:31:00-INFO:   Num examples = 71
+00:31:00-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 26.14it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:36: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+00:31:00-INFO: ***** Eval results  *****
+00:31:00-INFO:   acc = 0.5633802816901409
+evaluation time 0.36520934104919434
+start pruning.....
+attention_head_mask ['1:1']
+['1', '1']
+00:31:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:00-INFO: ***** Running evaluation  *****
+00:31:00-INFO:   Num examples = 71
+00:31:00-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.37it/s]
+00:31:00-INFO: ***** Eval results  *****
+00:31:00-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3475334644317627
+attention_head_mask ['1:2']
+['1', '2']
+00:31:00-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:00-INFO: ***** Running evaluation  *****
+00:31:00-INFO:   Num examples = 71
+00:31:00-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.45it/s]
+00:31:01-INFO: ***** Eval results  *****
+00:31:01-INFO:   acc = 0.5633802816901409
+evaluation time: 0.34678125381469727
+attention_head_mask ['1:3']
+['1', '3']
+00:31:01-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:01-INFO: ***** Running evaluation  *****
+00:31:01-INFO:   Num examples = 71
+00:31:01-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.50it/s]
+00:31:01-INFO: ***** Eval results  *****
+00:31:01-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3505580425262451
+attention_head_mask ['1:4']
+['1', '4']
+00:31:01-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:01-INFO: ***** Running evaluation  *****
+00:31:01-INFO:   Num examples = 71
+00:31:01-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.86it/s]
+00:31:01-INFO: ***** Eval results  *****
+00:31:01-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3441789150238037
+attention_head_mask ['1:5']
+['1', '5']
+00:31:01-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:01-INFO: ***** Running evaluation  *****
+00:31:01-INFO:   Num examples = 71
+00:31:01-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.87it/s]
+00:31:02-INFO: ***** Eval results  *****
+00:31:02-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3399336338043213
+attention_head_mask ['1:6']
+['1', '6']
+00:31:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:02-INFO: ***** Running evaluation  *****
+00:31:02-INFO:   Num examples = 71
+00:31:02-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.79it/s]
+00:31:02-INFO: ***** Eval results  *****
+00:31:02-INFO:   acc = 0.5633802816901409
+evaluation time: 0.33873939514160156
+attention_head_mask ['1:7']
+['1', '7']
+00:31:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:02-INFO: ***** Running evaluation  *****
+00:31:02-INFO:   Num examples = 71
+00:31:02-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.28it/s]
+00:31:02-INFO: ***** Eval results  *****
+00:31:02-INFO:   acc = 0.5633802816901409
+evaluation time: 0.33560895919799805
+attention_head_mask ['1:8']
+['1', '8']
+00:31:02-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:02-INFO: ***** Running evaluation  *****
+00:31:02-INFO:   Num examples = 71
+00:31:02-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 24.69it/s]
+00:31:03-INFO: ***** Eval results  *****
+00:31:03-INFO:   acc = 0.5633802816901409
+evaluation time: 0.38399314880371094
+attention_head_mask ['1:9']
+['1', '9']
+00:31:03-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:03-INFO: ***** Running evaluation  *****
+00:31:03-INFO:   Num examples = 71
+00:31:03-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 24.26it/s]
+00:31:03-INFO: ***** Eval results  *****
+00:31:03-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3999934196472168
+attention_head_mask ['1:10']
+['1', '10']
+00:31:03-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:03-INFO: ***** Running evaluation  *****
+00:31:03-INFO:   Num examples = 71
+00:31:03-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 26.54it/s]
+00:31:04-INFO: ***** Eval results  *****
+00:31:04-INFO:   acc = 0.5633802816901409
+evaluation time: 0.36421847343444824
+attention_head_mask ['1:11']
+['1', '11']
+00:31:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:04-INFO: ***** Running evaluation  *****
+00:31:04-INFO:   Num examples = 71
+00:31:04-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.07it/s]
+00:31:04-INFO: ***** Eval results  *****
+00:31:04-INFO:   acc = 0.5633802816901409
+evaluation time: 0.36104869842529297
+attention_head_mask ['1:12']
+['1', '12']
+/usr/local/lib/python3.7/dist-packages/torch/nn/init.py:388: UserWarning: Initializing zero-element tensors is a no-op
+  warnings.warn("Initializing zero-element tensors is a no-op")
+00:31:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:04-INFO: ***** Running evaluation  *****
+00:31:04-INFO:   Num examples = 71
+00:31:04-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 26.17it/s]
+00:31:04-INFO: ***** Eval results  *****
+00:31:04-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3626065254211426
+attention_head_mask ['2:1']
+['2', '1']
+00:31:04-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:04-INFO: ***** Running evaluation  *****
+00:31:04-INFO:   Num examples = 71
+00:31:04-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.02it/s]
+00:31:05-INFO: ***** Eval results  *****
+00:31:05-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3669555187225342
+attention_head_mask ['2:2']
+['2', '2']
+00:31:05-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:05-INFO: ***** Running evaluation  *****
+00:31:05-INFO:   Num examples = 71
+00:31:05-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 26.93it/s]
+00:31:05-INFO: ***** Eval results  *****
+00:31:05-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3839693069458008
+attention_head_mask ['2:3']
+['2', '3']
+00:31:05-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:05-INFO: ***** Running evaluation  *****
+00:31:05-INFO:   Num examples = 71
+00:31:05-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.66it/s]
+00:31:06-INFO: ***** Eval results  *****
+00:31:06-INFO:   acc = 0.5633802816901409
+evaluation time: 0.34271764755249023
+attention_head_mask ['2:4']
+['2', '4']
+00:31:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:06-INFO: ***** Running evaluation  *****
+00:31:06-INFO:   Num examples = 71
+00:31:06-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.64it/s]
+00:31:06-INFO: ***** Eval results  *****
+00:31:06-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3491847515106201
+attention_head_mask ['2:5']
+['2', '5']
+00:31:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:06-INFO: ***** Running evaluation  *****
+00:31:06-INFO:   Num examples = 71
+00:31:06-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 26.84it/s]
+00:31:06-INFO: ***** Eval results  *****
+00:31:06-INFO:   acc = 0.5633802816901409
+evaluation time: 0.35527777671813965
+attention_head_mask ['2:6']
+['2', '6']
+00:31:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:06-INFO: ***** Running evaluation  *****
+00:31:06-INFO:   Num examples = 71
+00:31:06-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.07it/s]
+00:31:07-INFO: ***** Eval results  *****
+00:31:07-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3421914577484131
+attention_head_mask ['2:7']
+['2', '7']
+00:31:07-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:07-INFO: ***** Running evaluation  *****
+00:31:07-INFO:   Num examples = 71
+00:31:07-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 27.56it/s]
+00:31:07-INFO: ***** Eval results  *****
+00:31:07-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3628556728363037
+attention_head_mask ['2:8']
+['2', '8']
+00:31:07-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:07-INFO: ***** Running evaluation  *****
+00:31:07-INFO:   Num examples = 71
+00:31:07-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 26.13it/s]
+00:31:07-INFO: ***** Eval results  *****
+00:31:07-INFO:   acc = 0.5633802816901409
+evaluation time: 0.36684298515319824
+attention_head_mask ['2:9']
+['2', '9']
+00:31:07-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:07-INFO: ***** Running evaluation  *****
+00:31:07-INFO:   Num examples = 71
+00:31:07-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.73it/s]
+00:31:08-INFO: ***** Eval results  *****
+00:31:08-INFO:   acc = 0.5633802816901409
+evaluation time: 0.33165645599365234
+attention_head_mask ['2:10']
+['2', '10']
+00:31:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:08-INFO: ***** Running evaluation  *****
+00:31:08-INFO:   Num examples = 71
+00:31:08-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.05it/s]
+00:31:08-INFO: ***** Eval results  *****
+00:31:08-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3354771137237549
+attention_head_mask ['2:11']
+['2', '11']
+00:31:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:08-INFO: ***** Running evaluation  *****
+00:31:08-INFO:   Num examples = 71
+00:31:08-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 28.66it/s]
+00:31:08-INFO: ***** Eval results  *****
+00:31:08-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3351316452026367
+attention_head_mask ['2:12']
+['2', '12']
+00:31:08-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:08-INFO: ***** Running evaluation  *****
+00:31:08-INFO:   Num examples = 71
+00:31:08-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.32it/s]
+00:31:09-INFO: ***** Eval results  *****
+00:31:09-INFO:   acc = 0.5633802816901409
+evaluation time: 0.32132625579833984
+attention_head_mask ['3:1']
+['3', '1']
+00:31:09-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:09-INFO: ***** Running evaluation  *****
+00:31:09-INFO:   Num examples = 71
+00:31:09-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.27it/s]
+00:31:09-INFO: ***** Eval results  *****
+00:31:09-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3280155658721924
+attention_head_mask ['3:2']
+['3', '2']
+00:31:09-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:09-INFO: ***** Running evaluation  *****
+00:31:09-INFO:   Num examples = 71
+00:31:09-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.52it/s]
+00:31:09-INFO: ***** Eval results  *****
+00:31:09-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3237910270690918
+attention_head_mask ['3:3']
+['3', '3']
+00:31:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:10-INFO: ***** Running evaluation  *****
+00:31:10-INFO:   Num examples = 71
+00:31:10-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.65it/s]
+00:31:10-INFO: ***** Eval results  *****
+00:31:10-INFO:   acc = 0.5633802816901409
+evaluation time: 0.32087135314941406
+attention_head_mask ['3:4']
+['3', '4']
+00:31:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:10-INFO: ***** Running evaluation  *****
+00:31:10-INFO:   Num examples = 71
+00:31:10-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.34it/s]
+00:31:10-INFO: ***** Eval results  *****
+00:31:10-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3240242004394531
+attention_head_mask ['3:5']
+['3', '5']
+00:31:10-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:10-INFO: ***** Running evaluation  *****
+00:31:10-INFO:   Num examples = 71
+00:31:10-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.63it/s]
+00:31:11-INFO: ***** Eval results  *****
+00:31:11-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3221886157989502
+attention_head_mask ['3:6']
+['3', '6']
+00:31:11-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:11-INFO: ***** Running evaluation  *****
+00:31:11-INFO:   Num examples = 71
+00:31:11-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.75it/s]
+00:31:11-INFO: ***** Eval results  *****
+00:31:11-INFO:   acc = 0.5633802816901409
+evaluation time: 0.31939172744750977
+attention_head_mask ['3:7']
+['3', '7']
+00:31:11-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:11-INFO: ***** Running evaluation  *****
+00:31:11-INFO:   Num examples = 71
+00:31:11-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.01it/s]
+00:31:11-INFO: ***** Eval results  *****
+00:31:11-INFO:   acc = 0.5633802816901409
+evaluation time: 0.32452869415283203
+attention_head_mask ['3:8']
+['3', '8']
+00:31:11-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:11-INFO: ***** Running evaluation  *****
+00:31:11-INFO:   Num examples = 71
+00:31:11-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.98it/s]
+00:31:12-INFO: ***** Eval results  *****
+00:31:12-INFO:   acc = 0.5633802816901409
+evaluation time: 0.32306599617004395
+attention_head_mask ['3:9']
+['3', '9']
+00:31:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:12-INFO: ***** Running evaluation  *****
+00:31:12-INFO:   Num examples = 71
+00:31:12-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.06it/s]
+00:31:12-INFO: ***** Eval results  *****
+00:31:12-INFO:   acc = 0.5633802816901409
+evaluation time: 0.31890130043029785
+attention_head_mask ['3:10']
+['3', '10']
+00:31:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:12-INFO: ***** Running evaluation  *****
+00:31:12-INFO:   Num examples = 71
+00:31:12-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.44it/s]
+00:31:12-INFO: ***** Eval results  *****
+00:31:12-INFO:   acc = 0.5633802816901409
+evaluation time: 0.31388020515441895
+attention_head_mask ['3:11']
+['3', '11']
+00:31:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:12-INFO: ***** Running evaluation  *****
+00:31:12-INFO:   Num examples = 71
+00:31:12-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.75it/s]
+00:31:12-INFO: ***** Eval results  *****
+00:31:12-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3183474540710449
+attention_head_mask ['3:12']
+['3', '12']
+00:31:12-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:13-INFO: ***** Running evaluation  *****
+00:31:13-INFO:   Num examples = 71
+00:31:13-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.67it/s]
+00:31:13-INFO: ***** Eval results  *****
+00:31:13-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3080711364746094
+attention_head_mask ['4:1']
+['4', '1']
+00:31:13-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:13-INFO: ***** Running evaluation  *****
+00:31:13-INFO:   Num examples = 71
+00:31:13-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.59it/s]
+00:31:13-INFO: ***** Eval results  *****
+00:31:13-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3113996982574463
+attention_head_mask ['4:2']
+['4', '2']
+00:31:13-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:13-INFO: ***** Running evaluation  *****
+00:31:13-INFO:   Num examples = 71
+00:31:13-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.33it/s]
+00:31:13-INFO: ***** Eval results  *****
+00:31:13-INFO:   acc = 0.5633802816901409
+evaluation time: 0.31701016426086426
+attention_head_mask ['4:3']
+['4', '3']
+00:31:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:14-INFO: ***** Running evaluation  *****
+00:31:14-INFO:   Num examples = 71
+00:31:14-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.77it/s]
+00:31:14-INFO: ***** Eval results  *****
+00:31:14-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3104543685913086
+attention_head_mask ['4:4']
+['4', '4']
+00:31:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:14-INFO: ***** Running evaluation  *****
+00:31:14-INFO:   Num examples = 71
+00:31:14-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 29.30it/s]
+00:31:14-INFO: ***** Eval results  *****
+00:31:14-INFO:   acc = 0.5633802816901409
+evaluation time: 0.32423877716064453
+attention_head_mask ['4:5']
+['4', '5']
+00:31:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:14-INFO: ***** Running evaluation  *****
+00:31:14-INFO:   Num examples = 71
+00:31:14-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.59it/s]
+00:31:14-INFO: ***** Eval results  *****
+00:31:14-INFO:   acc = 0.5633802816901409
+evaluation time: 0.31130456924438477
+attention_head_mask ['4:6']
+['4', '6']
+00:31:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:15-INFO: ***** Running evaluation  *****
+00:31:15-INFO:   Num examples = 71
+00:31:15-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.19it/s]
+00:31:15-INFO: ***** Eval results  *****
+00:31:15-INFO:   acc = 0.5633802816901409
+evaluation time: 0.30635714530944824
+attention_head_mask ['4:7']
+['4', '7']
+00:31:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:15-INFO: ***** Running evaluation  *****
+00:31:15-INFO:   Num examples = 71
+00:31:15-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.76it/s]
+00:31:15-INFO: ***** Eval results  *****
+00:31:15-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3098909854888916
+attention_head_mask ['4:8']
+['4', '8']
+00:31:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:15-INFO: ***** Running evaluation  *****
+00:31:15-INFO:   Num examples = 71
+00:31:15-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.16it/s]
+00:31:15-INFO: ***** Eval results  *****
+00:31:15-INFO:   acc = 0.5633802816901409
+evaluation time: 0.30612635612487793
+attention_head_mask ['4:9']
+['4', '9']
+00:31:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:15-INFO: ***** Running evaluation  *****
+00:31:15-INFO:   Num examples = 71
+00:31:15-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 30.99it/s]
+00:31:16-INFO: ***** Eval results  *****
+00:31:16-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3078317642211914
+attention_head_mask ['4:10']
+['4', '10']
+00:31:16-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:16-INFO: ***** Running evaluation  *****
+00:31:16-INFO:   Num examples = 71
+00:31:16-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.31it/s]
+00:31:16-INFO: ***** Eval results  *****
+00:31:16-INFO:   acc = 0.5633802816901409
+evaluation time: 0.30931544303894043
+attention_head_mask ['4:11']
+['4', '11']
+00:31:16-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:16-INFO: ***** Running evaluation  *****
+00:31:16-INFO:   Num examples = 71
+00:31:16-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.27it/s]
+00:31:16-INFO: ***** Eval results  *****
+00:31:16-INFO:   acc = 0.5633802816901409
+evaluation time: 0.32618236541748047
+attention_head_mask ['4:12']
+['4', '12']
+00:31:16-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:16-INFO: ***** Running evaluation  *****
+00:31:16-INFO:   Num examples = 71
+00:31:16-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.75it/s]
+00:31:17-INFO: ***** Eval results  *****
+00:31:17-INFO:   acc = 0.5633802816901409
+evaluation time: 0.31142115592956543
+attention_head_mask ['5:1']
+['5', '1']
+00:31:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:17-INFO: ***** Running evaluation  *****
+00:31:17-INFO:   Num examples = 71
+00:31:17-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.89it/s]
+00:31:17-INFO: ***** Eval results  *****
+00:31:17-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29947471618652344
+attention_head_mask ['5:2']
+['5', '2']
+00:31:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:17-INFO: ***** Running evaluation  *****
+00:31:17-INFO:   Num examples = 71
+00:31:17-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.55it/s]
+00:31:17-INFO: ***** Eval results  *****
+00:31:17-INFO:   acc = 0.5633802816901409
+evaluation time: 0.30182743072509766
+attention_head_mask ['5:3']
+['5', '3']
+00:31:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:17-INFO: ***** Running evaluation  *****
+00:31:17-INFO:   Num examples = 71
+00:31:17-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.50it/s]
+00:31:18-INFO: ***** Eval results  *****
+00:31:18-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3026463985443115
+attention_head_mask ['5:4']
+['5', '4']
+00:31:18-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:18-INFO: ***** Running evaluation  *****
+00:31:18-INFO:   Num examples = 71
+00:31:18-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.21it/s]
+00:31:18-INFO: ***** Eval results  *****
+00:31:18-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29642486572265625
+attention_head_mask ['5:5']
+['5', '5']
+00:31:18-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:18-INFO: ***** Running evaluation  *****
+00:31:18-INFO:   Num examples = 71
+00:31:18-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.90it/s]
+00:31:18-INFO: ***** Eval results  *****
+00:31:18-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3006596565246582
+attention_head_mask ['5:6']
+['5', '6']
+00:31:18-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:18-INFO: ***** Running evaluation  *****
+00:31:18-INFO:   Num examples = 71
+00:31:18-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 31.91it/s]
+00:31:19-INFO: ***** Eval results  *****
+00:31:19-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2967970371246338
+attention_head_mask ['5:7']
+['5', '7']
+00:31:19-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:19-INFO: ***** Running evaluation  *****
+00:31:19-INFO:   Num examples = 71
+00:31:19-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.12it/s]
+00:31:19-INFO: ***** Eval results  *****
+00:31:19-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2972872257232666
+attention_head_mask ['5:8']
+['5', '8']
+00:31:19-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:19-INFO: ***** Running evaluation  *****
+00:31:19-INFO:   Num examples = 71
+00:31:19-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.34it/s]
+00:31:19-INFO: ***** Eval results  *****
+00:31:19-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2956581115722656
+attention_head_mask ['5:9']
+['5', '9']
+00:31:19-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:19-INFO: ***** Running evaluation  *****
+00:31:19-INFO:   Num examples = 71
+00:31:19-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.58it/s]
+00:31:20-INFO: ***** Eval results  *****
+00:31:20-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29309725761413574
+attention_head_mask ['5:10']
+['5', '10']
+00:31:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:20-INFO: ***** Running evaluation  *****
+00:31:20-INFO:   Num examples = 71
+00:31:20-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.62it/s]
+00:31:20-INFO: ***** Eval results  *****
+00:31:20-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29015660285949707
+attention_head_mask ['5:11']
+['5', '11']
+00:31:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:20-INFO: ***** Running evaluation  *****
+00:31:20-INFO:   Num examples = 71
+00:31:20-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.82it/s]
+00:31:20-INFO: ***** Eval results  *****
+00:31:20-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2915067672729492
+attention_head_mask ['5:12']
+['5', '12']
+00:31:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:20-INFO: ***** Running evaluation  *****
+00:31:20-INFO:   Num examples = 71
+00:31:20-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.57it/s]
+00:31:20-INFO: ***** Eval results  *****
+00:31:20-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29180097579956055
+attention_head_mask ['6:1']
+['6', '1']
+00:31:20-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:20-INFO: ***** Running evaluation  *****
+00:31:20-INFO:   Num examples = 71
+00:31:20-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.69it/s]
+00:31:21-INFO: ***** Eval results  *****
+00:31:21-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2933349609375
+attention_head_mask ['6:2']
+['6', '2']
+00:31:21-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:21-INFO: ***** Running evaluation  *****
+00:31:21-INFO:   Num examples = 71
+00:31:21-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.74it/s]
+00:31:21-INFO: ***** Eval results  *****
+00:31:21-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29284238815307617
+attention_head_mask ['6:3']
+['6', '3']
+00:31:21-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:21-INFO: ***** Running evaluation  *****
+00:31:21-INFO:   Num examples = 71
+00:31:21-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.96it/s]
+00:31:21-INFO: ***** Eval results  *****
+00:31:21-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29076552391052246
+attention_head_mask ['6:4']
+['6', '4']
+00:31:21-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:21-INFO: ***** Running evaluation  *****
+00:31:21-INFO:   Num examples = 71
+00:31:21-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.00it/s]
+00:31:22-INFO: ***** Eval results  *****
+00:31:22-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2880070209503174
+attention_head_mask ['6:5']
+['6', '5']
+00:31:22-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:22-INFO: ***** Running evaluation  *****
+00:31:22-INFO:   Num examples = 71
+00:31:22-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.26it/s]
+00:31:22-INFO: ***** Eval results  *****
+00:31:22-INFO:   acc = 0.5633802816901409
+evaluation time: 0.30878734588623047
+attention_head_mask ['6:6']
+['6', '6']
+00:31:22-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:22-INFO: ***** Running evaluation  *****
+00:31:22-INFO:   Num examples = 71
+00:31:22-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 32.91it/s]
+00:31:22-INFO: ***** Eval results  *****
+00:31:22-INFO:   acc = 0.5633802816901409
+evaluation time: 0.29225659370422363
+attention_head_mask ['6:7']
+['6', '7']
+00:31:22-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:22-INFO: ***** Running evaluation  *****
+00:31:22-INFO:   Num examples = 71
+00:31:22-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.29it/s]
+00:31:23-INFO: ***** Eval results  *****
+00:31:23-INFO:   acc = 0.5633802816901409
+evaluation time: 0.28787875175476074
+attention_head_mask ['6:8']
+['6', '8']
+00:31:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:23-INFO: ***** Running evaluation  *****
+00:31:23-INFO:   Num examples = 71
+00:31:23-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.10it/s]
+00:31:23-INFO: ***** Eval results  *****
+00:31:23-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2918820381164551
+attention_head_mask ['6:9']
+['6', '9']
+00:31:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:23-INFO: ***** Running evaluation  *****
+00:31:23-INFO:   Num examples = 71
+00:31:23-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.59it/s]
+00:31:23-INFO: ***** Eval results  *****
+00:31:23-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2858448028564453
+attention_head_mask ['6:10']
+['6', '10']
+00:31:23-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:23-INFO: ***** Running evaluation  *****
+00:31:23-INFO:   Num examples = 71
+00:31:23-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.57it/s]
+00:31:24-INFO: ***** Eval results  *****
+00:31:24-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2829732894897461
+attention_head_mask ['6:11']
+['6', '11']
+00:31:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:24-INFO: ***** Running evaluation  *****
+00:31:24-INFO:   Num examples = 71
+00:31:24-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.62it/s]
+00:31:24-INFO: ***** Eval results  *****
+00:31:24-INFO:   acc = 0.5633802816901409
+evaluation time: 0.28258681297302246
+attention_head_mask ['6:12']
+['6', '12']
+00:31:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:24-INFO: ***** Running evaluation  *****
+00:31:24-INFO:   Num examples = 71
+00:31:24-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.17it/s]
+00:31:24-INFO: ***** Eval results  *****
+00:31:24-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2780275344848633
+attention_head_mask ['7:1']
+['7', '1']
+00:31:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:24-INFO: ***** Running evaluation  *****
+00:31:24-INFO:   Num examples = 71
+00:31:24-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.26it/s]
+00:31:24-INFO: ***** Eval results  *****
+00:31:24-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2797999382019043
+attention_head_mask ['7:2']
+['7', '2']
+00:31:24-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:24-INFO: ***** Running evaluation  *****
+00:31:24-INFO:   Num examples = 71
+00:31:24-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.81it/s]
+00:31:25-INFO: ***** Eval results  *****
+00:31:25-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2845900058746338
+attention_head_mask ['7:3']
+['7', '3']
+00:31:25-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:25-INFO: ***** Running evaluation  *****
+00:31:25-INFO:   Num examples = 71
+00:31:25-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.20it/s]
+00:31:25-INFO: ***** Eval results  *****
+00:31:25-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2797658443450928
+attention_head_mask ['7:4']
+['7', '4']
+00:31:25-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:25-INFO: ***** Running evaluation  *****
+00:31:25-INFO:   Num examples = 71
+00:31:25-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 33.73it/s]
+00:31:25-INFO: ***** Eval results  *****
+00:31:25-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2843785285949707
+attention_head_mask ['7:5']
+['7', '5']
+00:31:25-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:25-INFO: ***** Running evaluation  *****
+00:31:25-INFO:   Num examples = 71
+00:31:25-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.60it/s]
+00:31:26-INFO: ***** Eval results  *****
+00:31:26-INFO:   acc = 0.5633802816901409
+evaluation time: 0.27858662605285645
+attention_head_mask ['7:6']
+['7', '6']
+00:31:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:26-INFO: ***** Running evaluation  *****
+00:31:26-INFO:   Num examples = 71
+00:31:26-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.67it/s]
+00:31:26-INFO: ***** Eval results  *****
+00:31:26-INFO:   acc = 0.5633802816901409
+evaluation time: 0.27707982063293457
+attention_head_mask ['7:7']
+['7', '7']
+00:31:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:26-INFO: ***** Running evaluation  *****
+00:31:26-INFO:   Num examples = 71
+00:31:26-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.68it/s]
+00:31:26-INFO: ***** Eval results  *****
+00:31:26-INFO:   acc = 0.5633802816901409
+evaluation time: 0.28169894218444824
+attention_head_mask ['7:8']
+['7', '8']
+00:31:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:26-INFO: ***** Running evaluation  *****
+00:31:26-INFO:   Num examples = 71
+00:31:26-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.11it/s]
+00:31:26-INFO: ***** Eval results  *****
+00:31:26-INFO:   acc = 0.5633802816901409
+evaluation time: 0.28090786933898926
+attention_head_mask ['7:9']
+['7', '9']
+00:31:26-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:26-INFO: ***** Running evaluation  *****
+00:31:26-INFO:   Num examples = 71
+00:31:26-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.75it/s]
+00:31:27-INFO: ***** Eval results  *****
+00:31:27-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2767500877380371
+attention_head_mask ['7:10']
+['7', '10']
+00:31:27-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:27-INFO: ***** Running evaluation  *****
+00:31:27-INFO:   Num examples = 71
+00:31:27-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 34.98it/s]
+00:31:27-INFO: ***** Eval results  *****
+00:31:27-INFO:   acc = 0.5633802816901409
+evaluation time: 0.27473926544189453
+attention_head_mask ['7:11']
+['7', '11']
+00:31:27-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:27-INFO: ***** Running evaluation  *****
+00:31:27-INFO:   Num examples = 71
+00:31:27-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.52it/s]
+00:31:27-INFO: ***** Eval results  *****
+00:31:27-INFO:   acc = 0.5633802816901409
+evaluation time: 0.289717435836792
+attention_head_mask ['7:12']
+['7', '12']
+00:31:27-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:27-INFO: ***** Running evaluation  *****
+00:31:27-INFO:   Num examples = 71
+00:31:27-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.67it/s]
+00:31:28-INFO: ***** Eval results  *****
+00:31:28-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26967477798461914
+attention_head_mask ['8:1']
+['8', '1']
+00:31:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:28-INFO: ***** Running evaluation  *****
+00:31:28-INFO:   Num examples = 71
+00:31:28-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.03it/s]
+00:31:28-INFO: ***** Eval results  *****
+00:31:28-INFO:   acc = 0.5633802816901409
+evaluation time: 0.28050851821899414
+attention_head_mask ['8:2']
+['8', '2']
+00:31:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:28-INFO: ***** Running evaluation  *****
+00:31:28-INFO:   Num examples = 71
+00:31:28-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.75it/s]
+00:31:28-INFO: ***** Eval results  *****
+00:31:28-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2773165702819824
+attention_head_mask ['8:3']
+['8', '3']
+00:31:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:28-INFO: ***** Running evaluation  *****
+00:31:28-INFO:   Num examples = 71
+00:31:28-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.71it/s]
+00:31:28-INFO: ***** Eval results  *****
+00:31:28-INFO:   acc = 0.5633802816901409
+evaluation time: 0.271359920501709
+attention_head_mask ['8:4']
+['8', '4']
+00:31:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:29-INFO: ***** Running evaluation  *****
+00:31:29-INFO:   Num examples = 71
+00:31:29-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 35.54it/s]
+00:31:29-INFO: ***** Eval results  *****
+00:31:29-INFO:   acc = 0.5633802816901409
+evaluation time: 0.27084970474243164
+attention_head_mask ['8:5']
+['8', '5']
+00:31:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:29-INFO: ***** Running evaluation  *****
+00:31:29-INFO:   Num examples = 71
+00:31:29-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.14it/s]
+00:31:29-INFO: ***** Eval results  *****
+00:31:29-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26752424240112305
+attention_head_mask ['8:6']
+['8', '6']
+00:31:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:29-INFO: ***** Running evaluation  *****
+00:31:29-INFO:   Num examples = 71
+00:31:29-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.21it/s]
+00:31:29-INFO: ***** Eval results  *****
+00:31:29-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26619386672973633
+attention_head_mask ['8:7']
+['8', '7']
+00:31:29-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:29-INFO: ***** Running evaluation  *****
+00:31:29-INFO:   Num examples = 71
+00:31:29-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.87it/s]
+00:31:30-INFO: ***** Eval results  *****
+00:31:30-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2663247585296631
+attention_head_mask ['8:8']
+['8', '8']
+00:31:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:30-INFO: ***** Running evaluation  *****
+00:31:30-INFO:   Num examples = 71
+00:31:30-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.24it/s]
+00:31:30-INFO: ***** Eval results  *****
+00:31:30-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26546168327331543
+attention_head_mask ['8:9']
+['8', '9']
+00:31:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:30-INFO: ***** Running evaluation  *****
+00:31:30-INFO:   Num examples = 71
+00:31:30-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.60it/s]
+00:31:30-INFO: ***** Eval results  *****
+00:31:30-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2692999839782715
+attention_head_mask ['8:10']
+['8', '10']
+00:31:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:30-INFO: ***** Running evaluation  *****
+00:31:30-INFO:   Num examples = 71
+00:31:30-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.77it/s]
+00:31:30-INFO: ***** Eval results  *****
+00:31:30-INFO:   acc = 0.5633802816901409
+evaluation time: 0.258713960647583
+attention_head_mask ['8:11']
+['8', '11']
+00:31:30-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:30-INFO: ***** Running evaluation  *****
+00:31:30-INFO:   Num examples = 71
+00:31:30-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.21it/s]
+00:31:31-INFO: ***** Eval results  *****
+00:31:31-INFO:   acc = 0.5633802816901409
+evaluation time: 0.25651121139526367
+attention_head_mask ['8:12']
+['8', '12']
+00:31:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:31-INFO: ***** Running evaluation  *****
+00:31:31-INFO:   Num examples = 71
+00:31:31-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.49it/s]
+00:31:31-INFO: ***** Eval results  *****
+00:31:31-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26229190826416016
+attention_head_mask ['9:1']
+['9', '1']
+00:31:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:31-INFO: ***** Running evaluation  *****
+00:31:31-INFO:   Num examples = 71
+00:31:31-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.31it/s]
+00:31:31-INFO: ***** Eval results  *****
+00:31:31-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2583920955657959
+attention_head_mask ['9:2']
+['9', '2']
+00:31:31-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:31-INFO: ***** Running evaluation  *****
+00:31:31-INFO:   Num examples = 71
+00:31:31-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.61it/s]
+00:31:32-INFO: ***** Eval results  *****
+00:31:32-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2565171718597412
+attention_head_mask ['9:3']
+['9', '3']
+00:31:32-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:32-INFO: ***** Running evaluation  *****
+00:31:32-INFO:   Num examples = 71
+00:31:32-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 36.77it/s]
+00:31:32-INFO: ***** Eval results  *****
+00:31:32-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26310276985168457
+attention_head_mask ['9:4']
+['9', '4']
+00:31:32-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:32-INFO: ***** Running evaluation  *****
+00:31:32-INFO:   Num examples = 71
+00:31:32-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.46it/s]
+00:31:32-INFO: ***** Eval results  *****
+00:31:32-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2557070255279541
+attention_head_mask ['9:5']
+['9', '5']
+00:31:32-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:32-INFO: ***** Running evaluation  *****
+00:31:32-INFO:   Num examples = 71
+00:31:32-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.53it/s]
+00:31:32-INFO: ***** Eval results  *****
+00:31:32-INFO:   acc = 0.5633802816901409
+evaluation time: 0.3217918872833252
+attention_head_mask ['9:6']
+['9', '6']
+00:31:32-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:32-INFO: ***** Running evaluation  *****
+00:31:32-INFO:   Num examples = 71
+00:31:32-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.69it/s]
+00:31:33-INFO: ***** Eval results  *****
+00:31:33-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26038503646850586
+attention_head_mask ['9:7']
+['9', '7']
+00:31:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:33-INFO: ***** Running evaluation  *****
+00:31:33-INFO:   Num examples = 71
+00:31:33-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.96it/s]
+00:31:33-INFO: ***** Eval results  *****
+00:31:33-INFO:   acc = 0.5633802816901409
+evaluation time: 0.25524282455444336
+attention_head_mask ['9:8']
+['9', '8']
+00:31:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:33-INFO: ***** Running evaluation  *****
+00:31:33-INFO:   Num examples = 71
+00:31:33-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.36it/s]
+00:31:33-INFO: ***** Eval results  *****
+00:31:33-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2527947425842285
+attention_head_mask ['9:9']
+['9', '9']
+00:31:33-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:33-INFO: ***** Running evaluation  *****
+00:31:33-INFO:   Num examples = 71
+00:31:33-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 37.85it/s]
+00:31:34-INFO: ***** Eval results  *****
+00:31:34-INFO:   acc = 0.5633802816901409
+evaluation time: 0.26219725608825684
+attention_head_mask ['9:10']
+['9', '10']
+00:31:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:34-INFO: ***** Running evaluation  *****
+00:31:34-INFO:   Num examples = 71
+00:31:34-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.54it/s]
+00:31:34-INFO: ***** Eval results  *****
+00:31:34-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2490549087524414
+attention_head_mask ['9:11']
+['9', '11']
+00:31:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:34-INFO: ***** Running evaluation  *****
+00:31:34-INFO:   Num examples = 71
+00:31:34-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.76it/s]
+00:31:34-INFO: ***** Eval results  *****
+00:31:34-INFO:   acc = 0.5633802816901409
+evaluation time: 0.24989867210388184
+attention_head_mask ['9:12']
+['9', '12']
+00:31:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:34-INFO: ***** Running evaluation  *****
+00:31:34-INFO:   Num examples = 71
+00:31:34-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.40it/s]
+00:31:34-INFO: ***** Eval results  *****
+00:31:34-INFO:   acc = 0.5633802816901409
+evaluation time: 0.24896979331970215
+attention_head_mask ['10:1']
+['10', '1']
+00:31:34-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:34-INFO: ***** Running evaluation  *****
+00:31:34-INFO:   Num examples = 71
+00:31:34-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.89it/s]
+00:31:35-INFO: ***** Eval results  *****
+00:31:35-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2484569549560547
+attention_head_mask ['10:2']
+['10', '2']
+00:31:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:35-INFO: ***** Running evaluation  *****
+00:31:35-INFO:   Num examples = 71
+00:31:35-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.35it/s]
+00:31:35-INFO: ***** Eval results  *****
+00:31:35-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2457866668701172
+attention_head_mask ['10:3']
+['10', '3']
+00:31:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:35-INFO: ***** Running evaluation  *****
+00:31:35-INFO:   Num examples = 71
+00:31:35-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.60it/s]
+00:31:35-INFO: ***** Eval results  *****
+00:31:35-INFO:   acc = 0.5633802816901409
+evaluation time: 0.25060486793518066
+attention_head_mask ['10:4']
+['10', '4']
+00:31:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:35-INFO: ***** Running evaluation  *****
+00:31:35-INFO:   Num examples = 71
+00:31:35-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 38.66it/s]
+00:31:35-INFO: ***** Eval results  *****
+00:31:35-INFO:   acc = 0.5633802816901409
+evaluation time: 0.25061607360839844
+attention_head_mask ['10:5']
+['10', '5']
+00:31:35-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:35-INFO: ***** Running evaluation  *****
+00:31:35-INFO:   Num examples = 71
+00:31:35-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.56it/s]
+00:31:36-INFO: ***** Eval results  *****
+00:31:36-INFO:   acc = 0.5633802816901409
+evaluation time: 0.24504542350769043
+attention_head_mask ['10:6']
+['10', '6']
+00:31:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:36-INFO: ***** Running evaluation  *****
+00:31:36-INFO:   Num examples = 71
+00:31:36-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.40it/s]
+00:31:36-INFO: ***** Eval results  *****
+00:31:36-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2570476531982422
+attention_head_mask ['10:7']
+['10', '7']
+00:31:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:36-INFO: ***** Running evaluation  *****
+00:31:36-INFO:   Num examples = 71
+00:31:36-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.86it/s]
+00:31:36-INFO: ***** Eval results  *****
+00:31:36-INFO:   acc = 0.5633802816901409
+evaluation time: 0.24747276306152344
+attention_head_mask ['10:8']
+['10', '8']
+00:31:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:36-INFO: ***** Running evaluation  *****
+00:31:36-INFO:   Num examples = 71
+00:31:36-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.29it/s]
+00:31:36-INFO: ***** Eval results  *****
+00:31:36-INFO:   acc = 0.5633802816901409
+evaluation time: 0.24042773246765137
+attention_head_mask ['10:9']
+['10', '9']
+00:31:36-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:36-INFO: ***** Running evaluation  *****
+00:31:36-INFO:   Num examples = 71
+00:31:36-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 39.24it/s]
+00:31:37-INFO: ***** Eval results  *****
+00:31:37-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2443685531616211
+attention_head_mask ['10:10']
+['10', '10']
+00:31:37-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:37-INFO: ***** Running evaluation  *****
+00:31:37-INFO:   Num examples = 71
+00:31:37-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.19it/s]
+00:31:37-INFO: ***** Eval results  *****
+00:31:37-INFO:   acc = 0.5633802816901409
+evaluation time: 0.2380828857421875
+attention_head_mask ['10:11']
+['10', '11']
+00:31:37-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:37-INFO: ***** Running evaluation  *****
+00:31:37-INFO:   Num examples = 71
+00:31:37-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.49it/s]
+00:31:37-INFO: ***** Eval results  *****
+00:31:37-INFO:   acc = 0.5633802816901409
+evaluation time: 0.23657846450805664
+attention_head_mask ['10:12']
+['10', '12']
+00:31:37-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:37-INFO: ***** Running evaluation  *****
+00:31:37-INFO:   Num examples = 71
+00:31:37-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.35it/s]
+00:31:37-INFO: ***** Eval results  *****
+00:31:37-INFO:   acc = 0.5633802816901409
+evaluation time: 0.25814390182495117
+attention_head_mask ['11:1']
+['11', '1']
+00:31:37-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:37-INFO: ***** Running evaluation  *****
+00:31:37-INFO:   Num examples = 71
+00:31:37-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.23it/s]
+00:31:38-INFO: ***** Eval results  *****
+00:31:38-INFO:   acc = 0.5774647887323944
+evaluation time: 0.23552894592285156
+attention_head_mask ['11:2']
+['11', '2']
+00:31:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:38-INFO: ***** Running evaluation  *****
+00:31:38-INFO:   Num examples = 71
+00:31:38-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.32it/s]
+00:31:38-INFO: ***** Eval results  *****
+00:31:38-INFO:   acc = 0.5774647887323944
+evaluation time: 0.24692559242248535
+attention_head_mask ['11:3']
+['11', '3']
+00:31:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:38-INFO: ***** Running evaluation  *****
+00:31:38-INFO:   Num examples = 71
+00:31:38-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 40.28it/s]
+00:31:38-INFO: ***** Eval results  *****
+00:31:38-INFO:   acc = 0.5774647887323944
+evaluation time: 0.24776101112365723
+attention_head_mask ['11:4']
+['11', '4']
+00:31:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:38-INFO: ***** Running evaluation  *****
+00:31:38-INFO:   Num examples = 71
+00:31:38-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.21it/s]
+00:31:38-INFO: ***** Eval results  *****
+00:31:38-INFO:   acc = 0.5633802816901409
+evaluation time: 0.23548436164855957
+attention_head_mask ['11:5']
+['11', '5']
+00:31:38-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:38-INFO: ***** Running evaluation  *****
+00:31:38-INFO:   Num examples = 71
+00:31:38-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.10it/s]
+00:31:39-INFO: ***** Eval results  *****
+00:31:39-INFO:   acc = 0.5633802816901409
+evaluation time: 0.23679590225219727
+attention_head_mask ['11:6']
+['11', '6']
+00:31:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:39-INFO: ***** Running evaluation  *****
+00:31:39-INFO:   Num examples = 71
+00:31:39-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.40it/s]
+00:31:39-INFO: ***** Eval results  *****
+00:31:39-INFO:   acc = 0.5633802816901409
+evaluation time: 0.23433876037597656
+attention_head_mask ['11:7']
+['11', '7']
+00:31:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:39-INFO: ***** Running evaluation  *****
+00:31:39-INFO:   Num examples = 71
+00:31:39-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 41.24it/s]
+00:31:39-INFO: ***** Eval results  *****
+00:31:39-INFO:   acc = 0.5633802816901409
+evaluation time: 0.240156888961792
+attention_head_mask ['11:8']
+['11', '8']
+00:31:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:39-INFO: ***** Running evaluation  *****
+00:31:39-INFO:   Num examples = 71
+00:31:39-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.40it/s]
+00:31:39-INFO: ***** Eval results  *****
+00:31:39-INFO:   acc = 0.5633802816901409
+evaluation time: 0.22706127166748047
+attention_head_mask ['11:9']
+['11', '9']
+00:31:39-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:39-INFO: ***** Running evaluation  *****
+00:31:39-INFO:   Num examples = 71
+00:31:39-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.07it/s]
+00:31:40-INFO: ***** Eval results  *****
+00:31:40-INFO:   acc = 0.5633802816901409
+evaluation time: 0.23136687278747559
+attention_head_mask ['11:10']
+['11', '10']
+00:31:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:40-INFO: ***** Running evaluation  *****
+00:31:40-INFO:   Num examples = 71
+00:31:40-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.13it/s]
+00:31:40-INFO: ***** Eval results  *****
+00:31:40-INFO:   acc = 0.5633802816901409
+evaluation time: 0.22870516777038574
+attention_head_mask ['11:11']
+['11', '11']
+00:31:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:40-INFO: ***** Running evaluation  *****
+00:31:40-INFO:   Num examples = 71
+00:31:40-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.17it/s]
+00:31:40-INFO: ***** Eval results  *****
+00:31:40-INFO:   acc = 0.5774647887323944
+evaluation time: 0.22779273986816406
+attention_head_mask ['11:12']
+['11', '12']
+00:31:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:40-INFO: ***** Running evaluation  *****
+00:31:40-INFO:   Num examples = 71
+00:31:40-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 43.02it/s]
+00:31:40-INFO: ***** Eval results  *****
+00:31:40-INFO:   acc = 0.5774647887323944
+evaluation time: 0.22353577613830566
+attention_head_mask ['12:1']
+['12', '1']
+00:31:40-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:40-INFO: ***** Running evaluation  *****
+00:31:40-INFO:   Num examples = 71
+00:31:40-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.64it/s]
+00:31:41-INFO: ***** Eval results  *****
+00:31:41-INFO:   acc = 0.5774647887323944
+evaluation time: 0.2357347011566162
+attention_head_mask ['12:2']
+['12', '2']
+00:31:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:41-INFO: ***** Running evaluation  *****
+00:31:41-INFO:   Num examples = 71
+00:31:41-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 43.19it/s]
+00:31:41-INFO: ***** Eval results  *****
+00:31:41-INFO:   acc = 0.5915492957746479
+evaluation time: 0.225724458694458
+attention_head_mask ['12:3']
+['12', '3']
+00:31:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:41-INFO: ***** Running evaluation  *****
+00:31:41-INFO:   Num examples = 71
+00:31:41-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.84it/s]
+00:31:41-INFO: ***** Eval results  *****
+00:31:41-INFO:   acc = 0.5774647887323944
+evaluation time: 0.22723674774169922
+attention_head_mask ['12:4']
+['12', '4']
+00:31:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:41-INFO: ***** Running evaluation  *****
+00:31:41-INFO:   Num examples = 71
+00:31:41-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.96it/s]
+00:31:41-INFO: ***** Eval results  *****
+00:31:41-INFO:   acc = 0.5774647887323944
+evaluation time: 0.22646474838256836
+attention_head_mask ['12:5']
+['12', '5']
+00:31:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:41-INFO: ***** Running evaluation  *****
+00:31:41-INFO:   Num examples = 71
+00:31:41-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 43.52it/s]
+00:31:42-INFO: ***** Eval results  *****
+00:31:42-INFO:   acc = 0.5774647887323944
+evaluation time: 0.2400498390197754
+attention_head_mask ['12:6']
+['12', '6']
+00:31:42-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:42-INFO: ***** Running evaluation  *****
+00:31:42-INFO:   Num examples = 71
+00:31:42-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.13it/s]
+00:31:42-INFO: ***** Eval results  *****
+00:31:42-INFO:   acc = 0.5774647887323944
+evaluation time: 0.24129962921142578
+attention_head_mask ['12:7']
+['12', '7']
+00:31:42-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:42-INFO: ***** Running evaluation  *****
+00:31:42-INFO:   Num examples = 71
+00:31:42-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 42.04it/s]
+00:31:42-INFO: ***** Eval results  *****
+00:31:42-INFO:   acc = 0.4788732394366197
+evaluation time: 0.2454979419708252
+attention_head_mask ['12:8']
+['12', '8']
+00:31:42-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:42-INFO: ***** Running evaluation  *****
+00:31:42-INFO:   Num examples = 71
+00:31:42-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.18it/s]
+00:31:42-INFO: ***** Eval results  *****
+00:31:42-INFO:   acc = 0.49295774647887325
+evaluation time: 0.22081279754638672
+attention_head_mask ['12:9']
+['12', '9']
+00:31:42-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:42-INFO: ***** Running evaluation  *****
+00:31:42-INFO:   Num examples = 71
+00:31:42-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.29it/s]
+00:31:43-INFO: ***** Eval results  *****
+00:31:43-INFO:   acc = 0.5211267605633803
+evaluation time: 0.2196202278137207
+attention_head_mask ['12:10']
+['12', '10']
+00:31:43-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:43-INFO: ***** Running evaluation  *****
+00:31:43-INFO:   Num examples = 71
+00:31:43-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.22it/s]
+00:31:43-INFO: ***** Eval results  *****
+00:31:43-INFO:   acc = 0.43661971830985913
+evaluation time: 0.21819519996643066
+attention_head_mask ['12:11']
+['12', '11']
+00:31:43-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:43-INFO: ***** Running evaluation  *****
+00:31:43-INFO:   Num examples = 71
+00:31:43-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.54it/s]
+00:31:43-INFO: ***** Eval results  *****
+00:31:43-INFO:   acc = 0.43661971830985913
+evaluation time: 0.21827268600463867
+attention_head_mask ['12:12']
+['12', '12']
+00:31:43-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/WNLI/cached_dev_bert-base-uncased_128_wnli
+00:31:43-INFO: ***** Running evaluation  *****
+00:31:43-INFO:   Num examples = 71
+00:31:43-INFO:   Batch size = 8
+Evaluating: 100% 9/9 [00:00<00:00, 44.71it/s]
+00:31:43-INFO: ***** Eval results  *****
+00:31:43-INFO:   acc = 0.43661971830985913
+evaluation time: 0.2169792652130127
