@@ -1,3 +1,5 @@
 /GLUE_data
 /experiments
 /models
+.DS_Store
+.ipynb_checkpoints
