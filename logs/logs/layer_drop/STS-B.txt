@@ -1,27 +1,191 @@
 =====================================================
 EXPERIMENT1: remove layers 10,11 (top drop 2)
+Epoch: 100% 3/3 [04:44<00:00, 94.97s/it]
+284.9317111968994 training time======
+13:49:55-INFO:  global_step = 540, average loss = 0.6878019771366207
+13:49:55-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+13:50:05-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+13:50:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+13:50:07-INFO: ***** Running evaluation  *****
+13:50:07-INFO:   Num examples = 1500
+13:50:07-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:09<00:00, 19.61it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+13:50:17-INFO: ***** Eval results  *****
+13:50:17-INFO:   corr = 0.8834455029242733
+13:50:17-INFO:   pearson = 0.8855358734883577
+13:50:17-INFO:   spearmanr = 0.8813551323601888
+evaluation time 10.391596794128418
 
 =====================================================
-EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+EXPERIMENT2: remove layers 8,9,10,11 (top drop 4)
+Epoch: 100% 3/3 [03:48<00:00, 76.18s/it]
+228.5455596446991 training time======
+13:57:51-INFO:  global_step = 540, average loss = 0.7271234928181878
+13:57:51-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+13:57:53-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+13:57:55-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+13:57:55-INFO: ***** Running evaluation  *****
+13:57:55-INFO:   Num examples = 1500
+13:57:55-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:07<00:00, 24.45it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+13:58:02-INFO: ***** Eval results  *****
+13:58:02-INFO:   corr = 0.883661277859314
+13:58:02-INFO:   pearson = 0.8851237128125227
+13:58:02-INFO:   spearmanr = 0.8821988429061054
+evaluation time 7.82271671295166
+=====================================================
+EXPERIMENT3: remove layers 6,7,8,9,10,11 (top drop 6)
+Epoch: 100% 3/3 [02:53<00:00, 57.88s/it]
+173.66734051704407 training time======
+14:03:38-INFO:  global_step = 540, average loss = 0.7661137276777514
+14:03:38-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+14:03:40-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+14:03:41-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+14:03:41-INFO: ***** Running evaluation  *****
+14:03:41-INFO:   Num examples = 1500
+14:03:41-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.05it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+14:03:47-INFO: ***** Eval results  *****
+14:03:47-INFO:   corr = 0.8806224860416625
+14:03:47-INFO:   pearson = 0.8824418112329003
+14:03:47-INFO:   spearmanr = 0.8788031608504248
+evaluation time 6.002774715423584
+=====================================================
+EXPERIMENT4: remove layers 0,1 (bottom drop 2)
+Epoch: 100% 3/3 [04:49<00:00, 96.43s/it]
+289.31614327430725 training time======
+14:09:23-INFO:  global_step = 540, average loss = 0.8724579625935466
+14:09:23-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+14:09:26-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+14:09:28-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+14:09:28-INFO: ***** Running evaluation  *****
+14:09:28-INFO:   Num examples = 1500
+14:09:28-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:09<00:00, 19.52it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+14:09:37-INFO: ***** Eval results  *****
+14:09:37-INFO:   corr = 0.8748618137060951
+14:09:37-INFO:   pearson = 0.877059506380114
+14:09:37-INFO:   spearmanr = 0.8726641210320761
+evaluation time 9.783250331878662
 
 =====================================================
-EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
-
+EXPERIMENT5: remove layers 0,1,2,3 (bottom drop 4)
+Epoch: 100% 3/3 [03:49<00:00, 76.50s/it]
+229.53649258613586 training time======
+14:15:44-INFO:  global_step = 540, average loss = 1.7701086754048312
+14:15:44-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+14:15:46-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+14:15:47-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+14:15:47-INFO: ***** Running evaluation  *****
+14:15:47-INFO:   Num examples = 1500
+14:15:47-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:07<00:00, 24.42it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+14:15:55-INFO: ***** Eval results  *****
+14:15:55-INFO:   corr = 0.6788819933860186
+14:15:55-INFO:   pearson = 0.6950206189628423
+14:15:55-INFO:   spearmanr = 0.6627433678091948
+evaluation time 7.838935136795044
+=====================================================
+EXPERIMENT6: remove layers 0,1,2,3,4,5 (bottom drop 6)
+Epoch: 100% 3/3 [02:54<00:00, 58.08s/it]
+174.30608749389648 training time======
+14:21:03-INFO:  global_step = 540, average loss = 2.036336895161205
+14:21:03-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+14:21:05-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+14:21:06-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+14:21:06-INFO: ***** Running evaluation  *****
+14:21:06-INFO:   Num examples = 1500
+14:21:06-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.28it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+14:21:12-INFO: ***** Eval results  *****
+14:21:12-INFO:   corr = 0.21602517608446112
+14:21:12-INFO:   pearson = 0.21938463264133895
+14:21:12-INFO:   spearmanr = 0.21266571952758329
+evaluation time 5.9618260860443115
+=====================================================
+EXPERIMENT7: remove layers 5,6 (symmetric drop 2)
+Epoch: 100% 3/3 [04:48<00:00, 96.04s/it]
+288.13938188552856 training time======
+14:28:10-INFO:  global_step = 540, average loss = 0.7893498417679911
+14:28:10-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+14:28:12-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+14:28:14-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+14:28:14-INFO: ***** Running evaluation  *****
+14:28:14-INFO:   Num examples = 1500
+14:28:14-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:09<00:00, 19.49it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+14:28:23-INFO: ***** Eval results  *****
+14:28:23-INFO:   corr = 0.884287414064358
+14:28:23-INFO:   pearson = 0.8865338999221961
+14:28:23-INFO:   spearmanr = 0.8820409282065198
+evaluation time 9.799771785736084
+=====================================================
+EXPERIMENT8: remove layers 4,5,6,7 (symmetric drop 4)
+Epoch: 100% 3/3 [03:50<00:00, 76.81s/it]
+230.44350934028625 training time======
+14:33:11-INFO:  global_step = 540, average loss = 0.812042887315706
+14:33:11-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+14:33:14-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+14:33:15-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+14:33:15-INFO: ***** Running evaluation  *****
+14:33:15-INFO:   Num examples = 1500
+14:33:15-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:07<00:00, 24.43it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+14:33:23-INFO: ***** Eval results  *****
+14:33:23-INFO:   corr = 0.8775503999187206
+14:33:23-INFO:   pearson = 0.8788114645630161
+14:33:23-INFO:   spearmanr = 0.8762893352744251
+evaluation time 7.833786249160767
 =====================================================
 EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
-
-
-=====================================================
-EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
-
-=====================================================
-EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
-
-=====================================================
-EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
-
-=====================================================
-EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
-
-=====================================================
-EXPERIMENT9: remove layers 3,4,5,6,7,8 (symmetric drop 6)
+Epoch: 100% 3/3 [02:54<00:00, 58.11s/it]
+174.34092545509338 training time======
+14:38:14-INFO:  global_step = 540, average loss = 0.8728197949903983
+14:38:14-INFO: Saving model checkpoint to /content/drive/MyDrive/Bert_compression/models/STS-B
+14:38:16-INFO: Evaluate the following checkpoints: ['/content/drive/MyDrive/Bert_compression/models/STS-B']
+14:38:17-INFO: Loading features from cached file /content/drive/MyDrive/Bert_compression/GLUE_data/STS-B/cached_dev_bert-base-uncased_128_sts-b
+14:38:17-INFO: ***** Running evaluation  *****
+14:38:17-INFO:   Num examples = 1500
+14:38:17-INFO:   Batch size = 8
+Evaluating: 100% 188/188 [00:05<00:00, 32.26it/s]
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:66: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+/usr/local/lib/python3.7/dist-packages/transformers/data/metrics/__init__.py:54: FutureWarning: This metric will be removed from the library soon, metrics should be handled with the 🤗 Datasets library. You can have a look at this example script for pointers: https://github.com/huggingface/transformers/blob/master/examples/pytorch/text-classification/run_glue.py
+  warnings.warn(DEPRECATION_WARNING, FutureWarning)
+14:38:23-INFO: ***** Eval results  *****
+14:38:23-INFO:   corr = 0.8652257656753952
+14:38:23-INFO:   pearson = 0.8664114625259443
+14:38:23-INFO:   spearmanr = 0.8640400688248463
+evaluation time 5.964124917984009
