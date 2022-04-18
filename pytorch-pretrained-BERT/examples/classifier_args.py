@@ -53,6 +53,11 @@ def get_base_parser():
         help="Run all steps with a small model and sample data."
     )
     parser.add_argument(
+        "--prune_test",
+        action='store_true',
+        help="Whether perform pruning test"
+    )
+    parser.add_argument(
         "--do_train",
         action='store_true',
         help="Whether to run training."
