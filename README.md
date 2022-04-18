@@ -155,16 +155,16 @@ python examples/run_regression.py \
 
 Firstly, run `python convert_distilbert_qa.py` to generate quantized DistilBert model for QuestionAnswering.  After the script completes, copy the model file `qa360_quantized.ptl` to the Android app's assets folder.
 
-![](D:\学习资料\研二\Deep-Learning-Systems-Performance\Bert_compression\AndriodApp\QA.png)
+![](https://github.com/hannawong/Bert_compression/blob/main/AndriodApp/QA.png)
 
 **(2) Semantic Textual Similarity Analysis**
 
 run `python convert_distilbert_sts.py` to generate quantized DistilBert model for Semantic Textual Similarity Analysis. 
 
-![](D:\学习资料\研二\Deep-Learning-Systems-Performance\Bert_compression\AndriodApp\similarity.gif)
+![](https://github.com/hannawong/Bert_compression/blob/main/AndriodApp/similarity.gif)
 
 **(3) Sentiment Classification Task**
 
 Similarity, run `python convert_distilbert_sst.py` to generate quantized DistilBert model for sentiment analysis. 
 
-![](D:\学习资料\研二\Deep-Learning-Systems-Performance\Bert_compression\AndriodApp\sentiment.gif)
+![](https://github.com/hannawong/Bert_compression/blob/main/AndriodApp/sentiment.gif)
