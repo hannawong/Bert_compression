@@ -18,7 +18,7 @@ In paper [Are Sixteen Heads Really Better than One?](https://www.google.com/url?
 
 ### 1.3 Deployment on End-Device
 
- [Huggingface](https://huggingface.co/)'s [DistilBERT](https://huggingface.co/transformers/model_doc/distilbert.html) is a smaller and faster version of BERT. It has 40% less parameters than bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark. In this project, we quantize and deploy DistilBERT on Google Pixel 2 (Android 11.0 x86, 4GB RAM, 64GB Storage) to perform Question Answering, Sentiment Analysis(SST-2),  Corpus of Linguistic Acceptability (CoLA), Semantic Textual Similarity Analysis (STS-B) tasks within the space the inference time constraints.
+ [Huggingface](https://huggingface.co/)'s [DistilBERT](https://huggingface.co/transformers/model_doc/distilbert.html) is a smaller and faster version of BERT. It has 40% less parameters than bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark. In this project, we quantize and deploy DistilBERT on Google Pixel 2 (Android 11.0 x86, 4GB RAM, 64GB Storage) to perform Question Answering, Sentiment Analysis(SST-2), Semantic Textual Similarity Analysis (STS-B) tasks within the space the inference time constraints.
 
 
 
@@ -28,7 +28,7 @@ For layer and heads pruning experiments, we perform task-specific fine-tuning us
 
 ## 2. Intro of Repository Architecture
 
-The Repository has three main directories: `pytorch-pretrained-BERT`, `QuestionAnswering`, and `logs`. `logs` is the directory that records our experiment result from which we draw our conclusion. In this section, we will introduce the other two directories in detail.
+The Repository has three main directories: `pytorch-pretrained-BERT`, `AndroidApp`, and `logs`. `logs` is the directory that records our experiment result from which we draw our conclusion. In this section, we will introduce the other two directories in detail.
 
 ### 2.1 **pytorch-pretrained-BERT**
 
