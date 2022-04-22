@@ -1,0 +1,219 @@
+---
+title: "Result_Analysis"
+output: html_document
+---
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE, digits = 7, scipen = 5)
+
+
+knitr::opts_chunk$set(fig.align = 'center',
+                      fig.width = 9.5, 
+                      fig.height = 6.5,
+                      cache = T,
+                      warning = F,
+                      message = F,
+                      #echo = F,
+                      eval = T)
+
+# Basics
+library(dplyr)
+library(tibble)
+library(tidyr)
+library(ggplot2)
+library(forcats)
+library(patchwork)
+library(scales)
+library(readr)
+library(ggthemes)
+library(ggrepel)
+library(GGally)
+library(plotly)
+library(forcats)
+library(stringr)
+
+# ploting
+library(ggpubr)
+library(PupillometryR)
+library(ggridges)
+library(RColorBrewer)
+library(magrittr)
+library(vcd)
+library(d3r)
+library(ggalluvial)
+library(parcoords)
+
+# Data Set
+library(Lock5withR)
+library(openintro)
+
+
+# set up ggplot2 helper variable
+JACE_COLOR <- c("#FF5A5F", "#FFB400", "#007A87", 
+                 "#8CE071", "#7B0051", "#00D1C1", "#FFAA91", "#B4A76C", 
+                 "#9CA299", "#565A5C", "#00A04B", "#E54C20")
+JACE_COLOR_SCALE <- scale_color_manual(values = JACE_COLOR)
+JACE_FILL_SCALE <- scale_fill_manual(values = JACE_COLOR)
+
+only_x = theme(
+  panel.grid.major.x = element_line(linetype = "dashed", color = "lightgray"),
+  panel.grid.major.y = element_blank()
+)
+
+only_y = theme(
+  panel.grid.major.y = element_line(linetype = "dashed"),
+  panel.grid.major.x = element_blank()
+)
+
+only_y_all = theme(
+  panel.grid.major.y = element_line(linetype = "dashed", color = alpha("lightgray", 0.75)),
+  panel.grid.minor.y = element_line(linetype = "dashed", color = alpha("lightgray", 0.75)),
+)
+
+both_xy = theme(
+  panel.grid.major.y = element_line(linetype = "dashed", color = alpha("lightgray", 0.75)),
+  panel.grid.major.x = element_line(linetype = "dashed", color = alpha("lightgray", 0.75))
+)
+
+
+no_xy = theme(
+  panel.grid.major.y = element_blank(),
+  panel.grid.major.x = element_blank()
+)
+
+get_lightxy <- function(alpha = 0.65, linetype = "dotted"){
+  return(theme(
+    panel.grid.major.y = element_line(linetype = linetype, color = alpha("gray",alpha)),
+    panel.grid.major.x = element_line(linetype = linetype, color = alpha("gray",alpha))
+  ))
+}
+
+# Create my own theme: theme_jace
+FONT = "Times New Roman"
+theme_bw() -> themebw_help
+theme(
+  text = element_text(family = FONT,
+                      color = "black"),
+  plot.title = element_text(face="bold",
+                            hjust = 0.5,
+                            family = FONT,
+                            colour = "black",
+                            margin = margin(t = 10, r = 0, b = 10, l = 0),
+                            size = 15),
+  axis.text = element_text(family = FONT,
+                           color = "black"),
+  plot.subtitle = element_text(family = FONT,
+                               hjust = 0.5,
+                               size = 12),
+  axis.title = element_text(size = 12),
+  legend.title = element_text(size = 11,
+                              face = "bold",
+                              color = "black",
+                              family = FONT),
+  legend.text = element_text(size = 10,
+                             color = "black",
+                             family = FONT)) -> text_theme
+
+theme(
+  panel.background = themebw_help$panel.background,
+
+  strip.background = element_rect(fill = alpha("lightgray", 0.5), inherit.blank = T, colour = NA),
+  panel.border = themebw_help$panel.border,
+  legend.background = themebw_help$legend.background,
+  plot.background = element_rect(color = "white"),
+  panel.grid.major.y = element_line(linetype = "dashed", color = "gray")) -> background_theme
+
+theme(
+  panel.background = element_rect(fill = "transparent", colour = NA), # bg of the panel
+  plot.background = element_rect(fill = "transparent", color = NA), # bg of the plot
+  panel.grid.major = element_blank(), # get rid of major grid
+  panel.grid.minor = element_blank(), # get rid of minor grid
+  panel.border = element_blank(),
+  legend.background = element_rect(fill = "transparent"), # get rid of legend bg
+  legend.box.background = element_rect(fill = "transparent") # get rid of legend panel bg
+) -> empty_theme
+
+theme_legend = theme(
+  legend.box.margin = margin(6, 6, 6, 6),
+  legend.background = element_rect(color = NA),
+  legend.box.background = element_blank()
+)
+
+theme_clean() + text_theme + background_theme + empty_theme + theme_legend  -> theme_jace
+
+# create a theme for dot plots, which can be reused
+theme_dotplot <- theme_bw(12) +
+    theme(axis.text.y = element_text(size = rel(.7)),
+        axis.ticks.y = element_blank(),
+        axis.title.x = element_text(size = rel(.75)),
+        panel.grid.major.x = element_blank(),
+        panel.grid.major.y = element_line(size = 0.7),
+        panel.grid.minor.x = element_blank())
+
+
+axis_unit_scaler <- function(n, digits = 0){
+  addUnits_leq_0 <- function(n){
+    labels <- ifelse(n < 1000, n,  # less than thousands
+                       ifelse(n < 1e6, paste0(round(n/1e3, digits = digits), 'k'),  # in thousands
+                              ifelse(n < 1e9, paste0(round(n/1e6, digits = digits), 'M'),  # in millions
+                                     ifelse(n < 1e12, paste0(round(n/1e9, digits = digits), 'B'), # in billions
+                                            ifelse(n < 1e15, paste0(round(n/1e12, digits = digits), 'T'), # in trillions
+                                                   'too big!'
+                                            )))))}
+  
+  labels <- ifelse(n < 0, 
+                   paste0("-", addUnits_leq_0(-n)),  # less than thousands
+                   ifelse(n >= 0, addUnits_leq_0(n),  
+                          "NA"))
+  return(labels)
+}
+
+axis_unit_scaler_1 <- function(n, digits = 1){
+  addUnits_leq_0 <- function(n){
+    labels <- ifelse(n < 1000, n,  # less than thousands
+                       ifelse(n < 1e6, paste0(round(n/1e3, digits = digits), 'k'),  # in thousands
+                              ifelse(n < 1e9, paste0(round(n/1e6, digits = digits), 'M'),  # in millions
+                                     ifelse(n < 1e12, paste0(round(n/1e9, digits = digits), 'B'), # in billions
+                                            ifelse(n < 1e15, paste0(round(n/1e12, digits = digits), 'T'), # in trillions
+                                                   'too big!'
+                                            )))))}
+  
+  labels <- ifelse(n < 0, 
+                   paste0("-", addUnits_leq_0(-n)),  # less than thousands
+                   ifelse(n >= 0, addUnits_leq_0(n),  
+                          "NA"))
+  return(labels)
+}
+```
+
+
+```{r,fig.width=7,fig.height=7}
+read.csv("logs_cleaned/head_prune_core_benchmark.csv") %>%
+  transmute(task_benchmark = paste0(benchmark, ' of ', task), drop_head_at_layer, drop_head, values) %>%
+  
+  pivot_wider(id_cols = c(drop_head_at_layer, drop_head),
+              names_from = task_benchmark, 
+              values_from = values) %>% 
+  select(3:ncol(.)) %>%
+  
+ggpairs(upper = list(continuous = "smooth", 
+                     combo = "box", 
+                     discrete = "facetbar", 
+                     alpha = 0.8,
+                     na = "na"),
+        lower = list(continuous = wrap("cor", 
+                                       size = 5, 
+                                       family = "Times New Roman"), 
+                     combo = "box_no_facet", 
+                     discrete = "facetbar", 
+                     na = "na")) + 
+  labs(color = "Race") + text_theme +
+  theme(panel.spacing=unit(0.4, "cm")) -> p
+  
+ggsave(p, filename = "plots/head_prune_correlation.png", dpi=300, width=10, height=7)
+  
+
+
+  
+  
+```
+
