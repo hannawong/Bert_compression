@@ -192,7 +192,7 @@ read.csv("logs_cleaned/head_prune_core_benchmark.csv") %>%
   
   pivot_wider(id_cols = c(drop_head_at_layer, drop_head),
               names_from = task_benchmark, 
-              values_from = values) %>% 
+              values_from = values) %>%  
   select(3:ncol(.)) %>%
   
 ggpairs(upper = list(continuous = "smooth", 
@@ -209,11 +209,8 @@ ggpairs(upper = list(continuous = "smooth",
   labs(color = "Race") + text_theme +
   theme(panel.spacing=unit(0.4, "cm")) -> p
   
-ggsave(p, filename = "plots/head_prune_correlation.png", dpi=300, width=10, height=7)
-  
+ggsave(p, filename = "plots/head_prune_correlation.png", dpi=300, width=11, height=10)
 
-
-  
   
 ```
 
