@@ -1,0 +1,7 @@
+task,baseline,benchmark
+sst-2,0.9288990825688074,accuracy
+rte,0.703971119133574,accuracy
+mrpc,0.8991150442477877,F-1 score
+wnli,0.5633802816901409,accuracy
+sts-b,0.8831384752263184,spearmanr
+cola,0.5650871771295588,Matthew's correlation

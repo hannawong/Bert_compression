@@ -1,0 +1,55 @@
+task,values,strategy,n_layer_drop,layer_drop,benchmark
+sst-2,0.9231651376146789,Top Drop,2,"10,11 ",accuracy
+sst-2,0.911697247706422,Top Drop,4,"8,9,10,11 ",accuracy
+sst-2,0.9048165137614679,Top Drop,6,"6,7,8,9,10,11 ",accuracy
+sst-2,0.9220183486238532,Bottom Drop,2,"0,1 ",accuracy
+sst-2,0.9059633027522935,Bottom Drop,4,"0,1,2,3 ",accuracy
+sst-2,0.8589449541284404,Bottom Drop,6,"0,1,2,3,4,5 ",accuracy
+sst-2,0.9151376146788991,Symmetric Drop,2,"5,6 ",accuracy
+sst-2,0.8990825688073395,Symmetric Drop,4,"4,5,6,7 ",accuracy
+sst-2,0.8864678899082569,Symmetric Drop,6,"3,4,5,6,7,8 ",accuracy
+rte,0.6534296028880866,Top Drop,2,"10,11 ",accuracy
+rte,0.6353790613718412,Top Drop,4,"8,9,10,11 ",accuracy
+rte,0.6028880866425993,Top Drop,6,"6,7,8,9,10,11 ",accuracy
+rte,0.628158844765343,Bottom Drop,2,"0,1 ",accuracy
+rte,0.5812274368231047,Bottom Drop,4,"0,1,2,3 ",accuracy
+rte,0.5812274368231047,Bottom Drop,6,"0,1,2,3,4,5 ",accuracy
+rte,0.6823104693140795,Symmetric Drop,2,"5,6 ",accuracy
+rte,0.6462093862815884,Symmetric Drop,4,"4,5,6,7 ",accuracy
+rte,0.5812274368231047,Symmetric Drop,6,"3,4,5,6,7,8 ",accuracy
+mrpc,0.9043478260869565,Top Drop,2,"10,11 ",F-1 score
+mrpc,0.8647746243739565,Top Drop,4,"8,9,10,11 ",F-1 score
+mrpc,0.8548387096774194,Top Drop,6,"6,7,8,9,10,11 ",F-1 score
+mrpc,0.829192546583851,Bottom Drop,2,"0,1 ",F-1 score
+mrpc,0.7713310580204777,Bottom Drop,4,"0,1,2,3 ",F-1 score
+mrpc,0.7830342577487766,Bottom Drop,6,"0,1,2,3,4,5 ",F-1 score
+mrpc,0.848780487804878,Symmetric Drop,2,"5,6 ",F-1 score
+mrpc,0.8344370860927153,Symmetric Drop,4,"4,5,6,7 ",F-1 score
+mrpc,0.815748031496063,Symmetric Drop,6,"3,4,5,6,7,8 ",F-1 score
+wnli,0.352112676056338,Top Drop,2,"10,11 ",accuracy
+wnli,0.5352112676056338,Top Drop,4,"8,9,10,11 ",accuracy
+wnli,0.4225352112676056,Top Drop,6,"6,7,8,9,10,11 ",accuracy
+wnli,0.4647887323943662,Bottom Drop,2,"0,1 ",accuracy
+wnli,0.38028169014084506,Bottom Drop,4,"0,1,2,3 ",accuracy
+wnli,0.5352112676056338,Bottom Drop,6,"0,1,2,3,4,5 ",accuracy
+wnli,0.5633802816901409,Symmetric Drop,2,"5,6 ",accuracy
+wnli,0.5633802816901409,Symmetric Drop,4,"4,5,6,7 ",accuracy
+wnli,0.5492957746478874,Symmetric Drop,6,"3,4,5,6,7,8 ",accuracy
+sts-b,0.8813551323601888,Top Drop,2,"10,11 ",spearmanr
+sts-b,0.8821988429061054,Top Drop,4,"8,9,10,11 ",spearmanr
+sts-b,0.8788031608504248,Top Drop,6,"6,7,8,9,10,11 ",spearmanr
+sts-b,0.8726641210320761,Bottom Drop,2,"0,1 ",spearmanr
+sts-b,0.6627433678091948,Bottom Drop,4,"0,1,2,3 ",spearmanr
+sts-b,0.21266571952758329,Bottom Drop,6,"0,1,2,3,4,5 ",spearmanr
+sts-b,0.8820409282065198,Symmetric Drop,2,"5,6 ",spearmanr
+sts-b,0.8762893352744251,Symmetric Drop,4,"4,5,6,7 ",spearmanr
+sts-b,0.8640400688248463,Symmetric Drop,6,"3,4,5,6,7,8 ",spearmanr
+cola,0.5675682416159784,Top Drop,2,"10,11 ",Matthew's correlation
+cola,0.5265067723079826,Top Drop,4,"8,9,10,11 ",Matthew's correlation
+cola,0.4000622109684331,Top Drop,6,"6,7,8,9,10,11 ",Matthew's correlation
+cola,0.5022151010462866,Bottom Drop,2,"0,1 ",Matthew's correlation
+cola,0.0,Bottom Drop,4,"0,1,2,3 ",Matthew's correlation
+cola,-0.044454189867110874,Bottom Drop,6,"0,1,2,3,4,5 ",Matthew's correlation
+cola,0.4719849910356732,Symmetric Drop,2,"5,6 ",Matthew's correlation
+cola,0.3306270256162433,Symmetric Drop,4,"4,5,6,7 ",Matthew's correlation
+cola,0.12306256417772918,Symmetric Drop,6,"3,4,5,6,7,8 ",Matthew's correlation

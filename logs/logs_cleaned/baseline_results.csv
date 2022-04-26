@@ -2,25 +2,25 @@ task,variables,values
 sst-2,Num examples,872
 sst-2,Batch size,32
 sst-2,Accuracy,0.9288990825688074
-sst-2,eval_accuracy,0.9288990825688074
+sst-2,accuracy,0.9288990825688074
 sst-2,eval_loss,0.23426478555692093
 sst-2,global_step,6315
 sst-2,inference_time,7.743378162384033
 sst-2,loss,0.13983491269350995
 rte,Num examples,277
 rte,Batch size,8
-rte,acc,0.703971119133574
+rte,accuracy,0.703971119133574
 mrpc,Num examples,408
 mrpc,Batch size,32
 mrpc,F-1 score,0.8991150442477877
-mrpc,eval_accuracy,0.8602941176470589
+mrpc,accuracy,0.8602941176470589
 mrpc,eval_loss,0.31815536549458134
 mrpc,global_step,345
 mrpc,inference_time,3.6291615962982178
 mrpc,loss,0.41844929527977237
 wnli,Num examples,71
 wnli,Batch size,8
-wnli,acc,0.5633802816901409
+wnli,accuracy,0.5633802816901409
 sts-b,Num examples,1500
 sts-b,Batch size,8
 sts-b,corr,0.8852458945118439
@@ -29,7 +29,7 @@ sts-b,spearmanr,0.8831384752263184
 cola,Num examples,1043
 cola,Batch size,32
 cola,Matthew's correlation,0.5650871771295588
-cola,eval_accuracy,0.8235858101629914
+cola,accuracy,0.8235858101629914
 cola,eval_loss,0.47330745422478876
 cola,global_step,804
 cola,inference_time,9.288876295089722
