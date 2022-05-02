@@ -7,9 +7,12 @@ sst-2,eval_loss,0.23426478555692093
 sst-2,global_step,6315
 sst-2,inference_time,7.743378162384033
 sst-2,loss,0.13983491269350995
+sst-2,train_time,3276.75496506691
 rte,Num examples,277
 rte,Batch size,8
 rte,accuracy,0.703971119133574
+rte,train_time,307.0594882965088
+rte,inference_time,1.3278765678405762
 mrpc,Num examples,408
 mrpc,Batch size,32
 mrpc,F-1 score,0.8991150442477877
@@ -18,14 +21,19 @@ mrpc,eval_loss,0.31815536549458134
 mrpc,global_step,345
 mrpc,inference_time,3.6291615962982178
 mrpc,loss,0.41844929527977237
+mrpc,train_time,166.82080960273743
 wnli,Num examples,71
 wnli,Batch size,8
 wnli,accuracy,0.5633802816901409
+wnli,train_time,15.955478429794312
+wnli,inference_time,0.36520934104919434
 sts-b,Num examples,1500
 sts-b,Batch size,8
 sts-b,corr,0.8852458945118439
 sts-b,pearson,0.8873533137973694
 sts-b,spearmanr,0.8831384752263184
+sts-b,train_time,214.04991602897644
+sts-b,inference_time,7.414978265762329
 cola,Num examples,1043
 cola,Batch size,32
 cola,Matthew's correlation,0.5650871771295588
@@ -34,3 +42,4 @@ cola,eval_loss,0.47330745422478876
 cola,global_step,804
 cola,inference_time,9.288876295089722
 cola,loss,0.34617523727150845
+cola,train_time,416.2169461250305

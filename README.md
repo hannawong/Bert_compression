@@ -12,7 +12,7 @@ In this part, we will give a brief introduction on the intuition of performing l
 
 ### 1.1 Pruning layers in transformer models
 
-For pretrained language models such as BERT, XLNet, Roberta, etc., there is an embedding layer and L encoder layers $\{l_{1}, l_{2}, \dots, l, l_{L}\}$. However, according to the paper [Linguistic Knowledge and Transferability of Contextual Representations](https://arxiv.org/abs/1903.08855), different layers in transformer-based models capture different linguistic information. For example, lower layers of the network capture syntax information whereas higher-level information is learned at middle and higher layers in the network. 
+For pretrained language models such as BERT, XLNet, Roberta, etc., there is an embedding layer and L encoder layers <img src="https://render.githubusercontent.com/render/math?math=\{l_{1}, l_{2}, \dots, l, l_{L}\}">. However, according to the paper [Linguistic Knowledge and Transferability of Contextual Representations](https://arxiv.org/abs/1903.08855), different layers in transformer-based models capture different linguistic information. For example, lower layers of the network capture syntax information whereas higher-level information is learned at middle and higher layers in the network. 
 
 These findings lead us to investigate the impact of dropping each layer during fine-tuning to the testing outcome. More specifically, we tried different layer-dropping strategies, such as top-layer dropping, bottom-layer dropping, and symmetric dropping.
 
@@ -115,7 +115,7 @@ We already preprocessed the GLUE Dataset with task `CoLA, RTE, STS-B, MRPC, SST-
     --overwrite_output_dir \
   ```
 
-This way, we performed ablation study on each of the 12 $\times$ 12 attention heads iteratively, and show the test results on GLUE benchmark after removing each head. 
+This way, we performed ablation study on each of the 12 × 12 attention heads iteratively, and show the test results on GLUE benchmark after removing each head. 
 
 #### 3.2.2 Layer Pruning Experiment
 
@@ -182,3 +182,93 @@ Similarity, run `python convert_distilbert_sst.py` to generate quantized DistilB
 
 ## 4. Results & Observations
 
+The idea behind pruning is that deep neural models are overparameterized and that not all strictly needed especially during inference. In this part, we will discuss our conclusion of 2 types of techniques discussed on 1.1 and 1.2.
+
+### 4.1 Effect of Heads Pruning
+
+At this part, we complete the experiments of paper [Are Sixteen Heads Really Better than One?](https://arxiv.org/abs/1905.10650).
+
+#### 4.1.1 Effect of Ablating One Head
+
+In the original paper, researchers only presents result of WMT model(in Table 1) and leads to conclusion that: at test time, most heads are redundant given the rest of the model. Here we will complete those experiments and see whether they are valid statements.
+
+- Heads hurts performance in most cases:
+
+  <center><img src="logs/plots/head_prune_accuracy.png" width="75%"/></center>
+
+
+- But the performance drops are very task-specific!
+  <details open>
+  <summary>
+  📈 <strong>MRPC</strong>
+  </summary>
+  <img src="logs/plots/head_prune_mrpc_accuracy.jpg"" />
+  </details>
+
+  <br>
+
+  <details open>
+  <summary>
+  📈 <strong>SST-2</strong>
+  </summary>
+  <img src="logs/plots/head_prune_sst2_accuracy.jpg" />
+  </details>
+
+  <br>
+
+  <details>
+  <summary>
+  📉 <strong>WNLI</strong>
+  </summary>
+  <img src="logs/plots/head_prune_wnli_accuracy.jpg" />
+  </details>
+
+  <br>
+
+  <details>
+  <summary>
+  📉 <strong>COLA</strong>
+  </summary>
+  <img src="logs/plots/head_prune_cola_accuracy.jpg" />
+  </details>
+
+  <br>
+
+  <details>
+  <summary>
+  📉 <strong>STS-B</strong>
+  </summary>
+  <img src="logs/plots/head_prune_stsb_accuracy.jpg" />
+  </details>
+
+  <br>
+
+  <details>
+  <summary>
+  📉 <strong>RTE</strong>
+  </summary>
+  <img src="logs/plots/head_prune_rte_accuracy.jpg" />
+  </details>
+
+
+
+
+
+
+
+
+
+#### 4.1.2 Are heads universally important?
+
+In the original paper, researchers claims that heads are universally important by only experimenting on 2 similar task. But base on our experiments on 6 very different tasks (3 classify 3 regression), they are not!
+
+<center><img src="logs/plots/head_prune_correlation.png" width="75%"/></center>
+
+We notice that there is a positive, > 0.5 correlation (p < 001) between the effect of removing a head on both datasets
+
+
+### 4.2 Layer drop
+
+Our work builds on similar observations, but instead we question whether it is necessary to use all layers of a pre-trained model in downstream tasks!
+
+<center><img src="logs/plots/layer_drop_comparison.png" width="75%"/></center>

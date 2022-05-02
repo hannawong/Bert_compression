@@ -9,6 +9,7 @@ sst-2,Remove Layers,"10,11 (top drop 2)",eval_loss,0.26644230727106333
 sst-2,Remove Layers,"10,11 (top drop 2)",global_step,6315
 sst-2,Remove Layers,"10,11 (top drop 2)",inference_time,7.736684560775757
 sst-2,Remove Layers,"10,11 (top drop 2)",loss,0.13871002022419582
+sst-2,Remove Layers,"10,11 (top drop 2)",train_time,2578.174992084503
 sst-2,Remove Layers,"8,9,10,11 (top drop 4)",Global step,67349
 sst-2,Remove Layers,"8,9,10,11 (top drop 4)",Training loss,0.151
 sst-2,Remove Layers,"8,9,10,11 (top drop 4)",Num examples,872
@@ -19,6 +20,7 @@ sst-2,Remove Layers,"8,9,10,11 (top drop 4)",eval_loss,0.2862366493791342
 sst-2,Remove Layers,"8,9,10,11 (top drop 4)",global_step,6315
 sst-2,Remove Layers,"8,9,10,11 (top drop 4)",inference_time,7.724695920944214
 sst-2,Remove Layers,"8,9,10,11 (top drop 4)",loss,0.15111380293751497
+sst-2,Remove Layers,"8,9,10,11 (top drop 4)",train_time,2087.183336496353
 sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Global step,67349
 sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Training loss,0.171
 sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Num examples,872
@@ -29,6 +31,7 @@ sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",eval_loss,0.2693288279697299
 sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",global_step,6315
 sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",inference_time,7.7366673946380615
 sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",loss,0.17073215915086315
+sst-2,Remove Layers,"6,7,8,9,10,11 (top drop 6)",train_time,1569.8546772003174
 sst-2,Remove Layers,"0,1 (bottom drop 2)",Global step,67349
 sst-2,Remove Layers,"0,1 (bottom drop 2)",Training loss,0.153
 sst-2,Remove Layers,"0,1 (bottom drop 2)",Num examples,872
@@ -39,6 +42,7 @@ sst-2,Remove Layers,"0,1 (bottom drop 2)",eval_loss,0.3366357151951109
 sst-2,Remove Layers,"0,1 (bottom drop 2)",global_step,6315
 sst-2,Remove Layers,"0,1 (bottom drop 2)",inference_time,7.728671550750732
 sst-2,Remove Layers,"0,1 (bottom drop 2)",loss,0.1532267189440513
+sst-2,Remove Layers,"0,1 (bottom drop 2)",train_time,2580.1117174625397
 sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",Global step,67349
 sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",Training loss,0.196
 sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",Num examples,872
@@ -49,6 +53,7 @@ sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",eval_loss,0.30181106658918516
 sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",global_step,6315
 sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",inference_time,7.737051963806152
 sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",loss,0.19577863699190987
+sst-2,Remove Layers,"0,1,2,3 (bottom drop 4)",train_time,2088.0960233211517
 sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Global step,67349
 sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Training loss,0.221
 sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Num examples,872
@@ -59,6 +64,7 @@ sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",eval_loss,0.4116348823798554
 sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",global_step,6315
 sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",inference_time,7.728154897689819
 sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",loss,0.2208078226435897
+sst-2,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",train_time,1577.297949552536
 sst-2,Remove Layers,"5,6 (symmetric drop 2)",Global step,67349
 sst-2,Remove Layers,"5,6 (symmetric drop 2)",Training loss,0.150
 sst-2,Remove Layers,"5,6 (symmetric drop 2)",Num examples,872
@@ -69,6 +75,7 @@ sst-2,Remove Layers,"5,6 (symmetric drop 2)",eval_loss,0.3490635102082576
 sst-2,Remove Layers,"5,6 (symmetric drop 2)",global_step,6315
 sst-2,Remove Layers,"5,6 (symmetric drop 2)",inference_time,7.739897966384888
 sst-2,Remove Layers,"5,6 (symmetric drop 2)",loss,0.15001032927353009
+sst-2,Remove Layers,"5,6 (symmetric drop 2)",train_time,2571.9252865314484
 sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",Global step,67349
 sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",Training loss,0.171
 sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",Num examples,872
@@ -79,6 +86,7 @@ sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",eval_loss,0.3944321681213166
 sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",global_step,6315
 sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",inference_time,7.729316234588623
 sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",loss,0.17141936301826688
+sst-2,Remove Layers,"4,5,6,7 (symmetric drop 4)",train_time,2272.178943157196
 sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Global step,67349
 sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Training loss,0.200
 sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Num examples,872
@@ -89,33 +97,52 @@ sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",eval_loss,0.359765832312405
 sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",global_step,6315
 sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",inference_time,7.739640951156616
 sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",loss,0.2004070898174343
+sst-2,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",train_time,1725.0664207935333
 rte,Remove Layers,"10,11 (top drop 2)",Num examples,277
 rte,Remove Layers,"10,11 (top drop 2)",Batch size,8
 rte,Remove Layers,"10,11 (top drop 2)",accuracy,0.6534296028880866
+rte,Remove Layers,"10,11 (top drop 2)",train_time,258.41262435913086
+rte,Remove Layers,"10,11 (top drop 2)",inference_time,1.1173062324523926
 rte,Remove Layers,"8,9,10,11 (top drop 4)",Num examples,277
 rte,Remove Layers,"8,9,10,11 (top drop 4)",Batch size,8
 rte,Remove Layers,"8,9,10,11 (top drop 4)",accuracy,0.6353790613718412
+rte,Remove Layers,"8,9,10,11 (top drop 4)",train_time,207.6285457611084
+rte,Remove Layers,"8,9,10,11 (top drop 4)",inference_time,0.9591846466064453
 rte,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Num examples,277
 rte,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Batch size,8
 rte,Remove Layers,"6,7,8,9,10,11 (top drop 6)",accuracy,0.6028880866425993
+rte,Remove Layers,"6,7,8,9,10,11 (top drop 6)",train_time,157.80909490585327
+rte,Remove Layers,"6,7,8,9,10,11 (top drop 6)",inference_time,0.7300655841827393
 rte,Remove Layers,"0,1 (bottom drop 2)",Num examples,277
 rte,Remove Layers,"0,1 (bottom drop 2)",Batch size,8
 rte,Remove Layers,"0,1 (bottom drop 2)",accuracy,0.628158844765343
+rte,Remove Layers,"0,1 (bottom drop 2)",train_time,258.8149473667145
+rte,Remove Layers,"0,1 (bottom drop 2)",inference_time,1.11985182762146
 rte,Remove Layers,"0,1,2,3 (bottom drop 4)",Num examples,277
 rte,Remove Layers,"0,1,2,3 (bottom drop 4)",Batch size,8
 rte,Remove Layers,"0,1,2,3 (bottom drop 4)",accuracy,0.5812274368231047
+rte,Remove Layers,"0,1,2,3 (bottom drop 4)",train_time,210.04016876220703
+rte,Remove Layers,"0,1,2,3 (bottom drop 4)",inference_time,0.9700932502746582
 rte,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Num examples,277
 rte,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Batch size,8
 rte,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",accuracy,0.5812274368231047
+rte,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",train_time,161.67984533309937
+rte,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",inference_time,0.7100062370300293
 rte,Remove Layers,"5,6 (symmetric drop 2)",Num examples,277
 rte,Remove Layers,"5,6 (symmetric drop 2)",Batch size,8
 rte,Remove Layers,"5,6 (symmetric drop 2)",accuracy,0.6823104693140795
+rte,Remove Layers,"5,6 (symmetric drop 2)",train_time,264.3557770252228
+rte,Remove Layers,"5,6 (symmetric drop 2)",inference_time,1.0975980758666992
 rte,Remove Layers,"4,5,6,7 (symmetric drop 4)",Num examples,277
 rte,Remove Layers,"4,5,6,7 (symmetric drop 4)",Batch size,8
 rte,Remove Layers,"4,5,6,7 (symmetric drop 4)",accuracy,0.6462093862815884
+rte,Remove Layers,"4,5,6,7 (symmetric drop 4)",train_time,213.87899255752563
+rte,Remove Layers,"4,5,6,7 (symmetric drop 4)",inference_time,0.9441938400268555
 rte,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Num examples,277
 rte,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Batch size,8
 rte,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",accuracy,0.5812274368231047
+rte,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",train_time,162.18590807914734
+rte,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",inference_time,0.7239573001861572
 mrpc,Remove Layers,"10,11 (top drop 2)",Global step,3668
 mrpc,Remove Layers,"10,11 (top drop 2)",Training loss,0.338
 mrpc,Remove Layers,"10,11 (top drop 2)",Num examples,408
@@ -126,6 +153,7 @@ mrpc,Remove Layers,"10,11 (top drop 2)",eval_loss,0.3932681908974281
 mrpc,Remove Layers,"10,11 (top drop 2)",global_step,345
 mrpc,Remove Layers,"10,11 (top drop 2)",inference_time,3.621478319168091
 mrpc,Remove Layers,"10,11 (top drop 2)",loss,0.33800927641383116
+mrpc,Remove Layers,"10,11 (top drop 2)",train_time,140.737544298172
 mrpc,Remove Layers,"8,9,10,11 (top drop 4)",Global step,3668
 mrpc,Remove Layers,"8,9,10,11 (top drop 4)",Training loss,0.368
 mrpc,Remove Layers,"8,9,10,11 (top drop 4)",Num examples,408
@@ -136,6 +164,7 @@ mrpc,Remove Layers,"8,9,10,11 (top drop 4)",eval_loss,0.49393741213358366
 mrpc,Remove Layers,"8,9,10,11 (top drop 4)",global_step,345
 mrpc,Remove Layers,"8,9,10,11 (top drop 4)",inference_time,3.6262433528900146
 mrpc,Remove Layers,"8,9,10,11 (top drop 4)",loss,0.3683211508868397
+mrpc,Remove Layers,"8,9,10,11 (top drop 4)",train_time,113.44220185279846
 mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Global step,3668
 mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Training loss,0.474
 mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Num examples,408
@@ -146,6 +175,7 @@ mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",eval_loss,0.5078392533155588
 mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",global_step,345
 mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",inference_time,3.6425278186798096
 mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",loss,0.47392487154490703
+mrpc,Remove Layers,"6,7,8,9,10,11 (top drop 6)",train_time,85.69327235221863
 mrpc,Remove Layers,"0,1 (drop bottom 2)",Global step,3668
 mrpc,Remove Layers,"0,1 (drop bottom 2)",Training loss,0.532
 mrpc,Remove Layers,"0,1 (drop bottom 2)",Num examples,408
@@ -156,6 +186,7 @@ mrpc,Remove Layers,"0,1 (drop bottom 2)",eval_loss,0.7478453539885007
 mrpc,Remove Layers,"0,1 (drop bottom 2)",global_step,345
 mrpc,Remove Layers,"0,1 (drop bottom 2)",inference_time,3.621596574783325
 mrpc,Remove Layers,"0,1 (drop bottom 2)",loss,0.5322631055894105
+mrpc,Remove Layers,"0,1 (drop bottom 2)",train_time,140.51906991004944
 mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",Global step,3668
 mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",Training loss,0.602
 mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",Num examples,408
@@ -166,6 +197,7 @@ mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",eval_loss,0.6014676116980039
 mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",global_step,345
 mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",inference_time,3.6323390007019043
 mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",loss,0.6015471797058548
+mrpc,Remove Layers,"0,1,2,3 (drop bottom 4)",train_time,113.02980518341064
 mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",Global step,3668
 mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",Training loss,0.625
 mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",Num examples,408
@@ -176,6 +208,7 @@ mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",eval_loss,0.6164350647192735
 mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",global_step,345
 mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",inference_time,3.6231350898742676
 mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",loss,0.6250849738501121
+mrpc,Remove Layers,"0,1,2,3,4,5 (drop bottom 6)",train_time,85.34163403511047
 mrpc,Remove Layers,"5,6 (symmetric drop 2)",Global step,3668
 mrpc,Remove Layers,"5,6 (symmetric drop 2)",Training loss,0.466
 mrpc,Remove Layers,"5,6 (symmetric drop 2)",Num examples,408
@@ -186,6 +219,7 @@ mrpc,Remove Layers,"5,6 (symmetric drop 2)",eval_loss,0.6623263210058212
 mrpc,Remove Layers,"5,6 (symmetric drop 2)",global_step,345
 mrpc,Remove Layers,"5,6 (symmetric drop 2)",inference_time,3.6243433952331543
 mrpc,Remove Layers,"5,6 (symmetric drop 2)",loss,0.4658147016081257
+mrpc,Remove Layers,"5,6 (symmetric drop 2)",train_time,140.4102544784546
 mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",Global step,3668
 mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",Training loss,0.510
 mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",Num examples,408
@@ -196,6 +230,7 @@ mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",eval_loss,0.6104312699574691
 mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",global_step,345
 mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",inference_time,3.638153076171875
 mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",loss,0.5097939554331959
+mrpc,Remove Layers,"4,5,6,7 (symmetric drop 4)",train_time,113.3733241558075
 mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Global step,3668
 mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Training loss,0.566
 mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Num examples,408
@@ -206,78 +241,115 @@ mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",eval_loss,0.6241234724338238
 mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",global_step,345
 mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",inference_time,3.6232244968414307
 mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",loss,0.5657632705094158
+mrpc,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",train_time,85.56235837936401
 wnli,Remove Layers,"10,11 (top drop 2)",Num examples,71
 wnli,Remove Layers,"10,11 (top drop 2)",Batch size,8
 wnli,Remove Layers,"10,11 (top drop 2)",accuracy,0.352112676056338
+wnli,Remove Layers,"10,11 (top drop 2)",train_time,13.361065149307251
+wnli,Remove Layers,"10,11 (top drop 2)",inference_time,0.29204773902893066
 wnli,Remove Layers,"8,9,10,11 (top drop 4)",Num examples,71
 wnli,Remove Layers,"8,9,10,11 (top drop 4)",Batch size,8
 wnli,Remove Layers,"8,9,10,11 (top drop 4)",accuracy,0.5352112676056338
+wnli,Remove Layers,"8,9,10,11 (top drop 4)",train_time,10.729819297790527
+wnli,Remove Layers,"8,9,10,11 (top drop 4)",inference_time,0.23712706565856934
 wnli,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Num examples,71
 wnli,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Batch size,8
 wnli,Remove Layers,"6,7,8,9,10,11 (top drop 6)",accuracy,0.4225352112676056
+wnli,Remove Layers,"6,7,8,9,10,11 (top drop 6)",train_time,8.136877536773682
+wnli,Remove Layers,"6,7,8,9,10,11 (top drop 6)",inference_time,0.20038127899169922
 wnli,Remove Layers,"0,1 (bottom drop 2)",Num examples,71
 wnli,Remove Layers,"0,1 (bottom drop 2)",Batch size,8
 wnli,Remove Layers,"0,1 (bottom drop 2)",accuracy,0.4647887323943662
+wnli,Remove Layers,"0,1 (bottom drop 2)",train_time,13.345698118209839
+wnli,Remove Layers,"0,1 (bottom drop 2)",inference_time,0.316265344619751
 wnli,Remove Layers,"0,1,2,3 (bottom drop 4)",Num examples,71
 wnli,Remove Layers,"0,1,2,3 (bottom drop 4)",Batch size,8
 wnli,Remove Layers,"0,1,2,3 (bottom drop 4)",accuracy,0.38028169014084506
+wnli,Remove Layers,"0,1,2,3 (bottom drop 4)",train_time,10.700484991073608
+wnli,Remove Layers,"0,1,2,3 (bottom drop 4)",inference_time,0.23987197875976562
 wnli,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Num examples,71
 wnli,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Batch size,8
 wnli,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",accuracy,0.5352112676056338
+wnli,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",train_time,8.10176682472229
+wnli,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",inference_time,0.20233845710754395
 wnli,Remove Layers,"5,6 (symmetric drop 2)",Num examples,71
 wnli,Remove Layers,"5,6 (symmetric drop 2)",Batch size,8
 wnli,Remove Layers,"5,6 (symmetric drop 2)",accuracy,0.5633802816901409
+wnli,Remove Layers,"5,6 (symmetric drop 2)",train_time,13.660239934921265
+wnli,Remove Layers,"5,6 (symmetric drop 2)",inference_time,0.28957414627075195
 wnli,Remove Layers,"4,5,6,7 (symmetric drop 4)",Num examples,71
 wnli,Remove Layers,"4,5,6,7 (symmetric drop 4)",Batch size,8
 wnli,Remove Layers,"4,5,6,7 (symmetric drop 4)",accuracy,0.5633802816901409
+wnli,Remove Layers,"4,5,6,7 (symmetric drop 4)",train_time,10.715481281280518
+wnli,Remove Layers,"4,5,6,7 (symmetric drop 4)",inference_time,0.24688220024108887
 wnli,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Num examples,71
 wnli,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Batch size,8
 wnli,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",accuracy,0.5492957746478874
+wnli,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",train_time,8.117196559906006
+wnli,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",inference_time,0.1886906623840332
 sts-b,Remove Layers,"10,11 (top drop 2)",Num examples,1500
 sts-b,Remove Layers,"10,11 (top drop 2)",Batch size,8
 sts-b,Remove Layers,"10,11 (top drop 2)",corr,0.8834455029242733
 sts-b,Remove Layers,"10,11 (top drop 2)",pearson,0.8855358734883577
 sts-b,Remove Layers,"10,11 (top drop 2)",spearmanr,0.8813551323601888
+sts-b,Remove Layers,"10,11 (top drop 2)",train_time,284.9317111968994
+sts-b,Remove Layers,"10,11 (top drop 2)",inference_time,10.391596794128418
 sts-b,Remove Layers,"8,9,10,11 (top drop 4)",Num examples,1500
 sts-b,Remove Layers,"8,9,10,11 (top drop 4)",Batch size,8
 sts-b,Remove Layers,"8,9,10,11 (top drop 4)",corr,0.883661277859314
 sts-b,Remove Layers,"8,9,10,11 (top drop 4)",pearson,0.8851237128125227
 sts-b,Remove Layers,"8,9,10,11 (top drop 4)",spearmanr,0.8821988429061054
+sts-b,Remove Layers,"8,9,10,11 (top drop 4)",train_time,228.5455596446991
+sts-b,Remove Layers,"8,9,10,11 (top drop 4)",inference_time,7.82271671295166
 sts-b,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Num examples,1500
 sts-b,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Batch size,8
 sts-b,Remove Layers,"6,7,8,9,10,11 (top drop 6)",corr,0.8806224860416625
 sts-b,Remove Layers,"6,7,8,9,10,11 (top drop 6)",pearson,0.8824418112329003
 sts-b,Remove Layers,"6,7,8,9,10,11 (top drop 6)",spearmanr,0.8788031608504248
+sts-b,Remove Layers,"6,7,8,9,10,11 (top drop 6)",train_time,173.66734051704407
+sts-b,Remove Layers,"6,7,8,9,10,11 (top drop 6)",inference_time,6.002774715423584
 sts-b,Remove Layers,"0,1 (bottom drop 2)",Num examples,1500
 sts-b,Remove Layers,"0,1 (bottom drop 2)",Batch size,8
 sts-b,Remove Layers,"0,1 (bottom drop 2)",corr,0.8748618137060951
 sts-b,Remove Layers,"0,1 (bottom drop 2)",pearson,0.877059506380114
 sts-b,Remove Layers,"0,1 (bottom drop 2)",spearmanr,0.8726641210320761
+sts-b,Remove Layers,"0,1 (bottom drop 2)",train_time,289.31614327430725
+sts-b,Remove Layers,"0,1 (bottom drop 2)",inference_time,9.783250331878662
 sts-b,Remove Layers,"0,1,2,3 (bottom drop 4)",Num examples,1500
 sts-b,Remove Layers,"0,1,2,3 (bottom drop 4)",Batch size,8
 sts-b,Remove Layers,"0,1,2,3 (bottom drop 4)",corr,0.6788819933860186
 sts-b,Remove Layers,"0,1,2,3 (bottom drop 4)",pearson,0.6950206189628423
 sts-b,Remove Layers,"0,1,2,3 (bottom drop 4)",spearmanr,0.6627433678091948
+sts-b,Remove Layers,"0,1,2,3 (bottom drop 4)",train_time,229.53649258613586
+sts-b,Remove Layers,"0,1,2,3 (bottom drop 4)",inference_time,7.838935136795044
 sts-b,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Num examples,1500
 sts-b,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Batch size,8
 sts-b,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",corr,0.21602517608446112
 sts-b,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",pearson,0.21938463264133895
 sts-b,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",spearmanr,0.21266571952758329
+sts-b,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",train_time,174.30608749389648
+sts-b,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",inference_time,5.9618260860443115
 sts-b,Remove Layers,"5,6 (symmetric drop 2)",Num examples,1500
 sts-b,Remove Layers,"5,6 (symmetric drop 2)",Batch size,8
 sts-b,Remove Layers,"5,6 (symmetric drop 2)",corr,0.884287414064358
 sts-b,Remove Layers,"5,6 (symmetric drop 2)",pearson,0.8865338999221961
 sts-b,Remove Layers,"5,6 (symmetric drop 2)",spearmanr,0.8820409282065198
+sts-b,Remove Layers,"5,6 (symmetric drop 2)",train_time,288.13938188552856
+sts-b,Remove Layers,"5,6 (symmetric drop 2)",inference_time,9.799771785736084
 sts-b,Remove Layers,"4,5,6,7 (symmetric drop 4)",Num examples,1500
 sts-b,Remove Layers,"4,5,6,7 (symmetric drop 4)",Batch size,8
 sts-b,Remove Layers,"4,5,6,7 (symmetric drop 4)",corr,0.8775503999187206
 sts-b,Remove Layers,"4,5,6,7 (symmetric drop 4)",pearson,0.8788114645630161
 sts-b,Remove Layers,"4,5,6,7 (symmetric drop 4)",spearmanr,0.8762893352744251
+sts-b,Remove Layers,"4,5,6,7 (symmetric drop 4)",train_time,230.44350934028625
+sts-b,Remove Layers,"4,5,6,7 (symmetric drop 4)",inference_time,7.833786249160767
 sts-b,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Num examples,1500
 sts-b,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Batch size,8
 sts-b,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",corr,0.8652257656753952
 sts-b,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",pearson,0.8664114625259443
 sts-b,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",spearmanr,0.8640400688248463
+sts-b,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",train_time,174.34092545509338
+sts-b,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",inference_time,5.964124917984009
 cola,Remove Layers,"10,11 (top drop 2)",Global step,8551
 cola,Remove Layers,"10,11 (top drop 2)",Training loss,0.304
 cola,Remove Layers,"10,11 (top drop 2)",Num examples,1043
@@ -288,6 +360,7 @@ cola,Remove Layers,"10,11 (top drop 2)",eval_loss,0.5172430169627522
 cola,Remove Layers,"10,11 (top drop 2)",global_step,804
 cola,Remove Layers,"10,11 (top drop 2)",inference_time,9.273314476013184
 cola,Remove Layers,"10,11 (top drop 2)",loss,0.3037028663249603
+cola,Remove Layers,"10,11 (top drop 2)",train_time,326.96393179893494
 cola,Remove Layers,"8,9,10,11 (top drop 4)",Global step,8551
 cola,Remove Layers,"8,9,10,11 (top drop 4)",Training loss,0.341
 cola,Remove Layers,"8,9,10,11 (top drop 4)",Num examples,1043
@@ -298,6 +371,7 @@ cola,Remove Layers,"8,9,10,11 (top drop 4)",eval_loss,0.5291388174801162
 cola,Remove Layers,"8,9,10,11 (top drop 4)",global_step,804
 cola,Remove Layers,"8,9,10,11 (top drop 4)",inference_time,9.265982866287231
 cola,Remove Layers,"8,9,10,11 (top drop 4)",loss,0.34077750383621425
+cola,Remove Layers,"8,9,10,11 (top drop 4)",train_time,263.4883568286896
 cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Global step,8551
 cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Training loss,0.427
 cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",Num examples,1043
@@ -308,6 +382,7 @@ cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",eval_loss,0.5084666939395847
 cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",global_step,804
 cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",inference_time,9.27260947227478
 cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",loss,0.42678805064428504
+cola,Remove Layers,"6,7,8,9,10,11 (top drop 6)",train_time,198.7365219593048
 cola,Remove Layers,"0,1 (bottom drop 2)",Global step,8551
 cola,Remove Layers,"0,1 (bottom drop 2)",Training loss,0.388
 cola,Remove Layers,"0,1 (bottom drop 2)",Num examples,1043
@@ -318,6 +393,7 @@ cola,Remove Layers,"0,1 (bottom drop 2)",eval_loss,0.5785505622625351
 cola,Remove Layers,"0,1 (bottom drop 2)",global_step,804
 cola,Remove Layers,"0,1 (bottom drop 2)",inference_time,9.26702332496643
 cola,Remove Layers,"0,1 (bottom drop 2)",loss,0.3878317630724676
+cola,Remove Layers,"0,1 (bottom drop 2)",train_time,326.4418594837189
 cola,Remove Layers,"0,1,2,3 (bottom drop 4)",Global step,8551
 cola,Remove Layers,"0,1,2,3 (bottom drop 4)",Training loss,0.617
 cola,Remove Layers,"0,1,2,3 (bottom drop 4)",Num examples,1043
@@ -328,6 +404,7 @@ cola,Remove Layers,"0,1,2,3 (bottom drop 4)",eval_loss,0.6237911401372968
 cola,Remove Layers,"0,1,2,3 (bottom drop 4)",global_step,804
 cola,Remove Layers,"0,1,2,3 (bottom drop 4)",inference_time,9.261513948440552
 cola,Remove Layers,"0,1,2,3 (bottom drop 4)",loss,0.6166335347650657
+cola,Remove Layers,"0,1,2,3 (bottom drop 4)",train_time,262.2750427722931
 cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Global step,8551
 cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Training loss,0.610
 cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",Num examples,1043
@@ -338,6 +415,7 @@ cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",eval_loss,0.6209681169553236
 cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",global_step,804
 cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",inference_time,9.268894910812378
 cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",loss,0.6101855381730183
+cola,Remove Layers,"0,1,2,3,4,5 (bottom drop 6)",train_time,198.3152096271515
 cola,Remove Layers,"5,6 (symmetric drop 2)",Global step,8551
 cola,Remove Layers,"5,6 (symmetric drop 2)",Training loss,0.372
 cola,Remove Layers,"5,6 (symmetric drop 2)",Num examples,1043
@@ -348,6 +426,7 @@ cola,Remove Layers,"5,6 (symmetric drop 2)",eval_loss,0.6440366068572709
 cola,Remove Layers,"5,6 (symmetric drop 2)",global_step,804
 cola,Remove Layers,"5,6 (symmetric drop 2)",inference_time,9.273199319839478
 cola,Remove Layers,"5,6 (symmetric drop 2)",loss,0.3723862455249648
+cola,Remove Layers,"5,6 (symmetric drop 2)",train_time,326.14119577407837
 cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",Global step,8551
 cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",Training loss,0.476
 cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",Num examples,1043
@@ -358,6 +437,7 @@ cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",eval_loss,0.6688617747841459
 cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",global_step,804
 cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",inference_time,9.271496057510376
 cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",loss,0.4758841989015169
+cola,Remove Layers,"4,5,6,7 (symmetric drop 4)",train_time,262.7072503566742
 cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Global step,8551
 cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Training loss,0.583
 cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",Num examples,1043
@@ -368,3 +448,4 @@ cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",eval_loss,0.6324465762485157
 cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",global_step,804
 cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",inference_time,9.268429040908813
 cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",loss,0.583148170614717
+cola,Remove Layers,"3,4,5,6,7,8 (symmetric drop 6)",train_time,198.29382944107056

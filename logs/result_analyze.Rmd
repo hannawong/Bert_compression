@@ -140,7 +140,7 @@ theme_legend = theme(
   legend.box.background = element_blank()
 )
 
-theme_clean() + text_theme + background_theme + empty_theme + theme_legend  -> theme_jace
+theme_clean() + text_theme + background_theme + theme_legend  -> theme_jace
 
 # create a theme for dot plots, which can be reused
 theme_dotplot <- theme_bw(12) +
@@ -193,6 +193,50 @@ axis_unit_scaler_1 <- function(n, digits = 1){
 read.csv("logs_cleaned/head_prune_core_benchmark.csv")
 ```
 
+### Distribution of scores
+
+```{r}
+
+baseline <- read.csv('logs_cleaned/baseline_core_benchmark.csv') %>% 
+  mutate(task_benchmark = paste0(str_to_title(benchmark), ' - ', toupper(task))) %>%
+  mutate(task_benchmark = str_replace(task_benchmark, 'Correlation', 'Corr.'))
+
+read.csv("logs_cleaned/head_prune_core_benchmark.csv") %>%
+  transmute(task_benchmark = paste0(str_to_title(benchmark), ' - ', toupper(task)), 
+            drop_head_at_layer, drop_head, values) %>%
+  mutate(task_benchmark = str_replace(task_benchmark, 'Correlation', 'Corr.')) %>%
+  group_by(task_benchmark, drop_head_at_layer, drop_head) %>%
+  summarise(`Average GLUE Score` = mean(values)) %>%
+  
+ggplot() +
+  aes(x = `Average GLUE Score`) +
+  geom_histogram(bins = 20,
+                 color = "Black",
+                 fill = "cornflowerblue",
+                 closed = "right") +
+  geom_vline(data = baseline,
+             aes(xintercept = baseline), linetype = 'dashed', color = 'red') +
+  geom_text(data = baseline,
+            aes(x = baseline, 
+                y = 0, 
+                label = paste0("Baseline: ", round(baseline, 3))),
+            hjust = 0.61,
+            vjust = -14,
+            #fontface = 'bold',
+            color = 'black',
+            size = 3) +
+  labs(y ="Number of Experiments", title = "Effect of the position of Heads Pruning on different task") +
+  scale_y_continuous(breaks = breaks_pretty(3)) +
+  scale_x_continuous(breaks = breaks_pretty(10)) +
+  theme_jace +
+  facet_wrap(task_benchmark~., ncol=1,scale="free", strip.position="right") -> p
+
+ggsave(p, filename = "plots/head_prune_accuracy.png", dpi=300, width=9.89, height=10.98)
+
+
+```
+
+- Note that for the baseline we include WNLI similar to the paper, but different from BERT!
 
 ### Universal importance
 
@@ -216,7 +260,8 @@ ggpairs(upper = list(continuous = "smooth",
                      combo = "box_no_facet", 
                      discrete = "facetbar", 
                      na = "na")) + 
-  labs(color = "Race") + text_theme +
+  labs(color = "Race", title = 'Accuracies on 6 different tasks when individual heads are removed from BERT') +  
+  text_theme +
   theme(panel.spacing=unit(0.4, "cm")) -> p
   
 ggsave(p, filename = "plots/head_prune_correlation.png", dpi=300, width=11, height=10)
@@ -245,6 +290,7 @@ ggplot() +
             size = 3) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.2))) +
   scale_fill_manual(values = c("#2E4C6D", "#396EB0", "#86C6F4"))
+ggsave(p, filename = "plots/layer_drop_comparison.png", dpi=300, width=8.57, height=6.72)
 ```
 
 
