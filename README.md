@@ -32,9 +32,6 @@ For layer and heads pruning experiments, we perform task-specific fine-tuning us
  [Huggingface](https://huggingface.co/)'s [DistilBERT](https://huggingface.co/transformers/model_doc/distilbert.html) is a smaller and faster version of BERT. It has 40% less parameters than bert-base-uncased, runs 60% faster while preserving over 95% of BERT’s performances as measured on the GLUE language understanding benchmark. In this project, we quantize and deploy DistilBERT on Google Pixel 2 (Android 11.0 x86, 4GB RAM, 64GB Storage) to perform Question Answering, Sentiment Analysis(SST-2), Semantic Textual Similarity Analysis (STS-B) tasks within both the space and the inference time constraints.
 
 
-
-
-
 ## 2. Repository Architecture Description
 
 The Repository has three main directories: `pytorch-pretrained-BERT`, `AndroidApp`, and `logs`. 
@@ -250,25 +247,22 @@ In the original paper, researchers only presents result of WMT model(in Table 1)
   <img src="logs/plots/head_prune_rte_accuracy.jpg" />
   </details>
 
-
-
-
-
-
-
-
-
 #### 4.1.2 Are heads universally important?
 
 In the original paper, researchers claims that heads are universally important by only experimenting on 2 similar task. But base on our experiments on 6 very different tasks (3 classify 3 regression), they are not!
 
 <center><img src="logs/plots/head_prune_correlation.png" width="75%"/></center>
 
-We notice that there is a positive, > 0.5 correlation (p < 001) between the effect of removing a head on both datasets
-
+We did notice that the corrlation of scores in different taks (after removing a head) is likely to bepositively corrlated, but the magtitude is very different!
 
 ### 4.2 Layer drop
 
-Our work builds on similar observations, but instead we question whether it is necessary to use all layers of a pre-trained model in downstream tasks!
+Our work builds on similar observations of heads pruning. On one hand, we recognize the need of finetuning the model again after we simplify the model structure. On the other hand, our goal is to deploy BERT in edge device so we further question whether it is necessary to use all layers of a pre-trained model in downstream tasks!
 
-<center><img src="logs/plots/layer_drop_comparison.png" width="75%"/></center>
+Our experiments show that in some task droping 2 layers result in acceptable performance decrease.
+
+<center><img src="logs/plots/layer_drop_acc_comparison.png" width="75%"/></center>
+
+And two of the tasks, RTE and WNLI show significant time cost improved.
+
+<center><img src="logs/plots/layer_drop_time_comparison.png" width="75%"/></center>
