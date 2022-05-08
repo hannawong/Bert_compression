@@ -272,9 +272,9 @@ ggsave(p, filename = "plots/head_prune_correlation.png", dpi=300, width=11, heig
 # Layer Drop
 
 ```{r}
-baseline <- read.csv('logs_cleaned/baseline_core_benchmark.csv')
+baseline <- read.csv('logs_cleaned/baseline_core_benchmark.csv') %>% mutate(task=toupper(task))
 read.csv("logs_cleaned/layer_drop_core_benchmark.csv") %>% 
-  mutate(n_layer_drop = factor(n_layer_drop)) %>%
+  mutate(n_layer_drop = factor(n_layer_drop), task=toupper(task)) %>%
 ggplot() +
   geom_col(aes(x = strategy, y = values, fill = n_layer_drop),
            position = "dodge2") +
@@ -289,8 +289,12 @@ ggplot() +
             vjust = -0.5,
             size = 3) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.2))) +
-  scale_fill_manual(values = c("#2E4C6D", "#396EB0", "#86C6F4")) -> p
-ggsave(p, filename = "plots/layer_drop_comparison.png", dpi=300, width=8.57, height=6.72)
+  labs(x = 'Strategy used to drop layers', 
+       y='GLUE metric in each task',
+       fill = '# of layers dropped',
+       title = 'Performance on 9 different experiments of 6 tasks after removing layers from BERT') +
+  scale_fill_manual(values = c("#2E4C6D", "#396EB0", "#86C6F4")) + text_theme -> p
+ggsave(p, filename = "plots/layer_drop_comparison.png", dpi=300, width=11.64, height=7)
 ```
 
 
