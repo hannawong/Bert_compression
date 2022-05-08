@@ -296,7 +296,7 @@ Let's look at the result of layer pruning:
 
 - And two of the tasks, RTE and WNLI show significant time cost improved. 
 
-<center><img src="logs/plots/layer_drop_time_comparison.png" width="50%"/></center>
+  <center><img src="logs/plots/layer_drop_time_comparison.png" width="50%"/></center>
 
   Layers Drop reduces significant amount of fine-tuning & inference time, and also reduce parameter size greatly.
   
