@@ -21,7 +21,7 @@ For layer and heads pruning experiments, we perform task-specific fine-tuning us
 
 ### 1.2 Pruning layers in transformer models
 
-There is an embedding layer and L encoder layers for pretrained language models such as BERT, XLNet, Roberta, and others image src="https://render.githubusercontent.com/render/math?math=l 1, l 2, dots, l, l L">. However, different layers in transformer-based models capture distinct linguistic information, according to the research [Linguistic Knowledge and Transferability of Contextual Representations](https://arxiv.org/abs/1903.08855). Lower layers of the network, for example, capture syntax information, but middle and higher levels of the network learn higher-level information.
+There is an embedding layer and L encoder layers <img src="https://render.githubusercontent.com/render/math?math=\{l_{1}, l_{2}, \dots, l, l_{L}\}"> for pretrained language models such as BERT, XLNet, Roberta, and others. However, different layers in transformer-based models capture distinct linguistic information, according to the research [Linguistic Knowledge and Transferability of Contextual Representations](https://arxiv.org/abs/1903.08855). Lower layers of the network, for example, capture syntax information, but middle and higher levels of the network learn higher-level information.
 
 These findings, coupled with the CMU paper cited in Section 1.1, encourage us to study the effect of dropping each layer on the testing performance. We experimented with various layer-dropping procedures, including top-layer dropping, bottom-layer dropping, and symmetric dropping.
 
@@ -306,7 +306,7 @@ Let's look at the result of layer pruning:
 
 
 
-- And two of the tasks, RTE and WNLI show significant time cost . 
+- And two of the tasks, RTE and WNLI show significant time cost:
 
   <center><img src="logs/plots/layer_drop_time_comparison.png" width="60%"/></center>
 
