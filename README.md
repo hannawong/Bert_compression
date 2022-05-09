@@ -4,17 +4,11 @@
 
 ## 1. Project Introduction
 
-In this project, we experiment many different heads & layers pruning strategies upon BERT to obtrain a good latency-accuracy trade-off in depolying BERT to edge devices.
+In this research, we explore a variety of heads and layers pruning strategies on BERT in order to find a feasible latency-accuracy trade-off while depolying BERT to edge devices.
 
-In this part, we will give a brief introduction on the intuition and background work behind pruning.
+In Section 1, we will provide a brief overview of the intuition and background work of pruning.
 
-### 1.1 Pruning layers in transformer models
-
-For pretrained language models such as BERT, XLNet, Roberta, etc., there is an embedding layer and L encoder layers <img src="https://render.githubusercontent.com/render/math?math=\{l_{1}, l_{2}, \dots, l, l_{L}\}">. However, according to the paper [Linguistic Knowledge and Transferability of Contextual Representations](https://arxiv.org/abs/1903.08855), different layers in transformer-based models capture different linguistic information. For example, lower layers of the network capture syntax information whereas higher-level information is learned at middle and higher layers in the network. 
-
-These findings lead us to investigate the impact of dropping each layer during fine-tuning to the testing outcome. More specifically, we tried different layer-dropping strategies, such as top-layer dropping, bottom-layer dropping, and symmetric dropping.
-
-### 1.2 Pruning attention heads in transformer models
+### 1.1 Pruning attention heads in transformer models
 
 In paper [Are Sixteen Heads Really Better than One?](https://arxiv.org/abs/1905.10650) researchers came to a surprising conclusion: most attention heads can be individually removed after training without any significant downside in terms of test performance. 
 
@@ -25,9 +19,15 @@ Therefore, we believe that the conclusion that key heads are universally importa
 
 For layer and heads pruning experiments, we perform task-specific fine-tuning using the [GLUE](https://gluebenchmark.com/leaderboard) training set and evaluate testing metrics on the official dev set. Among a variety of language understanding tasks in GLUE, we report model performance on 6 tasks, i.e. **SST-2**(Sentiment Analysis), **CoLA**(Corpus of Linguistic Acceptability); **WNLI**(Winograd NLI), **STS-B**(Semantic Textual Similarity Benchmark), **RTE**(Recognizing Textual Entailment) and **MRPC**(Microsoft Research Paraphrase Corpus).
 
+### 1.2 Pruning layers in transformer models
+
+There is an embedding layer and L encoder layers for pretrained language models such as BERT, XLNet, Roberta, and others image src="https://render.githubusercontent.com/render/math?math=l 1, l 2, dots, l, l L">. However, different layers in transformer-based models capture distinct linguistic information, according to the research [Linguistic Knowledge and Transferability of Contextual Representations](https://arxiv.org/abs/1903.08855). Lower layers of the network, for example, capture syntax information, but middle and higher levels of the network learn higher-level information.
+
+These findings, coupled with the CMU paper cited in Section 1.1, encourage us to study the effect of dropping each layer on the testing performance. We experimented with various layer-dropping procedures, including top-layer dropping, bottom-layer dropping, and symmetric dropping.
+
 ### 1.3 Deployment on End-Device
 
- [Huggingface](https://huggingface.co/)'s [DistilBERT](https://huggingface.co/transformers/model_doc/distilbert.html) is a smaller and faster version of BERT. It has the same structure as our 6-layers dropped BERT so that could be used as a method to verify our idea. In this project, we quantized and deployed DistilBERT on Google Pixel 2 (Android 11.0 x86, 4GB RAM, 64GB Storage) to perform Question Answering, Sentiment Analysis(SST-2), Semantic Textual Similarity Analysis (STS-B) tasks within both the space and the inference time constraints.
+[Huggingface](https://huggingface.co/)'s [DistilBERT](https://huggingface.co/transformers/model_doc/distilbert.html) provides a smaller and faster version of BERT. It has the same structure as our 6-layers dropped BERT, therefore it can be used as a method to verify our idea. In this project, we quantized and deployed DistilBERT on Google Pixel 2 (Android 11.0 x86, 4GB RAM, 64GB Storage) to perform Question Answering, Sentiment Analysis(SST-2), Semantic Textual Similarity Analysis (STS-B) tasks within both space and inference time constraints.
 
 
 
@@ -38,17 +38,17 @@ The Repository has three main directories: `pytorch-pretrained-BERT`, `AndroidAp
 
 ### 2.1 **pytorch-pretrained-BERT**
 
-This repository contains an PyTorch reimplementation of [Google's TensorFlow repository for the BERT model](https://github.com/google-research/bert) that was released together with the paper [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova. Our code is based on https://github.com/maknotavailable/pytorch-pretrained-BERT.
+This repository contains an PyTorch reimplementation of [Google's TensorFlow repository for the BERT model](https://github.com/google-research/bert) that was released together with the paper [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805) by Jacob Devlin, Ming-Wei Chang, Kenton Lee and Kristina Toutanova. Our code is based on this repository: https://github.com/maknotavailable/pytorch-pretrained-BERT.
 
-In order to perform heads pruning experiments, we rewrite the BERT implementation in  `pytorch-pretrained-BERT/pytorch_pretrained_bert/modeling.py`by adding functions related to heads_pruning (such as prune_heads, mask_heads) in `BertAttention` module.  We typically finetune the full Bert model on GLUE dataset, then prune each head (there are 12*12 = 144 heads in total) and test on GLUE test sets.   
+In order to perform heads pruning experiments, we reconstructed the BERT in  `pytorch-pretrained-BERT/pytorch_pretrained_bert/modeling.py`by adding functions related to heads_pruning (such as prune_heads, mask_heads) in `BertAttention` module.  Typically, we finetune the entire Bert model on the GLUE dataset, then prune each head (there are 12*12 = 144 heads in total) and test on the GLUE test sets.
 
-In order to perform layer pruning experiments, we add argument `remove_layers` that takes argument of layer index and delete the parameters for corresponding layers in Bert. We use different layer dropping strategies such as top-layer dropping, bottom-layer dropping, middle-layer dropping, and alternate dropping. The pruned Bert is then used for finetuning and inferencing. 
+To run layer pruning experiments, we introduce the argument `remove_layers` which takes a layer index as an argument and deletes the parameters for the associated layers in pre-trained BERT. We employ many layer dropping tactics, including top-layer dropping, bottom-layer dropping, symmetric middle-layer dropping. Bert is then pruned and used for fine-tuning and inferencing.
 
-In order to finetune the model and test it on GLUE benchmark, we also add the code for GLUE dataset preprocessing, as well as code for running classification tasks of GLUE in `pytorch-pretrained-BERT/examples/run_classifier.py` , and code for running regression tasks of GLUE in `pytorch-pretrained-BERT/examples/run_regression.py`.
+In order to fine-tune the model and test it on GLUE benchmark, we also developed codes for GLUE dataset preprocessing, as well as pipeline for running classification tasks of GLUE in `pytorch-pretrained-BERT/examples/run_classifier.py` , and module for running regression tasks of GLUE in `pytorch-pretrained-BERT/examples/run_regression.py`.
 
 ### 2.2 AndroidApp
 
-This directory is the deployment of compressed Bert model on Android edge device. The code is written in Kotlin.
+This directory is the deployment of compressed Bert model on Android edge device. `Kotlin` is used to develope this module.
 
 We firstly quantize and convert the Huggingface's DistilBert QA model to TorchScript and deploy it on Android perform question answering. Then we use DistilBert finetuned on GLUE dataset and deploy it on Android to perform tasks such as Sentiment Analysis(SST-2) and Semantic Textual Similarity Analysis (STS-B).
 
@@ -187,25 +187,27 @@ For each of 6 GLUE tasks, we run 144 different heads pruning and 9 different Lay
 
 <center><img src="logs/plots/design_flow.png" width="75%"/></center>
 
-In 4., we will analyze the result and share our observations.
+In Part 4, we will analyze the result and share our observations.
 
 ### 4.1 Effect of Heads Pruning
 
-In this section, we complete our experiments result with the paper [Are Sixteen Heads Really Better than One?](https://arxiv.org/abs/1905.10650) for which we reproduced their methods.
+In part 4.1, we complete our experiments result with the paper [Are Sixteen Heads Really Better than One?](https://arxiv.org/abs/1905.10650) for which we reproduced their methods.
 
 
 #### 4.1.1 Effect of Ablating One Head
 
-In the original paper, researchers only presents result of WMT model(in Table 1) and leads to conclusion that: at test time, most heads are redundant given the rest of the model. Here we will complete those experiments and see whether they are valid statements.
+The original publication simply shows the results of the WMT model of 1 task (in Table 1) and concludes that: at test time, most heads are redundant given the rest of the model. We'll conduct more thorough experiments to check if the statement is correct.
 
-- Heads hurts performance in most cases:
+- Performance after removing task is task-dependent:
 
   <center><img src="logs/plots/head_prune_accuracy.png" width="75%"/></center>
 
-   We notice that the effect of attention heads pruning are different for each task. the red dot line in this plot is the accuracy of the full model without any pruning. we notice that for task like SST-2 and MRPC, pruning nearly half of attention heads actually result in a *higher* accuracy score! This indicates that at test time, most heads are redundant. However, For tasks like RTE and STS-B, pruning most of the heads are harmful for accuracy. What is the reason behind this phenomenon? We will discuss about it later.
+   - We note that the effect of pruning attention heads varies depending on the task. The accuracy of the complete model without pruning is represented by the red dot line in this plot. We discovered that nearly half of the pruning attention heads results in a *higher* accuracy score for tasks like SST-2 and MRPC! This means that most heads are redundant during their testing. 
+   
+   - However, for tasks such as RTE and STS-B, trimming most of the heads is detrimental to accuracy. What is the cause of this occurrence? We'll talk about it later.
 
 
-- But the performance drops are very task-specific!
+- Break down the performance drop into details:
   <details open>
   <summary>
   📈 <strong>MRPC</strong>
@@ -224,7 +226,7 @@ In the original paper, researchers only presents result of WMT model(in Table 1)
 
   <br>
 
-  <details>
+  <details open>
   <summary>
   📉 <strong>WNLI</strong>
   </summary>
@@ -233,7 +235,7 @@ In the original paper, researchers only presents result of WMT model(in Table 1)
 
   <br>
 
-  <details>
+  <details open>
   <summary>
   📉 <strong>COLA</strong>
   </summary>
@@ -242,7 +244,7 @@ In the original paper, researchers only presents result of WMT model(in Table 1)
 
   <br>
 
-  <details>
+  <details open>
   <summary>
   📉 <strong>STS-B</strong>
   </summary>
@@ -251,7 +253,7 @@ In the original paper, researchers only presents result of WMT model(in Table 1)
 
   <br>
 
-  <details>
+  <details open>
   <summary>
   📉 <strong>RTE</strong>
   </summary>
@@ -260,62 +262,69 @@ In the original paper, researchers only presents result of WMT model(in Table 1)
 
   **Conclusion from above tables: The performance head-pruning is related to the difficulty of tasks.** 
 
-  Let's first think about a question, "What makes it possible for pruning"? We think it relies on the **redundancy in parameters**. Especially for those tasks that are relatively "easy", we don't need all the heads to perform equally well on our downstream tasks. For example, for SST-2 task, we notice that pruning all the attention heads actually result in a *higher* or almost same accuracy score. Why is that? We believe it's because the SST-2 task is just a sentiment binary classification task, therefore we don't even need self-attention to capture the **context** information in order to perform well on this task. After all, before the prevalence of neural networks, people even used **bag-of-words** and simple logistic regression to perform binary sentiment classification! We know that bag-of-words completely disregard the order of words, which indicates that binary sentiment classification task can perform well even without the order of words. 
+  - First, let's consider the question, "What makes pruning possible?" We believe that is due to the **redundancy in parameters**. We don't require all heads to perform equally well on our downstream tasks, especially for those tasks that are relatively "simple." 
 
-  On the other hand, *let's think about what makes BERT powerful*. BERT firstly uses WordPiece embeddings as input, and this embedding is meant to learn *context-independent* representations, whereas the transformer layer with self-attention are meant to learn *context-dependent* representations. However, the power of BERT-like representations comes mostly from the use of context-dependent representations. Without these context-dependent representations enabled by self-attention mechanism, BERT is nothing more than traditional Word2vec. 
+    - For example, in the SST-2 task, pruning all result in a *higher* or nearly same accuracy score. Why is this the case? We believe this is due to the fact that SST-2 job is simply a sentiment binary classification problem, and we don't even need self-attention to extract **context** information to perform well on this task. After all, prior to the widespread use of deep learning neural networks, binary sentiment categorization was performed using **bag-of-words** and basic logistic regression! We know that bag-of-words fully disregards word order, meaning that binary emotion classification tasks can perform well even in the absence of word order.
 
-  Let's think about the sentiment binary classification task again. Since we can even perform well with bag-of-words representations, this means that we can already perform well with context-independent representations. Therefore, most attention heads that captures context-dependent information are, to some extent, redundant. This is probably why we can prune most of the attention heads without resulting in noticeable accuracy drop. 
+  - On the other hand, *let's think about what makes BERT powerful*. BERT firstly uses WordPiece embeddings as input, and this embedding is meant to learn *context-independent* representations, whereas the transformer layer with self-attention are meant to learn *context-dependent* representations. 
 
-  However, we notice that for RTE(The Recognizing Textual Entailment datasets) task, pruning most of the attention heads results in worst result. In order to understand the reason behind this phenomenon, we need to know what RTE task is about. Well, RTE is a classification task that identifies whether the relationship between two sentences are *neutral, contradiction, or entailment*. This is a challenging logical problem that is even hard for human, and apparently the order of words is very important ("A entails B" is not equal to "B entails A").  Therefore, we need to rely on BERT to capture context information with self-attention mechanism, and every attention heads are indispensable. 
+    However, the power of BERT-like representations comes mostly from the use of context-dependent representations. Without these context-dependent representations enabled by self-attention mechanism, BERT is nothing more than traditional Word2vec.
+
+  - Let's think about the sentiment binary classification task again.  We can already perform well with context-independent representations because we can perform well with bag-of-words representations. As a result, most attention heads that capture context-dependent information are redundant to some extent. This is probably why we can prune most of the attention heads without observing a significant drop in accuracy.
+
+  - However, for the RTE (The Recognizing Textual Entailment datasets) task, pruning the majority of the attention heads produces the worst results. To understand why this is happening, we must first understand what an RTE task is. RTE is a classification task that determines whether two sentences' relationships are *neutral, contradiction, or entailment*. This is a difficult logical problem, even for humans, and the order of words appears to be crucial ("A entails B" is not equal to "B entails A"). As a result, we must rely on BERT to capture context information via the self-attention mechanism, and all attention heads are indispensable in this task.
 
 
 #### 4.1.2 Are heads universally important?
 
-In the NIPS paper,  the researchers conclude that the important heads are “universally” important (By Figure 2), however, they reach this conclusion only by using two “out-of-domain” test set: for the original Transformer model, they use newstest2013(English-German data) and MTNT(English-French data); for BERT, they use MNLI mismatched validation set and MNLI matched set. ）These two “out-of-domain” test set, from our perspective, are not totally unrelated.
+The researchers conclude in the NIPS paper that the important heads are "universally" important (By Figure 2), but they do so only by using two claimed "out-of-domain" test sets: for the original Transformer model, they use newstest2013(English-German data) and MTNT(English-French data); for BERT, they use MNLI mismatched validation set and MNLI matched set. From our perspective, these two "out-of-domain" test sets are not completely unrelated.
 
-Therefore, we perform more experiments on six intrinsically different tasks, and  we can see correlation for each task pair in this scatter plot:
+Therefore, we perform more experiments on six intrinsically different tasks, and  we can assess the correlation for each task pair in this scatter plot:
 
 <center><img src="logs/plots/head_prune_correlation.png" width="75%"/></center>
 
-- We notice that although some task pairs have high correlation scores, there are still many task pairs with correlation scores close to zero, and some correlation scores are even negative, suggesting that deleting same attention heads may have opposite effect on two different tasks. Therefore, our extensive experiment seems to disprove the conclusion in that NIPS paper -- we found that the importance of heads are task-dependent rather than "universal".
+- Although some task pairs have high correlation scores, many task pairs have correlation scores close to zero, and some correlation scores are even negative, implying that deleting the same attention heads may have opposite effects on two different tasks.
+
+- As a result, our extensive experiment disproves the conclusion in that NIPS paper: we discovered that the importance of heads is task-dependent rather than "universal."
 
 
 ### 4.2 Layer drop
 
-Our work builds on similar observations of heads pruning. On one hand, we recognize the need of finetuning the model again after we simplify the model structure. On the other hand, our goal is to deploy BERT in edge device so we further question whether it is necessary to use all layers of a pre-trained model in downstream tasks! 
+Our research is based on similar observations of head pruning. On the one hand, we recognize the need to fine-tune the model again after simplifying its structure. However, because our goal is to deploy BERT in edge devices, we further question whether it is necessary to use all layers of a pre-trained model in downstream tasks!
 
 Let's look at the result of layer pruning:
 
-- In some task droping 2 layers result in acceptable performance decrease.
+- Top drop is generally better, but sometimes symmetric drop also works:
 
   <center><img src="logs/plots/layer_drop_acc_comparison.png" width="75%"/></center>
   
-  We notice that top layer pruning and symmetric layer pruning result in less performance drop, while bottom layer pruning result in large performance drop. This is probably because  bottom layer captures the low-level word representation that is important for upper layers. We use the strategy to balance latency-accuracy tradeoff: for strategy results in tolerable performance drop,we pick the one that drop most layers.
+  - Top layer and symmetric layer pruning result in a smaller performance drop, whereas bottom layer pruning results in a large performance drop. 
 
-
-
-- And two of the tasks, RTE and WNLI show significant time cost improved. 
-
-  <center><img src="logs/plots/layer_drop_time_comparison.png" width="50%"/></center>
-
-  Layers Drop reduces significant amount of fine-tuning & inference time, and also reduce parameter size greatly.
+  - This is most likely because the bottom layer captures the low-level word representation required by the upper layers. 
   
-  Also, as we successfully deploy the 6-layers DistilBert that has same structure as 6 layers dropped BERT, we can verify the idea of layer dopping is deployable. Also, compared with DistilBERT, in our method we apply layer drop to pretrained BERT so we only need finetuning time. 
+  - Therefore, we can use a simple strategy to balance the latency-accuracy tradeoff: if the strategy results in a tolerable performance drop, we choose the one with the most layers dropped.
+
+
+
+- And two of the tasks, RTE and WNLI show significant time cost . 
+
+  <center><img src="logs/plots/layer_drop_time_comparison.png" width="60%"/></center>
+
+  - Layers Drop significantly reduces fine-tuning and inference time, as well as parameter size.
+  
+  - Furthermore, by successfully deploying the 6-layers DistilBert, which has the same structure as the 6-layers dropped BERT, we can demonstrate that the layer dropping concept is deployable. In addition, unlike DistilBERT, we apply layer drop to pretrained BERT in our method, so we only need finetuning time.
 
 
 ### 4.3 Observations / Conclusions
 
-The idea behind pruning is that deep neural models are overparameterized and that not all strictly needed especially during inference. 
-
-We conclude that: 
+The idea behind pruning is that deep neural models are overparameterized and that not all of them are strictly required, particularly during inference. From this project, we conclude that:
 
 1. The performance of head-pruning is related to the difficulty of tasks.
 
-    - In simple task like sentiment classification, some heads are similar so that we can safely drop without affecting performance.
+    - Heads fine-tuned in a simple task like sentiment classification will converge to similar weights. Therefore we can safely remove some of them without negatively impacting performance.
 
-    - In difficult task that requires contextual understanding, each head are indispensable. 
+    - In difficult task that requires contextual understanding, every head can be indispensable. 
 
-    - the result in the NIPS paper is flawed – attention heads are not universally important across different tasks. The lesson is, Strong argument requires complete experiments!
+    - The result of the NIPS paper is flawed – attention heads are not universally important across tasks. The lesson here is that a strong argument requires extensive testing!
 
-2. layer drop is a good strategy to use under resource limitations. It can achieve a 46% reduction in inference time, 40% reduction in parameter size while maintaining 90%+ of the original score.
-
+2. Layer drop is an effective approach when resources are limited. Even without pra-training from corpus, it can achieve a 46% reduction in inference time and a 40% reduction in parameter size while retaining 90%+ of the original score.
